@@ -1,0 +1,17 @@
+{
+  "scope": "Local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 3007,
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "proof_sha256": "9263284ab88375491c1a84f3eded21146b656f2c941adbaf6cbd832f8c453db5",
+  "theorem": "Erdos1025.erdos_1025",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused locally",
+  "warnings": "Unused section variables and two redundant intros tactics"
+}

@@ -1,0 +1,39 @@
+⚠ [3006/3007] Built Proof (10s)
+warning: Proof.lean:33:0: automatically included section variable(s) unused in theorem `Erdos1025.deletion`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Proof.lean:169:0: automatically included section variable(s) unused in theorem `Erdos1025.corner_pair_iff`:
+  [Fintype V]
+  [Fintype R]
+  [Fintype C]
+  [LinearOrder C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype R] [Fintype C] [LinearOrder C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Proof.lean:182:0: automatically included section variable(s) unused in theorem `Erdos1025.pair_eq_of_corner`:
+  [Fintype V]
+  [Fintype R]
+  [Fintype C]
+  [LinearOrder C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype R] [Fintype C] [LinearOrder C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Proof.lean:208:0: automatically included section variable(s) unused in theorem `Erdos1025.exists_outside_pair`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Proof.lean:249:58: Unused tactic linter: `intros` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Proof.lean:258:58: Unused tactic linter: `intros` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: Proof.lean:358:0: 'Erdos1025.erdos_1025' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3007 jobs).
