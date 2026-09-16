@@ -1,0 +1,33 @@
+{
+  "scope": "Local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 8711,
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "Erdos437Upper.lean": "24b7d5f24bc8d172ec7414e4d268e2d3af3f34fd56e60d5af2f9344f63f854a8",
+    "JSP356Asymptotic.lean": "67d6418dcae4920b3844e86f770d805f11203eeea1c4bb6b54cd04b911b26ce1",
+    "JSP356Finite.lean": "879224343b1688f61baf8b9010b29aa84becc6b0de52b9b33ea73e67dae8027d",
+    "JSP356UpperBridge.lean": "6d08d42596c2f644520890d91c2d1cd5e2185fc45f61dbd661359fdd861983ac",
+    "lakefile.lean": "a864d8f24b70d77c8429696b641e0d1f684fcd3738f3ff46cfcef4196bf026ef",
+    "Proof.lean": "832447a246923c0f4bc15e201bab1d77b247d42180ecfc5c5cc61874a7517eb7"
+  },
+  "theorems": [
+    "JSP356.erdos_437",
+    "JSP356.erdos_437_real"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused locally",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "unit_tests": "19/22 PASS; three pre-existing Windows history-path and symlink-privilege failures"
+  }
+}

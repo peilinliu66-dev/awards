@@ -1,0 +1,37 @@
+⚠ [8706/8711] Built Erdos437Upper (27s)
+warning: Erdos437Upper.lean:406:8: Variable name `F` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8707/8711] Built JSP356Finite (28s)
+warning: JSP356Finite.lean:112:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP356Finite.lean:384:34: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [(hP q hqP).factorization, hqp, hqp.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP356Finite.lean:384:56: This simp argument is unused:
+  hqp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [(hP q hqP).factorization, Finsupp.single_apply, hqp.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8708/8711] Built JSP356UpperBridge (26s)
+⚠ [8709/8711] Built JSP356Asymptotic (28s)
+warning: JSP356Asymptotic.lean:245:45: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP356Asymptotic.lean:328:45: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [8710/8711] Built Proof (18s)
+info: Proof.lean:17:0: 'JSP356.erdos_437' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:18:0: 'JSP356.erdos_437_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8711 jobs).
