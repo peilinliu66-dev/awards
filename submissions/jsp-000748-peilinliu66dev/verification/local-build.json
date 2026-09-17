@@ -1,0 +1,55 @@
+{
+  "scope": "Local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 8708,
+  "elapsed_seconds": 67.4,
+  "recorded_utc": "2026-09-17T04:50:51.435578+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "JSP748.lean": "7514ccc276637b05fe57a53302685530327dc178f0757306c5157890416cc382",
+    "lakefile.lean": "c9d63a2322a979c569444438ebf7cd74ebac6a13311bc2498e2ac7a438322489",
+    "Proof.lean": "8083b2bb99c9b60286b9e2abceec71e3504d4787de03927c5cc6f4506927225f"
+  },
+  "theorems": [
+    "JSP748.erdos_900_fixed_c",
+    "JSP748.erdos_900"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused locally",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "history": "PASS",
+    "unit_tests": "19/22 PASS; same three pre-existing Windows path/history and symlink-privilege failures"
+  },
+  "presubmission_search": {
+    "official_records": 470,
+    "highest_number": 471,
+    "matches": [],
+    "scope": "Public official issue and pull-request title/body search; no global priority guarantee",
+    "prior_public_drafts": [
+      {
+        "repository": "rjwalters/lean-genius",
+        "commit": "dc62f771ed5010abfdb04247dff6143e0e69d3e7",
+        "path": "proofs/Proofs/Erdos900Problem.lean",
+        "blob": "3ed425d7dfd658e65238373fe16313ce28b3dfec",
+        "status": "19 custom axioms and three placeholders; incomplete"
+      },
+      {
+        "repository": "ryantuck/erdos-ai",
+        "commit": "f32b2886f8f005d481533036d0af4fe36e8e48f7",
+        "path": "deepmind/deepmind/900.lean",
+        "blob": "db4a1e33b881711a7227055f47272af08a8098de",
+        "status": "Fixed-edge-model statement with final proof placeholder"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+⚠ [8706/8708] Built JSP748 (33s)
+warning: JSP748.lean:156:48: This simp argument is unused:
+  Nat.add_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ones, ih, Nat.add_comm, Nat.add_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:410:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP748.lean:412:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP748.lean:422:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP748.lean:424:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP748.lean:426:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP748.lean:428:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP748.lean:485:0: automatically included section variable(s) unused in theorem `JSP748.FiniteProbability.chebyshev`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP748.lean:552:70: This simp argument is unused:
+  ones
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [M1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:553:70: This simp argument is unused:
+  ones
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [M2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:642:21: This simp argument is unused:
+  Nat.add_sub_cancel
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.succ_sub_one, Nat.choose_succ_succ, Nat.cast_add, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:700:28: This simp argument is unused:
+  hn3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hn2, Nat.succ_sub_one, Nat.choose_succ_succ, Nat.cast_add, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:697:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP748.lean:801:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP748.lean:801:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP748.lean:985:33: This simp argument is unused:
+  Chain
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [initial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:1008:19: This simp argument is unused:
+  and_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [remaining, and_assoc, and_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:1029:14: This simp argument is unused:
+  F
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:1039:14: This simp argument is unused:
+  F
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP748.lean:1515:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP748.lean:1522:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP748.lean:1603:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP748.lean:1626:0: 'JSP748.Reveal.fixedWeightEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP748.lean:1627:0: 'JSP748.Reveal.adaptive_prefix_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP748.lean:1628:0: 'JSP748.FiniteProbability.chebyshev' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP748.lean:1629:0: 'JSP748.small_stack_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP748.lean:1630:0: 'JSP748.large_crossing_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP748.lean:1631:0: 'JSP748.coefficient_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: JSP748.lean:1743:39: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP748.lean:1743:39: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP748.lean:1783:23: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP748.lean:1783:23: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: JSP748.lean:1833:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: JSP748.lean:1840:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP748.lean:1840:29: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP748.lean:1862:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP748.lean:1879:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP748.lean:1862:25: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP748.lean:1879:31: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: JSP748.lean:2069:0: 'JSP748.erdos_900_fixed_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP748.lean:2070:0: 'JSP748.erdos_900' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8707/8708] Built Proof (24s)
+info: Proof.lean:3:0: 'JSP748.erdos_900_fixed_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:4:0: 'JSP748.erdos_900' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8708 jobs).
