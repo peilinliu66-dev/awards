@@ -1,0 +1,182 @@
+⚠ [8706/8710] Built JSP698PolynomialBridge (30s)
+warning: JSP698PolynomialBridge.lean:31:0: automatically included section variable(s) unused in theorem `JSP698.edgePolynomial_totalDegree_le`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP698PolynomialBridge.lean:102:0: 'JSP698.threeColours_of_centralCoeff_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP698PolynomialBridge.lean:103:0: 'JSP698.threeColours_of_centralCoeff_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8707/8710] Built JSP698OddTransversal (30s)
+warning: JSP698OddTransversal.lean:36:0: automatically included section variable(s) unused in theorem `JSP698.OddTransversal.kernel_symm`:
+  [Fintype I]
+  [Fintype C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [Fintype C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698OddTransversal.lean:43:0: automatically included section variable(s) unused in theorem `JSP698.OddTransversal.weight_id`:
+  [Fintype C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698OddTransversal.lean:87:0: automatically included section variable(s) unused in theorem `JSP698.OddTransversal.expand_product`:
+  [Fintype C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698OddTransversal.lean:112:41: This simp argument is unused:
+  Function.update_of_ne hi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Equiv.funSplitAt_symm_apply, x, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP698OddTransversal.lean:292:0: 'JSP698.OddTransversal.sum_weight_update_eq_zero_of_no_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP698OddTransversal.lean:293:0: 'JSP698.OddTransversal.weight_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP698OddTransversal.lean:294:0: 'JSP698.OddTransversal.odd_transversal_kernel_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP698OddTransversal.lean:295:0: 'JSP698.OddTransversal.odd_transversal_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP698OddTransversal.lean:296:0: 'JSP698.OddTransversal.odd_eulerian_transversals' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8710] Built JSP698ChordCoefficient (81s)
+warning: JSP698ChordCoefficient.lean:66:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP698ChordCoefficient.lean:69:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP698ChordCoefficient.lean:69:68: Unused tactic linter: `decide` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP698ChordCoefficient.lean:85:13: Variable name `σ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _σ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP698ChordCoefficient.lean:161:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.cycle_factor_expansion`:
+  [Fintype I]
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:170:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.triangle_monomial_as_product`:
+  [Fintype I]
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:257:32: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
+warning: JSP698ChordCoefficient.lean:270:6: `Finsupp.finset_sum_apply` has been deprecated: Use `Finsupp.finsetSum_apply` instead
+warning: JSP698ChordCoefficient.lean:274:28: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [triangleExponent, hxi, hxi.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP698ChordCoefficient.lean:274:50: This simp argument is unused:
+  hxi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [triangleExponent, Finsupp.single_apply, hxi.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP698ChordCoefficient.lean:357:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP698ChordCoefficient.lean:394:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.position_ne`:
+  [Fintype I]
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:400:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.chord_ends_ne`:
+  [Fintype I]
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:404:0: automatically included section variable(s) unused in theorem `JSP698.PetrovFinite.chordMatrix_same_block`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:418:0: automatically included section variable(s) unused in theorem `JSP698.PetrovFinite.chordMatrix_block_sum`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:472:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP698ChordCoefficient.lean:502:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.canonicalState_last`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:511:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.canonicalState_one`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:527:31: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP698ChordCoefficient.lean:533:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.position_equal_iff`:
+  [Fintype I]
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:637:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.cycle_invariant_constant`:
+  [Fintype I]
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:762:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.stateWeight_factorization`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:778:8: automatically included section variable(s) unused in theorem `_private.JSP698ChordCoefficient.0.JSP698.PetrovFinite.stateWeight_mod_two`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP698ChordCoefficient.lean:809:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP698ChordCoefficient.lean:829:31: This simp argument is unused:
+  Finset.sum_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eulerianChoices]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP698ChordCoefficient.lean:1017:0: 'JSP698.PetrovFinite.centralCoeff_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP698ChordCoefficient.lean:1018:0: 'JSP698.erdos_842' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP698ChordCoefficient.lean:1019:0: 'JSP698.erdos_842_chromaticNumber_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8709/8710] Built Proof (19s)
+info: Proof.lean:3:0: 'JSP698.erdos_842' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:4:0: 'JSP698.erdos_842_chromaticNumber_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8710 jobs).

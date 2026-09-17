@@ -1,0 +1,54 @@
+{
+  "scope": "Local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 8710,
+  "elapsed_seconds": 142.6,
+  "recorded_utc": "2026-09-17T05:01:30.963307+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "JSP698ChordCoefficient.lean": "09b6360a4c4b4b44891188f3cb306d63f18bf1bfc0ac371b9e4638ecc9e910cc",
+    "JSP698OddTransversal.lean": "b1a93cff5362c08b11e3049fd5ca02e30cb3f56ab82a046609c92eeaf0c94a35",
+    "JSP698PolynomialBridge.lean": "206e544e0eacd8fa04059097665dbdc4105dacf539c27fcac0d3343827986930",
+    "lake-manifest.json": "96bedaa2ef115cde71ae18530a62e565743c9a0663325fdde1267bffb2987264",
+    "lakefile.lean": "3a8c747325d5a27a141d4da011d8eb6d20eae76b765e72aa5282979fc5dd31b3",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "Proof.lean": "c45b1c7b55b0b92a4170051c2f83d7a3818a5e8947013eb33e0c9300943ce307"
+  },
+  "theorems": [
+    "JSP698.PetrovFinite.centralCoeff_mod_four",
+    "JSP698.erdos_842",
+    "JSP698.erdos_842_chromaticNumber_le"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused locally",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "history": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "unit_tests": "Not rerun for unchanged repository code and environment; the preceding JSP748 run on the same base recorded 19/22 PASS with three pre-existing Windows path/history and symlink-privilege failures."
+  },
+  "repository_base_commit": "f4e7173d89dfe91022a185427d63452c8ffbf6ae",
+  "presubmission_search": {
+    "utc_approx": "2026-09-17T04:55:00Z",
+    "official_records": 478,
+    "highest_number": 479,
+    "matches": [],
+    "scope": "Official public Issue/PR titles and bodies; excludes comments, private work and later changes. No global priority guarantee.",
+    "public_code_query": "\"erdosproblems.com/842\" language:Lean",
+    "public_code_results": 0,
+    "official_snapshot_sha256": "606c232c34a8cbddbc2b6c201328881ebe9a88bb73298c4cb729d6ccaffaefe4",
+    "broad_topic_hits_excluded": [
+      418,
+      462,
+      463
+    ]
+  }
+}

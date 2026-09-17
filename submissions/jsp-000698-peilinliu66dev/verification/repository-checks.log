@@ -1,0 +1,20 @@
+Command: python scripts/manage.py validate
+validate: OK
+Exit code: 0
+
+Command: python scripts/manage.py links
+links: OK
+Exit code: 0
+
+Command: python scripts/manage.py history
+history: OK
+Exit code: 0
+
+Command: python scripts/manage.py build
+build: OK
+Exit code: 0
+
+Command: python scripts/manage.py check
+check: OK
+Exit code: 0
+
