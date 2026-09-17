@@ -1,0 +1,22 @@
+{
+  "JSP665.finite_construction": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "JSP665.arbitrarily_large_counterexamples": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "JSP665.erdos_808": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "JSP665.erdos_808_sum": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
