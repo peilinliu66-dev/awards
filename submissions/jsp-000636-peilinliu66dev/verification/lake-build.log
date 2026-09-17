@@ -1,0 +1,356 @@
+✔ [8706/8776] Built Erdos776.Combinatorics.Cascade (7.4s)
+✔ [8707/8776] Built Erdos776.L4.ReverseEnvelope (7.7s)
+✔ [8708/8776] Built Erdos776.Combinatorics.Antichain (8.1s)
+✔ [8709/8776] Built Erdos776.Combinatorics.CascadeNormalForm (7.3s)
+✔ [8710/8776] Built Erdos776.Combinatorics.CascadeFamily (8.8s)
+⚠ [8711/8776] Built Erdos776.Combinatorics.Padding (9.0s)
+warning: Erdos776/Combinatorics/Padding.lean:309:9: Overlapping instance parameters in `iteratedGroundDecidableEq`:
+
+⚠️ There are 2 `[DecidableEq α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Erdos776/Combinatorics/Padding.lean:386:39: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos776/Combinatorics/Padding.lean:387:41: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos776/Combinatorics/Padding.lean:386:39: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos776/Combinatorics/Padding.lean:387:41: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [8712/8776] Built Erdos776.Combinatorics.CoreToFull (9.1s)
+✔ [8713/8776] Built Erdos776.Combinatorics.FiniteColex (7.4s)
+✔ [8714/8776] Built Erdos776.Combinatorics.NumericShadow (6.5s)
+✔ [8715/8776] Built Erdos776.Combinatorics.NormalShadow (8.4s)
+✔ [8716/8776] Built Erdos776.Combinatorics.ProfileNecessity (8.4s)
+✔ [8717/8776] Built Erdos776.L4.CascadeSteps (8.5s)
+✔ [8718/8776] Built Erdos776.Combinatorics.ProfileSufficiency (8.7s)
+✔ [8719/8776] Built Erdos776.Combinatorics.BoundedShadow (8.7s)
+✔ [8720/8776] Built Erdos776.Combinatorics.DiagonalTransfer (8.9s)
+✔ [8721/8776] Built Erdos776.L4.ReverseSteps (11s)
+✔ [8722/8776] Built Erdos776.Combinatorics.ProfileCriterion (7.1s)
+✔ [8723/8776] Built Erdos776.L4.Profile (7.5s)
+✔ [8724/8776] Built Erdos776.Uniform.DiagonalObstruction (7.8s)
+✔ [8725/8776] Built Erdos776.Uniform.Assembly (6.8s)
+⚠ [8726/8776] Built Erdos776.Uniform.FreeCore (7.1s)
+warning: Erdos776/Uniform/FreeCore.lean:34:6: Unused tactic linter: `norm_num at hmono` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos776/Uniform/FreeCore.lean:69:6: Unused tactic linter: `norm_num at hmono` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8727/8776] Built Erdos776.Uniform.CoreCarry (8.3s)
+✔ [8728/8776] Built Erdos776.Uniform.FiniteProfileChecker (8.4s)
+✔ [8729/8776] Built Erdos776.Uniform.OccupiedLevels (8.1s)
+✔ [8730/8776] Built Erdos776.Uniform.GlobalThreshold (7.7s)
+ℹ [8731/8776] Built Erdos776.Uniform.SmallRangeCertificate (10s)
+info: Erdos776/Uniform/SmallRangeCertificate.lean:113:0: 'Erdos776.Uniform.smallThresholdFiniteCheck_verified' does not depend on any axioms
+info: Erdos776/Uniform/SmallRangeCertificate.lean:114:0: 'Erdos776.Uniform.isErdosThreshold_of_ge_4_le_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8732/8776] Built Erdos776.Uniform.LowerWindow.Supersolution (10s)
+ℹ [8733/8776] Built JSP636UpperBound (23s)
+info: JSP636UpperBound.lean:136:0: 'JSP636.universal_occupiedLevels_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8734/8776] Built Erdos776.Uniform.ProblemDefinitions (8.6s)
+ℹ [8735/8776] Built Erdos776.Uniform.SmallUniformKernelCertificate (34s)
+info: Erdos776/Uniform/SmallUniformKernelCertificate.lean:20:0: 'Erdos776.Uniform.smallUniformFiniteCheck_verified' does not depend on any axioms
+✔ [8736/8776] Built Erdos776.Uniform.LowerWindow.EnvelopeSegments (8.8s)
+✔ [8737/8776] Built Erdos776.Uniform.LowerWindow.FiniteChecker (8.9s)
+✔ [8738/8776] Built Erdos776.Uniform.LowerWindow.Parameters (9.2s)
+✔ [8739/8776] Built Erdos776.Uniform.LowerWindow.PhaseParameters (13s)
+✔ [8740/8776] Built Erdos776.Uniform.LowerWindow.Anchors (13s)
+✔ [8741/8776] Built Erdos776.Uniform.LowerWindow.ScalarCollapse (9.9s)
+✔ [8742/8776] Built Erdos776.Uniform.LowerWindow.PhasePositions (10s)
+⚠ [8743/8776] Built Erdos776.Uniform.LowerWindow.FinalLevels (9.1s)
+warning: Erdos776/Uniform/LowerWindow/FinalLevels.lean:26:6: Unused tactic linter: `norm_num at hmono` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos776/Uniform/LowerWindow/FinalLevels.lean:95:6: Unused tactic linter: `norm_num at hmono` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8744/8776] Built Erdos776.Uniform.LowerWindow.PhaseTransitions (9.4s)
+✔ [8745/8776] Built Erdos776.Uniform.LowerWindow.PhaseBounds (8.6s)
+✔ [8746/8776] Built Erdos776.Uniform.LowerWindow.PhaseHarvest (8.5s)
+✔ [8747/8776] Built Erdos776.Uniform.LowerWindow.PhaseCanonical (9.1s)
+✔ [8748/8776] Built Erdos776.Uniform.LowerWindow.PhaseStart (8.1s)
+✔ [8749/8776] Built Erdos776.Uniform.LowerWindow.PhaseCapacity (8.1s)
+✔ [8750/8776] Built Erdos776.Uniform.LowerWindow.RisingTail (9.2s)
+✔ [8751/8776] Built Erdos776.Uniform.LowerWindow.GeneralizedEnvelope (8.8s)
+✔ [8752/8776] Built Erdos776.Uniform.LowerWindow.ScalarStates (9.1s)
+✔ [8753/8776] Built Erdos776.Uniform.LowerWindow.FullEnvelope (8.9s)
+✔ [8754/8776] Built Erdos776.Uniform.LowerWindow.PhaseAssembly (8.3s)
+ℹ [8755/8776] Built JSP636SmallParameters (297s)
+info: JSP636SmallParameters.lean:216:0: 'JSP636.r2_target_everywhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636SmallParameters.lean:217:0: 'JSP636.r3_target_everywhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636SmallParameters.lean:218:0: 'JSP636.r3_eight_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636SmallParameters.lean:219:0: 'JSP636.twoSingletonsThree_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8756/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R029 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R029.lean:20:0: 'Erdos776.Uniform.lowerWindowNative029_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1]
+ℹ [8757/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R061 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R061.lean:20:0: 'Erdos776.Uniform.lowerWindowNative061_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1]
+ℹ [8758/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R093 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R093.lean:20:0: 'Erdos776.Uniform.lowerWindowNative093_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1]
+ℹ [8759/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R125 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R125.lean:20:0: 'Erdos776.Uniform.lowerWindowNative125_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1]
+ℹ [8760/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R157 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R157.lean:20:0: 'Erdos776.Uniform.lowerWindowNative157_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1]
+ℹ [8761/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R189 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R189.lean:20:0: 'Erdos776.Uniform.lowerWindowNative189_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1]
+ℹ [8762/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R221 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R221.lean:20:0: 'Erdos776.Uniform.lowerWindowNative221_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1]
+ℹ [8763/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R253 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R253.lean:20:0: 'Erdos776.Uniform.lowerWindowNative253_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1]
+ℹ [8764/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R285 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R285.lean:20:0: 'Erdos776.Uniform.lowerWindowNative285_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1]
+ℹ [8765/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R317 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R317.lean:20:0: 'Erdos776.Uniform.lowerWindowNative317_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1]
+ℹ [8766/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.R349 (297s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/R349.lean:20:0: 'Erdos776.Uniform.lowerWindowNative349_certificate' depends on axioms: [Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+ℹ [8767/8776] Built Erdos776.Uniform.LowerWindow.NativeChunks.All (8.3s)
+info: Erdos776/Uniform/LowerWindow/NativeChunks/All.lean:42:0: 'Erdos776.Uniform.lowerWindowNativeAll' depends on axioms: [propext,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+ℹ [8768/8776] Built Erdos776.Uniform.LowerWindow.FiniteCertificate (7.3s)
+info: Erdos776/Uniform/LowerWindow/FiniteCertificate.lean:64:0: 'Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified' depends on axioms: [propext,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: Erdos776/Uniform/LowerWindow/FiniteCertificate.lean:65:0: 'Erdos776.Uniform.isErdosThreshold_of_ge_29' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+ℹ [8769/8776] Built JSP636Maximum (23s)
+info: JSP636Maximum.lean:255:0: 'JSP636.g_eq_extremalOccupiedLevels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636Maximum.lean:256:0: 'JSP636.exactOptimalLevels_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8770/8776] Built Erdos776.Uniform.FiniteCertificate (7.8s)
+✔ [8771/8776] Built Erdos776.Uniform.ThresholdTable (7.0s)
+✔ [8772/8776] Built Erdos776.Uniform.ProblemStatement (6.8s)
+ℹ [8773/8776] Built JSP636ExactThreshold (21s)
+info: JSP636ExactThreshold.lean:180:0: 'JSP636.erdos776_exactThreshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636ExactThreshold.lean:181:0: 'JSP636.erdos776_exactThreshold_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636ExactThreshold.lean:182:0: 'JSP636.erdos776_upstream_maximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636ExactThreshold.lean:183:0: 'JSP636.erdos776' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636ExactThreshold.lean:184:0: 'JSP636.erdos776_original_exact_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+ℹ [8774/8776] Built JSP636 (22s)
+info: JSP636.lean:7:0: JSP636.OptimalLevels (n r k : ℕ) : Prop
+info: JSP636.lean:8:0: JSP636.ExactThreshold (r N : ℕ) : Prop
+info: JSP636.lean:9:0: JSP636.erdos776_exactThreshold (r : ℕ) (hr : 2 ≤ r) : JSP636.ExactThreshold r (JSP636.thresholdFormula r)
+info: JSP636.lean:10:0: JSP636.erdos776 (r : ℕ) (hr : 2 ≤ r) (N : ℕ) : (∀ (n : ℕ), N < n → JSP636.g n r = n - 3) ↔ JSP636.thresholdFormula r ≤ N
+info: JSP636.lean:11:0: JSP636.erdos776_exactThreshold_iff (r : ℕ) (hr : 2 ≤ r) (N : ℕ) :
+  JSP636.ExactThreshold r N ↔ N = JSP636.thresholdFormula r
+info: JSP636.lean:12:0: JSP636.erdos776_upstream_maximum (r : ℕ) (hr : 2 ≤ r) (N : ℕ) :
+  (∀ (n : ℕ), N < n → Erdos776.Uniform.extremalOccupiedLevels n r = n - 3) ↔ JSP636.thresholdFormula r ≤ N
+info: JSP636.lean:13:0: JSP636.erdos776_original_exact_multiplicity (r : ℕ) (hr : 2 ≤ r) (N : ℕ) :
+  (∀ (n : ℕ), N < n → JSP636.ExactOptimalLevels n r (n - 3)) ↔ JSP636.thresholdFormula r ≤ N
+info: JSP636.lean:15:0: 'JSP636.universal_occupiedLevels_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636.lean:16:0: 'JSP636.r3_eight_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636.lean:17:0: 'JSP636.r2_three_not_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP636.lean:18:0: 'JSP636.erdos776_exactThreshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636.lean:19:0: 'JSP636.erdos776' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636.lean:20:0: 'JSP636.erdos776_exactThreshold_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636.lean:21:0: 'JSP636.erdos776_upstream_maximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: JSP636.lean:22:0: 'JSP636.erdos776_original_exact_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+ℹ [8775/8776] Built Proof (23s)
+info: Proof.lean:3:0: 'JSP636.erdos776' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: Proof.lean:4:0: 'JSP636.erdos776_exactThreshold_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+info: Proof.lean:5:0: 'JSP636.erdos776_original_exact_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowNative029_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative061_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative093_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative125_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative157_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative189_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative221_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative253_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative285_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative317_certificate._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowNative349_certificate._native.native_decide.ax_1_1]
+Build completed successfully (8776 jobs).

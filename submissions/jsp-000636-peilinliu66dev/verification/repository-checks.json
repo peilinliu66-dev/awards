@@ -1,0 +1,22 @@
+[
+  {
+    "command": "validate",
+    "exit_code": 0
+  },
+  {
+    "command": "links",
+    "exit_code": 0
+  },
+  {
+    "command": "history",
+    "exit_code": 0
+  },
+  {
+    "command": "build",
+    "exit_code": 0
+  },
+  {
+    "command": "check",
+    "exit_code": 0
+  }
+]
