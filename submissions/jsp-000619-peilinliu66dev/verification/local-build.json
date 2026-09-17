@@ -1,0 +1,110 @@
+{
+  "state": "PASS",
+  "scope": "Independent local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "commands": [
+    {
+      "command": "lake build +JSP619Moore",
+      "started_utc": "2026-09-17T07:07:19.834202+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619ExpansionPath",
+      "started_utc": "2026-09-17T07:13:18.152608+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619LocalExpansion",
+      "started_utc": "2026-09-17T07:13:59.285092+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619CycleSplice",
+      "started_utc": "2026-09-17T07:14:39.954529+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619Basic",
+      "started_utc": "2026-09-17T07:15:19.347739+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619CycleCore",
+      "started_utc": "2026-09-17T07:15:59.637835+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619Layers",
+      "started_utc": "2026-09-17T07:16:38.112763+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619Bands",
+      "started_utc": "2026-09-17T07:17:16.653240+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build +JSP619Components",
+      "started_utc": "2026-09-17T07:17:55.345985+00:00",
+      "exit_code": 0
+    },
+    {
+      "command": "lake build",
+      "exit_code": 0,
+      "elapsed_seconds": 107.783
+    }
+  ],
+  "concurrency": "Initial dependency-ordered targets through Components, followed by one complete lake build using default scheduling",
+  "jobs": 8720,
+  "started_utc": "2026-09-17T07:07:19.834202+00:00",
+  "final_full_build_started_utc": "2026-09-17T07:19:01.178139+00:00",
+  "recorded_utc": "2026-09-17T07:21:18.710109+00:00",
+  "elapsed_seconds": 838.876,
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "JSP619.lean": "5bd9303bb418c3e8364767ecda71f64921c04dcd9ecfd50ff9cc2d4b2a67f216",
+    "JSP619Assembly.lean": "3864e6deb094928c63b457d1de61a7534a25bdee619bb3f1b61084c36ff31e57",
+    "JSP619Bands.lean": "3955d3d88223715af9a205a131441dce6df8436c55a708d87892c5db48bc91d1",
+    "JSP619Basic.lean": "e93af900fc4b6ce5015c73a1ccfcce08dee4854880b29e792b6221bba7b024f3",
+    "JSP619Components.lean": "3f6829542359f35363ca44f402a23ecc269395ac08e0a9b02f307a63ba0e3e7c",
+    "JSP619CycleCore.lean": "c1612c0fe8e22470885c5634ee258a6d46d54b0d7b5d63e82da7d52898df2e4a",
+    "JSP619CycleExtraction.lean": "b308e3f796f68fe6d5c492e06f96151e99b15a24e2673d22a76d18667c44ea40",
+    "JSP619CycleSplice.lean": "eb65e268a0b081fb9a92a63ee72ff7a6e000bf08bf4f83d58d1c55e3390f648a",
+    "JSP619Expansion.lean": "f40de259c86279eb5beeda9f8ffb558d665d4052c6316e95e1610560e317a81f",
+    "JSP619ExpansionPath.lean": "fc513df0d92dbcdae8843ddd891cfcfb5163e0314ee2b84f1084ee7ccaaa967e",
+    "JSP619Layers.lean": "78f86f05bf10971252abf5ac5e672a3a35cde43a538b10baf365b2b7a202784c",
+    "JSP619LocalExpansion.lean": "3d8632d05854077d59180aa93030e2148308e4c010044cecb5d0869fb2ed9549",
+    "JSP619Moore.lean": "9540840408befb8da6eb01fbbfd7efb7d1f461d599011ecf113a9c6b5162ceb2",
+    "lake-manifest.json": "5dc5e418776e4140cffd10e831cd709f079c482e70aad51b7fd0c2c532829a90",
+    "lakefile.lean": "f0edbca4bcf378aa1011913c2367792299451b63e2842864afca2b834be1ce4d",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "Proof.lean": "089cc52a9f9de0630acdf48f7d1104fc74b757dc7718e70eb97e176345d29c2a"
+  },
+  "theorems": [
+    "JSP619.erdos_752_nat",
+    "JSP619.erdos_752_explicit",
+    "JSP619.erdos_752"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "terminal_check_command": "lake env lean Proof.lean",
+  "terminal_check_exit_code": 0,
+  "dependencies": "Pinned compiled Mathlib cache reused through directory junctions; all 13 package proof modules and Proof built from source; external LEAN_PATH removed",
+  "remaining_mathematical_hypotheses": "Only the original finite nonempty graph, degree and girth conditions; the intermediate MooreBound is proved and instantiated",
+  "repository_base_commit": "f4e7173d89dfe91022a185427d63452c8ffbf6ae",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "history": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "unit_tests": "Not rerun: official repository code and environment are unchanged. The same-base Windows suite was previously 19/22 PASS with three pre-existing path/history and symlink-privilege failures.",
+    "performed_by": "Coordinating agent in submit-awards-619 during this preparation"
+  },
+  "final_build_and_axiom_check_elapsed_seconds": 137.532
+}

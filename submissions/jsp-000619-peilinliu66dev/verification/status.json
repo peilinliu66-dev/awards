@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "exit_code": 0,
+  "terminal_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}

@@ -1,0 +1,699 @@
+
+COMMAND 2026-09-17T07:07:19.834202+00:00: lake build +JSP619Moore
+⚠ [8706/8706] Built JSP619Moore (111s)
+warning: JSP619Moore.lean:12:0: automatically included section variable(s) unused in theorem `JSP619.Moore.short_paths_eq`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP619Moore.lean:147:0: 'JSP619.moore_card_gt_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8706 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:13:18.152608+00:00: lake build +JSP619ExpansionPath
+⚠ [8706/8706] Built JSP619ExpansionPath (25s)
+warning: JSP619ExpansionPath.lean:27:0: automatically included section variable(s) unused in theorem `JSP619.DFS.chain_tail`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:34:0: automatically included section variable(s) unused in theorem `JSP619.DFS.chain_walk`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:67:0: automatically included section variable(s) unused in theorem `JSP619.DFS.initial_valid`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:107:6: Try `simp at hw` instead of `simpa using hw`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP619ExpansionPath.lean:254:13: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619ExpansionPath.lean:283:0: 'JSP619.exists_long_path_of_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8706 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:13:59.285092+00:00: lake build +JSP619LocalExpansion
+⚠ [8706/8708] Replayed JSP619Moore
+warning: JSP619Moore.lean:12:0: automatically included section variable(s) unused in theorem `JSP619.Moore.short_paths_eq`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP619Moore.lean:147:0: 'JSP619.moore_card_gt_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8707/8708] Replayed JSP619ExpansionPath
+warning: JSP619ExpansionPath.lean:27:0: automatically included section variable(s) unused in theorem `JSP619.DFS.chain_tail`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:34:0: automatically included section variable(s) unused in theorem `JSP619.DFS.chain_walk`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:67:0: automatically included section variable(s) unused in theorem `JSP619.DFS.initial_valid`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:107:6: Try `simp at hw` instead of `simpa using hw`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP619ExpansionPath.lean:254:13: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619ExpansionPath.lean:283:0: 'JSP619.exists_long_path_of_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8708] Built JSP619LocalExpansion (25s)
+warning: JSP619LocalExpansion.lean:72:0: automatically included section variable(s) unused in theorem `JSP619.Expansion.neighborPart_erase_self`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619LocalExpansion.lean:94:4: Try `simp at hS` instead of `simpa using hS`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP619LocalExpansion.lean:180:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: JSP619LocalExpansion.lean:193:0: 'JSP619.small_set_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8708 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:14:39.954529+00:00: lake build +JSP619CycleSplice
+ℹ [8706/8706] Built JSP619CycleSplice (24s)
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (8706 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:15:19.347739+00:00: lake build +JSP619Basic
+ℹ [8706/8707] Replayed JSP619CycleSplice
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8707/8707] Built JSP619Basic (25s)
+warning: JSP619Basic.lean:84:8: automatically included section variable(s) unused in theorem `JSP619.mem_neighborsIn`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:89:0: automatically included section variable(s) unused in theorem `JSP619.degIn_eq_sum`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:94:8: automatically included section variable(s) unused in theorem `JSP619.degIn_empty`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:101:8: automatically included section variable(s) unused in theorem `JSP619.mass_singleton`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:105:0: automatically included section variable(s) unused in theorem `JSP619.degIn_le_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:185:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: JSP619Basic.lean:265:0: 'JSP619.exists_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Basic.lean:266:0: 'JSP619.induced_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8707 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:15:59.637835+00:00: lake build +JSP619CycleCore
+ℹ [8706/8708] Replayed JSP619CycleSplice
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8707/8708] Replayed JSP619Basic
+warning: JSP619Basic.lean:84:8: automatically included section variable(s) unused in theorem `JSP619.mem_neighborsIn`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:89:0: automatically included section variable(s) unused in theorem `JSP619.degIn_eq_sum`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:94:8: automatically included section variable(s) unused in theorem `JSP619.degIn_empty`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:101:8: automatically included section variable(s) unused in theorem `JSP619.mass_singleton`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:105:0: automatically included section variable(s) unused in theorem `JSP619.degIn_le_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:185:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: JSP619Basic.lean:265:0: 'JSP619.exists_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Basic.lean:266:0: 'JSP619.induced_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8708] Built JSP619CycleCore (23s)
+warning: JSP619CycleCore.lean:62:0: automatically included section variable(s) unused in theorem `JSP619.card_cycleLengths_ge_of_witnesses`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:77:0: automatically included section variable(s) unused in theorem `JSP619.forward_subpath`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:86:33: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619CycleCore.lean:176:0: 'JSP619.append_isPath_of_inter' depends on axioms: [propext, Quot.sound]
+info: JSP619CycleCore.lean:177:0: 'JSP619.fan_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8708 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:16:38.112763+00:00: lake build +JSP619Layers
+ℹ [8706/8709] Replayed JSP619CycleSplice
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8707/8709] Replayed JSP619Basic
+warning: JSP619Basic.lean:84:8: automatically included section variable(s) unused in theorem `JSP619.mem_neighborsIn`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:89:0: automatically included section variable(s) unused in theorem `JSP619.degIn_eq_sum`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:94:8: automatically included section variable(s) unused in theorem `JSP619.degIn_empty`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:101:8: automatically included section variable(s) unused in theorem `JSP619.mass_singleton`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:105:0: automatically included section variable(s) unused in theorem `JSP619.degIn_le_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:185:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: JSP619Basic.lean:265:0: 'JSP619.exists_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Basic.lean:266:0: 'JSP619.induced_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8709] Replayed JSP619CycleCore
+warning: JSP619CycleCore.lean:62:0: automatically included section variable(s) unused in theorem `JSP619.card_cycleLengths_ge_of_witnesses`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:77:0: automatically included section variable(s) unused in theorem `JSP619.forward_subpath`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:86:33: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619CycleCore.lean:176:0: 'JSP619.append_isPath_of_inter' depends on axioms: [propext, Quot.sound]
+info: JSP619CycleCore.lean:177:0: 'JSP619.fan_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8709/8709] Built JSP619Layers (23s)
+warning: JSP619Layers.lean:206:5: Variable name `hcommon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hcommon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619Layers.lean:328:0: 'JSP619.layerTreeOfConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Layers.lean:329:0: 'JSP619.LayerTree.equal_length_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Layers.lean:330:0: 'JSP619.LayerTree.branch_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8709 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:17:16.653240+00:00: lake build +JSP619Bands
+ℹ [8706/8710] Replayed JSP619CycleSplice
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8707/8710] Replayed JSP619Basic
+warning: JSP619Basic.lean:84:8: automatically included section variable(s) unused in theorem `JSP619.mem_neighborsIn`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:89:0: automatically included section variable(s) unused in theorem `JSP619.degIn_eq_sum`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:94:8: automatically included section variable(s) unused in theorem `JSP619.degIn_empty`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:101:8: automatically included section variable(s) unused in theorem `JSP619.mass_singleton`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:105:0: automatically included section variable(s) unused in theorem `JSP619.degIn_le_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:185:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: JSP619Basic.lean:265:0: 'JSP619.exists_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Basic.lean:266:0: 'JSP619.induced_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8710] Replayed JSP619CycleCore
+warning: JSP619CycleCore.lean:62:0: automatically included section variable(s) unused in theorem `JSP619.card_cycleLengths_ge_of_witnesses`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:77:0: automatically included section variable(s) unused in theorem `JSP619.forward_subpath`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:86:33: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619CycleCore.lean:176:0: 'JSP619.append_isPath_of_inter' depends on axioms: [propext, Quot.sound]
+info: JSP619CycleCore.lean:177:0: 'JSP619.fan_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8709/8710] Replayed JSP619Layers
+warning: JSP619Layers.lean:206:5: Variable name `hcommon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hcommon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619Layers.lean:328:0: 'JSP619.layerTreeOfConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Layers.lean:329:0: 'JSP619.LayerTree.equal_length_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Layers.lean:330:0: 'JSP619.LayerTree.branch_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8710/8710] Built JSP619Bands (23s)
+warning: JSP619Bands.lean:32:8: automatically included section variable(s) unused in theorem `JSP619.mem_bandVertices`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Bands.lean:75:0: automatically included section variable(s) unused in theorem `JSP619.LayerTree.level_lt_bound`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP619Bands.lean:183:0: 'JSP619.LayerTree.sum_band_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Bands.lean:184:0: 'JSP619.LayerTree.sum_band_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Bands.lean:185:0: 'JSP619.LayerTree.exists_band_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8710 jobs).
+EXIT 0
+
+COMMAND 2026-09-17T07:17:55.345985+00:00: lake build +JSP619Components
+ℹ [8706/8708] Replayed JSP619CycleSplice
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8707/8708] Replayed JSP619Basic
+warning: JSP619Basic.lean:84:8: automatically included section variable(s) unused in theorem `JSP619.mem_neighborsIn`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:89:0: automatically included section variable(s) unused in theorem `JSP619.degIn_eq_sum`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:94:8: automatically included section variable(s) unused in theorem `JSP619.degIn_empty`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:101:8: automatically included section variable(s) unused in theorem `JSP619.mass_singleton`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:105:0: automatically included section variable(s) unused in theorem `JSP619.degIn_le_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:185:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: JSP619Basic.lean:265:0: 'JSP619.exists_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Basic.lean:266:0: 'JSP619.induced_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8708] Built JSP619Components (25s)
+warning: JSP619Components.lean:40:7: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP619Components.lean:48:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (8708 jobs).
+
+EXIT 0
+SCHEDULING: Completed the active Components build before stopping the sequential scheduler; continuing with one full lake build.
+
+COMMAND 2026-09-17T07:19:01.185435+00:00: lake build
+ℹ [8706/8720] Replayed JSP619CycleSplice
+info: JSP619CycleSplice.lean:245:0: 'JSP619.exists_cycle_of_external_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:246:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:247:0: 'JSP619.cycles_of_equal_external_paths_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619CycleSplice.lean:248:0: 'JSP619.card_le_cycleLengths_of_equal_external_paths_same_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8707/8720] Replayed JSP619Basic
+warning: JSP619Basic.lean:84:8: automatically included section variable(s) unused in theorem `JSP619.mem_neighborsIn`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:89:0: automatically included section variable(s) unused in theorem `JSP619.degIn_eq_sum`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:94:8: automatically included section variable(s) unused in theorem `JSP619.degIn_empty`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:101:8: automatically included section variable(s) unused in theorem `JSP619.mass_singleton`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:105:0: automatically included section variable(s) unused in theorem `JSP619.degIn_le_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Basic.lean:185:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: JSP619Basic.lean:265:0: 'JSP619.exists_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Basic.lean:266:0: 'JSP619.induced_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8720] Replayed JSP619Moore
+warning: JSP619Moore.lean:12:0: automatically included section variable(s) unused in theorem `JSP619.Moore.short_paths_eq`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP619Moore.lean:147:0: 'JSP619.moore_card_gt_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8709/8720] Replayed JSP619ExpansionPath
+warning: JSP619ExpansionPath.lean:27:0: automatically included section variable(s) unused in theorem `JSP619.DFS.chain_tail`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:34:0: automatically included section variable(s) unused in theorem `JSP619.DFS.chain_walk`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:67:0: automatically included section variable(s) unused in theorem `JSP619.DFS.initial_valid`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619ExpansionPath.lean:107:6: Try `simp at hw` instead of `simpa using hw`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP619ExpansionPath.lean:254:13: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619ExpansionPath.lean:283:0: 'JSP619.exists_long_path_of_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8710/8720] Replayed JSP619LocalExpansion
+warning: JSP619LocalExpansion.lean:72:0: automatically included section variable(s) unused in theorem `JSP619.Expansion.neighborPart_erase_self`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619LocalExpansion.lean:94:4: Try `simp at hS` instead of `simpa using hS`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP619LocalExpansion.lean:180:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: JSP619LocalExpansion.lean:193:0: 'JSP619.small_set_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8711/8720] Replayed JSP619CycleCore
+warning: JSP619CycleCore.lean:62:0: automatically included section variable(s) unused in theorem `JSP619.card_cycleLengths_ge_of_witnesses`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:77:0: automatically included section variable(s) unused in theorem `JSP619.forward_subpath`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619CycleCore.lean:86:33: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619CycleCore.lean:176:0: 'JSP619.append_isPath_of_inter' depends on axioms: [propext, Quot.sound]
+info: JSP619CycleCore.lean:177:0: 'JSP619.fan_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8712/8720] Replayed JSP619Layers
+warning: JSP619Layers.lean:206:5: Variable name `hcommon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hcommon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP619Layers.lean:328:0: 'JSP619.layerTreeOfConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Layers.lean:329:0: 'JSP619.LayerTree.equal_length_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Layers.lean:330:0: 'JSP619.LayerTree.branch_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8713/8720] Replayed JSP619Bands
+warning: JSP619Bands.lean:32:8: automatically included section variable(s) unused in theorem `JSP619.mem_bandVertices`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP619Bands.lean:75:0: automatically included section variable(s) unused in theorem `JSP619.LayerTree.level_lt_bound`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP619Bands.lean:183:0: 'JSP619.LayerTree.sum_band_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Bands.lean:184:0: 'JSP619.LayerTree.sum_band_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Bands.lean:185:0: 'JSP619.LayerTree.exists_band_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8714/8720] Replayed JSP619Components
+warning: JSP619Components.lean:40:7: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP619Components.lean:48:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+ℹ [8715/8720] Built JSP619CycleExtraction (27s)
+info: JSP619CycleExtraction.lean:78:0: 'JSP619.cycle_count_of_band_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8716/8720] Built JSP619Expansion (27s)
+info: JSP619Expansion.lean:52:0: 'JSP619.mooreBound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Expansion.lean:53:0: 'JSP619.long_path_of_minDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8717/8720] Built JSP619Assembly (24s)
+warning: JSP619Assembly.lean:37:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: JSP619Assembly.lean:177:0: 'JSP619.erdos752_from_moore' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619Assembly.lean:178:0: 'JSP619.erdos752_girth_from_moore' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8718/8720] Built JSP619 (23s)
+info: JSP619.lean:37:0: 'JSP619.erdos_752_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619.lean:38:0: 'JSP619.erdos_752_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP619.lean:39:0: 'JSP619.erdos_752' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8719/8720] Built Proof (23s)
+info: Proof.lean:3:0: 'JSP619.erdos_752_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:4:0: 'JSP619.erdos_752_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:5:0: 'JSP619.erdos_752' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8720 jobs).
+EXIT 0
