@@ -1,0 +1,65 @@
+⚠ [8706/8711] Built JSP656ListColoring (31s)
+warning: JSP656ListColoring.lean:45:35: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP656ListColoring.lean:133:0: 'JSP656.exists_injective_of_bounded_list_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP656ListColoring.lean:134:0: 'JSP656.exists_list_coloring_of_independent_subsets' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8707/8711] Built JSP656Random (38s)
+warning: JSP656Random.lean:155:16: This simp argument is unused:
+  Unused
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [x.2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP656Random.lean:254:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP656Random.lean:263:32: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: JSP656Random.lean:254:25: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP656Random.lean:263:32: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: JSP656Random.lean:279:12: This simp argument is unused:
+  Edge
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP656Random.lean:526:6: Try `simp at hxy` instead of `simpa using hxy`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: JSP656Random.lean:586:35: `_root_.not_imp` has been deprecated: Use `Classical.not_imp` instead
+warning: JSP656Random.lean:586:35: This simp argument is unused:
+  _root_.not_imp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Rich, not_forall]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP656Random.lean:601:14: This simp argument is unused:
+  card_all_finsets
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [8708/8711] Built JSP656ChoiceNumber (26s)
+info: JSP656ChoiceNumber.lean:146:0: 'JSP656.choiceNumber_le_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP656ChoiceNumber.lean:147:0: 'JSP656.KChoosable.color_lists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP656ChoiceNumber.lean:148:0: 'JSP656.choiceNumber_le_of_independent_subsets' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8709/8711] Built JSP656 (20s)
+info: JSP656.lean:47:0: 'JSP656.erdos_799' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP656.lean:48:0: 'JSP656.erdos_799_counting' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8710/8711] Built Proof (20s)
+info: Proof.lean:3:0: 'JSP656.erdos_799' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:4:0: 'JSP656.erdos_799_counting' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8711 jobs).

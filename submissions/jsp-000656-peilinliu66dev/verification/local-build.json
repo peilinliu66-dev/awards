@@ -1,0 +1,53 @@
+{
+  "scope": "Local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 8711,
+  "elapsed_seconds": 112.0,
+  "recorded_utc": "2026-09-17T04:56:19.180785+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "JSP656.lean": "fa9cf227ce177dc8bdccad815d242954abe3b68fdd98983041d1747732805d2c",
+    "JSP656Random.lean": "e9c1d003437ab8b52e7129aad46d7b2a0318046a5be9051250ef1b630eedb2d8",
+    "JSP656ChoiceNumber.lean": "49fb0c2f51de90efb8842f5b23eac0291aae3985dd555ec0329b71e535455c54",
+    "JSP656ListColoring.lean": "7c80ee1fb79b6df51d02b8d9725d54fdd96d9324ff9e1c8baaa3a768e083d729",
+    "lakefile.lean": "c7e7e061f252d1dd72ecb08483653c03ad94d378551ccde481022c1db2b5380d",
+    "Proof.lean": "9c335d579343bbf9ceb77f78b2312a78acbae1fe9fcdbeded88d5a9f46dda2f6"
+  },
+  "theorems": [
+    "JSP656.erdos_799",
+    "JSP656.erdos_799_counting"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused locally",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "history": "PASS",
+    "unit_tests": "Not rerun for unchanged repository code and environment; preceding JSP748 run on the same base passed 19/22 with three recorded Windows path/history and symlink-privilege failures."
+  },
+  "presubmission_search": {
+    "utc": "2026-09-17T04:55+00:00",
+    "official_records": 478,
+    "highest_number": 479,
+    "matches": [],
+    "scope": "Official issue and pull-request title/body search; excludes a complete comment search and later submissions; no global priority guarantee",
+    "prior_public_drafts": [
+      {
+        "repository": "rjwalters/lean-genius",
+        "commit": "98630041efbcca1a31cee1c2aca8c035c2e9af57",
+        "path": "proofs/Proofs/Erdos799Problem.lean",
+        "blob": "713c6dfde6917fe8adaf193064dde5e5e9b22029",
+        "sha256": "5da5bd714d98efba97495129fc9d2b24b1790bcd53458a1fcc4cdb00fa7f56dd",
+        "status": "Two custom axioms listChromaticRandom and alon_krivelevich_sudakov_1999; terminal theorem invokes the latter; incomplete"
+      }
+    ]
+  }
+}
