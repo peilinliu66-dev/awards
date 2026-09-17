@@ -1,0 +1,54 @@
+{
+  "scope": "Local independent package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 8716,
+  "recorded_utc": "2026-09-17T05:39:14.330065+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "JSP842.lean": "8410d8a06aaea40d3a944c5992dd88caca2196f2deb433164ee4c98d6b3dfab0",
+    "JSP842Arithmetic.lean": "4abeb2633997a7a77c8fcbbf3bbc9657ede7723b245d9eb441b508fa0e4e6617",
+    "JSP842Assembly.lean": "a29b9392ada181e34bd769903d46a5bd0d0a5d1a1a19a7cf506fbe7e0f30e50e",
+    "JSP842ClosedBound.lean": "b0a04b51ce1935d1bb0c80e6c25a1f30f1fa08231eb402ee7ad489fa24100c1e",
+    "JSP842CycleBridge.lean": "672058ce855e5d3fab4399c237aa64e6b00897f8f59a0a37216983e8c6da7b84",
+    "JSP842DenseSubset.lean": "8ddec38e42873078dc44f2274f483c525c4069698646659916c1cc9e3cf32b57",
+    "JSP842Maximal.lean": "00bb2fba38fc35b9fbc0c17d851fd2090540a1ee183931481ec4df268332ce78",
+    "JSP842Ore.lean": "ff1c2c60c1bda66d10b0be9660f2e255d9c03c3f0baa0c54b44e6b358dff04c1",
+    "JSP842ThresholdBound.lean": "da174264cdf0a8819772bf51ea9d44b1aca5860890df3c45dc85a1457c060b38",
+    "lake-manifest.json": "ca27d5433680404379b2bc735223783ff5387726ea438b735dd784bf1191e322",
+    "lakefile.lean": "da6d3b3de8c1959e68b36b036e50b0d89630df3db08b94490b7c49c354969de0",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "Proof.lean": "39bc671570e1b4b57e1529b0f321e122a4696d72ca19278156bfc3bc3813bb35"
+  },
+  "theorems": [
+    "JSP842.erdos_1012_explicit_threshold",
+    "JSP842.erdos_1012"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused; all package proof modules built from source",
+  "repository_base_commit": "f4e7173d89dfe91022a185427d63452c8ffbf6ae",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "history": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "unit_tests": "Not rerun for unchanged official repository code and environment. The prior JSP748 run on the same base had 19/22 PASS and three pre-existing Windows path/history and symlink-privilege failures."
+  },
+  "presubmission_search": {
+    "recorded_utc": "2026-09-17T05:36:58Z",
+    "endpoint": "https://api.github.com/repos/TheJustinSunPrize/awards/issues?state=all&per_page=100&sort=created&direction=asc",
+    "pagination": "All returned pages, including issues and pull requests",
+    "record_count": 498,
+    "highest_number": 499,
+    "pattern": "JSP[-_ ]*0*842\\b|Erd[o\u0151\u00f6]s\\W{0,15}(?:problem\\W*)?#?\\s*1012\\b|erdosproblems\\.com/(?:latex/)?1012\\b",
+    "matches": [],
+    "snapshot_sha256": "a6e84c1875e1b33ee56a0496a964bfc245fef613f06224819aae71a3a1717d53",
+    "scope": "Public issue/PR titles and bodies; no comments, private work or later changes. No global priority claim."
+  }
+}

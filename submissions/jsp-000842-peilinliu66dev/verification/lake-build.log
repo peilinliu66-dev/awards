@@ -1,0 +1,71 @@
+ℹ [8706/8716] Built JSP842Maximal (9.4s)
+info: JSP842Maximal.lean:21:0: 'JSP842.maximal_nonhamiltonian_supergraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8707/8716] Built JSP842CycleBridge (26s)
+info: JSP842CycleBridge.lean:27:0: 'JSP842.cycle_of_induce_isHamiltonian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP842CycleBridge.lean:28:0: 'JSP842.top_isHamiltonian' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8708/8716] Built JSP842ClosedBound (28s)
+warning: JSP842ClosedBound.lean:51:15: Variable name `hne` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hne
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP842ClosedBound.lean:51:29: Variable name `hnadj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnadj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP842ClosedBound.lean:121:0: 'JSP842.closedGraph_edge_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8709/8716] Built JSP842DenseSubset (28s)
+warning: JSP842DenseSubset.lean:73:0: automatically included section variable(s) unused in theorem `JSP842.neighborPart_union_le`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP842DenseSubset.lean:109:0: automatically included section variable(s) unused in theorem `JSP842.neighborPart_erase_self`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP842DenseSubset.lean:117:0: automatically included section variable(s) unused in theorem `JSP842.neighborPart_le_erase_add_one`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: JSP842DenseSubset.lean:147:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: JSP842DenseSubset.lean:192:0: 'JSP842.exists_dense_induced_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8710/8716] Built JSP842Arithmetic (28s)
+info: JSP842Arithmetic.lean:36:0: 'JSP842.closed_bound_le_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP842Arithmetic.lean:37:0: 'JSP842.isolated_bound_le_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8711/8716] Built JSP842Ore (28s)
+warning: JSP842Ore.lean:107:0: automatically included section variable(s) unused in theorem `JSP842.Ore.edge_mem_of_ne_added`:
+  [Fintype V]
+  [DecidableEq V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+info: JSP842Ore.lean:187:0: 'JSP842.ore_edge_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8712/8716] Built JSP842ThresholdBound (20s)
+info: JSP842ThresholdBound.lean:31:0: 'JSP842.closed_supergraph_threshold_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8713/8716] Built JSP842Assembly (23s)
+info: JSP842Assembly.lean:54:0: 'JSP842.threshold_of_ore_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8714/8716] Built JSP842 (24s)
+info: JSP842.lean:30:0: 'JSP842.erdos_1012_explicit_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP842.lean:31:0: 'JSP842.erdos_1012' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8715/8716] Built Proof (22s)
+info: Proof.lean:3:0: 'JSP842.erdos_1012_explicit_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:4:0: 'JSP842.erdos_1012' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8716 jobs).

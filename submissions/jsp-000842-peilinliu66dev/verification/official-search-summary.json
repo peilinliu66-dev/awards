@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-17T05:36:58Z",
+  "endpoint": "https://api.github.com/repos/TheJustinSunPrize/awards/issues?state=all&per_page=100&sort=created&direction=asc",
+  "pagination": "All returned pages, including issues and pull requests",
+  "record_count": 498,
+  "highest_number": 499,
+  "pattern": "JSP[-_ ]*0*842\\b|Erd[o\u0151\u00f6]s\\W{0,15}(?:problem\\W*)?#?\\s*1012\\b|erdosproblems\\.com/(?:latex/)?1012\\b",
+  "matches": [],
+  "snapshot_sha256": "a6e84c1875e1b33ee56a0496a964bfc245fef613f06224819aae71a3a1717d53",
+  "scope": "Public issue/PR titles and bodies; no comments, private work or later changes. No global priority claim."
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "path": "deepmind/deepmind/1012.lean",
+    "sha": "84185696410daa07f8bd4febd8cf5affd3f1dca6",
+    "lines": 125,
+    "axioms": [],
+    "sorries": 4,
+    "theorems": [
+      "erdos_1012",
+      "erdos_1012.variants.exists_threshold",
+      "erdos_1012.variants.ore",
+      "erdos_1012.variants.bondy"
+    ],
+    "imports": [
+      "FormalConjectures.Util.ProblemImports"
+    ]
+  },
+  {
+    "path": "deepmind/deepmind-v2/1012.lean",
+    "sha": "15e15dd464dacafa558c783e20bd5a4cbd792f87",
+    "lines": 125,
+    "axioms": [],
+    "sorries": 4,
+    "theorems": [
+      "erdos_1012",
+      "erdos_1012.variants.exists_threshold",
+      "erdos_1012.variants.ore",
+      "erdos_1012.variants.bondy"
+    ],
+    "imports": [
+      "FormalConjecturesUtil"
+    ]
+  },
+  {
+    "path": "proofs/Proofs/Erdos1012OQ04.lean",
+    "sha": "813e89326cefaf877479dc5677c52c336ea5393d",
+    "lines": 171,
+    "axioms": [],
+    "sorries": 0,
+    "theorems": [
+      "two_mul_choose_two_succ",
+      "choose_two_split",
+      "choose_two_split_n",
+      "edgeThreshold_add_deficiency",
+      "edgeThreshold_add_deficiency_n",
+      "maxEdges_add_deficiency_n",
+      "deficiency_eq_bipartite_edges",
+      "maxEdges_hamiltonian",
+      "deficiency_at_extremal"
+    ],
+    "imports": [
+      "Mathlib"
+    ]
+  },
+  {
+    "path": "proofs/Proofs/Erdos1012OQ01.lean",
+    "sha": "62afc215fd306aaf8b5d303dddc52c92fa41a614",
+    "lines": 312,
+    "axioms": [
+      "ore_theorem",
+      "bondy_theorem",
+      "woodall_theorem",
+      "woodall_lower_bound"
+    ],
+    "sorries": 0,
+    "theorems": [
+      "f_zero",
+      "f_one",
+      "f_ge_two",
+      "f_ge_two_alt",
+      "f_is_upper_bound",
+      "f_tight",
+      "f_mono",
+      "f_strict_mono",
+      "f_le_linear",
+      "f_pos",
+      "f_ge_three",
+      "cycle_length_at_boundary",
+      "threshold_symmetric",
+      "boundary_k0",
+      "boundary_k1",
+      "boundary_k2",
+      "boundary_k3",
+      "boundary_k4",
+      "complete_graph_edges",
+      "extremal_cycle_length",
+      "extremal_first_arg",
+      "threshold_at_extremal",
+      "threshold_diff",
+      "long_cycle_range",
+      "f_linear_growth",
+      "gap_at_k2",
+      "f_val_0",
+      "f_val_1",
+      "f_val_2",
+      "f_val_3",
+      "f_val_4",
+      "f_val_5",
+      "largest_jump",
+      "consecutive_diff",
+      "k0_threshold",
+      "k1_threshold",
+      "threshold_at_boundary_pos"
+    ],
+    "imports": [
+      "Mathlib.Combinatorics.SimpleGraph.Basic",
+      "Mathlib.Combinatorics.SimpleGraph.Connectivity.Subgraph",
+      "Mathlib.Data.Nat.Choose.Basic",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "path": "proofs/Proofs/Erdos1012OQ02.lean",
+    "sha": "d09e7ff9ad2acccb2904ca5fde735ee88825dcb2",
+    "lines": 391,
+    "axioms": [
+      "bondy_vertex_pancyclic",
+      "woodall_vertex_pancyclic"
+    ],
+    "sorries": 0,
+    "theorems": [
+      "vertexPancyclic_implies_pancyclic",
+      "hasCycleThroughVertex_implies_hasCycleOfLength",
+      "isPancyclicUpTo_mono",
+      "isVertexPancyclicUpTo_mono",
+      "isVertexPancyclicGraphUpTo_mono",
+      "every_vertex_on_long_cycle",
+      "every_vertex_on_triangle",
+      "vertex_pancyclic_implies_connected",
+      "threshold_exceeds_turan_for_small_k",
+      "threshold_k0_exceeds_turan",
+      "spectrum_contains_range",
+      "spectrum_size_lower_bound"
+    ],
+    "imports": [
+      "Mathlib.Combinatorics.SimpleGraph.Basic",
+      "Mathlib.Combinatorics.SimpleGraph.Connectivity.Subgraph",
+      "Mathlib.Combinatorics.SimpleGraph.Connectivity.WalkDecomp",
+      "Mathlib.Data.Nat.Choose.Basic",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "path": "proofs/Proofs/Erdos1012Problem.lean",
+    "sha": "8c20d2e97b1567ee001fc26deef8635ef9dbb7b5",
+    "lines": 350,
+    "axioms": [
+      "ore_theorem",
+      "bondy_theorem",
+      "woodall_pancyclic",
+      "threshold_tight"
+    ],
+    "sorries": 0,
+    "theorems": [
+      "choose_two_zero",
+      "choose_two_one",
+      "choose_two_two",
+      "choose_two_three",
+      "threshold_k0",
+      "threshold_k1",
+      "threshold_monotone_structure",
+      "threshold_k0_n3",
+      "threshold_k0_n4",
+      "threshold_k0_n5",
+      "woodall_theorem",
+      "ore_gives_hamiltonian",
+      "bondy_gives_near_hamiltonian",
+      "woodall_settles_all_k",
+      "woodall_bound_ge_3",
+      "woodall_k0",
+      "woodall_k1",
+      "ore_improves_woodall_k0",
+      "bondy_improves_woodall_k1",
+      "pancyclic_implies_long_cycle",
+      "erdos_1012_complete_solution",
+      "choose_two_formula",
+      "threshold_closed_form",
+      "cycle_length_ge_3",
+      "cycle_length_lower",
+      "threshold_pos",
+      "threshold_k0_ge_3",
+      "max_edges_formula",
+      "woodall_cycle_pos",
+      "threshold_main_term_dominates",
+      "threshold_lower_bound",
+      "threshold_first_term_mono",
+      "threshold_second_term_mono",
+      "threshold_symmetric_at_boundary",
+      "woodall_has_triangle"
+    ],
+    "imports": [
+      "Mathlib"
+    ]
+  },
+  {
+    "path": "proofs/Proofs/Erdos1012OQ02OQ01.lean",
+    "sha": "5f8fd35fdd618a372d8784c527f54796eb08845f",
+    "lines": 279,
+    "axioms": [],
+    "sorries": 1,
+    "theorems": [
+      "completeBipartite_no_triangle",
+      "completeBipartite_no_3cycle",
+      "completeBipartite_not_pancyclic",
+      "completeBipartite_not_vertexPancyclic",
+      "completeBipartite_realizes_bondy_exception",
+      "completeBipartite_degree_inl",
+      "completeBipartite_degree_inr",
+      "completeBipartite_card_edgeFinset",
+      "completeBipartite_balanced_card_edgeFinset"
+    ],
+    "imports": [
+      "Mathlib"
+    ]
+  },
+  {
+    "path": "proofs/Proofs/Erdos1012OQ01OQ02.lean",
+    "sha": "f671f8d9fc109a503e9ed5ae5d28928ad641ae00",
+    "lines": 632,
+    "axioms": [],
+    "sorries": 0,
+    "theorems": [
+      "choose_two_succ",
+      "two_mul_choose_two",
+      "edgeThreshold_eq",
+      "edgeThreshold_succ_left",
+      "edgeThreshold_lt_succ",
+      "edgeThreshold_mono",
+      "edgeThreshold_le_choose_two",
+      "edgeThreshold_add_surplus_eq_choose_two",
+      "edgeThreshold_lt_choose_two",
+      "edgeThreshold_succ_right",
+      "edgeThreshold_succ_right_le",
+      "edgeThreshold_le_succ_right",
+      "choose_two_diff_succ",
+      "edgeThreshold_boundary_step",
+      "threshold_diff_eq",
+      "two_mul_edgeThreshold",
+      "edgeThreshold_quadratic_lower",
+      "edgeThreshold_quadratic_sandwich",
+      "edgeThreshold_second_diff_left",
+      "edgeThreshold_second_diff_right",
+      "edgeThreshold_antitone_left",
+      "edgeThreshold_monotone_right",
+      "edgeThreshold_min_at",
+      "edgeThreshold_reflect",
+      "edgeThreshold_eq_of_sum",
+      "edgeThreshold_flat_at_turning",
+      "edgeThreshold_succ_right_lt",
+      "edgeThreshold_lt_succ_right_strict",
+      "edgeThreshold_antitone_left_strict",
+      "edgeThreshold_monotone_right_strict",
+      "edgeThreshold_min_at_unique_odd",
+      "edgeThreshold_min_pair_even_eq",
+      "edgeThreshold_min_at_succ_even",
+      "edgeThreshold_min_value",
+      "edgeThreshold_ge_turan"
+    ],
+    "imports": [
+      "Mathlib",
+      "Proofs.Erdos1012OQ01"
+    ]
+  }
+]
