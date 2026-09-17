@@ -1,0 +1,21 @@
+⚠ [8706/8708] Built JSP697 (22s)
+warning: JSP697.lean:225:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP697.lean:364:41: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP697.lean:517:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP697.lean:642:0: 'JSP697.delay_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP697.lean:643:0: 'JSP697.density_zero_of_nearly_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP697.lean:644:0: 'JSP697.erdos_841_full_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP697.lean:645:0: 'JSP697.erdos_841_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8707/8708] Built Proof (24s)
+info: Proof.lean:3:0: 'JSP697.erdos_841_full_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Proof.lean:4:0: 'JSP697.erdos_841_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8708 jobs).

@@ -1,0 +1,37 @@
+{
+  "scope": "Local package compilation; not official prize verification",
+  "command": "lake build",
+  "exit_code": 0,
+  "jobs": 8708,
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source_sha256": {
+    "JSP697.lean": "a6f0577c56d034690550a9adb9beefe83d7a43635e49b8de0dcd7f41b9a5e851",
+    "lakefile.lean": "240f41446675512eb4f3ec708294d4798b512f065d597da552641ed06104d48a",
+    "Proof.lean": "7ce5faa7b5c3d0e5a9488700423aa3a949dd70aab055cea51e3f65f03a86e01e"
+  },
+  "theorems": [
+    "JSP697.erdos_841_full_original",
+    "JSP697.erdos_841_limit"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependencies": "Pinned compiled Mathlib cache reused locally",
+  "repository_checks": {
+    "validate": "PASS",
+    "links": "PASS",
+    "build": "PASS",
+    "check": "PASS",
+    "history": "PASS",
+    "unit_tests": "19/22 PASS; same three pre-existing Windows path/history and symlink-privilege failures"
+  },
+  "presubmission_search": {
+    "utc": "2026-09-17T03:56:40.925997+00:00",
+    "official_records": 443,
+    "highest_number": 444,
+    "matches": []
+  }
+}
