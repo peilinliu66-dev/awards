@@ -1,0 +1,763 @@
+ℹ [8709/8780] Replayed EmptyPentagon.Hull
+info: EmptyPentagon/Hull.lean:202:0: 'Horton.coe_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:203:0: 'Horton.convexHull_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:204:0: 'Horton.convexIndependent_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:205:0: 'Horton.mem_interior_hullVertices_of_not_mem' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:206:0: 'Horton.three_le_card_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8711/8780] Replayed JSP198NicolasLocal
+warning: JSP198NicolasLocal.lean:729:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:730:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:731:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:891:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:892:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:893:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:1031:5: Variable name `hw` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hw
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8712/8780] Replayed JSP198NicolasGlobal
+warning: JSP198NicolasGlobal.lean:31:47: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [boundaryEdges, Finset.mem_filter]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:52:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:53:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hbc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:94:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:127:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hpos
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:453:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:465:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:471:18: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:580:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:608:5: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP198NicolasGlobal.lean:1315:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:1385:34: This simp argument is unused:
+  orient_refl_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orient_refl_left, le_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:1386:17: This simp argument is unused:
+  orient_refl_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orient_refl_right, le_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasGlobal.lean:1632:0: 'JSP198.Nicolas.boundaryPerm_reaches' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1633:0: 'JSP198.Nicolas.exists_boundary_fan' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1634:0: 'JSP198.Nicolas.boundary_fan_unique' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1635:0: 'JSP198.Nicolas.convex25_three_layers' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1636:0: 'JSP198.Nicolas.sectorEdge_fiber_card_le_two' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1637:0: 'JSP198.Nicolas.actual_layer_boundary_cycles' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8713/8780] Replayed JSP198NicolasMatching
+warning: JSP198NicolasMatching.lean:24:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:25:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hbc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:58:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:266:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:474:40: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:497:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:511:29: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasMatching.lean:635:0: 'JSP198.Nicolas.ear_exterior_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasMatching.lean:636:0: 'JSP198.Nicolas.nicolas_theorem3' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasMatching.lean:637:0: 'JSP198.Nicolas.actual_sector_match_exists' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8714/8780] Replayed JSP198NicolasSectorOrder
+info: JSP198NicolasSectorOrder.lean:192:0: 'JSP198.Nicolas.same_sector_pair_adjacent' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasSectorOrder.lean:193:0: 'JSP198.Nicolas.double_sector_empty_quad' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8715/8780] Replayed JSP198NicolasCoherentCover
+info: JSP198NicolasCoherentCover.lean:427:0: 'JSP198.Nicolas.coherent_strips_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCoherentCover.lean:428:0: 'JSP198.Nicolas.coherent_strips_card_le' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8716/8780] Replayed JSP198NicolasRadialCoherence
+info: JSP198NicolasRadialCoherence.lean:442:0: 'JSP198.Nicolas.hasEmptySix_of_all_right_matches' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasRadialCoherence.lean:443:0: 'JSP198.Nicolas.hasEmptySix_of_all_left_matches' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasRadialCoherence.lean:444:0: 'JSP198.Nicolas.right_matching_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasRadialCoherence.lean:445:0: 'JSP198.Nicolas.left_matching_cover' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8717/8780] Replayed JSP198NicolasSweptOrder
+info: JSP198NicolasSweptOrder.lean:251:0: 'JSP198.Nicolas.tight_layer_sizes_and_successors' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasSweptOrder.lean:252:0: 'JSP198.Nicolas.skipped_sector_join_positive' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8718/8780] Replayed JSP198NicolasCaseICCover
+info: JSP198NicolasCaseICCover.lean:163:0: 'JSP198.Nicolas.caseIC_tight_structure' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseICCover.lean:164:0: 'JSP198.Nicolas.caseIC_one_fan_cover' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8719/8780] Replayed JSP198NicolasCaseIRuns
+info: JSP198NicolasCaseIRuns.lean:295:0: 'JSP198.Nicolas.exists_actual_caseI_run' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIRuns.lean:296:0: 'JSP198.Nicolas.actual_four_layer_case_split' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIRuns.lean:297:0: 'JSP198.Nicolas.ActualCaseIRun.tight_structure_of_full' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8720/8780] Replayed JSP198NicolasCaseIBSupport
+warning: JSP198NicolasCaseIBSupport.lean:215:78: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [y, orient, Prod.fst_sub, Prod.snd_sub, Prod.smul_fst, Prod.smul_snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasCaseIBSupport.lean:335:0: 'JSP198.Nicolas.ib_sector_bridge_vertex' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIBSupport.lean:336:0: 'JSP198.Nicolas.ib_insert_single_visible_edge_convex' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8721/8780] Replayed JSP198NicolasOnePointGlue
+warning: JSP198NicolasOnePointGlue.lean:91:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:102:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:110:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:127:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:265:75: This simp argument is unused:
+  or_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [or_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasOnePointGlue.lean:275:0: 'JSP198.Nicolas.channel_point_in_fan' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasOnePointGlue.lean:276:0: 'JSP198.Nicolas.empty_six_of_quad_triangle_channel' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasOnePointGlue.lean:277:0: 'JSP198.Nicolas.hasEmptySix_of_one_point_double_sector' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8723/8780] Replayed JSP198NicolasCaseIC
+warning: JSP198NicolasCaseIC.lean:175:34: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg htl, hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasCaseIC.lean:242:36: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg htl, hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasCaseIC.lean:265:30: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg htl, hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasCaseIC.lean:409:0: 'JSP198.Nicolas.hasEmptySix_of_full_caseI_run' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIC.lean:410:0: 'JSP198.Nicolas.caseI_reduction_to_A_or_B' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8724/8780] Replayed JSP198NicolasCaseIB
+warning: JSP198NicolasCaseIB.lean:284:39: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg hsl.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasCaseIB.lean:337:41: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg hsl.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasCaseIB.lean:549:0: 'JSP198.Nicolas.hasEmptySix_of_caseIB_run' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIB.lean:550:0: 'JSP198.Nicolas.hasEmptySix_of_caseIB_singleton_fibers' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8725/8780] Replayed JSP198NicolasCaseIIBridge
+warning: JSP198NicolasCaseIIBridge.lean:108:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: JSP198NicolasCaseIIBridge.lean:249:0: 'JSP198.Nicolas.CaseII.bridgeVertex_join' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIIBridge.lean:250:0: 'JSP198.Nicolas.CaseII.bridge_fan_card_le_two' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIIBridge.lean:251:0: 'JSP198.Nicolas.CaseII.double_sector_channel_eq_empty' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8726/8780] Replayed JSP198NicolasCaseIISelection
+info: JSP198NicolasCaseIISelection.lean:315:0: 'JSP198.Nicolas.CaseII.exists_matchMask' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIISelection.lean:316:0: 'JSP198.Nicolas.CaseII.transition_balance' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8727/8780] Replayed JSP198NicolasCaseII
+info: JSP198NicolasCaseII.lean:272:0: 'JSP198.Nicolas.CaseII.mask_covers_outer' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:273:0: 'JSP198.Nicolas.CaseII.mask_outer_card_le_second' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:274:0: 'JSP198.Nicolas.CaseII.emptySix_or_separated_caseI' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:275:0: 'JSP198.Nicolas.hasEmptySix_of_caseII' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:277:0: 'JSP198.Nicolas.emptySix_or_actual_singleton_run' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8728/8780] Replayed JSP198NicolasCaseIArc
+info: JSP198NicolasCaseIArc.lean:491:0: 'JSP198.Nicolas.arcKey_lt_of_clockwise_no_cut' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIArc.lean:492:0: 'JSP198.Nicolas.arcKey_start_lt_of_fan' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIArc.lean:493:0: 'JSP198.Nicolas.arc_run_avoids_cut' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIArc.lean:494:0: 'JSP198.Nicolas.arc_run_start_keys_strictMono' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIArc.lean:495:0: 'JSP198.Nicolas.arc_last_end_ne_first_start' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIArc.lean:496:0: 'JSP198.Nicolas.exists_actual_caseIArc' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8729/8780] Replayed JSP198NicolasCaseISampled
+info: JSP198NicolasCaseISampled.lean:128:0: 'JSP198.Nicolas.caseISampledReplacement_card' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseISampled.lean:129:0: 'JSP198.Nicolas.caseISampledReplacement_subset_inner' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8730/8780] Replayed JSP198NicolasPartialCoverOrder
+info: JSP198NicolasPartialCoverOrder.lean:149:0: 'JSP198.Nicolas.PartialCover.partial_cover_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8731/8780] Replayed JSP198NicolasPartialCover
+info: JSP198NicolasPartialCover.lean:532:0: 'JSP198.Nicolas.PartialCover.rankJoin_of_actual_edges' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasPartialCover.lean:533:0: 'JSP198.Nicolas.PartialCover.actual_run_cap_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasPartialCover.lean:534:0: 'JSP198.Nicolas.PartialCover.actual_run_cap_card_le' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasPartialCover.lean:536:0: 'JSP198.Nicolas.PartialCover.actual_run_cap_card_le_of_singleton_fibers' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+ℹ [8732/8780] Replayed JSP198NicolasPartialCoverAdapter
+info: JSP198NicolasPartialCoverAdapter.lean:33:0: 'JSP198.Nicolas.PartialCover.separated_run_cap_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasPartialCoverAdapter.lean:34:0: 'JSP198.Nicolas.PartialCover.separated_run_cap_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8733/8780] Replayed JSP198NicolasCaseICapacity
+info: JSP198NicolasCaseICapacity.lean:73:0: 'JSP198.Nicolas.caseIRightChannelUnion_card_le' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseICapacity.lean:74:0: 'JSP198.Nicolas.caseILocalCoverSet_card_le' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8734/8780] Replayed JSP198FiniteRamsey
+info: JSP198FiniteRamsey.lean:381:0: 'JSP198.FiniteRamsey.bool_pigeonhole_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:382:0: 'JSP198.FiniteRamsey.pair_homogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:383:0: 'JSP198.FiniteRamsey.triple_homogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:384:0: 'JSP198.finite_ramsey_triples_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:385:0: 'JSP198.finite_ramsey_triples_ordered_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8735/8780] Replayed ESConvex
+warning: ESConvex.lean:54:27: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.lt_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ESConvex.lean:71:27: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.lt_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ESConvex.lean:153:0: 'Horton.convexIndependent_of_esPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ESConvex.lean:154:0: 'Horton.convexIndependent_of_esNegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8736/8780] Replayed ESSelection
+info: ESSelection.lean:68:0: 'Horton.exists_convex25_of_orderedTripleRamsey' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8737/8780] Replayed ES25
+info: ES25.lean:38:0: 'Horton.exists_convex25_at_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ES25.lean:39:0: 'Horton.erdos_szekeres_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8738/8780] Replayed HexagonNormalization
+info: HexagonNormalization.lean:45:0: 'JSP198.Nicolas.minimal25_setup_at_es_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HexagonNormalization.lean:46:0: 'JSP198.Nicolas.hexagon_free_minimal25_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8743/8780] Replayed ModelBridge
+info: ModelBridge.lean:64:0: 'JSP198.ModelBridge.generalPosition_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ModelBridge.lean:65:0: 'JSP198.ModelBridge.emptyConvexPolygon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ModelBridge.lean:66:0: 'JSP198.ModelBridge.hasEmptyKGon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ModelBridge.lean:67:0: 'JSP198.ModelBridge.forcesEmptyKGon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8750/8780] Replayed Prize.Horton
+info: Prize/Horton.lean:106:0: 'Prize.Horton.horton_no_empty_k_gon' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Prize/Horton.lean:107:0: 'Prize.Horton.no_finite_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8751/8780] Replayed HortonBranch
+info: HortonBranch.lean:34:0: 'JSP198.horton_counterexamples' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HortonBranch.lean:35:0: 'JSP198.no_horton_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8752/8780] Replayed JSP198NicolasCaseIScopeBridge
+info: JSP198NicolasCaseIScopeBridge.lean:168:0: 'JSP198.Nicolas.CaseII.SeparatedRun.sectorEdge_injective_of_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:169:0: 'JSP198.Nicolas.CaseII.SeparatedRun.adjacentSectorsDistinct_of_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:170:0: 'JSP198.Nicolas.hasEmptySix_of_full_separated_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:171:0: 'JSP198.Nicolas.CaseII.SeparatedRun.length_add_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:172:0: 'JSP198.Nicolas.CaseII.SeparatedRun.short_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:173:0: 'JSP198.Nicolas.exists_short_separated_run_of_no_emptySix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:174:0: 'JSP198.Nicolas.emptySix_or_short_separated_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:175:0: 'JSP198.Nicolas.emptySix_or_short_actual_singleton_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8766/8801] Built JSP198NicolasSampledCapAssembly (25s)
+info: JSP198NicolasSampledCapAssembly.lean:297:0: 'JSP198.Nicolas.SampledCapAssembly.sampled_replacement_card_lt_deletionCap' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+info: JSP198NicolasSampledCapAssembly.lean:298:0: 'JSP198.Nicolas.SampledCapAssembly.deletionCap_card_ge_length_add_five' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasSampledCapAssembly.lean:299:0: 'JSP198.Nicolas.SampledCapAssembly.hasEmptySix_of_caseIA_sampled_point_support' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+info: JSP198NicolasSampledCapAssembly.lean:300:0: 'JSP198.Nicolas.SampledCapAssembly.hasEmptySix_of_caseIA_sampled_edge_support' depends on axioms: [propext,
+ choice,
+ Quot.sound]
+⚠ [8781/8801] Replayed EmptyPentagon.Second
+warning: EmptyPentagon/Second.lean:459:5: Variable name `hinj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hinj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [8787/8801] Replayed EmptyPentagon.SmallHoles
+info: EmptyPentagon/SmallHoles.lean:42:0: 'Horton.forces_empty_triangle_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EmptyPentagon/SmallHoles.lean:43:0: 'Horton.forces_empty_quadrilateral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EmptyPentagon/SmallHoles.lean:44:0: 'Horton.forces_empty_pentagon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8788/8801] Replayed FinalAssemblyAdapter
+warning: FinalAssemblyAdapter.lean:27:50: Variable name `hmin` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmin
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: FinalAssemblyAdapter.lean:149:0: 'JSP198.FinalAssembly.original_small_exact' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:150:0: 'JSP198.FinalAssembly.original_large_counterexamples' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:151:0: 'JSP198.FinalAssembly.four_layer_finish_conditional' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:152:0: 'JSP198.FinalAssembly.original_six_threshold_conditional' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:153:0: 'JSP198.FinalAssembly.finite_threshold_iff_conditional' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:154:0: 'JSP198.FinalAssembly.erdos216_classification_conditional' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8789/8801] Replayed Proof
+info: Proof.lean:4:0: 'JSP198.FinalAssembly.erdos216_classification_conditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8790/8801] Built JSP198NicolasCaseIASupport (26s)
+info: JSP198NicolasCaseIASupport.lean:102:0: 'JSP198.Nicolas.invisible_visible_transition_support' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIASupport.lean:103:0: 'JSP198.Nicolas.invisible_visible_transition_unique' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIASupport.lean:104:0: 'JSP198.Nicolas.ia_cycle_triple_neg' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8791/8801] Built JSP198NicolasCaseIAChordCertificate (27s)
+info: JSP198NicolasCaseIAChordCertificate.lean:179:0: 'JSP198.Nicolas.ia_nine_point_chord_support_certificate' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8792/8801] Built JSP198NicolasCaseIANinePoint (29s)
+info: JSP198NicolasCaseIANinePoint.lean:314:0: 'JSP198.Nicolas.ia_nine_point_end_support_certificate' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8793/8801] Built JSP198NicolasCaseIAPropagation (24s)
+info: JSP198NicolasCaseIAPropagation.lean:84:0: 'JSP198.Nicolas.ia_arc_support_propagation_certificate' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8794/8801] Built JSP198NicolasCaseIABCertificates (38s)
+warning: JSP198NicolasCaseIABCertificates.lean:975:52: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: JSP198NicolasCaseIABCertificates.lean:2495:0: 'JSP198.Nicolas.ia_nine_point_bfirst_certificate' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIABCertificates.lean:2496:0: 'JSP198.Nicolas.ia_nine_point_bchord_certificate' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8795/8801] Built JSP198NicolasCaseIAJoinCertificates (27s)
+info: JSP198NicolasCaseIAJoinCertificates.lean:512:0: 'JSP198.Nicolas.ia_nine_point_entryB_certificate' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIAJoinCertificates.lean:513:0: 'JSP198.Nicolas.ia_nine_point_exitA_certificate' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8796/8801] Built JSP198NicolasCaseIAEndpoint (25s)
+warning: JSP198NicolasCaseIAEndpoint.lean:90:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:90:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:93:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:93:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:120:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:120:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:124:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:124:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:126:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:126:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:134:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:134:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:138:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:138:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:142:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpoint.lean:142:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP198NicolasCaseIAEndpoint.lean:172:0: 'JSP198.Nicolas.caseIA_first_outer_supports_last_edge' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8797/8801] Built JSP198NicolasCaseIAEndpointsB (25s)
+warning: JSP198NicolasCaseIAEndpointsB.lean:89:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:89:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:92:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:92:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:119:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:119:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:123:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:123:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:125:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:125:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:133:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:133:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:137:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:137:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:148:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:148:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:152:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:152:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:368:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:368:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:371:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:371:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:398:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:398:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:402:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:402:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:404:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:404:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:412:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:412:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:416:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:416:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:427:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:427:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:431:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAEndpointsB.lean:431:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP198NicolasCaseIAEndpointsB.lean:553:0: 'JSP198.Nicolas.caseIA_last_outer_supports_first_edge' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIAEndpointsB.lean:554:0: 'JSP198.Nicolas.caseIA_last_outer_supports_arc_chord' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8798/8801] Built JSP198NicolasCaseIAOuterJoin (23s)
+warning: JSP198NicolasCaseIAOuterJoin.lean:94:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:94:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:97:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:97:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:124:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:124:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:128:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:128:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:130:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:130:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:138:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAOuterJoin.lean:138:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP198NicolasCaseIAOuterJoin.lean:250:0: 'JSP198.Nicolas.caseIA_outer_join_support' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8799/8801] Built JSP198NicolasCaseIAChord (24s)
+warning: JSP198NicolasCaseIAChord.lean:91:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:91:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:94:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:94:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:121:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:121:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:125:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:125:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:127:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:127:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:135:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:135:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:139:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:139:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:143:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:143:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:147:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:147:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:151:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAChord.lean:151:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP198NicolasCaseIAChord.lean:180:0: 'JSP198.Nicolas.caseIA_first_outer_supports_arc_chord' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8800/8801] Built JSP198NicolasCaseIAArcSupport (22s)
+warning: JSP198NicolasCaseIAArcSupport.lean:70:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:70:45: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:73:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:73:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:76:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:76:45: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:79:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: JSP198NicolasCaseIAArcSupport.lean:79:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: JSP198NicolasCaseIAArcSupport.lean:126:0: 'JSP198.Nicolas.caseI_selected_chord_supported' depends on axioms: [propext, choice, Quot.sound]
+Build completed successfully (8801 jobs).

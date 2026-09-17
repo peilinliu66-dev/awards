@@ -1,0 +1,20 @@
+{
+  "state": "FULL_ORIGINAL_CLASSIFICATION_PASS_STANDARD_THREE_AXIOMS",
+  "completed_utc": "2026-09-17T13:15:53.758256+00:00",
+  "elapsed_seconds": 119.566,
+  "build_exit_code": 0,
+  "axioms_exit_code": 0,
+  "jobs": 8804,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "endpoints": [
+    "JSP198.FinalAssembly.erdos216_classification",
+    "JSP198.FinalAssembly.original_six_threshold",
+    "JSP198.FinalAssembly.finite_threshold_iff"
+  ],
+  "lean": "4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+}

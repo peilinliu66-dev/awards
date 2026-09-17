@@ -1,0 +1,21 @@
+{
+  "state": "ARC_SAMPLE_AND_CAPACITY_COUNTS_PASS_CASE_IA_SUPPORT_AND_COVER_STILL_UNPROVED",
+  "completed_utc": "2026-09-17T12:28:11.640823+00:00",
+  "elapsed_seconds": 39.544,
+  "command": "lake build",
+  "exit_code": 0,
+  "modules": [
+    {
+      "module": "JSP198NicolasCaseIArc",
+      "sha256": "9eb0a7ff55584b49e5ce4002e06e15700b549738421192fa53a12cd87d6fae67"
+    },
+    {
+      "module": "JSP198NicolasCaseISampled",
+      "sha256": "554da7298fb03cb1f69e89b956bd278132a6b119e4a87a02e8dbb4380bb8b64e"
+    },
+    {
+      "module": "JSP198NicolasCaseICapacity",
+      "sha256": "3b28c21a0cdbaff2623ccaf19e69983e75cae0d3ae4baf7616c268c24f63d9ac"
+    }
+  ]
+}

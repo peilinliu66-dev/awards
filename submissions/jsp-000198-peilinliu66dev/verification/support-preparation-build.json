@@ -1,0 +1,57 @@
+{
+  "state": "SUPPORT_DEPENDENCIES_AND_CONDITIONAL_CAP_ASSEMBLY_PASS_FINAL_SAMPLED_SUPPORT_PENDING",
+  "completed_utc": "2026-09-17T13:10:09.071278+00:00",
+  "elapsed_seconds": 191.848,
+  "command": "lake build",
+  "exit_code": 0,
+  "modules": [
+    {
+      "module": "JSP198NicolasCaseIASupport",
+      "sha256": "6b387aa61b15be75f62bb885a3a41949e5117d41046530200a39358cbd4f7544"
+    },
+    {
+      "module": "JSP198NicolasCaseIANinePoint",
+      "sha256": "76fab177499727d9e202659e73c8e643bca1401f5082a994640ed491c80b484b"
+    },
+    {
+      "module": "JSP198NicolasCaseIAEndpoint",
+      "sha256": "974e9bc73d78f141aee386750054fb467dce47714f4e8d9aae1d1967dcefed98"
+    },
+    {
+      "module": "JSP198NicolasCaseIAChordCertificate",
+      "sha256": "1bb5fd07665fd6d16709cd1d125154b39c7039229747ecfaee95d9d7c3a76e97"
+    },
+    {
+      "module": "JSP198NicolasCaseIAChord",
+      "sha256": "fa74189ea6be4016fb43e4b9d260233862330e5dc29d327351027a7c3e304174"
+    },
+    {
+      "module": "JSP198NicolasCaseIAPropagation",
+      "sha256": "710a931ca4f95d8f3fd6ecca1f9a5ae7b5f6e3ec2d31e144ceb9a5d3c408758a"
+    },
+    {
+      "module": "JSP198NicolasCaseIAArcSupport",
+      "sha256": "d0df3a45da02a1abb5197ce29fdbc1ac17198c7746b3fbf18a8f760b982bead7"
+    },
+    {
+      "module": "JSP198NicolasCaseIABCertificates",
+      "sha256": "2bcabad0771e8fc6c16fb691dffc077dd76584cfe605fabe926372f6b42cba9b"
+    },
+    {
+      "module": "JSP198NicolasCaseIAEndpointsB",
+      "sha256": "0fac0e576034b3481240c6ebc93df381e44192fc28872cde6f6c50af4ae617b2"
+    },
+    {
+      "module": "JSP198NicolasCaseIAJoinCertificates",
+      "sha256": "29cad0bf328d65c511ebe3431fc96f302f2ad44b2f24d78e27c0f53c00e53b66"
+    },
+    {
+      "module": "JSP198NicolasCaseIAOuterJoin",
+      "sha256": "f00de14a4c2c7af91dda3bdf12e6b428ad70d3a480bfd7e8ec9bd3bd5eabf3c6"
+    },
+    {
+      "module": "JSP198NicolasSampledCapAssembly",
+      "sha256": "59863bbf7def8fae0864441390919235422623d90a12709c0c56f2b1ebece508"
+    }
+  ]
+}

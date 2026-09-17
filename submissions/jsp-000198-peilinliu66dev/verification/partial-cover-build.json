@@ -1,0 +1,30 @@
+{
+  "state": "ACTUAL_PARTIAL_CAP_COVER_PASS_CASE_IA_SAMPLED_SUPPORT_STILL_UNPROVED",
+  "completed_utc": "2026-09-17T13:01:20.776445+00:00",
+  "elapsed_seconds": 56.556,
+  "command": "lake build",
+  "exit_code": 0,
+  "modules": [
+    {
+      "module": "JSP198NicolasPartialCoverOrder",
+      "sha256": "f9ff4e88ed0d525f53fddcb780b0f4191b0f65c443d494c82e245bd1730cd8d2"
+    },
+    {
+      "module": "JSP198NicolasPartialCover",
+      "sha256": "def88c6dd2ec871fb0f475af83ac099a97cd63425576e4df51e516befc42515c"
+    },
+    {
+      "module": "JSP198NicolasPartialCoverAdapter",
+      "sha256": "f576864008196a34453b70869c2a2e7d101c894733736bc39144f74675b04968"
+    }
+  ],
+  "local_logs": [
+    "partial_cover_order_v2.log",
+    "partial_cover_v2.log",
+    "partial_cover_adapter_v1.log"
+  ],
+  "repairs": [
+    "Two omega proof terms replaced by direct min/max inequalities",
+    "One let-bound run function unfolded in the cardinality wrapper"
+  ]
+}

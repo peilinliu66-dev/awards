@@ -1,0 +1,2 @@
+# Preserve the exact verified source bytes recorded in source-manifest.json.
+*.lean -text whitespace=cr-at-eol

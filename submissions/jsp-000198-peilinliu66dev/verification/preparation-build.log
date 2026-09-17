@@ -1,0 +1,460 @@
+ℹ [8705/8717] Replayed JSP198FiniteRamsey
+info: JSP198FiniteRamsey.lean:381:0: 'JSP198.FiniteRamsey.bool_pigeonhole_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:382:0: 'JSP198.FiniteRamsey.pair_homogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:383:0: 'JSP198.FiniteRamsey.triple_homogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:384:0: 'JSP198.finite_ramsey_triples_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198FiniteRamsey.lean:385:0: 'JSP198.finite_ramsey_triples_ordered_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8707/8717] Built EmptyPentagon.Comparators (26s)
+✔ [8708/8717] Built EmptyPentagon.TriangleInterior (26s)
+✔ [8709/8717] Built EmptyPentagon.Interp (24s)
+⚠ [8710/8717] Built ESConvex (23s)
+warning: ESConvex.lean:54:27: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.lt_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ESConvex.lean:71:27: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.lt_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ESConvex.lean:153:0: 'Horton.convexIndependent_of_esPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ESConvex.lean:154:0: 'Horton.convexIndependent_of_esNegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8711/8718] Built EmptyPentagon.Hull (24s)
+info: EmptyPentagon/Hull.lean:202:0: 'Horton.coe_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:203:0: 'Horton.convexHull_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:204:0: 'Horton.convexIndependent_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:205:0: 'Horton.mem_interior_hullVertices_of_not_mem' depends on axioms: [propext, choice, Quot.sound]
+info: EmptyPentagon/Hull.lean:206:0: 'Horton.three_le_card_hullVertices' depends on axioms: [propext, choice, Quot.sound]
+✔ [8712/8720] Built EmptyPentagon.Certificate (26s)
+ℹ [8713/8720] Built ESSelection (23s)
+info: ESSelection.lean:68:0: 'Horton.exists_convex25_of_orderedTripleRamsey' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8714/8722] Built EmptyPentagon.Forces (23s)
+✔ [8715/8722] Built EmptyPentagon.HullVertex (24s)
+⚠ [8716/8722] Built JSP198NicolasLocal (31s)
+warning: JSP198NicolasLocal.lean:729:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:730:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:731:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:891:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:892:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:893:54: This simp argument is unused:
+  Q
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasLocal.lean:1031:5: Variable name `hw` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hw
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [8718/8722] Built ES25 (23s)
+info: ES25.lean:38:0: 'Horton.exists_convex25_at_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ES25.lean:39:0: 'Horton.erdos_szekeres_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8719/8724] Built EmptyPentagon.Monotone (22s)
+ℹ [8720/8725] Built HexagonNormalization (23s)
+info: HexagonNormalization.lean:45:0: 'JSP198.Nicolas.minimal25_setup_at_es_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HexagonNormalization.lean:46:0: 'JSP198.Nicolas.hexagon_free_minimal25_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8722/8747] Built ModelBridge (23s)
+info: ModelBridge.lean:64:0: 'JSP198.ModelBridge.generalPosition_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ModelBridge.lean:65:0: 'JSP198.ModelBridge.emptyConvexPolygon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ModelBridge.lean:66:0: 'JSP198.ModelBridge.hasEmptyKGon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ModelBridge.lean:67:0: 'JSP198.ModelBridge.forcesEmptyKGon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8724/8747] Built Prize.Horton.GeneralPosition (12s)
+✔ [8725/8747] Built Prize.Horton.Visibility (18s)
+✔ [8726/8748] Built Prize.Horton.Indices (12s)
+✔ [8727/8749] Built Prize.Horton.NoEmptySeven (13s)
+⚠ [8728/8749] Built JSP198NicolasGlobal (26s)
+warning: JSP198NicolasGlobal.lean:31:47: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [boundaryEdges, Finset.mem_filter]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:52:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:53:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hbc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:94:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:127:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hpos
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:453:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:465:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:471:18: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:580:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:608:5: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: JSP198NicolasGlobal.lean:1315:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: JSP198NicolasGlobal.lean:1385:34: This simp argument is unused:
+  orient_refl_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orient_refl_left, le_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasGlobal.lean:1386:17: This simp argument is unused:
+  orient_refl_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orient_refl_right, le_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasGlobal.lean:1632:0: 'JSP198.Nicolas.boundaryPerm_reaches' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1633:0: 'JSP198.Nicolas.exists_boundary_fan' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1634:0: 'JSP198.Nicolas.boundary_fan_unique' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1635:0: 'JSP198.Nicolas.convex25_three_layers' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1636:0: 'JSP198.Nicolas.sectorEdge_fiber_card_le_two' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasGlobal.lean:1637:0: 'JSP198.Nicolas.actual_layer_boundary_cycles' depends on axioms: [propext, choice, Quot.sound]
+✔ [8729/8750] Built EmptyPentagon.Parabola (22s)
+ℹ [8730/8750] Built Prize.Horton (12s)
+info: Prize/Horton.lean:106:0: 'Prize.Horton.horton_no_empty_k_gon' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Prize/Horton.lean:107:0: 'Prize.Horton.no_finite_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8731/8750] Built EmptyPentagon.Triangle (26s)
+⚠ [8732/8750] Built JSP198NicolasOnePointGlue (30s)
+warning: JSP198NicolasOnePointGlue.lean:91:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:102:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:110:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:127:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasOnePointGlue.lean:265:75: This simp argument is unused:
+  or_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [or_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasOnePointGlue.lean:275:0: 'JSP198.Nicolas.channel_point_in_fan' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasOnePointGlue.lean:276:0: 'JSP198.Nicolas.empty_six_of_quad_triangle_channel' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasOnePointGlue.lean:277:0: 'JSP198.Nicolas.hasEmptySix_of_one_point_double_sector' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8733/8751] Built JSP198NicolasMatching (25s)
+warning: JSP198NicolasMatching.lean:24:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:25:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hbc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:58:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at hab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:266:51: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:474:40: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:497:20: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasMatching.lean:511:29: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasMatching.lean:635:0: 'JSP198.Nicolas.ear_exterior_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasMatching.lean:636:0: 'JSP198.Nicolas.nicolas_theorem3' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasMatching.lean:637:0: 'JSP198.Nicolas.actual_sector_match_exists' depends on axioms: [propext, choice, Quot.sound]
+✔ [8734/8753] Built EmptyPentagon.FourWitness (23s)
+ℹ [8735/8753] Built HortonBranch (23s)
+info: HortonBranch.lean:34:0: 'JSP198.horton_counterexamples' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HortonBranch.lean:35:0: 'JSP198.no_horton_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8736/8754] Built JSP198NicolasSectorOrder (23s)
+info: JSP198NicolasSectorOrder.lean:192:0: 'JSP198.Nicolas.same_sector_pair_adjacent' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasSectorOrder.lean:193:0: 'JSP198.Nicolas.double_sector_empty_quad' depends on axioms: [propext, choice, Quot.sound]
+✔ [8738/8754] Built EmptyPentagon.Identities (23s)
+ℹ [8739/8754] Built JSP198NicolasCoherentCover (24s)
+info: JSP198NicolasCoherentCover.lean:427:0: 'JSP198.Nicolas.coherent_strips_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCoherentCover.lean:428:0: 'JSP198.Nicolas.coherent_strips_card_le' depends on axioms: [propext, choice, Quot.sound]
+✔ [8740/8754] Built EmptyPentagon.Quadrilateral (31s)
+✔ [8741/8755] Built EmptyPentagon.NineWitness (40s)
+ℹ [8742/8757] Built JSP198NicolasRadialCoherence (24s)
+info: JSP198NicolasRadialCoherence.lean:442:0: 'JSP198.Nicolas.hasEmptySix_of_all_right_matches' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasRadialCoherence.lean:443:0: 'JSP198.Nicolas.hasEmptySix_of_all_left_matches' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasRadialCoherence.lean:444:0: 'JSP198.Nicolas.right_matching_cover' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasRadialCoherence.lean:445:0: 'JSP198.Nicolas.left_matching_cover' depends on axioms: [propext, choice, Quot.sound]
+✔ [8743/8757] Built EmptyPentagon.ExtremeHull (24s)
+ℹ [8744/8757] Built JSP198NicolasSweptOrder (24s)
+info: JSP198NicolasSweptOrder.lean:251:0: 'JSP198.Nicolas.tight_layer_sizes_and_successors' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasSweptOrder.lean:252:0: 'JSP198.Nicolas.skipped_sector_join_positive' depends on axioms: [propext, choice, Quot.sound]
+✔ [8745/8758] Built EmptyPentagon.CyclicLabel (26s)
+⚠ [8746/8760] Built JSP198NicolasCaseIIBridge (24s)
+warning: JSP198NicolasCaseIIBridge.lean:108:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: JSP198NicolasCaseIIBridge.lean:249:0: 'JSP198.Nicolas.CaseII.bridgeVertex_join' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIIBridge.lean:250:0: 'JSP198.Nicolas.CaseII.bridge_fan_card_le_two' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIIBridge.lean:251:0: 'JSP198.Nicolas.CaseII.double_sector_channel_eq_empty' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8747/8760] Built JSP198NicolasCaseICCover (23s)
+info: JSP198NicolasCaseICCover.lean:163:0: 'JSP198.Nicolas.caseIC_tight_structure' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseICCover.lean:164:0: 'JSP198.Nicolas.caseIC_one_fan_cover' depends on axioms: [propext, choice, Quot.sound]
+✔ [8748/8762] Built EmptyPentagon.Label4 (27s)
+✔ [8749/8762] Built EmptyPentagon.Signs (27s)
+✔ [8750/8762] Built EmptyPentagon.Pentagon (23s)
+ℹ [8751/8762] Built JSP198NicolasCaseIRuns (23s)
+info: JSP198NicolasCaseIRuns.lean:295:0: 'JSP198.Nicolas.exists_actual_caseI_run' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIRuns.lean:296:0: 'JSP198.Nicolas.actual_four_layer_case_split' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIRuns.lean:297:0: 'JSP198.Nicolas.ActualCaseIRun.tight_structure_of_full' depends on axioms: [propext, choice, Quot.sound]
+✔ [8752/8764] Built EmptyPentagon.Chord (24s)
+⚠ [8753/8764] Built JSP198NicolasCaseIBSupport (40s)
+warning: JSP198NicolasCaseIBSupport.lean:215:78: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [y, orient, Prod.fst_sub, Prod.snd_sub, Prod.smul_fst, Prod.smul_snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasCaseIBSupport.lean:335:0: 'JSP198.Nicolas.ib_sector_bridge_vertex' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIBSupport.lean:336:0: 'JSP198.Nicolas.ib_insert_single_visible_edge_convex' depends on axioms: [propext, choice, Quot.sound]
+✔ [8754/8764] Built JSP198NicolasCaseICGeometry (28s)
+✔ [8755/8765] Built EmptyPentagon.Beam (102s)
+ℹ [8756/8768] Built JSP198NicolasCaseIISelection (23s)
+info: JSP198NicolasCaseIISelection.lean:315:0: 'JSP198.Nicolas.CaseII.exists_matchMask' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIISelection.lean:316:0: 'JSP198.Nicolas.CaseII.transition_balance' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8757/8768] Built JSP198NicolasCaseIC (26s)
+warning: JSP198NicolasCaseIC.lean:175:34: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg htl, hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasCaseIC.lean:242:36: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg htl, hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasCaseIC.lean:265:30: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg htl, hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasCaseIC.lean:409:0: 'JSP198.Nicolas.hasEmptySix_of_full_caseI_run' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIC.lean:410:0: 'JSP198.Nicolas.caseI_reduction_to_A_or_B' depends on axioms: [propext, choice, Quot.sound]
+✔ [8758/8768] Built EmptyPentagon.Cover332 (29s)
+✔ [8759/8769] Built EmptyPentagon.FourOuter (23s)
+✔ [8760/8769] Built EmptyPentagon.Quad (29s)
+ℹ [8761/8769] Built JSP198NicolasCaseII (23s)
+info: JSP198NicolasCaseII.lean:272:0: 'JSP198.Nicolas.CaseII.mask_covers_outer' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:273:0: 'JSP198.Nicolas.CaseII.mask_outer_card_le_second' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:274:0: 'JSP198.Nicolas.CaseII.emptySix_or_separated_caseI' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:275:0: 'JSP198.Nicolas.hasEmptySix_of_caseII' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseII.lean:277:0: 'JSP198.Nicolas.emptySix_or_actual_singleton_run' depends on axioms: [propext, choice, Quot.sound]
+⚠ [8762/8769] Built JSP198NicolasCaseIB (24s)
+warning: JSP198NicolasCaseIB.lean:284:39: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg hsl.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: JSP198NicolasCaseIB.lean:337:41: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [c, d, if_neg hsl.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: JSP198NicolasCaseIB.lean:549:0: 'JSP198.Nicolas.hasEmptySix_of_caseIB_run' depends on axioms: [propext, choice, Quot.sound]
+info: JSP198NicolasCaseIB.lean:550:0: 'JSP198.Nicolas.hasEmptySix_of_caseIB_singleton_fibers' depends on axioms: [propext, choice, Quot.sound]
+✔ [8763/8769] Built EmptyPentagon.Case332 (26s)
+✔ [8764/8770] Built EmptyPentagon.Descent (24s)
+ℹ [8765/8771] Built JSP198NicolasCaseIScopeBridge (22s)
+info: JSP198NicolasCaseIScopeBridge.lean:168:0: 'JSP198.Nicolas.CaseII.SeparatedRun.sectorEdge_injective_of_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:169:0: 'JSP198.Nicolas.CaseII.SeparatedRun.adjacentSectorsDistinct_of_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:170:0: 'JSP198.Nicolas.hasEmptySix_of_full_separated_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:171:0: 'JSP198.Nicolas.CaseII.SeparatedRun.length_add_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:172:0: 'JSP198.Nicolas.CaseII.SeparatedRun.short_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:173:0: 'JSP198.Nicolas.exists_short_separated_run_of_no_emptySix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:174:0: 'JSP198.Nicolas.emptySix_or_short_separated_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP198NicolasCaseIScopeBridge.lean:175:0: 'JSP198.Nicolas.emptySix_or_short_actual_singleton_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8766/8772] Built EmptyPentagon.Cover342 (44s)
+✔ [8767/8772] Built EmptyPentagon.Ear (26s)
+✔ [8768/8773] Built EmptyPentagon.Wedge (24s)
+✔ [8769/8774] Built EmptyPentagon.Case342 (36s)
+✔ [8770/8774] Built EmptyPentagon.Front (36s)
+✔ [8771/8774] Built EmptyPentagon.ES5 (29s)
+✔ [8773/8783] Built EmptyPentagon.Front2 (37s)
+⚠ [8774/8783] Built EmptyPentagon.Second (27s)
+warning: EmptyPentagon/Second.lean:459:5: Variable name `hinj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hinj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8775/8783] Built EmptyPentagon.Final (63s)
+✔ [8776/8783] Built EmptyPentagon.Third (63s)
+✔ [8777/8783] Built EmptyPentagon.Two (267s)
+✔ [8778/8783] Built EmptyPentagon.Core (23s)
+✔ [8779/8783] Built EmptyPentagon.Harborth (20s)
+ℹ [8780/8783] Built EmptyPentagon.SmallHoles (20s)
+info: EmptyPentagon/SmallHoles.lean:42:0: 'Horton.forces_empty_triangle_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EmptyPentagon/SmallHoles.lean:43:0: 'Horton.forces_empty_quadrilateral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EmptyPentagon/SmallHoles.lean:44:0: 'Horton.forces_empty_pentagon_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8781/8783] Built FinalAssemblyAdapter (19s)
+warning: FinalAssemblyAdapter.lean:27:50: Variable name `hmin` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmin
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: FinalAssemblyAdapter.lean:149:0: 'JSP198.FinalAssembly.original_small_exact' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:150:0: 'JSP198.FinalAssembly.original_large_counterexamples' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:151:0: 'JSP198.FinalAssembly.four_layer_finish_conditional' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:152:0: 'JSP198.FinalAssembly.original_six_threshold_conditional' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:153:0: 'JSP198.FinalAssembly.finite_threshold_iff_conditional' depends on axioms: [propext, choice, Quot.sound]
+info: FinalAssemblyAdapter.lean:154:0: 'JSP198.FinalAssembly.erdos216_classification_conditional' depends on axioms: [propext, choice, Quot.sound]
+ℹ [8782/8783] Built Proof (19s)
+info: Proof.lean:4:0: 'JSP198.FinalAssembly.erdos216_classification_conditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8783 jobs).
