@@ -1,0 +1,256 @@
+
+COMMAND ["lake", "build"]
+CPU affinity [0, 1]; LEAN_NUM_THREADS=2
+⚠ [1243/1266] Built Erdos1017.FiniteAveraging (1.8s)
+warning: Erdos1017/FiniteAveraging.lean:42:0: automatically included section variable(s) unused in theorem `Erdos1017.sum_right_translate`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1244/1266] Built Erdos1017.Definitions (2.2s)
+warning: Erdos1017/Definitions.lean:1:0: 'Mathlib.Data.Nat.Lattice' has been deprecated: please replace this import by
+
+import Mathlib.Order.Lattice.Nat
+warning: Erdos1017/Definitions.lean:49:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.two_mul_count_le_weight`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/Definitions.lean:57:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.eq_of_shared_edge`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1245/1266] Built Erdos1017.PartitionExistence (1.9s)
+warning: Erdos1017/PartitionExistence.lean:10:0: automatically included section variable(s) unused in theorem `Erdos1017.pair_isClique`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/PartitionExistence.lean:55:0: automatically included section variable(s) unused in theorem `Erdos1017.partitionNumber_le`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1246/1266] Built Erdos1017.VertexCliqueColoring (2.3s)
+⚠ [1247/1266] Built Erdos1017.Packing (2.5s)
+warning: Erdos1017/Packing.lean:29:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePacking.ownsEdge_symm`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1248/1266] Built Erdos1017.ConePacking (2.1s)
+⚠ [1249/1266] Built Erdos1017.GraphCut (6.3s)
+warning: Erdos1017/GraphCut.lean:36:0: automatically included section variable(s) unused in theorem `Erdos1017.degree_eq_indicator_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/GraphCut.lean:42:0: automatically included section variable(s) unused in theorem `Erdos1017.incidenceCount_symm`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/GraphCut.lean:109:0: automatically included section variable(s) unused in theorem `Erdos1017.incidenceCount_add_missing`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/GraphCut.lean:143:0: automatically included section variable(s) unused in theorem `Erdos1017.onVertices_eq_bot_of_independent`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1250/1266] Built Erdos1017.FiniteNeighborhoods (2.3s)
+warning: Erdos1017/FiniteNeighborhoods.lean:17:0: automatically included section variable(s) unused in theorem `Erdos1017.neighborsOn_subset`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/FiniteNeighborhoods.lean:22:8: automatically included section variable(s) unused in theorem `Erdos1017.not_mem_own_neighbors`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/FiniteNeighborhoods.lean:73:0: automatically included section variable(s) unused in theorem `Erdos1017.exists_maximum_clique`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1251/1266] Built Erdos1017.PackingEdgeCount (3.2s)
+warning: Erdos1017/PackingEdgeCount.lean:21:8: automatically included section variable(s) unused in theorem `Erdos1017.mem_cliqueEdges`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/PackingEdgeCount.lean:28:8: automatically included section variable(s) unused in theorem `Erdos1017.card_cliqueEdges`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/PackingEdgeCount.lean:126:4: Try `simp at he'` instead of `simpa using he'`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [1252/1266] Built Erdos1017.PartitionRestriction (2.6s)
+warning: Erdos1017/PartitionRestriction.lean:50:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.restrict_count_le`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/PartitionRestriction.lean:89:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.two_count_add_large_le_weight`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/PartitionRestriction.lean:107:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.skeleton_le`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/PartitionRestriction.lean:111:8: automatically included section variable(s) unused in theorem `_private.Erdos1017.PartitionRestriction.0.Erdos1017.CliquePartition.sym2_toFinset_injective`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1253/1266] Built Erdos1017.PackingLoss (1.8s)
+⚠ [1254/1266] Built Erdos1017.MatchingColors (2.9s)
+warning: Erdos1017/MatchingColors.lean:13:0: automatically included section variable(s) unused in theorem `Erdos1017.pair_eq_of_card_two`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/MatchingColors.lean:43:0: automatically included section variable(s) unused in theorem `Erdos1017.sum_fiber_cards`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/MatchingColors.lean:73:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos1017/MatchingColors.lean:87:28: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos1017/MatchingColors.lean:100:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos1017/MatchingColors.lean:117:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [1255/1266] Built Erdos1017.MinimumSkeleton (3.2s)
+warning: Erdos1017/MinimumSkeleton.lean:20:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.replaceByPacking`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/MinimumSkeleton.lean:64:8: automatically included section variable(s) unused in theorem `_private.Erdos1017.MinimumSkeleton.0.Erdos1017.CliquePartition.overlapping_pairs_ne`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/MinimumSkeleton.lean:92:25: This simp argument is unused:
+  hwu'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, huv', hvw', hwu'.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [1256/1266] Built Erdos1017.CommonClique (2.1s)
+⚠ [1257/1266] Built Erdos1017.TriangleCandidates (2.8s)
+warning: Erdos1017/TriangleCandidates.lean:19:0: automatically included section variable(s) unused in theorem `Erdos1017.missingPairs_card`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos1017/TriangleCandidates.lean:47:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Erdos1017/TriangleCandidates.lean:79:0: automatically included section variable(s) unused in theorem `Erdos1017.ColoredPairSelection.triangle_inter_left`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1258/1266] Built Erdos1017.DenseCut (3.6s)
+warning: Erdos1017/DenseCut.lean:19:0: automatically included section variable(s) unused in theorem `Erdos1017.missingCount_antitone`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1259/1266] Built Erdos1017.WeightedSteps (2.6s)
+⚠ [1260/1266] Built Erdos1017.Repacking (2.4s)
+warning: Erdos1017/Repacking.lean:16:0: automatically included section variable(s) unused in theorem `Erdos1017.CliquePartition.block_subset_onVertices`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1261/1266] Built Erdos1017.WeightedFoundation (2.7s)
+⚠ [1262/1266] Built Erdos1017.NumericalSaving (3.4s)
+warning: Erdos1017/NumericalSaving.lean:36:5: Variable name `hell` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hell
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos1017/NumericalSaving.lean:55:41: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [1263/1266] Built Erdos1017.FinalPreparations (2.4s)
+⚠ [1264/1266] Built Erdos1017.Final (2.4s)
+warning: Erdos1017/Final.lean:84:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [1265/1266] Built Erdos1017 (1.4s)
+Build completed successfully (1266 jobs).
+EXIT_CODE=0
+FREE_BYTES=3380682752

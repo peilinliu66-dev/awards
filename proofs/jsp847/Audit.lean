@@ -1,0 +1,10 @@
+import Erdos1017
+
+#check Erdos1017.CliquePartition
+#check Erdos1017.exists_weighted_partition
+#check Erdos1017.exists_partition_dense_saving
+#check Erdos1017.uniform_integer_dense_saving
+#print Erdos1017.DenseSavingStatement
+#print axioms Erdos1017.exists_weighted_partition
+#print axioms Erdos1017.exists_partition_dense_saving
+#print axioms Erdos1017.uniform_integer_dense_saving

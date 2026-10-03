@@ -1,0 +1,19 @@
+
+COMMAND ["lake", "env", "lean", "Audit.lean"]
+CPU affinity [0, 1]; LEAN_NUM_THREADS=2
+Erdos1017.CliquePartition.{u_1} {V : Type u_1} (G : SimpleGraph V) : Type u_1
+Erdos1017.exists_weighted_partition.{u_1} {V : Type u_1} [DecidableEq V] [Fintype V] (G : SimpleGraph V) :
+  ∃ P, P.weight ≤ 2 * Erdos1017.balancedThreshold (Fintype.card V)
+Erdos1017.exists_partition_dense_saving.{u_1} {V : Type u_1} [Fintype V] [DecidableEq V] (G : SimpleGraph V) :
+  ∃ P, 5000 * P.count + Erdos1017.edgeCount G ≤ 5001 * Erdos1017.balancedThreshold (Fintype.card V)
+Erdos1017.uniform_integer_dense_saving.{u_1} {V : Type u_1} [Fintype V] [DecidableEq V] (G : SimpleGraph V) :
+  5000 * Erdos1017.partitionNumber G + Erdos1017.edgeCount G ≤ 5001 * Erdos1017.balancedThreshold (Fintype.card V)
+def Erdos1017.DenseSavingStatement.{u_1} : {V : Type u_1} → [Fintype V] → Prop :=
+fun {V} [Fintype V] =>
+  ∀ (G : SimpleGraph V),
+    5000 * Erdos1017.partitionNumber G + Erdos1017.edgeCount G ≤ 5001 * Erdos1017.balancedThreshold (Fintype.card V)
+'Erdos1017.exists_weighted_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1017.exists_partition_dense_saving' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos1017.uniform_integer_dense_saving' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_CODE=0
+FREE_BYTES=3380678656

@@ -1,0 +1,102 @@
+{
+  "Audit.lean": [
+    "Erdos1017"
+  ],
+  "Erdos1017/CommonClique.lean": [
+    "Erdos1017.PackingLoss"
+  ],
+  "Erdos1017/ConePacking.lean": [
+    "Erdos1017.Packing",
+    "Erdos1017.VertexCliqueColoring"
+  ],
+  "Erdos1017/Definitions.lean": [
+    "Mathlib.Combinatorics.SimpleGraph.Finite",
+    "Mathlib.Data.Real.Basic",
+    "Mathlib.Data.Nat.Lattice",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Finset.Powerset",
+    "Mathlib.Algebra.Group.Equiv.Defs",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.ByContra",
+    "Mathlib.Tactic.Push",
+    "Mathlib.Tactic.SplitIfs"
+  ],
+  "Erdos1017/DenseCut.lean": [
+    "Erdos1017.MinimumSkeleton"
+  ],
+  "Erdos1017/Final.lean": [
+    "Erdos1017.FinalPreparations",
+    "Erdos1017.Repacking"
+  ],
+  "Erdos1017/FinalPreparations.lean": [
+    "Erdos1017.NumericalSaving"
+  ],
+  "Erdos1017/FiniteAveraging.lean": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Group.Equiv.Defs",
+    "Mathlib.Data.Fintype.EquivFin",
+    "Mathlib.Tactic.ByContra"
+  ],
+  "Erdos1017/FiniteNeighborhoods.lean": [
+    "Erdos1017.ConePacking"
+  ],
+  "Erdos1017/GraphCut.lean": [
+    "Erdos1017.Definitions",
+    "Mathlib.Combinatorics.SimpleGraph.DegreeSum"
+  ],
+  "Erdos1017/MatchingColors.lean": [
+    "Erdos1017.FiniteAveraging",
+    "Erdos1017.PackingEdgeCount"
+  ],
+  "Erdos1017/MinimumSkeleton.lean": [
+    "Erdos1017.PartitionRestriction",
+    "Erdos1017.Packing"
+  ],
+  "Erdos1017/NumericalSaving.lean": [
+    "Erdos1017.DenseCut",
+    "Erdos1017.WeightedFoundation",
+    "Erdos1017.PackingEdgeCount"
+  ],
+  "Erdos1017/Packing.lean": [
+    "Erdos1017.PartitionExistence"
+  ],
+  "Erdos1017/PackingEdgeCount.lean": [
+    "Erdos1017.Packing",
+    "Erdos1017.GraphCut",
+    "Mathlib.Data.Sym.Card"
+  ],
+  "Erdos1017/PackingLoss.lean": [
+    "Erdos1017.FiniteNeighborhoods"
+  ],
+  "Erdos1017/PartitionExistence.lean": [
+    "Erdos1017.Definitions"
+  ],
+  "Erdos1017/PartitionRestriction.lean": [
+    "Erdos1017.GraphCut",
+    "Erdos1017.PartitionExistence"
+  ],
+  "Erdos1017/Repacking.lean": [
+    "Erdos1017.TriangleCandidates"
+  ],
+  "Erdos1017/TriangleCandidates.lean": [
+    "Erdos1017.MatchingColors"
+  ],
+  "Erdos1017/VertexCliqueColoring.lean": [
+    "Erdos1017.Definitions"
+  ],
+  "Erdos1017/WeightedFoundation.lean": [
+    "Erdos1017.WeightedSteps"
+  ],
+  "Erdos1017/WeightedSteps.lean": [
+    "Erdos1017.CommonClique"
+  ],
+  "Erdos1017.lean": [
+    "Erdos1017.Final"
+  ]
+}
