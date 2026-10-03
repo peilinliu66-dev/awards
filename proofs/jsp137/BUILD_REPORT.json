@@ -1,0 +1,108 @@
+{
+  "status": "COMPILED_CLEAN_REBUILD_AND_FINAL_AUDIT_PASSED",
+  "verified_at_utc": "2026-10-03T17:08:56.003367+00:00",
+  "endpoint": "Erdos131Research.OriginalStatement.original_growth",
+  "unconditional": true,
+  "arbitrary_nonempty_subsets": true,
+  "limit": "log(F(N))/log(N) -> 1/5",
+  "all_ten_axiom_closures_standard_three_only": true,
+  "lean_toolchain": "leanprover/lean4:v4.33.0",
+  "lean_version": "Lean (version 4.33.0, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "dependency_pins": [
+    {
+      "name": "mathlib",
+      "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "plausible",
+      "revision": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "importGraph",
+      "revision": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "aesop",
+      "revision": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "Qq",
+      "revision": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "batteries",
+      "revision": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "tracked_tree_clean": true
+    },
+    {
+      "name": "Cli",
+      "revision": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "tracked_tree_clean": true
+    }
+  ],
+  "author_revision": "aeafec6479cf23b584a65fce6cb6dc1005be3b1f",
+  "plby_revision": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+  "moving_sofa_helper_revision": "4d5569131940815f47a9ccf3e90a4c5043c56127",
+  "input_archive_sha256": "8609243cbbbd3906e7be13380f9c634653f1044eb8cf0e65f8e5fa0a91875b72",
+  "commands": [
+    {
+      "command": "lake build Erdos131Audit",
+      "stage": "first_complete_build",
+      "exit_code": 0,
+      "log": "verification/build-007.log"
+    },
+    {
+      "command": "remove only local project .lake/build; lake build Erdos131Audit",
+      "stage": "clean_full_endpoint_rebuild",
+      "exit_code": 0,
+      "log": "verification/build-clean.log"
+    },
+    {
+      "command": "lake env lean Erdos131Audit.lean",
+      "stage": "standalone_type_and_axiom_audit",
+      "exit_code": 0,
+      "log": "verification/audit-final.log"
+    }
+  ],
+  "clean_build_jobs": 4101,
+  "assembled_lean_files": 404,
+  "compiled_endpoint_local_modules": 401,
+  "package_lean_files": 19,
+  "focused_external_source_patches": 27,
+  "source_reassembly_byte_comparison": {
+    "matches": true,
+    "compared_files": 407,
+    "differences": []
+  },
+  "frozen_source_hashes_unchanged_during_clean_build": true,
+  "source_forbidden_declaration_scan": [],
+  "resource_limits": {
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "LEAN_NUM_THREADS": "2",
+    "niceness_increment": 10,
+    "disk_tmpfs_and_available_memory_reserve_bytes": 900000000,
+    "same_pin_cached_dependencies_reused": true
+  },
+  "licensing_boundary": "Complete author and generic dependency sources are separately acquired, not redistributed; package includes adapters, licensed helpers, overlays, and focused hash-checked patches.",
+  "publication_status": "No external submission or acceptance certified by this archive."
+}

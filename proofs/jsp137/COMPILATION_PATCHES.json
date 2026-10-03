@@ -1,0 +1,346 @@
+[
+  {
+    "path": "ErdosProblems/Erdos13/Erdos13Additive.lean",
+    "original_sha256": "5da02d7a5885813a80e97319510fe69823a59d4603bb69ed5a485135aad3037d",
+    "patched_sha256": "0a327ab4846fbd3bbf103856fbaa23cd5e339788d048b681d171332a3f9d03ae",
+    "edits": [
+      {
+        "start_line": 16,
+        "end_line": 17,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/Asymptotic.lean",
+    "original_sha256": "67d9e0572450bcdc6d91ada440c17250335b9220c2a1ae16594f640a2862ee78",
+    "patched_sha256": "5402b21eb7808335e125bfde965209d4da58647b2cecb46cbd7e69be1a611f15",
+    "edits": [
+      {
+        "start_line": 0,
+        "end_line": 2,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean",
+    "original_sha256": "06b818c52437d154782769b0aa25a21841b9aee26235a726ac10b28986d1b423",
+    "patched_sha256": "42f0fd59292b5fe0ce0076ac07cb33649b8e06bc101c98594428929e60afd9a6",
+    "edits": [
+      {
+        "start_line": 615,
+        "end_line": 616,
+        "replacement": "    simpa [bS, Matrix.gram_apply, xi, xj, P.rowBasis_coe] using hinner.symm\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/Contraction.lean",
+    "original_sha256": "e504a8e7d2980dd485f6cdfca373b08f6278b27365aeeb24cb807c17b76f5cdf",
+    "patched_sha256": "6964308e1f8d0d6a2d5299ecd83cf2225adc0303f5527f9cbdabe9ae9959cc8b",
+    "edits": [
+      {
+        "start_line": 6,
+        "end_line": 8,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/DeletionEngine.lean",
+    "original_sha256": "c93a3703068b3b70d0d52c90d599b04131954fd982f1e8090fa39c1175ca7bf5",
+    "patched_sha256": "c660a4c05a4d729e03e1ec7129d3960873ebce4f1b21c38dfd4ebcf9d49e50c2",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/GrowthLemmas.lean",
+    "original_sha256": "66f48828489e096d48f83102feffd90d6fae2399addca40e5f515705c77c8f1e",
+    "patched_sha256": "f96941425210179fa9db724c510e6f3bcf76d157d358003e9af4b51c2429a568",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/LargeInputLogNumerics.lean",
+    "original_sha256": "5d993ae8c90d69676020dea0b29993a84077f61d397a3f70411a76fddae3550a",
+    "patched_sha256": "abbdaee178d5b6f48b133ba4b14e74ccde286df40b1fbdc7b1319d733349ccfb",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 5,
+        "replacement": "import Mathlib.Analysis.Complex.ExponentialBounds\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/Lev.lean",
+    "original_sha256": "ba401132398a91c8678b53b733cc3ae92ff5470b6f141a50ce65463fdc03361c",
+    "patched_sha256": "9cb74e3d03e0850c5389a820097364161d7c3e451bcd9848f2499cff5112f8de",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 5,
+        "replacement": "import Mathlib.Algebra.Order.Floor.Div\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/Main.lean",
+    "original_sha256": "3f400445289b4896f00c17fd7cd7a4258071174851d653c903e63e4ff8dccdc2",
+    "patched_sha256": "040f56cb9667868fffbe0727979fce40a7a605082651d9fef340fafa4da79a7d",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 5,
+        "replacement": "import Mathlib.Analysis.SpecialFunctions.Log.Base\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CFP/TrivialEnhancedWitness.lean",
+    "original_sha256": "94216cb927119afec2b6e0c5124cb0e403fe454dc0fa240f20b3de99e5708ef3",
+    "patched_sha256": "d3db1a839404af5c16005c3bba752a3a688072cbfdf998be549aafafd6552d81",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 5,
+        "replacement": "import Mathlib.Analysis.SpecialFunctions.Log.Base\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/CombinatorialTools.lean",
+    "original_sha256": "01e423e62be9a2d0f26871b4e7c2bdb1c3bc64d80519d8e4be6e8475468ebbe8",
+    "patched_sha256": "4378c55af60aa5fb1e91e95d5fbf592a5b82b41d210c09b1b4e534e638355e64",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/ConvexApprox.lean",
+    "original_sha256": "fb660427607e34b8a122cfd78295357f2c8ebaf77ca852bf68a4cc419da4d122",
+    "patched_sha256": "4c85f2ca575f20ce306bf7e78ff0e3493c9b9899963a5c839972e5f0f145b3b1",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/Foundations.lean",
+    "original_sha256": "ed3dff97bce2494f8e2fdd728f9913977b2a1601a6fa9d2c286aa8218b155140",
+    "patched_sha256": "9acc91ffbde21365bc8925737746af68b13bae3029f406c45df4b044c27863c0",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/GAP.lean",
+    "original_sha256": "10ce7d18f830af58b53cb27af0eb38bf2e921ccaff869bf4b941066d979ff5f6",
+    "patched_sha256": "5ce0d1795a8d077b2b28730f78bc2b852527477c8a21bccd11ac91006dc90cec",
+    "edits": [
+      {
+        "start_line": 0,
+        "end_line": 2,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/Numerical.lean",
+    "original_sha256": "1d74e697a681c4aa7837b132f89e67428d12c7150048cff4bba22743d6043b12",
+    "patched_sha256": "9bbabaff57e243765f23facb501f2e82bde657acc045d43382471cdd92f0af6f",
+    "edits": [
+      {
+        "start_line": 0,
+        "end_line": 2,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/PZ/ConvexDensity/AffineSlab.lean",
+    "original_sha256": "7d6b04d46727d36cba601950e5ad7428b220ce8c7edaf1608f603c0cbfb27789",
+    "patched_sha256": "cb99a9baca4c1181373201598c200ebca564ddcc7a7e8b38265c8f1cd5bd4084",
+    "edits": [
+      {
+        "start_line": 0,
+        "end_line": 2,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/PZ/ConvexDensity/ConvexApproxND.lean",
+    "original_sha256": "4ed82e59a0075b9e4537f75329476487dd3b4ed3934ab5fb17a20e7313afe68e",
+    "patched_sha256": "20a0d77b93e92ed1e722a8becfcbe41320bd541afe76e87bf65ad0840f550cd5",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/PZ/ConvexDensity/Definitions.lean",
+    "original_sha256": "41b128d24e27e7df690f88ecbab8bc79d850a0a825ae52d1838bd0bd04ba9b3d",
+    "patched_sha256": "ee1f861bf8553fe2a44f1200a6e8e026da20713bfbcd57865c9f9336fc1a3548",
+    "edits": [
+      {
+        "start_line": 6,
+        "end_line": 8,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/PZ/ConvexDensity/Numerics.lean",
+    "original_sha256": "367a8c135945063df59dd1996dea03a9b002e97355cc7153cf5cc6383fb65c0f",
+    "patched_sha256": "013e8e46d4a594de4ad85e670f2c06087e1d387c5ef5c9204821dcc5f0cdb124",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/PZ/ConvexDensity/Subgradient.lean",
+    "original_sha256": "69487101e4dda16bc0811e3f870c1a77c47c665f32a18b88d5183d51cdbaca69",
+    "patched_sha256": "d7af6ac0f5c9a0dedc7b6a3312bb119ed7ee32a9cf29682fe59211a814c0e359",
+    "edits": [
+      {
+        "start_line": 6,
+        "end_line": 6,
+        "replacement": "import Mathlib.Analysis.Convex.Continuous\n"
+      },
+      {
+        "start_line": 67,
+        "end_line": 68,
+        "replacement": "  have hAopen : IsOpen A := isOpen_strictEpigraph hs (ConvexOn.continuousOn hs hf)\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/PZ/Reduction/Termination.lean",
+    "original_sha256": "798889574994fc9694158125319da11b91e034e5372feac08a5a54c23782534a",
+    "patched_sha256": "3da6b757dd2d9f968e3cbe6453bc77eb91a7e3019f1f322fa927115ec7fa378d",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/Parameters.lean",
+    "original_sha256": "8cf10f52067ae8428558def971387edcfbe2b0310ec04449e85404776556b5fd",
+    "patched_sha256": "4162ff92ed961f8982a131e1fbbd46a235625f05ed4fe7b2546900c14705f890",
+    "edits": [
+      {
+        "start_line": 5,
+        "end_line": 7,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "ErdosProblems/Erdos186/Zonotope.lean",
+    "original_sha256": "cb5b39497fecca2fba66ab1603455f66c268a3be29b2eb13c3bd29f3de17ea56",
+    "patched_sha256": "f4141045b2b4c7b1ddf1cad3df32fa978bbc83e8cc65222fa971a589bef9b1f1",
+    "edits": [
+      {
+        "start_line": 1,
+        "end_line": 3,
+        "replacement": "import Erdos131Research.MathlibImports\n"
+      }
+    ]
+  },
+  {
+    "path": "Nondividing/GAP.lean",
+    "original_sha256": "faa804350e77b0ac526fb2ccaf26905a67318fe0ec8daf19226a1f128c4a715e",
+    "patched_sha256": "2cff677926fbd9b2de88e92ac47d052fb92d39177812df2879cc223f6f788821",
+    "edits": [
+      {
+        "start_line": 256,
+        "end_line": 258,
+        "replacement": "    change (∑ v ∈ S.attach.map f, (v.1 : Fin d → ℤ)) = _\n    rw [Finset.sum_map]\n    exact Finset.sum_attach S (fun v : Fin d → ℤ => v)\n"
+      }
+    ]
+  },
+  {
+    "path": "Nondividing/Geometry/SlabVolume.lean",
+    "original_sha256": "965cdbabc3af66f3e3671dce7f1d9c66dcc7ed115c079000d5518e67f62e51cb",
+    "patched_sha256": "e658291c33f957263e8dc171aa418f416b38510fdb6a9610ec9a1ed47369c128",
+    "edits": [
+      {
+        "start_line": 353,
+        "end_line": 354,
+        "replacement": "    le_trans hcount (mul_le_mul_right hvol _)\n"
+      },
+      {
+        "start_line": 438,
+        "end_line": 439,
+        "replacement": "        exact ⟨by simp [mem_slabBody, realBox, hτw, Pi.le_def], H.zero_mem⟩)\n"
+      }
+    ]
+  },
+  {
+    "path": "Nondividing/LowerBound.lean",
+    "original_sha256": "36d025432eeec52aeec0164619c0c2caafd76b87dea5086e91133ae0a9aefff2",
+    "patched_sha256": "d3f2c50c43d9be8f9dd8856439582b330aaa2f2cf43839a91335597007a9568e",
+    "edits": [
+      {
+        "start_line": 32,
+        "end_line": 33,
+        "replacement": "    apply Finset.mem_erase.mpr\n    refine ⟨?_, Finset.mem_map.mpr ⟨s, (Finset.mem_erase.mp hserase).2, rfl⟩⟩\n    change (s : ℤ) ≠ (a : ℤ)\n    exact_mod_cast (Finset.mem_erase.mp hserase).1\n"
+      },
+      {
+        "start_line": 393,
+        "end_line": 395,
+        "replacement": "    change lowerTranslation m + (parabolaNat m ((i : ℕ) + 1) : ℤ) =\n      (lowerValue m ((i : ℕ) + 1) : ℤ)\n    exact (cast_lowerValue (m := m) (i := (i : ℕ) + 1) (Nat.le_add_left 1 i)).symm\n"
+      },
+      {
+        "start_line": 397,
+        "end_line": 399,
+        "replacement": "    change (lowerValue m ((i : ℕ) + 1) : ℤ) =\n      lowerTranslation m + (parabolaNat m ((i : ℕ) + 1) : ℤ)\n    exact cast_lowerValue (m := m) (i := (i : ℕ) + 1) (Nat.le_add_left 1 i)\n"
+      }
+    ]
+  },
+  {
+    "path": "Nondividing/Shell.lean",
+    "original_sha256": "2cf2e6ded7b8c7754f9dd1c1d89b67f5c35b79ca283d84b81caf39733b8cf4c5",
+    "patched_sha256": "452a039bc551b8a073201287d3c81bb1f3c5682fbc6f0ba3e60fadeb58e4f905",
+    "edits": [
+      {
+        "start_line": 141,
+        "end_line": 142,
+        "replacement": "  change ell (P.evalHom (P.coeffOf v)) = ell v\n  rw [P.eval_coeffOf]\n"
+      }
+    ]
+  }
+]

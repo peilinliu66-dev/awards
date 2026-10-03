@@ -1,0 +1,52 @@
+{
+  "Nondividing.External.cfp_structure": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.discrete_john": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.zonotope_rounding": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.convex_density_set": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.blaschke_selection": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.convexBody_volume_tendsto": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.rogers_shephard": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.External.full_rank_lattice_points_le_volume": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Nondividing.main_log_limit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Erdos131Research.OriginalStatement.original_growth": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

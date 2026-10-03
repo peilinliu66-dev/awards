@@ -1,0 +1,178 @@
+{
+  "ASSEMBLED_SOURCE_SHA256.json": {
+    "bytes": 68846,
+    "sha256": "ce5b51d21ae1b80c7b1b1dc7a9117f13a11827b1d77a5a9d1205d7322123bde6"
+  },
+  "AXIOM_AUDIT.json": {
+    "bytes": 1090,
+    "sha256": "799d88e2a95e86fe1e5b7f67c8730b3b0f3056cddcfeb1435c3b93c3fa77172f"
+  },
+  "BUILD_REPORT.json": {
+    "bytes": 3716,
+    "sha256": "26ba1f602b1b1ff2d932bad0cfe17d5c07fa41c5bc2ea6bef89a91acbcfede84"
+  },
+  "COMPILATION_PATCHES.diff": {
+    "bytes": 11272,
+    "sha256": "dab3c7a39540656bf7efbd0a3cdf2d2f7e05a6edfc6cdb5c36a48e240112688a"
+  },
+  "COMPILATION_PATCHES.json": {
+    "bytes": 12156,
+    "sha256": "378bded04073770bb8ef83701002fbb0e11853e7d3321c1cb5a6fac417ce9c6e"
+  },
+  "DEPENDENCY_STATUS.md": {
+    "bytes": 618,
+    "sha256": "fb0e7c438077a36bb529ff3d08d844cf43fd1cc28ac58f59e755efaa9c114dbb"
+  },
+  "Erdos131Audit.lean": {
+    "bytes": 1928,
+    "sha256": "4b87f03a0eae94f310eea9b49ee1cdcfe72f24d7a0c7aaa5fb8fad0a03293d23"
+  },
+  "Erdos131Research/CFP.lean": {
+    "bytes": 8809,
+    "sha256": "dea2e381bd78ae7ecdf7a4905fb666a86494bba0baf132e4d0ec43f9b5fb05e3"
+  },
+  "Erdos131Research/CFPScale.lean": {
+    "bytes": 4436,
+    "sha256": "048f19d25eaeef289345eeaac16d8b7bbe3dba40689b0a443556ee19949c1476"
+  },
+  "Erdos131Research/ConvexBodyLimits.lean": {
+    "bytes": 13864,
+    "sha256": "d96f2caaa3593076ea1ef676d42913faa541e3b6f0e721eb85b4730fd5923df9"
+  },
+  "Erdos131Research/ConvexDensity.lean": {
+    "bytes": 8845,
+    "sha256": "75187f06c11be3caeb5f82c265d1b0c3fe28c00279c423dafbcbc038912f121a"
+  },
+  "Erdos131Research/DifferenceVolume.lean": {
+    "bytes": 9333,
+    "sha256": "329d479e325af442a3d315d3ed1ad03d87a5aeb58cd81ccb06fdcec4e73aab04"
+  },
+  "Erdos131Research/GAPCompatibility.lean": {
+    "bytes": 5172,
+    "sha256": "8c14e73ead7f605b146660c24ad774d3b7d7130a3c4dbda439e7de8d9c2ed6d4"
+  },
+  "Erdos131Research/John.lean": {
+    "bytes": 8675,
+    "sha256": "0681af5c5310d709451b4c7239b00e55403ea84e9a74e297ec3dbac83a305787"
+  },
+  "Erdos131Research/LatticeVolume.lean": {
+    "bytes": 3294,
+    "sha256": "19383364f180c89db584dc42689ba0c8218c0ce5170b0fb9f23d8bc9303fb5e6"
+  },
+  "Erdos131Research/MathlibImports.lean": {
+    "bytes": 6298,
+    "sha256": "0e0ade8ab5aef9449a50c5ff4e54097ea1c0c0f8ec0326fe45fc2000f4087e50"
+  },
+  "Erdos131Research/Upstream/ConvexHausdorff.lean": {
+    "bytes": 2300,
+    "sha256": "b6d0e4bfed067e4e5fae03d442e89f3c64f02d616e413d2ca58369f8c60ba102"
+  },
+  "Erdos131Research/Upstream/ConvexSupport.lean": {
+    "bytes": 8244,
+    "sha256": "212689cf2ccde52b000b8c31220d7cc72d60eebfd035c89ec758800bae10066f"
+  },
+  "Erdos131Research/Upstream/NormalizedDifference.lean": {
+    "bytes": 4711,
+    "sha256": "0081b09055778b0490938e379a973ff9302b20577d2c91e45df4a4889d7c1c1b"
+  },
+  "Erdos131Research/Zonotope.lean": {
+    "bytes": 2650,
+    "sha256": "82c528c0fe2ef2af6a4dd34e79e7fb6a4ee1217acf3c976093fe2f54581338a3"
+  },
+  "MATHLIB_IMPORTS.txt": {
+    "bytes": 5244,
+    "sha256": "8fa05055d22380b9093e00e8098532dc93e05aa81f682d4559c037fba81eccf6"
+  },
+  "README.md": {
+    "bytes": 3059,
+    "sha256": "f3c40f3ccbe107c585035cc0424222db571ea51c23b172973e6a59dcfc701469"
+  },
+  "STATEMENT_AND_ATTRIBUTION.md": {
+    "bytes": 4963,
+    "sha256": "a3cfdba9383dc1d7725cc3591c437cb2ab7b99ba2549712e562ab5ea1610da31"
+  },
+  "THIRD_PARTY/MovingSofa-LICENSE.txt": {
+    "bytes": 11358,
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  "THIRD_PARTY/NOTICE.md": {
+    "bytes": 1235,
+    "sha256": "f22a103ca3338b5ebfe9189264ab49b938de1e427412ae5b40dce4d577d9fd07"
+  },
+  "THIRD_PARTY/plby-latest-license-notice.txt": {
+    "bytes": 203,
+    "sha256": "f6b0f83c94786f17323cc622422de5c5e37d7b30fca97d9e864d855f122f34a4"
+  },
+  "VERIFICATION.md": {
+    "bytes": 3343,
+    "sha256": "cf2fcbeab862772b0e1f69186bd6e2f65efa93cdd2a8a664c280b7a407f5472d"
+  },
+  "apply_compilation_patches.py": {
+    "bytes": 1053,
+    "sha256": "0d74af53ac9d41ff1c20f3df3dd76edd466eeb104ab6b332d5a266fed7dee9cc"
+  },
+  "integrate.py": {
+    "bytes": 7700,
+    "sha256": "d77c6c0376275c0d1d7c285597843cdb74acd3a82355a334e2d9dd99a09ccde5"
+  },
+  "lake-manifest.json": {
+    "bytes": 3560,
+    "sha256": "e0051a3f374ffc6c40f388e4e696d2ce857c365e1c854f3842fef667a8bf9e52"
+  },
+  "lakefile.toml": {
+    "bytes": 378,
+    "sha256": "005bdb09710095dd08b9946fc5b7eae0f764a8beaa0b84b43f5cda2b4d1336de"
+  },
+  "lean-toolchain": {
+    "bytes": 25,
+    "sha256": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b"
+  },
+  "overlay/Nondividing/External/CFPStructure.lean": {
+    "bytes": 1681,
+    "sha256": "93a15c68cb9d5a56589129215db154f60685e31d68a6d8c05a40cb3e6b5a8348"
+  },
+  "overlay/Nondividing/External/ConvexDensity.lean": {
+    "bytes": 2014,
+    "sha256": "d613af74d314200bc1da10163c77ac5ebf93be8b4a1b535df39b6b48d584ef13"
+  },
+  "overlay/Nondividing/External/ConvexGeometry.lean": {
+    "bytes": 1991,
+    "sha256": "3f314e20d19fc1c2ce1aec4600dca1f0ffe239d3b9865d9552d7d378dcfedcb1"
+  },
+  "overlay/Nondividing/External/DiscreteJohn.lean": {
+    "bytes": 1540,
+    "sha256": "bb9455d78f81ab1bfc10023d4a3c4904ca7d9c0b5a5bba7fa980e2501b7a2012"
+  },
+  "overlay/Nondividing/External/ZonotopeRounding.lean": {
+    "bytes": 1212,
+    "sha256": "c9a1c171af670ea375b833e8427a64557db1320d248ea90714a17ef642ea7af1"
+  },
+  "verification/audit-final.log": {
+    "bytes": 1945,
+    "sha256": "ec0adc3333cbad67aed0963c6688d6a8dd83132c23a7f25752c63e2f203fe4ee"
+  },
+  "verification/build-007.log": {
+    "bytes": 142487,
+    "sha256": "0f90dea3e1c71a1d79b632f1cb6283d71236d52776190aed67a8cdc5b349a5d1"
+  },
+  "verification/build-clean.log": {
+    "bytes": 156145,
+    "sha256": "c230d3e0af5fbd9c83d531b7601e18f0f0977b38818dfbaed3f30d0b40f82018"
+  },
+  "verification/dependency-pins-verified.json": {
+    "bytes": 1985,
+    "sha256": "823e1262caf6a087db553df8a3bbd771dfed78a66b2e1f8321f4fdd4d44ac1b6"
+  },
+  "verification/final-reassembly-check.json": {
+    "bytes": 68,
+    "sha256": "7dc9b70b06f8588707fc05a80254c1c663bb9fb912dd427da682c87c9fca995e"
+  },
+  "verification/import-audit.json": {
+    "bytes": 534,
+    "sha256": "bbc0bfc11d4608eadfdab1794131b71743314c34f1f2a7c5c877945a3514c4f2"
+  },
+  "verification/source-verification.json": {
+    "bytes": 24403,
+    "sha256": "1748f3649ea93975d01f5be83503224f81d099aed3dd438bdfa35a9cdf258b50"
+  }
+}

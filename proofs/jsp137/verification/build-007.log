@@ -1,0 +1,1864 @@
+
+COMMAND ["lake", "build", "Erdos131Audit"]
+CPU affinity [0, 1]; LEAN_NUM_THREADS=2
+ℹ [3705/3773] Replayed ErdosProblems.Erdos186.CFP.FiniteGroupCover
+info: ErdosProblems/Erdos186/CFP/FiniteGroupCover.lean:272:0: 'Erdos186.CFP.cfp_claim_2_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3737/3773] Replayed ErdosProblems.Erdos186.CFP.CenteredIdentification
+info: ErdosProblems/Erdos186/CFP/CenteredIdentification.lean:552:0: 'Erdos186.CFP.Preprocessing.card_multifoldSumset_le_centeredMinimalIdentificationIteratedSumset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredIdentification.lean:554:0: 'Erdos186.CFP.Preprocessing.card_centeredMinimalIdentificationIteratedSumset_le_dilate_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredIdentification.lean:557:0: 'Erdos186.CFP.Preprocessing.HApproximation.centeredMinimalIdentification_relIndex_general_ne_zero_and_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredIdentification.lean:558:0: 'Erdos186.CFP.Preprocessing.accessibleSpanIndexBound_of_centeredHApproximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredIdentification.lean:560:0: 'Erdos186.CFP.Preprocessing.span_pruning_lemma232_of_centeredHApproximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredIdentification.lean:562:0: 'Erdos186.CFP.Preprocessing.preprocessing_lemma238_centered' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3738/3773] Replayed ErdosProblems.Erdos186.CFP.PreprocessingBilu
+info: ErdosProblems/Erdos186/CFP/PreprocessingBilu.lean:646:0: 'Erdos186.CFP.PreprocessingBilu.exists_bounded_minimalDyadicGrowthDimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/PreprocessingBilu.lean:647:0: 'Erdos186.CFP.PreprocessingBilu.preprocessingHApproximationArgument_of_uniform_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/PreprocessingBilu.lean:648:0: 'Erdos186.CFP.PreprocessingBilu.exists_preprocessingHApproximationArgument_of_biluFreiman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3739/3773] Replayed ErdosProblems.Erdos186.CFP.CenteredPreprocessingData
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingData.lean:156:0: 'Erdos186.CFP.Preprocessing.exists_centeredPreprocessingData' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3740/3773] Replayed ErdosProblems.Erdos186.CFP.CenteredPreprocessingSource
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingSource.lean:602:0: 'Erdos186.CFP.PreprocessingBilu.retainedDyadicPreprocessingHApproximationArgument_of_uniform_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingSource.lean:604:0: 'Erdos186.CFP.PreprocessingBilu.exists_retainedDyadicPreprocessingPackage_of_biluFreiman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingSource.lean:606:0: 'Erdos186.CFP.Preprocessing.exists_dyadicCenteredPreprocessingData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3741/3773] Replayed ErdosProblems.Erdos186.CFP.CenteredPreprocessingRangePackage
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingRangePackage.lean:128:0: 'Erdos186.CFP.PreprocessingBilu.exists_retainedDyadicPreprocessingAndRangePackage_of_biluFreiman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3745/3773] Replayed ErdosProblems.Erdos186.CFP.AnchoredWitness
+info: ErdosProblems/Erdos186/CFP/AnchoredWitness.lean:170:0: 'Erdos186.CFP.subsetSums_erase_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/AnchoredWitness.lean:171:0: 'Erdos186.CFP.EnhancedCFPWitness.eraseZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/AnchoredWitness.lean:172:0: 'Erdos186.CFP.FixedScaleWitness.eraseZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/AnchoredWitness.lean:173:0: 'Erdos186.CFP.erase_zero_stabilityIntegerPoints_insert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/AnchoredWitness.lean:174:0: 'Erdos186.CFP.FixedScaleWitness.eraseZero_stabilityIntegerPoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3751/3773] Replayed ErdosProblems.Erdos186.CFP.PreprocessedWitness
+info: ErdosProblems/Erdos186/CFP/PreprocessedWitness.lean:252:0: 'Erdos186.CFP.PreprocessedReserveCertificate.enhanced' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/PreprocessedWitness.lean:253:0: 'Erdos186.CFP.exists_fixedScaleWitness_of_preprocessing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/PreprocessedWitness.lean:254:0: 'Erdos186.CFP.exists_uniform_preprocessedFixedScaleWitness_of_biluFreiman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3752/3773] Replayed ErdosProblems.Erdos186.CFP.IntegerTheoremAssembly
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:299:0: 'Erdos186.CFP.IntegerTheoremAssembly.exists_preprocessingDyadicHorizon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:301:0: 'Erdos186.CFP.IntegerTheoremAssembly.insert_zero_subset_preprocessingInterval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:303:0: 'Erdos186.CFP.IntegerTheoremAssembly.exists_preprocessingDyadicHorizon_with_logBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:305:0: 'Erdos186.CFP.IntegerTheoremAssembly.sourceEndpoint_le_card_pow_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:307:0: 'Erdos186.CFP.IntegerTheoremAssembly.natCoefficient_mul_scale_le_logb_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:309:0: 'Erdos186.CFP.IntegerTheoremAssembly.natLoss_le_logb_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremAssembly.lean:310:0: 'Erdos186.CFP.IntegerTheoremAssembly.exists_natExponent_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3754/3773] Replayed ErdosProblems.Erdos186.CFP.TrivialEnhancedWitness
+info: ErdosProblems/Erdos186/CFP/TrivialEnhancedWitness.lean:174:0: 'Erdos186.CFP.discardAllFixedScaleWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3755/3773] Replayed ErdosProblems.Erdos186.CFP.IntegerTheoremTerminal
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremTerminal.lean:134:0: 'Erdos186.CFP.nonemptyIntegerTheorem15_of_largeInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3757/3773] Replayed ErdosProblems.Erdos186.CFP.LargeInputLogNumerics
+info: ErdosProblems/Erdos186/CFP/LargeInputLogNumerics.lean:100:0: 'Erdos186.CFP.exists_cutoff_logPolynomial_le_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3758/3773] Replayed ErdosProblems.Erdos186.CFP.IntegerTheoremLogLossTerminal
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremLogLossTerminal.lean:179:0: 'Erdos186.CFP.nonemptyIntegerTheorem15_of_largeInputLogLoss' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3759/3773] Replayed ErdosProblems.Erdos186.CFP.IntegerTheoremSourcePower
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremSourcePower.lean:77:0: 'Erdos186.CFP.IntegerTheoremAssembly.exists_natRank_ge_exponentRatio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremSourcePower.lean:78:0: 'Erdos186.CFP.IntegerTheoremAssembly.sourceEndpoint_le_scale_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3760/3773] Replayed ErdosProblems.Erdos186.CFP.IntegerTheoremLogLossLargeAssembly
+info: ErdosProblems/Erdos186/CFP/IntegerTheoremLogLossLargeAssembly.lean:147:0: 'Erdos186.CFP.largeInputLogLossNonemptyIntegerTheorem15_of_biluFreiman_of_centeredCoverage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3763/3773] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperization
+info: ErdosProblems/Erdos186/CFP/ProjectedProperization.lean:261:0: 'Erdos186.CFP.ProjectedProperization.Data.transportFixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperization.lean:262:0: 'Erdos186.CFP.ProjectedProperization.Data.transportFixed_boxDehomogenize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3765/3773] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationInitialBody
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationInitialBody.lean:367:0: 'Erdos186.CFP.ProjectedProperization.centeredBoxSeminorm_integral_le_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationInitialBody.lean:369:0: 'Erdos186.CFP.ProjectedProperization.mem_dilate_carrier_iff_exists_centeredBoxSeminorm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationInitialBody.lean:371:0: 'Erdos186.CFP.ProjectedProperization.exists_centeredStepHom_eq_translatePoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3766/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.IntegerBoxCount
+info: ErdosProblems/Erdos186/CFP/Bilu/IntegerBoxCount.lean:105:0: 'Erdos186.CFP.Bilu.IntegerBoxCount.card_centeredIntBox_ceil_sub_one_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3767/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.BadlyApproximable
+info: ErdosProblems/Erdos186/CFP/Bilu/BadlyApproximable.lean:558:0: 'Erdos186.CFP.Bilu.BadlyApproximable.exists_avoiding_iUnion_finset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/BadlyApproximable.lean:559:0: 'Erdos186.CFP.Bilu.BadlyApproximable.lemma6_8_induction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/BadlyApproximable.lean:560:0: 'Erdos186.CFP.Bilu.BadlyApproximable.lemma6_8_counted' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/BadlyApproximable.lean:561:0: 'Erdos186.CFP.Bilu.BadlyApproximable.lemma6_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/BadlyApproximable.lean:562:0: 'Erdos186.CFP.Bilu.BadlyApproximable.lemma6_8_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3768/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.DistortingMeasure
+info: ErdosProblems/Erdos186/CFP/Bilu/DistortingMeasure.lean:524:0: 'Erdos186.CFP.Bilu.DistortingMeasure.integral_character' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/DistortingMeasure.lean:525:0: 'Erdos186.CFP.Bilu.DistortingMeasure.bilu_proposition_8_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3769/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8Synthesis
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Synthesis.lean:315:0: 'Erdos186.CFP.Bilu.Section8Synthesis.volume_cubeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Synthesis.lean:316:0: 'Erdos186.CFP.Bilu.Section8Synthesis.exists_distorting_badlyApproximable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Synthesis.lean:317:0: 'Erdos186.CFP.Bilu.Section8Synthesis.exists_distorting_badlyApproximable_of_volume_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Synthesis.lean:318:0: 'Erdos186.CFP.Bilu.Section8Synthesis.bilu_proposition_8_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3770/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.BombieriVaaler
+info: ErdosProblems/Erdos186/CFP/Bilu/BombieriVaaler.lean:327:0: 'Erdos186.CFP.Bilu.BombieriVaaler.exists_ne_zero_mulVec_eq_zero_abs_cast_le_sqrt_det_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3771/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.SubspaceLattice
+info: ErdosProblems/Erdos186/CFP/Bilu/SubspaceLattice.lean:325:0: 'Erdos186.CFP.Bilu.SubspaceLattice.Presentation.exists_integral_normal_abs_le_integralPoints_covolume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3772/3773] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Data
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Data.lean:172:0: 'Erdos186.CFP.Bilu.Proposition75Data.convex_distortionBody' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Data.lean:173:0: 'Erdos186.CFP.Bilu.Proposition75Data.measurableSet_distortionBody' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3778/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition74Construction
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition74Construction.lean:363:0: 'Erdos186.CFP.Bilu.Proposition74Construction.normal_tail_ne_zero_of_head_span' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition74Construction.lean:364:0: 'Erdos186.CFP.Bilu.Proposition74Construction.span_section_lattice_eq_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition74Construction.lean:365:0: 'Erdos186.CFP.Bilu.Proposition74Construction.geometricDataOfSeed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition74Construction.lean:366:0: 'Erdos186.CFP.Bilu.Proposition74Construction.geometricDataOfPlaneAndFullRankSeed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition74Construction.lean:367:0: 'Erdos186.CFP.Bilu.Proposition74Construction.geometricDataOfPlaneAndIndependentIntegralFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition74Construction.lean:369:0: 'Erdos186.CFP.Bilu.Proposition74Construction.geometricDataOfPlaneAndAdmitsIndependent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3779/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.GaugeRadialIntegral
+info: ErdosProblems/Erdos186/CFP/Bilu/GaugeRadialIntegral.lean:315:0: 'Erdos186.CFP.Bilu.GaugeRadialIntegral.lintegral_one_sub_gauge_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/GaugeRadialIntegral.lean:316:0: 'Erdos186.CFP.Bilu.GaugeRadialIntegral.choose_mul_lintegral_one_sub_gauge_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3780/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.VolumeSections
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1263:0: 'Erdos186.CFP.Bilu.VolumeSections.midpoint_product_volume_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1264:0: 'Erdos186.CFP.Bilu.VolumeSections.coarse_section_bound_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1265:0: 'Erdos186.CFP.Bilu.VolumeSections.intrinsicVolume_coordinateCone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1266:0: 'Erdos186.CFP.Bilu.VolumeSections.intrinsicVolume_closure_of_convex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1267:0: 'Erdos186.CFP.Bilu.VolumeSections.coordinate_cone_section_bound_crossmultiplied' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1268:0: 'Erdos186.CFP.Bilu.VolumeSections.isometric_coordinate_cone_section_bound_crossmultiplied' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1269:0: 'Erdos186.CFP.Bilu.VolumeSections.origin_centered_isometric_section_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1270:0: 'Erdos186.CFP.Bilu.VolumeSections.coordinate_cone_chain_factorial_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1271:0: 'Erdos186.CFP.Bilu.VolumeSections.origin_centered_linear_section_bound_of_isometric_flag' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1272:0: 'Erdos186.CFP.Bilu.VolumeSections.radial_firstFiber_volume_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1273:0: 'Erdos186.CFP.Bilu.VolumeSections.intrinsicVolume_eq_lintegral_firstFiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1274:0: 'Erdos186.CFP.Bilu.VolumeSections.gauge_firstFiber_volume_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1275:0: 'Erdos186.CFP.Bilu.VolumeSections.coordinate_projection_central_section_beta_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1276:0: 'Erdos186.CFP.Bilu.VolumeSections.coordinate_projection_central_section_bound_of_beta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/VolumeSections.lean:1277:0: 'Erdos186.CFP.Bilu.VolumeSections.coordinate_projection_central_section_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3781/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.OrthogonalTransport
+info: ErdosProblems/Erdos186/CFP/Bilu/OrthogonalTransport.lean:383:0: 'Erdos186.CFP.Bilu.VolumeSections.orthogonal_projection_central_section_bound_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/OrthogonalTransport.lean:384:0: 'Erdos186.CFP.Bilu.VolumeSections.central_line_section_bound_of_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/OrthogonalTransport.lean:385:0: 'Erdos186.CFP.Bilu.VolumeSections.lemma66_compact_seminorm_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3782/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.ProjectionVolumeCoarse
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionVolumeCoarse.lean:157:0: 'Erdos186.CFP.Bilu.ProjectionVolumeCoarse.half_projection_volume_le_prod_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionVolumeCoarse.lean:158:0: 'Erdos186.CFP.Bilu.ProjectionVolumeCoarse.projection_volume_scaled_le_prod_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionVolumeCoarse.lean:160:0: 'Erdos186.CFP.Bilu.ProjectionVolumeCoarse.projection_volume_scaled_le_prod_volume_of_isCompact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3783/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Case2Coordinates
+info: ErdosProblems/Erdos186/CFP/Bilu/Case2Coordinates.lean:308:0: 'Erdos186.CFP.Bilu.Case2Coordinates.span_unitNormal_eq_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Case2Coordinates.lean:309:0: 'Erdos186.CFP.Bilu.Case2Coordinates.normalCoordinate_measurePreserving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Case2Coordinates.lean:310:0: 'Erdos186.CFP.Bilu.Case2Coordinates.volume_preimage_normalCoordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Case2Coordinates.lean:311:0: 'Erdos186.CFP.Bilu.Case2Coordinates.convex_preimage_normalCoordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Case2Coordinates.lean:312:0: 'Erdos186.CFP.Bilu.Case2Coordinates.image_baseProjection_preimage_normalCoordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Case2Coordinates.lean:314:0: 'Erdos186.CFP.Bilu.Case2Coordinates.closedBall_subset_baseProjection_preimage_normalCoordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3784/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.CoordinateFlag
+info: ErdosProblems/Erdos186/CFP/Bilu/CoordinateFlag.lean:248:0: 'Erdos186.CFP.Bilu.VolumeSections.canonicalCoordinateFlag_compat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/CoordinateFlag.lean:249:0: 'Erdos186.CFP.Bilu.VolumeSections.origin_centered_coordinate_section_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/CoordinateFlag.lean:250:0: 'Erdos186.CFP.Bilu.VolumeSections.intrinsicVolume_canonical_section_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3785/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8Case2
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2.lean:84:0: 'Erdos186.CFP.Bilu.Section8Case2.combine_equations_8_7_to_8_10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2.lean:85:0: 'Erdos186.CFP.Bilu.Section8Case2.combine_equations_8_7_to_8_10_ennreal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3786/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.PolarSeparation
+info: ErdosProblems/Erdos186/CFP/Bilu/PolarSeparation.lean:90:0: 'Erdos186.CFP.Bilu.PolarSeparation.exists_inner_gt_of_badlyApproximable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3787/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.ProjectionDeterminant
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionDeterminant.lean:190:0: 'Erdos186.CFP.Bilu.normDet_projectionRestrict_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3788/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.ProjectionCovolume
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionCovolume.lean:246:0: 'Erdos186.CFP.Bilu.ProjectionCovolume.exists_integral_normal_projection_covolume_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionCovolume.lean:248:0: 'Erdos186.CFP.Bilu.ProjectionCovolume.exists_integral_normal_projection_covolume_bound_of_codim_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/ProjectionCovolume.lean:249:0: 'Erdos186.CFP.Bilu.ProjectionCovolume.exists_integral_normal_projection_volume_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3789/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8GeometrySynthesis
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8GeometrySynthesis.lean:238:0: 'Erdos186.CFP.Bilu.Section8GeometrySynthesis.equation88_of_half_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8GeometrySynthesis.lean:239:0: 'Erdos186.CFP.Bilu.Section8GeometrySynthesis.combine_case2_with_projection_and_cone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3790/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8Case2Concrete
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Concrete.lean:117:0: 'Erdos186.CFP.Bilu.Section8Case2Concrete.equation87_of_strict_polar_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Concrete.lean:118:0: 'Erdos186.CFP.Bilu.Section8Case2Concrete.equation810_of_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Concrete.lean:119:0: 'Erdos186.CFP.Bilu.Section8Case2Concrete.combine_case2_of_polar_projection_and_cone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3791/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8Case2Canonical
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Canonical.lean:248:0: 'Erdos186.CFP.Bilu.Section8Case2Canonical.section_le_of_factor_mul_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Canonical.lean:250:0: 'Erdos186.CFP.Bilu.Section8Case2Canonical.projection_section_volume_eq_canonical_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Canonical.lean:252:0: 'Erdos186.CFP.Bilu.Section8Case2Canonical.projection_section_volume_le_canonical_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Canonical.lean:254:0: 'Erdos186.CFP.Bilu.Section8Case2Canonical.combine_case2_of_polar_projection_and_canonical_flag' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8Case2Canonical.lean:256:0: 'Erdos186.CFP.Bilu.Section8Case2Canonical.combine_case2_of_isometric_section_identification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3792/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Case2
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2.lean:411:0: 'Erdos186.CFP.Bilu.Proposition75Case2.volume_coordinateB0' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2.lean:412:0: 'Erdos186.CFP.Bilu.Proposition75Case2.raw_case2_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2.lean:413:0: 'Erdos186.CFP.Bilu.Proposition75Case2.proposition75Conclusion_of_raw_case2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3793/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Case1
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case1.lean:488:0: 'Erdos186.CFP.Bilu.Proposition75Case1.raw_case1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case1.lean:489:0: 'Erdos186.CFP.Bilu.Proposition75Case1.proposition75Conclusion_case1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case1.lean:490:0: 'Erdos186.CFP.Bilu.Proposition75Case1.proposition75Conclusion_case1_of_covolume_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3794/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Branches
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Branches.lean:96:0: 'Erdos186.CFP.Bilu.Proposition75Branches.conclusion_of_case1Branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Branches.lean:97:0: 'Erdos186.CFP.Bilu.Proposition75Branches.conclusion_of_case2Branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Branches.lean:98:0: 'Erdos186.CFP.Bilu.Proposition75Branches.proposition75Conclusion_of_cases' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3795/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section7FreimanMap
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7FreimanMap.lean:456:0: 'Erdos186.CFP.Bilu.Section7FreimanMap.freimanMap_pair_sum_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3796/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5TwoN
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5TwoN.lean:249:0: 'Erdos186.CFP.Bilu.Section5TwoN.exists_large_symmetricFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5TwoN.lean:250:0: 'Erdos186.CFP.Bilu.Section5TwoN.exists_affineSlice_of_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3797/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5CubeGeometry
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:375:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.sign_eq_of_add_affineCubeVertex_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:376:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.card_affineCubeSumFinset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:377:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.card_mul_two_pow_le_pairSumset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:378:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.finrank_direction_affineCubeFacePlane_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:379:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.exists_face_of_mem_closed_not_mem_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:380:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.card_affineCubeBoundaryPart_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeGeometry.lean:381:0: 'Erdos186.CFP.Bilu.Section5CubeGeometry.closedCard_le_interiorCard_add_boundaryBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3798/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5CubeLemma
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeLemma.lean:1042:0: 'Erdos186.CFP.Bilu.Section5CubeLemma.exists_tubeCubeWitness_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeLemma.lean:1043:0: 'Erdos186.CFP.Bilu.Section5CubeLemma.exists_tubeCubeWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5CubeLemma.lean:1044:0: 'Erdos186.CFP.Bilu.Section5CubeLemma.exists_cubeLemmaWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3799/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5OutsideCells
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5OutsideCells.lean:363:0: 'Erdos186.CFP.Bilu.Section5OutsideCells.pairSumset_cubeCell_disjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5OutsideCells.lean:364:0: 'Erdos186.CFP.Bilu.Section5OutsideCells.interior_and_outside_pairSum_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3800/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5FullCube
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5FullCube.lean:219:0: 'Erdos186.CFP.Bilu.Section5FullCube.affineSlice_or_cubeDirsLinearEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5FullCube.lean:220:0: 'Erdos186.CFP.Bilu.Section5FullCube.exists_affineSlice_or_fullCube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3801/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5EpsilonCalc
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5EpsilonCalc.lean:342:0: 'Erdos186.CFP.Bilu.Section5EpsilonCalc.sum_twoNEpsilon_div_mul_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3802/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5GenericProjection
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5GenericProjection.lean:321:0: 'Erdos186.CFP.Bilu.Section5GenericProjection.exists_functional_finrank_inf_ker_add_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5GenericProjection.lean:322:0: 'Erdos186.CFP.Bilu.Section5GenericProjection.exists_generic_subspace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5GenericProjection.lean:323:0: 'Erdos186.CFP.Bilu.Section5GenericProjection.GenericProjection.mkQ_injOn_pairSumset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5GenericProjection.lean:324:0: 'Erdos186.CFP.Bilu.Section5GenericProjection.GenericProjection.finrank_quotient_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5GenericProjection.lean:325:0: 'Erdos186.CFP.Bilu.Section5GenericProjection.GenericProjection.mkQ_injOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5GenericProjection.lean:327:0: 'Erdos186.CFP.Bilu.Section5GenericProjection.GenericProjection.finrank_span_lt_of_map_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3803/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5ProjectionSlice
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5ProjectionSlice.lean:225:0: 'Erdos186.CFP.Bilu.Section5ProjectionSlice.card_pairSumset_image_mkQ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5ProjectionSlice.lean:226:0: 'Erdos186.CFP.Bilu.Section5ProjectionSlice.finrank_direction_affineSpan_lt_of_image_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5ProjectionSlice.lean:227:0: 'Erdos186.CFP.Bilu.Section5ProjectionSlice.pullbackAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5ProjectionSlice.lean:228:0: 'Erdos186.CFP.Bilu.Section5ProjectionSlice.exists_affineSlice_of_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3804/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5Theorem56
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5Theorem56.lean:106:0: 'Erdos186.CFP.Bilu.Section5Theorem56.exists_affineSlice_of_rankTwoN' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5Theorem56.lean:107:0: 'Erdos186.CFP.Bilu.Section5Theorem56.exists_constant_affineSlice_of_twoNTheorem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3805/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5EpsilonInduction
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5EpsilonInduction.lean:563:0: 'Erdos186.CFP.Bilu.Section5EpsilonInduction.boundary_card_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5EpsilonInduction.lean:564:0: 'Erdos186.CFP.Bilu.Section5EpsilonInduction.half_cubeDensity_mul_card_lt_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5EpsilonInduction.lean:565:0: 'Erdos186.CFP.Bilu.Section5EpsilonInduction.pairSumset_card_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5EpsilonInduction.lean:566:0: 'Erdos186.CFP.Bilu.Section5EpsilonInduction.twoNTheoremStatement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5EpsilonInduction.lean:567:0: 'Erdos186.CFP.Bilu.Section5EpsilonInduction.exists_constant_affineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3806/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section7PlaneSeed
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7PlaneSeed.lean:373:0: 'Erdos186.CFP.Bilu.Section7PlaneSeed.exists_planeSeed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7PlaneSeed.lean:374:0: 'Erdos186.CFP.Bilu.Section7PlaneSeed.exists_planeSeed_for_proposition74' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7PlaneSeed.lean:375:0: 'Erdos186.CFP.Bilu.Section7PlaneSeed.exists_planeSeed_of_affineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7PlaneSeed.lean:376:0: 'Erdos186.CFP.Bilu.Section7PlaneSeed.geometricDataOfAffineSliceAndIndependentIntegralFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7PlaneSeed.lean:378:0: 'Erdos186.CFP.Bilu.Section7PlaneSeed.geometricDataOfAffineSliceAndAdmitsIndependent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3807/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section7AffineSlice
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7AffineSlice.lean:245:0: 'Erdos186.CFP.Bilu.Section7AffineSlice.sourceAffineSliceOfWitness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7AffineSlice.lean:246:0: 'Erdos186.CFP.Bilu.Section7AffineSlice.SourceAffineSlice.exists_planeSeed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7AffineSlice.lean:247:0: 'Erdos186.CFP.Bilu.Section7AffineSlice.exists_sourceAffineSlice_of_rankTwoN' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3808/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section7AffineSliceUnconditional
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7AffineSliceUnconditional.lean:45:0: 'Erdos186.CFP.Bilu.Section7AffineSliceUnconditional.exists_constant_sourceAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3809/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5TwoPowEpsilonCalc
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5TwoPowEpsilonCalc.lean:179:0: 'Erdos186.CFP.Bilu.Section5TwoPowEpsilonCalc.sum_twoPowNEpsilon_div_mul_lt_of_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3810/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5TwoPowInduction
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5TwoPowInduction.lean:389:0: 'Erdos186.CFP.Bilu.Section5TwoPowInduction.pairSumset_card_twoPow_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3811/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5TwoPowTheorem
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5TwoPowTheorem.lean:214:0: 'Erdos186.CFP.Bilu.Section5TwoPowTheorem.exists_dense_hyperplane_twoPowGap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5TwoPowTheorem.lean:216:0: 'Erdos186.CFP.Bilu.Section5TwoPowTheorem.exists_constant_affineSlice_twoPowGap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3812/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5SortedTail
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5SortedTail.lean:262:0: 'Erdos186.CFP.Bilu.Section5SortedTail.exists_headBasisVector_not_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5SortedTail.lean:263:0: 'Erdos186.CFP.Bilu.Section5SortedTail.width_le_of_affineSliceWitness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5SortedTail.lean:264:0: 'Erdos186.CFP.Bilu.Section5SortedTail.exists_uniform_tailBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3817/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.MahlerBox
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerBox.lean:500:0: 'Erdos186.CFP.Bilu.MahlerBox.exists_basis_coefficientBox_mapsTo_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerBox.lean:501:0: 'Erdos186.CFP.Bilu.MahlerBox.exists_proper_centeredGAP_subset_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerBox.lean:502:0: 'Erdos186.CFP.Bilu.MahlerBox.exists_proper_centeredGAP_subset_unitBall_with_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerBox.lean:504:0: 'Erdos186.CFP.Bilu.MahlerBox.exists_canonical_proper_centeredGAP_subset_unitBall_with_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerBox.lean:505:0: 'Erdos186.CFP.Bilu.MahlerBox.unitBall_volume_le_constant_mul_canonicalGAP_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerBox.lean:507:0: 'Erdos186.CFP.Bilu.MahlerBox.exists_canonical_proper_centeredGAP_subset_unitBall_with_two_sided_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3818/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.MahlerOuterBox
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerOuterBox.lean:294:0: 'Erdos186.CFP.Bilu.MahlerOuterBox.abs_cast_det_integralColumns_replaceBasisVector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerOuterBox.lean:295:0: 'Erdos186.CFP.Bilu.MahlerOuterBox.replacement_coordinate_crosspolytope_volume_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerOuterBox.lean:296:0: 'Erdos186.CFP.Bilu.MahlerOuterBox.basisCoordinate_mul_successiveMinimum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3819/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.MahlerOuterContainer
+info: ErdosProblems/Erdos186/CFP/Bilu/MahlerOuterContainer.lean:436:0: 'Erdos186.CFP.Bilu.MahlerOuterContainer.exists_proper_outerGAP_containing_unitBall_with_two_sided_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3820/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9ContainerIntegration
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9ContainerIntegration.lean:448:0: 'Erdos186.CFP.Bilu.Section9ContainerIntegration.exists_coveringCertificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9ContainerIntegration.lean:449:0: 'Erdos186.CFP.Bilu.Section9ContainerIntegration.exists_coveringCertificate_with_card_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9ContainerIntegration.lean:451:0: 'Erdos186.CFP.Bilu.Section9ContainerIntegration.exists_mappedOuterContainer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9ContainerIntegration.lean:452:0: 'Erdos186.CFP.Bilu.Section9ContainerIntegration.MappedOuterContainer.toSortedFsContainer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3821/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4VolumeIteration
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4VolumeIteration.lean:104:0: 'Erdos186.CFP.Bilu.Section4VolumeIteration.exists_le_of_half_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4VolumeIteration.lean:105:0: 'Erdos186.CFP.Bilu.Section4VolumeIteration.exists_le_of_two_mul_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4VolumeIteration.lean:106:0: 'Erdos186.CFP.Bilu.Section4VolumeIteration.exists_le_of_pow_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3822/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9KernelAffineReduction
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9KernelAffineReduction.lean:341:0: 'Erdos186.CFP.Bilu.Section9KernelAffineReduction.injOn_iff_sub_ker_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9KernelAffineReduction.lean:342:0: 'Erdos186.CFP.Bilu.Section9KernelAffineReduction.exists_kernelQuotientStep_of_not_injOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9KernelAffineReduction.lean:343:0: 'Erdos186.CFP.Bilu.Section9KernelAffineReduction.exists_good_of_rank_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9KernelAffineReduction.lean:344:0: 'Erdos186.CFP.Bilu.Section9KernelAffineReduction.card_pairSumset_affineRestriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9KernelAffineReduction.lean:345:0: 'Erdos186.CFP.Bilu.Section9KernelAffineReduction.exists_affineRestriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3823/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section94RankThresholdBoundary
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RankThresholdBoundary.lean:185:0: 'Erdos186.CFP.Bilu.Section94RankThresholdBoundary.exists_good_of_rank_reduction_with_rank_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RankThresholdBoundary.lean:187:0: 'Erdos186.CFP.Bilu.Section94RankThresholdBoundary.pairSumset_card_lt_twoN_of_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RankThresholdBoundary.lean:189:0: 'Erdos186.CFP.Bilu.Section94RankThresholdBoundary.exists_uniform_tailBound_of_rpow_twoN_branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RankThresholdBoundary.lean:191:0: 'Erdos186.CFP.Bilu.Section94RankThresholdBoundary.exists_uniform_tailBound_of_rpowAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3824/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section5RpowAffineSlice
+info: ErdosProblems/Erdos186/CFP/Bilu/Section5RpowAffineSlice.lean:76:0: 'Erdos186.CFP.Bilu.Section5RpowAffineSlice.exists_rpowAffineSliceStatement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3825/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Case2Construction
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean:1241:0: 'Erdos186.CFP.Bilu.Proposition75Case2Construction.exists_coordinate_separator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean:1243:0: 'Erdos186.CFP.Bilu.Proposition75Case2Construction.exists_coordinate_separator_of_presentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean:1244:0: 'Erdos186.CFP.Bilu.Proposition75Case2Construction.exists_case2Witness_of_separator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean:1245:0: 'Erdos186.CFP.Bilu.Proposition75Case2Construction.exists_case2Witness_of_presentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean:1246:0: 'Erdos186.CFP.Bilu.Proposition75Case2Construction.exists_case2Witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3826/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Case2Branch
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Branch.lean:212:0: 'Erdos186.CFP.Bilu.Proposition75Case2Branch.case2Branch_of_badlyApproximable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Branch.lean:213:0: 'Erdos186.CFP.Bilu.Proposition75Case2Branch.case2Branch_of_unitCubeIoc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3827/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Proposition75Construction
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:639:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_large_lowDoubling_residueCell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:640:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_large_rpow_residueCell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:641:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_sourceAffineSlice_of_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:642:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_geometricData_of_lowDoubling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:643:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_geometricData_of_rpowDoubling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:644:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_geometricData_of_proposition83' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:645:0: 'Erdos186.CFP.Bilu.Proposition75Construction.exists_geometricData_of_proposition83_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:646:0: 'Erdos186.CFP.Bilu.Proposition75Construction.case1Branch_of_covolume_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:647:0: 'Erdos186.CFP.Bilu.Proposition75Construction.proposition75Cases_of_badlyApproximable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Proposition75Construction.lean:649:0: 'Erdos186.CFP.Bilu.Proposition75Construction.proposition75Conclusion_of_badlyApproximable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3828/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9Replacement
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9Replacement.lean:227:0: 'Erdos186.CFP.Bilu.Section9Replacement.lemma45SectionSeedOfAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9Replacement.lean:228:0: 'Erdos186.CFP.Bilu.Section9Replacement.exists_lemma45SectionSeed_of_proposition83_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9Replacement.lean:229:0: 'Erdos186.CFP.Bilu.Section9Replacement.Lemma45SectionSeed.head_injOn_sectionSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3829/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91CoveringEnlargement
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91CoveringEnlargement.lean:164:0: 'Erdos186.CFP.Bilu.Section91CoveringEnlargement.integralReal_latticeHead' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91CoveringEnlargement.lean:166:0: 'Erdos186.CFP.Bilu.Section91CoveringEnlargement.Lemma45SectionSeed.exists_coveringEnlargement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3830/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9NormalizedReplacement
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9NormalizedReplacement.lean:189:0: 'Erdos186.CFP.Bilu.Section9NormalizedReplacement.coordinate_volume_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9NormalizedReplacement.lean:190:0: 'Erdos186.CFP.Bilu.Section9NormalizedReplacement.NormalizedReplacement.volume_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9NormalizedReplacement.lean:191:0: 'Erdos186.CFP.Bilu.Section9NormalizedReplacement.exists_coveredNormalizedReplacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3831/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91InitialPresentation
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91InitialPresentation.lean:160:0: 'Erdos186.CFP.Bilu.Section91InitialPresentation.InitialPresentation.exists_initialLift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91InitialPresentation.lean:162:0: 'Erdos186.CFP.Bilu.Section91InitialPresentation.InitialPresentation.subset_range_initialMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91InitialPresentation.lean:163:0: 'Erdos186.CFP.Bilu.Section91InitialPresentation.InitialPresentation.initialRank_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3832/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section94SortedContainerAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94SortedContainerAssembly.lean:168:0: 'Erdos186.CFP.Bilu.Section94SortedContainerAssembly.tail_width_le_uniformTailBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94SortedContainerAssembly.lean:170:0: 'Erdos186.CFP.Bilu.Section94SortedContainerAssembly.MappedOuterContainer.toSortedFsContainer_of_smallDoublingCoordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94SortedContainerAssembly.lean:172:0: 'Erdos186.CFP.Bilu.Section94SortedContainerAssembly.exists_sortedFsContainer_of_reducedBody' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94SortedContainerAssembly.lean:174:0: 'Erdos186.CFP.Bilu.Section94SortedContainerAssembly.ReducedOuterRealization.toSortedFsContainer_of_smallDoublingCoordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3833/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92OuterInjectivityBridge
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92OuterInjectivityBridge.lean:124:0: 'Erdos186.CFP.Bilu.Section92OuterInjectivityBridge.seminorm_le_outerDilationBound_of_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92OuterInjectivityBridge.lean:126:0: 'Erdos186.CFP.Bilu.Section92OuterInjectivityBridge.enlarged_injective_of_injectiveOn_seminormBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3834/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationScale
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationScale.lean:158:0: 'Erdos186.CFP.ProjectedProperization.outer_unit_cost_le_uniformOuterCost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationScale.lean:159:0: 'Erdos186.CFP.ProjectedProperization.source_le_projectionFactor_mul_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationScale.lean:160:0: 'Erdos186.CFP.ProjectedProperization.succ_mul_projectionTestRadius_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3835/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationTerminal
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationTerminal.lean:155:0: 'Erdos186.CFP.ProjectedProperization.seminorm_le_outerDilationBound_of_mem_outerGAP' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationTerminal.lean:157:0: 'Erdos186.CFP.ProjectedProperization.mapped_outerGAP_dilate_proper_of_injOn_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3836/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92ShortKernel
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ShortKernel.lean:324:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.exists_shortKernelVector_of_not_injOn_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ShortKernel.lean:325:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.primitiveDirection_le_ker' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ShortKernel.lean:326:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.exists_primitiveKernelStep_of_not_injOn_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3837/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationExistence
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationExistence.lean:355:0: 'Erdos186.CFP.ProjectedProperization.dataOfInjOnDilate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationExistence.lean:356:0: 'Erdos186.CFP.ProjectedProperization.dataOfInjOnDilateWithFactor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3838/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92ComplementCoordinates
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ComplementCoordinates.lean:125:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveIntegralQuotient.reducedMap_complementCoordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ComplementCoordinates.lean:127:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveIntegralQuotient.exists_reducedLift_of_exists_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3840/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92ProjectedComplementCoordinates
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ProjectedComplementCoordinates.lean:316:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.linearIndependent_projectedComplementFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ProjectedComplementCoordinates.lean:318:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.projectedComplementEquiv_projectedComplementFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3841/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92NormalizedProjectedGauge
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92NormalizedProjectedGauge.lean:284:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.unitBall_coordinateProjectedSeminorm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92NormalizedProjectedGauge.lean:286:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.coordinateProjectedSeminorm_complementCoordinates_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3842/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationRankDrop
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationRankDrop.lean:514:0: 'Erdos186.CFP.ProjectedProperizationRankDrop.admitsIndependent_coordinateProjectedSeminorm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationRankDrop.lean:516:0: 'Erdos186.CFP.ProjectedProperizationRankDrop.exists_integral_lift_of_coordinateProjectedSeminorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationRankDrop.lean:518:0: 'Erdos186.CFP.ProjectedProperizationRankDrop.exists_integral_lift_of_genericCoordinateProjectedSeminorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationRankDrop.lean:520:0: 'Erdos186.CFP.ProjectedProperizationRankDrop.exists_old_lift_of_mem_genericProjectedOuterSource_dilate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3843/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationDescent
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationDescent.lean:159:0: 'Erdos186.CFP.ProjectedProperization.DescentState.reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationDescent.lean:160:0: 'Erdos186.CFP.ProjectedProperization.DescentState.exists_injective_descendant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3844/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationAssembly
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationAssembly.lean:269:0: 'Erdos186.CFP.ProjectedProperization.mem_dilate_carrier_iff_exists_centeredBoxSeminorm_all_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationAssembly.lean:271:0: 'Erdos186.CFP.ProjectedProperization.map_eq_sum_basis_repr' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationAssembly.lean:272:0: 'Erdos186.CFP.ProjectedProperization.exists_data_of_projectionFactor_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationAssembly.lean:274:0: 'Erdos186.CFP.ProjectedProperization.exists_data_boxDehomogenize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3845/4101] Replayed ErdosProblems.Erdos186.CFP.HigherDimensionalCorollary
+info: ErdosProblems/Erdos186/CFP/HigherDimensionalCorollary.lean:586:0: 'Erdos186.CFP.HigherDimensionalCorollary.scaleNum_le_scaleDen_of_integerConclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/HigherDimensionalCorollary.lean:589:0: 'Erdos186.CFP.HigherDimensionalCorollary.nonemptyHigherDimensionalCorollary5_of_nonemptyIntegerTheorem15_of_projectedProperization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3846/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedProperizationTheorem
+info: ErdosProblems/Erdos186/CFP/ProjectedProperizationTheorem.lean:31:0: 'Erdos186.CFP.ProjectedProperization.boxProjectedProperizationStatement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3847/4101] Replayed ErdosProblems.Erdos186.CFP.HigherDimensionalCorollaryFinal
+info: ErdosProblems/Erdos186/CFP/HigherDimensionalCorollaryFinal.lean:29:0: 'Erdos186.CFP.HigherDimensionalCorollary.nonemptyHigherDimensionalCorollary5_of_nonemptyIntegerTheorem15' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3848/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92ProjectedCovolumeCancellation
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ProjectedCovolumeCancellation.lean:311:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.norm_primitiveReal_mul_projectedComplementLattice_covolume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ProjectedCovolumeCancellation.lean:313:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.volume_coordinateProjectedBody_le_rank_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ProjectedCovolumeCancellation.lean:315:0: 'Erdos186.CFP.Bilu.Section92ShortKernel.PrimitiveKernelStep.coordinateProjectedBody_volumeReal_le_rank_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3849/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section94RpowContainerAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RpowContainerAssembly.lean:201:0: 'Erdos186.CFP.Bilu.Section94RpowContainerAssembly.tail_width_le_rpowTailBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RpowContainerAssembly.lean:204:0: 'Erdos186.CFP.Bilu.Section94RpowContainerAssembly.ReducedOuterRealization.toSortedFsContainer_of_rpowAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RpowContainerAssembly.lean:206:0: 'Erdos186.CFP.Bilu.Section94RpowContainerAssembly.ReducedOuterRealization.exists_sortedFsContainer_of_rpowAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RpowContainerAssembly.lean:208:0: 'Erdos186.CFP.Bilu.Section94RpowContainerAssembly.ReducedOuterRealization.exists_tailBound_and_sortedFsContainer_of_sourceDoubling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94RpowContainerAssembly.lean:210:0: 'Erdos186.CFP.Bilu.Section94RpowContainerAssembly.sortedFsContainerStatement_of_reducedOuterRealization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3850/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section94ReducedCoordinates
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94ReducedCoordinates.lean:388:0: 'Erdos186.CFP.Bilu.Section94ReducedCoordinates.ReducedOuterRealization.card_pairSumset_realCoordinateSet_eq_twoA' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94ReducedCoordinates.lean:390:0: 'Erdos186.CFP.Bilu.Section94ReducedCoordinates.ReducedOuterRealization.exists_coefficientSet_of_sourceDoubling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94ReducedCoordinates.lean:391:0: 'Erdos186.CFP.Bilu.Section94ReducedCoordinates.reducedOuterRealizationStatement_iff_existence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3851/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4UniformVolumeDecay
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4UniformVolumeDecay.lean:172:0: 'Erdos186.CFP.Bilu.Section4UniformVolumeDecay.exists_candidate_le_of_bounded_or_pow_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4UniformVolumeDecay.lean:175:0: 'Erdos186.CFP.Bilu.Section4UniformVolumeDecay.UniformReducedOuterDecayPackage.exists_reducedOuterRealization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4UniformVolumeDecay.lean:176:0: 'Erdos186.CFP.Bilu.Section4UniformVolumeDecay.reducedOuterExistenceStatement_of_uniformVolumeDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3852/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4SmallCardinality
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4SmallCardinality.lean:177:0: 'Erdos186.CFP.Bilu.Section4SmallCardinality.coordinateMap_coordinateLift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4SmallCardinality.lean:179:0: 'Erdos186.CFP.Bilu.Section4SmallCardinality.volume_cubeSeminorm_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4SmallCardinality.lean:181:0: 'Erdos186.CFP.Bilu.Section4SmallCardinality.smallCardInitialPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3853/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92ReducedOuterConstructor
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92ReducedOuterConstructor.lean:61:0: 'Erdos186.CFP.Bilu.Section92ReducedOuterConstructor.exists_reducedOuterRealization_of_body' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3854/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92PresentationDescent
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92PresentationDescent.lean:164:0: 'Erdos186.CFP.Bilu.Section92PresentationDescent.exists_enlargedInjective_of_rankReduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92PresentationDescent.lean:166:0: 'Erdos186.CFP.Bilu.Section92PresentationDescent.exists_reducedOuterRealization_of_rankReduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92PresentationDescent.lean:168:0: 'Erdos186.CFP.Bilu.Section92PresentationDescent.bodyPresentationOfSmallCard' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3855/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92BodyPresentationQuotient
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92BodyPresentationQuotient.lean:170:0: 'Erdos186.CFP.Bilu.Section92BodyPresentationQuotient.quotientBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92BodyPresentationQuotient.lean:171:0: 'Erdos186.CFP.Bilu.Section92BodyPresentationQuotient.quotientBodyPresentation_rank_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3856/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92PresentationQuotientAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92PresentationQuotientAssembly.lean:216:0: 'Erdos186.CFP.Bilu.Section92PresentationQuotientAssembly.reducedBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92PresentationQuotientAssembly.lean:219:0: 'Erdos186.CFP.Bilu.Section92PresentationQuotientAssembly.exists_rankDecrease_of_not_enlargedInjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92PresentationQuotientAssembly.lean:221:0: 'Erdos186.CFP.Bilu.Section92PresentationQuotientAssembly.exists_canonicalRankDecrease_of_not_enlargedInjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3857/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92WeightedRankRepair
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92WeightedRankRepair.lean:242:0: 'Erdos186.CFP.Bilu.Section92WeightedRankRepair.exists_enlargedInjective_of_canonicalWeightedQuotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3858/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92UniformRankRepair
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92UniformRankRepair.lean:83:0: 'Erdos186.CFP.Bilu.Section92UniformRankRepair.exists_enlargedInjective_of_canonicalQuotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3859/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92MahlerVolumeConversion
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92MahlerVolumeConversion.lean:211:0: 'Erdos186.CFP.Bilu.Section92MahlerVolumeConversion.MappedOuterContainer.source_volume_cast_le_uniform_mul_bodyVolume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92MahlerVolumeConversion.lean:213:0: 'Erdos186.CFP.Bilu.Section92MahlerVolumeConversion.exists_reducedOuterRealization_of_terminalScaledBodyVolume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3860/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4ScaledDecay
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4ScaledDecay.lean:98:0: 'Erdos186.CFP.Bilu.Section4ScaledDecay.uniformTerminalBodyVolume_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4ScaledDecay.lean:100:0: 'Erdos186.CFP.Bilu.Section4ScaledDecay.terminalScaledBodyVolume_le_uniformTerminalBodyVolume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4ScaledDecay.lean:102:0: 'Erdos186.CFP.Bilu.Section4ScaledDecay.scaled_decay_of_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3861/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4TerminalConstants
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalConstants.lean:164:0: 'Erdos186.CFP.Bilu.Section4TerminalConstants.terminalVolumeConstant_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalConstants.lean:167:0: 'Erdos186.CFP.Bilu.Section4TerminalConstants.two_mul_uniformMahlerOuterVolumeConstant_le_terminalVolumeConstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalConstants.lean:169:0: 'Erdos186.CFP.Bilu.Section4TerminalConstants.uniformTerminalScale_mul_two_pow_le_terminalVolumeConstant_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalConstants.lean:171:0: 'Erdos186.CFP.Bilu.Section4TerminalConstants.uniformTerminalScale_mul_rawConstant_mul_le_terminalVolumeConstant_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3862/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4PresentationLiftSet
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4PresentationLiftSet.lean:175:0: 'Erdos186.CFP.Bilu.Section4PresentationLiftSet.card_pairSumset_presentationLiftSet_eq_twoA' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3863/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8PolarVolumeProduct
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8PolarVolumeProduct.lean:302:0: 'Erdos186.CFP.Bilu.Section8PolarVolumeProduct.polar_volume_mul_unitBall_volume_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3864/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section8PresentationNormalization
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8PresentationNormalization.lean:330:0: 'Erdos186.CFP.Bilu.Section8PresentationNormalization.standardRadius_normalizedMahlerSeminorm_le_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section8PresentationNormalization.lean:331:0: 'Erdos186.CFP.Bilu.Section8PresentationNormalization.volume_normalizedMahlerUnitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3865/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4DecayAlgebra
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4DecayAlgebra.lean:273:0: 'Erdos186.CFP.Bilu.Section4DecayAlgebra.rpow_inv_nat_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4DecayAlgebra.lean:275:0: 'Erdos186.CFP.Bilu.Section4DecayAlgebra.pow_decay_of_replacement_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3866/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section90IntegerInitialization
+info: ErdosProblems/Erdos186/CFP/Bilu/Section90IntegerInitialization.lean:110:0: 'Erdos186.CFP.Bilu.Section90IntegerInitialization.sumset_integerSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section90IntegerInitialization.lean:111:0: 'Erdos186.CFP.Bilu.Section90IntegerInitialization.doubling_integerSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3867/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91InitialCoordinates
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91InitialCoordinates.lean:133:0: 'Erdos186.CFP.Bilu.Section91InitialCoordinates.InitialPresentation.exists_coordinateLift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91InitialCoordinates.lean:135:0: 'Erdos186.CFP.Bilu.Section91InitialCoordinates.InitialPresentation.subset_range_coordinatePresentationMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91InitialCoordinates.lean:136:0: 'Erdos186.CFP.Bilu.Section91InitialCoordinates.InitialPresentation.coordinateRank_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3868/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91IntegerPresentation
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91IntegerPresentation.lean:104:0: 'Erdos186.CFP.Bilu.Section91IntegerPresentation.InitialPresentation.exists_integerLift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91IntegerPresentation.lean:106:0: 'Erdos186.CFP.Bilu.Section91IntegerPresentation.InitialPresentation.subset_range_integerPresentationMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91IntegerPresentation.lean:108:0: 'Erdos186.CFP.Bilu.Section91IntegerPresentation.InitialPresentation.exists_primitiveKernelStep_of_not_injOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3869/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91PresentationCubification
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91PresentationCubification.lean:248:0: 'Erdos186.CFP.Bilu.Section91PresentationCubification.cubifiedBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91PresentationCubification.lean:250:0: 'Erdos186.CFP.Bilu.Section91PresentationCubification.bodyPresentationOfCoveredNormalizedReplacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3870/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4BodyPresentationPackage
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4BodyPresentationPackage.lean:93:0: 'Erdos186.CFP.Bilu.Section4BodyPresentationPackage.uniformReducedOuterDecayPackageOfBodyPresentations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3871/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section92SingletonRealization
+info: ErdosProblems/Erdos186/CFP/Bilu/Section92SingletonRealization.lean:183:0: 'Erdos186.CFP.Bilu.Section92SingletonRealization.exists_reducedOuterRealization_of_card_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3872/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4TerminalScaledRealization
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalScaledRealization.lean:230:0: 'Erdos186.CFP.Bilu.Section4TerminalScaledRealization.exists_reducedOuterRealization_of_uniformTerminalBodyVolume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalScaledRealization.lean:232:0: 'Erdos186.CFP.Bilu.Section4TerminalScaledRealization.uniformTerminalBodyVolume_decay_of_bodyVolume_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalScaledRealization.lean:234:0: 'Erdos186.CFP.Bilu.Section4TerminalScaledRealization.uniformReducedOuterDecayPackageOfRankBoundedBodies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4TerminalScaledRealization.lean:235:0: 'Erdos186.CFP.Bilu.Section4TerminalScaledRealization.uniformReducedOuterDecayPackageOfRawBodyDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3873/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4RankOneInitializer
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4RankOneInitializer.lean:61:0: 'Erdos186.CFP.Bilu.Section4RankOneInitializer.rankOneBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3874/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section94TerminalAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94TerminalAssembly.lean:62:0: 'Erdos186.CFP.Bilu.Section94TerminalAssembly.reducedOuterRealizationStatement_of_uniformVolumeDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94TerminalAssembly.lean:64:0: 'Erdos186.CFP.Bilu.Section94TerminalAssembly.sortedFsContainerStatement_of_uniformVolumeDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section94TerminalAssembly.lean:66:0: 'Erdos186.CFP.Bilu.Section94TerminalAssembly.biluFreimanStatement_of_uniformVolumeDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3875/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4RawDecaySourceAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4RawDecaySourceAssembly.lean:171:0: 'Erdos186.CFP.Bilu.Section4RawDecaySourceAssembly.rawBodyDecaySourcePackageOfLarge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4RawDecaySourceAssembly.lean:174:0: 'Erdos186.CFP.Bilu.Section4RawDecaySourceAssembly.RawBodyDecaySourcePackage.toUniformReducedOuterDecayPackage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4RawDecaySourceAssembly.lean:175:0: 'Erdos186.CFP.Bilu.Section4RawDecaySourceAssembly.reducedOuterRealizationStatement_of_rawBodyDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4RawDecaySourceAssembly.lean:177:0: 'Erdos186.CFP.Bilu.Section4RawDecaySourceAssembly.biluFreimanStatement_of_rawBodyDecay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3876/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section6DistortingHalfCell
+info: ErdosProblems/Erdos186/CFP/Bilu/Section6DistortingHalfCell.lean:821:0: 'Erdos186.CFP.Bilu.Section6DistortingHalfCell.fract_sub_half_lt_half_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section6DistortingHalfCell.lean:823:0: 'Erdos186.CFP.Bilu.Section6DistortingHalfCell.cosSum_eq_distributionIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3877/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section6BiasedResidueCell
+info: ErdosProblems/Erdos186/CFP/Bilu/Section6BiasedResidueCell.lean:485:0: 'Erdos186.CFP.Bilu.Section6BiasedResidueCell.exp_half_sq_lt_biasGamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section6BiasedResidueCell.lean:486:0: 'Erdos186.CFP.Bilu.Section6BiasedResidueCell.exists_large_biased_binaryFiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section6BiasedResidueCell.lean:487:0: 'Erdos186.CFP.Bilu.Section6BiasedResidueCell.exists_large_biased_residueCell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3878/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section7BiasedAffineSlice
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7BiasedAffineSlice.lean:155:0: 'Erdos186.CFP.Bilu.Section7BiasedAffineSlice.exists_biased_rpow_residueCell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7BiasedAffineSlice.lean:157:0: 'Erdos186.CFP.Bilu.Section7BiasedAffineSlice.exists_sourceAffineSlice_of_distortingSystem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3879/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section7BiasedNumerics
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7BiasedNumerics.lean:203:0: 'Erdos186.CFP.Bilu.Section7BiasedNumerics.corrected_rank_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section7BiasedNumerics.lean:205:0: 'Erdos186.CFP.Bilu.Section7BiasedNumerics.exists_biased_sourceAffineSlice_of_proposition83' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3880/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9BiasedReplacement
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9BiasedReplacement.lean:201:0: 'Erdos186.CFP.Bilu.Section9BiasedReplacement.lemma45SectionSeedOfBiasedAffineSlice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9BiasedReplacement.lean:203:0: 'Erdos186.CFP.Bilu.Section9BiasedReplacement.exists_lemma45SectionSeed_of_proposition83_biased' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3881/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9PresentationReplacement
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9PresentationReplacement.lean:153:0: 'Erdos186.CFP.Bilu.Section9PresentationReplacement.exists_coveredNormalizedReplacement_of_presentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3882/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4SharpDecayAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4SharpDecayAssembly.lean:374:0: 'Erdos186.CFP.Bilu.Section4SharpDecayAssembly.proposition83Threshold_lt_uniform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4SharpDecayAssembly.lean:376:0: 'Erdos186.CFP.Bilu.Section4SharpDecayAssembly.exists_rawBodyDecay_of_uniformSharpReplacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4SharpDecayAssembly.lean:378:0: 'Erdos186.CFP.Bilu.Section4SharpDecayAssembly.biluFreimanStatement_of_uniformSharpReplacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3886/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4GenericSharpLoss
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4GenericSharpLoss.lean:223:0: 'Erdos186.CFP.Bilu.Section4GenericSharpLoss.proposition75SourceConstant_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4GenericSharpLoss.lean:225:0: 'Erdos186.CFP.Bilu.Section4GenericSharpLoss.bodyVolume_le_genericSharpUniformLoss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3887/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section9UniformPresentationReplacement
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9UniformPresentationReplacement.lean:306:0: 'Erdos186.CFP.Bilu.Section9UniformPresentationReplacement.exists_coveredNormalizedReplacement_of_presentation_fixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section9UniformPresentationReplacement.lean:308:0: 'Erdos186.CFP.Bilu.Section9UniformPresentationReplacement.initialRank_le_uniformSharpProductRankBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3888/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section4GenericSharpAssembly
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4GenericSharpAssembly.lean:142:0: 'Erdos186.CFP.Bilu.Section4GenericSharpAssembly.uniformSharpReplacementOfGenericGeometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section4GenericSharpAssembly.lean:144:0: 'Erdos186.CFP.Bilu.Section4GenericSharpAssembly.biluFreimanStatement_of_uniformGenericSharpGeometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3889/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91CoordinateBodyGeometry
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91CoordinateBodyGeometry.lean:229:0: 'Erdos186.CFP.Bilu.Section91CoordinateBodyGeometry.zero_mem_interior_normalized_coordinateB0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91CoordinateBodyGeometry.lean:231:0: 'Erdos186.CFP.Bilu.Section91CoordinateBodyGeometry.isCompact_normalized_coordinateB0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3890/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section91GenericSharpSection
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91GenericSharpSection.lean:320:0: 'Erdos186.CFP.Bilu.Section91GenericSharpSection.genericSharpSectionSeminorm_admitsIndependent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91GenericSharpSection.lean:321:0: 'Erdos186.CFP.Bilu.Section91GenericSharpSection.volume_sharpCoordinateBody' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section91GenericSharpSection.lean:322:0: 'Erdos186.CFP.Bilu.Section91GenericSharpSection.exists_genericSharpSectionData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3891/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section43FreimanDimension
+info: ErdosProblems/Erdos186/CFP/Bilu/Section43FreimanDimension.lean:690:0: 'Erdos186.CFP.Bilu.Section43FreimanDimension.freiman_dimension_lower_bound_of_peeling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section43FreimanDimension.lean:692:0: 'Erdos186.CFP.Bilu.Section43FreimanDimension.freiman_dimension_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section43FreimanDimension.lean:694:0: 'Erdos186.CFP.Bilu.Section43FreimanDimension.affineRank_add_one_le_two_mul_of_dimension_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section43FreimanDimension.lean:696:0: 'Erdos186.CFP.Bilu.Section43FreimanDimension.affineRank_add_one_le_two_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3892/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93AffineRankBound
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93AffineRankBound.lean:127:0: 'Erdos186.CFP.Bilu.Section93AffineRankBound.normalizedLiftSet_affineRank_add_one_le_two_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93AffineRankBound.lean:129:0: 'Erdos186.CFP.Bilu.Section93AffineRankBound.normalizedLiftSet_affineRank_add_one_le_two_mul_ceil' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3893/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93LatticeSectionCoordinates
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93LatticeSectionCoordinates.lean:201:0: 'Erdos186.CFP.Bilu.Section93LatticeSectionCoordinates.coordinateSeminorm_definite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3894/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93HomogeneousAffineSpan
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93HomogeneousAffineSpan.lean:261:0: 'Erdos186.CFP.Bilu.Section93HomogeneousAffineSpan.normalizedLiftSet_homogeneous_rank_le_two_mul_ceil' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93HomogeneousAffineSpan.lean:262:0: 'Erdos186.CFP.Bilu.Section93HomogeneousAffineSpan.span_integralPoints_homogeneousSubspace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3895/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93HomogeneousProductBody
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93HomogeneousProductBody.lean:204:0: 'Erdos186.CFP.Bilu.Section93HomogeneousProductBody.homogeneousProductSeminorm_definite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93HomogeneousProductBody.lean:206:0: 'Erdos186.CFP.Bilu.Section93HomogeneousProductBody.homogeneousPresentationLift_mem_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3896/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93LatticeSectionFullness
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93LatticeSectionFullness.lean:161:0: 'Erdos186.CFP.Bilu.Section93LatticeSectionFullness.coordinateSeminorm_admitsIndependent_of_span' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3897/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93AffineBodyPresentation
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93AffineBodyPresentation.lean:224:0: 'Erdos186.CFP.Bilu.Section93AffineBodyPresentation.properAffineBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93AffineBodyPresentation.lean:226:0: 'Erdos186.CFP.Bilu.Section93AffineBodyPresentation.affineSectionIntegerMap_affineSectionLift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3898/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93NormalizedAffineBodyPresentation
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93NormalizedAffineBodyPresentation.lean:401:0: 'Erdos186.CFP.Bilu.Section93NormalizedAffineBodyPresentation.normalizedProperAffineBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93NormalizedAffineBodyPresentation.lean:404:0: 'Erdos186.CFP.Bilu.Section93NormalizedAffineBodyPresentation.rank_rankedNormalizedProperAffineBodyPresentation_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3899/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93LatticeSectionVolume
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93LatticeSectionVolume.lean:126:0: 'Erdos186.CFP.Bilu.Section93LatticeSectionVolume.volume_unitBall_coordinateSeminorm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93LatticeSectionVolume.lean:128:0: 'Erdos186.CFP.Bilu.Section93LatticeSectionVolume.one_le_covolume_integralPoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3900/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93CentralSectionVolume
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93CentralSectionVolume.lean:252:0: 'Erdos186.CFP.Bilu.VolumeSections.intrinsicVolume_centralSubspace_section_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3901/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93NormalizedAffineVolume
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93NormalizedAffineVolume.lean:383:0: 'Erdos186.CFP.Bilu.Section93NormalizedAffineVolume.bodyVolume_rankedNormalizedTopAffineBodyPresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93NormalizedAffineVolume.lean:384:0: 'Erdos186.CFP.Bilu.Section93NormalizedAffineVolume.volume_normalizedProperAffine_unitBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3902/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93UniformAffineLoss
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93UniformAffineLoss.lean:194:0: 'Erdos186.CFP.Bilu.Section93UniformAffineLoss.affineRestrictionRealFactor_lt_uniform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93UniformAffineLoss.lean:195:0: 'Erdos186.CFP.Bilu.Section93UniformAffineLoss.bodyVolume_rankedNormalizedTopAffineBodyPresentation_le_uniform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93UniformAffineLoss.lean:196:0: 'Erdos186.CFP.Bilu.Section93UniformAffineLoss.bodyVolume_rankedNormalizedProperAffineBodyPresentation_le_uniform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3903/4101] Replayed ErdosProblems.Erdos186.CFP.Bilu.Section93UniformGenericSharpGeometry
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93UniformGenericSharpGeometry.lean:182:0: 'Erdos186.CFP.Bilu.Section93UniformGenericSharpGeometry.uniformGenericSharpGeometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Bilu/Section93UniformGenericSharpGeometry.lean:184:0: 'Erdos186.CFP.Bilu.Section93UniformGenericSharpGeometry.biluFreimanStatement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3905/4101] Replayed ErdosProblems.Erdos186.CFP.RandomGreedyDenseWitness
+info: ErdosProblems/Erdos186/CFP/RandomGreedyDenseWitness.lean:725:0: 'Erdos186.CFP.generatedSublattice_subsetSums' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomGreedyDenseWitness.lean:726:0: 'Erdos186.CFP.exists_bounded_generatorCompletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomGreedyDenseWitness.lean:727:0: 'Erdos186.CFP.RandomPartition.exists_bounded_greedyColorGeneratorCompletionFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomGreedyDenseWitness.lean:728:0: 'Erdos186.CFP.reduced_subsetSums_of_generatedSublattice_eq_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomGreedyDenseWitness.lean:729:0: 'Erdos186.CFP.exists_rankOne_preprocessedReserveCertificate_of_denseSubsetSums' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3908/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredFixedReferenceIndex
+info: ErdosProblems/Erdos186/CFP/CenteredFixedReferenceIndex.lean:232:0: 'Erdos186.CFP.Preprocessing.HApproximation.fixedMinimalReference_centered_relIndex_general_ne_zero_and_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3909/4101] Replayed ErdosProblems.Erdos186.CFP.RandomPartitionSharp
+info: ErdosProblems/Erdos186/CFP/RandomPartitionSharp.lean:653:0: 'Erdos186.CFP.RandomPartition.exists_coloring_robust_on_obstacles_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomPartitionSharp.lean:655:0: 'Erdos186.CFP.RandomPartition.exists_coloring_stronglyStableFor_of_polynomial_bound_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomPartitionSharp.lean:658:0: 'Erdos186.CFP.RandomPartition.exists_coloring_stronglyStableFor_with_commonSpan_of_polynomial_bound_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3910/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredPhysicalIndex
+info: ErdosProblems/Erdos186/CFP/CenteredPhysicalIndex.lean:173:0: 'Erdos186.CFP.Preprocessing.centeredPhysicalDensity_relIndex_ne_zero_and_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3911/4101] Replayed ErdosProblems.Erdos186.CFP.ActiveCenteredIdentification
+info: ErdosProblems/Erdos186/CFP/ActiveCenteredIdentification.lean:334:0: 'Erdos186.CFP.BoundingBox.BoundingGAP.activeRank_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ActiveCenteredIdentification.lean:336:0: 'Erdos186.CFP.Preprocessing.centeredIdentification_activeMinimalBox' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ActiveCenteredIdentification.lean:338:0: 'Erdos186.CFP.Preprocessing.generatedSubgroup_centeredActive_eq_of_centeredMinimal_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ActiveCenteredIdentification.lean:340:0: 'Erdos186.CFP.Preprocessing.centeredPhysicalDensity_relIndex_ne_zero_and_le_boundingGAP' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3912/4101] Replayed ErdosProblems.Erdos186.CFP.ActiveCenteredVolume
+info: ErdosProblems/Erdos186/CFP/ActiveCenteredVolume.lean:64:0: 'Erdos186.CFP.Preprocessing.centeredCoordinateAxisBox_activeDimensions_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3913/4101] Replayed ErdosProblems.Erdos186.CFP.Corollary217FamilyTransport
+info: ErdosProblems/Erdos186/CFP/Corollary217FamilyTransport.lean:479:0: 'Erdos186.CFP.generatedSublattice_sublatticeBasisImage_eq_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217FamilyTransport.lean:480:0: 'Erdos186.CFP.reduced_subsetSums_sublatticeBasisImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3914/4101] Replayed ErdosProblems.Erdos186.CFP.Corollary217EvaluationInjectivity
+info: ErdosProblems/Erdos186/CFP/Corollary217EvaluationInjectivity.lean:187:0: 'Erdos186.CFP.stepEvaluation_injOn_of_pairwise_difference_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217EvaluationInjectivity.lean:188:0: 'Erdos186.CFP.Corollary217Certificate.stepEvaluation_injOn_dilate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3915/4101] Replayed ErdosProblems.Erdos186.CFP.Corollary217MapBack
+info: ErdosProblems/Erdos186/CFP/Corollary217MapBack.lean:673:0: 'Erdos186.CFP.symmetricCoordinateGAP_dilate_carrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217MapBack.lean:674:0: 'Erdos186.CFP.symmetricCoordinateGAP_dilate_proper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217MapBack.lean:675:0: 'Erdos186.CFP.preprocessedReserveCertificate_of_commonBasisDenseBox' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217MapBack.lean:676:0: 'Erdos186.CFP.preprocessedReserveCertificate_of_corollary217Certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3916/4101] Replayed ErdosProblems.Erdos186.CFP.Corollary217ScaleShrink
+info: ErdosProblems/Erdos186/CFP/Corollary217ScaleShrink.lean:265:0: 'Erdos186.CFP.symmetricCoordinateGAP_dilate_mul_subset_dilate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217ScaleShrink.lean:266:0: 'Erdos186.CFP.basisContraction_dilate_mul_subset_dilate_centeredBasisGAP' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3917/4101] Replayed ErdosProblems.Erdos186.CFP.Corollary217ScaledMapBack
+info: ErdosProblems/Erdos186/CFP/Corollary217ScaledMapBack.lean:224:0: 'Erdos186.CFP.integerCore_subset_mapped_certificateContraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/Corollary217ScaledMapBack.lean:226:0: 'Erdos186.CFP.preprocessedReserveCertificate_of_scaled_corollary217Certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3918/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredCompletedReserveCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredCompletedReserveCertificate.lean:208:0: 'Erdos186.CFP.RandomPartition.exists_centeredCompletedReserveCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3919/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledCompletedReserveCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledCompletedReserveCertificate.lean:176:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledCompletedReserveCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3920/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledPhysicalReserveCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledPhysicalReserveCertificate.lean:188:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledPhysicalReserveCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3921/4101] Replayed ErdosProblems.Erdos186.CFP.GreedyPhysicalTarget
+info: ErdosProblems/Erdos186/CFP/GreedyPhysicalTarget.lean:106:0: 'Erdos186.CFP.Greedy.target_le_card_sums_physicalTargetStep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/GreedyPhysicalTarget.lean:107:0: 'Erdos186.CFP.Greedy.physicalTargetRun' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3922/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledPhysicalTargetCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledPhysicalTargetCertificate.lean:190:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledPhysicalTargetCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3923/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledPhysicalDensityTargetCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledPhysicalDensityTargetCertificate.lean:148:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledPhysicalDensityTargetCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3924/4101] Replayed ErdosProblems.Erdos186.CFP.ScaledCertificateNumerics
+info: ErdosProblems/Erdos186/CFP/ScaledCertificateNumerics.lean:76:0: 'Erdos186.CFP.colorSourceScale_certificate_bounds' depends on axioms: [propext, Quot.sound]
+ℹ [3925/4101] Replayed ErdosProblems.Erdos186.CFP.BlockedCertificateNumerics
+info: ErdosProblems/Erdos186/CFP/BlockedCertificateNumerics.lean:104:0: 'Erdos186.CFP.RandomPartition.blockedColorSourceScale_bounds' depends on axioms: [propext, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/BlockedCertificateNumerics.lean:106:0: 'Erdos186.CFP.RandomPartition.blockedColorSourceScale_noCarry_le' depends on axioms: [propext, Quot.sound]
+ℹ [3926/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledActivePhysicalReserveCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledActivePhysicalReserveCertificate.lean:206:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledActivePhysicalReserveCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3927/4101] Replayed ErdosProblems.Erdos186.CFP.CoordinateCorollary217Witness
+info: ErdosProblems/Erdos186/CFP/CoordinateCorollary217Witness.lean:91:0: 'Erdos186.CFP.exists_coordinateFixedScaleWitness_of_commonBasisDenseBox' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3928/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedFixedScaleWitness
+info: ErdosProblems/Erdos186/CFP/ProjectedFixedScaleWitness.lean:91:0: 'Erdos186.CFP.ProjectedProperization.exists_projectedFixedScaleWitness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedFixedScaleWitness.lean:93:0: 'Erdos186.CFP.ProjectedProperization.sourceLineEvaluation_injOn_image_centeredIdentification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedFixedScaleWitness.lean:95:0: 'Erdos186.CFP.ProjectedProperization.image_sourceLineEvaluation_image_centeredIdentification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3929/4101] Replayed ErdosProblems.Erdos186.CFP.CoordinateCorollary217ProjectedWitness
+info: ErdosProblems/Erdos186/CFP/CoordinateCorollary217ProjectedWitness.lean:362:0: 'Erdos186.CFP.image_subsetSums_eq_subsetSums_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CoordinateCorollary217ProjectedWitness.lean:363:0: 'Erdos186.CFP.exists_projectedFixedScaleWitness_of_scaled_corollary217Certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3930/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledActiveProjectedPhysicalReserveCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledActiveProjectedPhysicalReserveCertificate.lean:216:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledActiveProjectedPhysicalReserveCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3931/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledActivePhysicalTargetCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledActivePhysicalTargetCertificate.lean:184:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledActivePhysicalTargetCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3932/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledActiveProjectedPhysicalTargetCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledActiveProjectedPhysicalTargetCertificate.lean:181:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledActiveProjectedPhysicalTargetCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3933/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledActivePhysicalDensityTargetCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledActivePhysicalDensityTargetCertificate.lean:132:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledActivePhysicalDensityTargetCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3934/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledActiveProjectedPhysicalDensityTargetCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledActiveProjectedPhysicalDensityTargetCertificate.lean:131:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledActiveProjectedPhysicalDensityTargetCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3935/4101] Replayed ErdosProblems.Erdos186.CFP.GreedyPhysicalDensity
+info: ErdosProblems/Erdos186/CFP/GreedyPhysicalDensity.lean:329:0: 'Erdos186.CFP.Preprocessing.HApproximation.card_global_multifoldSumset_le_rankFlexible_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3936/4101] Replayed ErdosProblems.Erdos186.CFP.PhysicalNoCarryNumerics
+info: ErdosProblems/Erdos186/CFP/PhysicalNoCarryNumerics.lean:132:0: 'Erdos186.CFP.PreprocessingBilu.HApproximation.boundingBox_dilate_proper_of_preprocessingNoCarry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3937/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredScaledRankFlexiblePhysicalCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredScaledRankFlexiblePhysicalCertificate.lean:212:0: 'Erdos186.CFP.RandomPartition.exists_centeredScaledRankFlexiblePhysicalCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3938/4101] Replayed ErdosProblems.Erdos186.CFP.FixedScaleWitnessScale
+info: ErdosProblems/Erdos186/CFP/FixedScaleWitnessScale.lean:47:0: 'Erdos186.CFP.FixedScaleWitness.increaseScaleDen' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3939/4101] Replayed ErdosProblems.Erdos186.CFP.GreedyDyadicRange
+info: ErdosProblems/Erdos186/CFP/GreedyDyadicRange.lean:122:0: 'Erdos186.CFP.Greedy.positiveDyadicThreshold_succ_le_of_dyadicRange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3940/4101] Replayed ErdosProblems.Erdos186.CFP.GreedyLowPrefix
+info: ErdosProblems/Erdos186/CFP/GreedyLowPrefix.lean:286:0: 'Erdos186.CFP.Greedy.dyadicBinStart_le_dyadicBlock_mul_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3941/4101] Replayed ErdosProblems.Erdos186.CFP.GreedySourceIntervalLowPrefix
+info: ErdosProblems/Erdos186/CFP/GreedySourceIntervalLowPrefix.lean:64:0: 'Erdos186.CFP.Greedy.dyadicBinStart_le_sourceIntervalLog' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3942/4101] Replayed ErdosProblems.Erdos186.CFP.GreedyPopulatedRangeCrossing
+info: ErdosProblems/Erdos186/CFP/GreedyPopulatedRangeCrossing.lean:138:0: 'Erdos186.CFP.RandomPartition.dyadicBinStart_lt_cap_of_populated_dyadicRange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3943/4101] Replayed ErdosProblems.Erdos186.CFP.MultifoldSumsetLower
+info: ErdosProblems/Erdos186/CFP/MultifoldSumsetLower.lean:97:0: 'Erdos186.CFP.GrowthLemmas.add_one_le_card_multifoldSumset' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3944/4101] Replayed ErdosProblems.Erdos186.CFP.RandomPartitionGeneratedSubgroup
+info: ErdosProblems/Erdos186/CFP/RandomPartitionGeneratedSubgroup.lean:49:0: 'Erdos186.CFP.RandomPartition.generatedSubgroup_integerColorClass_eq_anchoredColorClass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3946/4101] Replayed ErdosProblems.Erdos186.CFP.RandomPartitionSharpPopulated
+info: ErdosProblems/Erdos186/CFP/RandomPartitionSharpPopulated.lean:264:0: 'Erdos186.CFP.RandomPartition.exists_populated_coloring_stronglyStableFor_with_commonSpan_of_polynomial_bound_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomPartitionSharpPopulated.lean:266:0: 'Erdos186.CFP.RandomPartition.exists_populated_eraseZero_coloring_of_polynomial_bound_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/RandomPartitionSharpPopulated.lean:269:0: 'Erdos186.CFP.RandomPartition.exists_strictlyPopulated_eraseZero_coloring_of_polynomial_bound_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3947/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredActiveProjectedPopulatedDyadicCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredActiveProjectedPopulatedDyadicCertificate.lean:399:0: 'Erdos186.CFP.RandomPartition.exists_centeredActiveProjectedPopulatedDyadicCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3948/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredActiveProjectedDyadicDataCertificate
+info: ErdosProblems/Erdos186/CFP/CenteredActiveProjectedDyadicDataCertificate.lean:126:0: 'Erdos186.CFP.RandomPartition.exists_centeredActiveProjectedDyadicDataCertificateConstants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3949/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredCorePopulationNumerics
+info: ErdosProblems/Erdos186/CFP/CenteredCorePopulationNumerics.lean:101:0: 'Erdos186.CFP.centeredPreprocessingCore_succ_scale_le_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3950/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredPreprocessingFromDyadicFamily
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingFromDyadicFamily.lean:196:0: 'Erdos186.CFP.PreprocessingBilu.retainedDyadicPreprocessingHApproximationArgument_of_dyadicSourceFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredPreprocessingFromDyadicFamily.lean:197:0: 'Erdos186.CFP.Preprocessing.exists_dyadicCenteredPreprocessingData_of_dyadicSourceFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3951/4101] Replayed ErdosProblems.Erdos186.CFP.DyadicRangeWindowNumerics
+info: ErdosProblems/Erdos186/CFP/DyadicRangeWindowNumerics.lean:64:0: 'Erdos186.CFP.PreprocessingBilu.DyadicRangeWindow.of_endpoints' depends on axioms: [propext, Quot.sound]
+ℹ [3952/4101] Replayed ErdosProblems.Erdos186.CFP.DyadicScaleSplit
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:272:0: 'Erdos186.CFP.dyadicLevelBelow_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:273:0: 'Erdos186.CFP.dyadicTerminalBelow_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:274:0: 'Erdos186.CFP.dyadicLowPrefix_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:275:0: 'Erdos186.CFP.endpoint_mul_source_pow_le_horizon_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:276:0: 'Erdos186.CFP.dyadicLevelBelow_horizon_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:277:0: 'Erdos186.CFP.le_dyadicLevelBelow_of_mul_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/DyadicScaleSplit.lean:278:0: 'Erdos186.CFP.dyadicLevelBelow_lt_dyadicTerminalBelow' depends on axioms: [propext, Quot.sound]
+ℹ [3954/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedColorSourceScaleNumerics
+info: ErdosProblems/Erdos186/CFP/ProjectedColorSourceScaleNumerics.lean:183:0: 'Erdos186.CFP.projectedColorSourceScale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedColorSourceScaleNumerics.lean:184:0: 'Erdos186.CFP.exists_cutoff_projectedColorSourceScale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedColorSourceScaleNumerics.lean:185:0: 'Erdos186.CFP.projectedBlockedColorSourceScale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ProjectedColorSourceScaleNumerics.lean:186:0: 'Erdos186.CFP.exists_cutoff_projectedBlockedColorSourceScale_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3955/4101] Replayed ErdosProblems.Erdos186.CFP.SharpColorCapacityNumerics
+info: ErdosProblems/Erdos186/CFP/SharpColorCapacityNumerics.lean:158:0: 'Erdos186.CFP.RandomPartition.exists_cutoff_sharpColorCapacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3956/4101] Replayed ErdosProblems.Erdos186.CFP.ProjectedDyadicCrossingNumerics
+info: ErdosProblems/Erdos186/CFP/ProjectedDyadicCrossingNumerics.lean:269:0: 'Erdos186.CFP.exists_cutoff_projectedDyadicCrossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3957/4101] Replayed ErdosProblems.Erdos186.CFP.ScaleDyadicPreprocessingWindow
+info: ErdosProblems/Erdos186/CFP/ScaleDyadicPreprocessingWindow.lean:109:0: 'Erdos186.CFP.PreprocessingBilu.scaleDyadic_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/ScaleDyadicPreprocessingWindow.lean:110:0: 'Erdos186.CFP.PreprocessingBilu.scaleDyadic_ambient_le_horizon_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3958/4101] Replayed ErdosProblems.Erdos186.CFP.SharpColorCapacityMonotone
+info: ErdosProblems/Erdos186/CFP/SharpColorCapacityMonotone.lean:50:0: 'Erdos186.CFP.RandomPartition.exists_cutoff_sharpColorCapacity_of_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3959/4101] Replayed ErdosProblems.Erdos186.CFP.TrivialPreprocessedCertificate
+info: ErdosProblems/Erdos186/CFP/TrivialPreprocessedCertificate.lean:137:0: 'Erdos186.CFP.discardAllPreprocessedReserveCertificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3960/4101] Replayed ErdosProblems.Erdos186.CFP.CenteredProjectedLargeInputCoverage
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:882:0: 'Erdos186.CFP.scale_le_card_of_fixedScaleInequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:883:0: 'Erdos186.CFP.scaleDyadicAmbient_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:884:0: 'Erdos186.CFP.ceilDyadicAmbient_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:885:0: 'Erdos186.CFP.ceilDyadicAmbient_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:886:0: 'Erdos186.CFP.colorCap_le_half_colorSourceScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:887:0: 'Erdos186.CFP.colorCap_add_le_blockedColorSourceScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:888:0: 'Erdos186.CFP.ceilColorSourceScale_le_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/CenteredProjectedLargeInputCoverage.lean:889:0: 'Erdos186.CFP.uniformCenteredLargeInputLogLossCoverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3961/4101] Replayed ErdosProblems.Erdos186.CFP.IntegerHigherDimensionalFinal
+info: ErdosProblems/Erdos186/CFP/IntegerHigherDimensionalFinal.lean:74:0: 'Erdos186.CFP.nonemptyHigherDimensionalCorollary5_of_biluFreiman_of_centeredCoverage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerHigherDimensionalFinal.lean:76:0: 'Erdos186.CFP.nonemptyHigherDimensionalCorollary5_of_centeredCoverage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerHigherDimensionalFinal.lean:78:0: 'Erdos186.CFP.nonemptyIntegerTheorem15' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/CFP/IntegerHigherDimensionalFinal.lean:79:0: 'Erdos186.CFP.nonemptyHigherDimensionalCorollary5' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3978/4101] Replayed Erdos131Research.CFPScale
+warning: Erdos131Research/CFPScale.lean:58:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos131Research/CFPScale.lean:79:21: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos131Research/CFPScale.lean:89:74: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos131Research/CFPScale.lean:58:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos131Research/CFPScale.lean:79:21: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos131Research/CFPScale.lean:89:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+ℹ [3979/4101] Replayed Erdos131Research.CFP
+info: Erdos131Research/CFP.lean:168:0: 'Erdos131Research.cfp_structure' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3981/4101] Replayed Nondividing.Asymptotic
+warning: Nondividing/Asymptotic.lean:127:31: Variable name `hc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3982/4101] Replayed Nondividing.Preprocessing
+warning: Nondividing/Preprocessing.lean:247:15: Unused tactic linter: `push_cast at this` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Nondividing/Preprocessing.lean:250:15: Unused tactic linter: `push_cast at this` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Nondividing/Preprocessing.lean:483:26: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.add_apply, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3988/4101] Replayed Erdos131Research.John
+warning: Erdos131Research/John.lean:52:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Erdos131Research/John.lean:188:0: 'Erdos131Research.discrete_john' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3992/4101] Replayed Erdos131Research.ConvexBodyLimits
+info: Erdos131Research/ConvexBodyLimits.lean:287:0: 'Erdos131Research.blaschke_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Research/ConvexBodyLimits.lean:288:0: 'Erdos131Research.convexBody_volume_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3993/4101] Replayed Erdos131Research.LatticeVolume
+info: Erdos131Research/LatticeVolume.lean:75:0: 'Erdos131Research.full_rank_lattice_points_le_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [4001/4101] Replayed Erdos131Research.DifferenceVolume
+warning: Erdos131Research/DifferenceVolume.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos131Research/DifferenceVolume.lean:55:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos131Research/DifferenceVolume.lean:80:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+info: Erdos131Research/DifferenceVolume.lean:187:0: 'Erdos131Research.rogers_shephard' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [4006/4101] Replayed Nondividing.Geometry.CoordProjection
+warning: Nondividing/Geometry/CoordProjection.lean:377:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Geometry/CoordProjection.lean:364:40: Variable name `hd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4008/4101] Replayed Nondividing.Geometry.GAPVolume
+warning: Nondividing/Geometry/GAPVolume.lean:127:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Geometry/GAPVolume.lean:237:66: Variable name `hc8` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc8
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Geometry/GAPVolume.lean:254:21: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [4009/4101] Replayed Nondividing.Shell
+warning: Nondividing/Shell.lean:130:41: Variable name `hP` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hP
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4011/4101] Replayed Nondividing.Numerology
+warning: Nondividing/Numerology.lean:303:48: Variable name `hAB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hAB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4012/4101] Replayed Nondividing.DyadicShell
+warning: Nondividing/DyadicShell.lean:85:34: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [4013/4101] Replayed Nondividing.LowerBound
+warning: Nondividing/LowerBound.lean:198:14: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+warning: Nondividing/LowerBound.lean:232:2: Try this: intro j _ T hT hTj havg
+warning: Nondividing/LowerBound.lean:452:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [4015/4101] Replayed Nondividing.Projective.Separation
+warning: Nondividing/Projective/Separation.lean:37:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Nondividing/Projective/Separation.lean:55:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [4016/4101] Replayed Nondividing.Projective.Convexity
+warning: Nondividing/Projective/Convexity.lean:38:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [4017/4101] Replayed Nondividing.Projective.AffineSpan
+warning: Nondividing/Projective/AffineSpan.lean:41:44: Variable name `hd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4018/4101] Replayed Nondividing.Geometry.Zonotope
+warning: Nondividing/Geometry/Zonotope.lean:45:27: Variable name `hθ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hθ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Geometry/Zonotope.lean:150:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Geometry/Zonotope.lean:247:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Geometry/Zonotope.lean:278:5: Variable name `hθ0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hθ0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [4020/4101] Replayed Erdos131Research.Zonotope
+info: Erdos131Research/Zonotope.lean:61:0: 'Erdos131Research.zonotope_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [4022/4101] Replayed Nondividing.Filling
+warning: Nondividing/Filling.lean:126:6: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [4023/4101] Replayed Nondividing.QuotientOrder
+warning: Nondividing/QuotientOrder.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+ℹ [4081/4101] Replayed ErdosProblems.Erdos186.PZ.ConvexDensity.NormalizedCoreProof
+info: ErdosProblems/Erdos186/PZ/ConvexDensity/NormalizedCoreProof.lean:180:0: 'Erdos186.PZ.ConvexDensity.pzNormalizedFiniteHullCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos186/PZ/ConvexDensity/NormalizedCoreProof.lean:181:0: 'Erdos186.PZ.ConvexDensity.convexDensityStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [4082/4101] Replayed Erdos131Research.ConvexDensity
+warning: Erdos131Research/ConvexDensity.lean:87:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+info: Erdos131Research/ConvexDensity.lean:197:0: 'Erdos131Research.convex_density_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [4084/4101] Replayed Nondividing.WeightedDensity
+warning: Nondividing/WeightedDensity.lean:111:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Nondividing/WeightedDensity.lean:145:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/WeightedDensity.lean:213:35: `Set.Infinite.diff` has been deprecated: Use `Set.Infinite.sdiff` instead
+warning: Nondividing/WeightedDensity.lean:368:5: Variable name `hΩne` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hΩne
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4086/4101] Built Nondividing.Geometry.SlabVolume (6.4s)
+warning: Nondividing/Geometry/SlabVolume.lean:86:55: Variable name `hw` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hw
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Geometry/SlabVolume.lean:170:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Geometry/SlabVolume.lean:300:8: Variable name `hw` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hw
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Geometry/SlabVolume.lean:393:8: Variable name `hw` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hw
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4087/4101] Built Nondividing.Structure (6.2s)
+warning: Nondividing/Structure.lean:98:57: Variable name `hV` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hV
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Structure.lean:260:50: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Structure.lean:403:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Structure.lean:390:10: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4088/4101] Built Nondividing.Geometry.RobustZonotope (3.4s)
+warning: Nondividing/Geometry/RobustZonotope.lean:30:10: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/Geometry/RobustZonotope.lean:71:10: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4089/4101] Built Nondividing.ProjectiveConvexity (3.9s)
+warning: Nondividing/ProjectiveConvexity.lean:67:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Nondividing/ProjectiveConvexity.lean:37:10: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4090/4101] Built Nondividing.Preprocessing2 (7.8s)
+⚠ [4091/4101] Built Nondividing.Main (5.2s)
+warning: Nondividing/Main.lean:108:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/Main.lean:121:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [4092/4101] Built Nondividing.ProjectiveTheorem (20s)
+warning: Nondividing/ProjectiveTheorem.lean:103:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nondividing/ProjectiveTheorem.lean:1238:18: Variable name `t` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _t
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4093/4101] Built Nondividing.PrepSupplierProof (44s)
+✔ [4094/4101] Built Nondividing.IrredIncrement (61s)
+⚠ [4095/4101] Built Nondividing.IrredNumerics (33s)
+warning: Nondividing/IrredNumerics.lean:442:18: Variable name `hτ0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hτ0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/IrredNumerics.lean:442:48: Variable name `hμ1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hμ1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4096/4101] Built Nondividing.DescentInterface (36s)
+warning: Nondividing/DescentInterface.lean:750:60: Variable name `hΔ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hΔ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4097/4101] Built Nondividing.MuSupplier (11s)
+⚠ [4098/4101] Built Nondividing.PrepPrimed (20s)
+warning: Nondividing/PrepPrimed.lean:1201:5: Variable name `hDcap2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hDcap2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nondividing/PrepPrimed.lean:1201:25: Variable name `hDcapζ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hDcapζ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4099/4101] Built Nondividing.FinalAssembly (12s)
+ℹ [4100/4101] Built Erdos131Audit (3.0s)
+info: Erdos131Audit.lean:34:0: Nondividing.main_log_limit :
+  Filter.Tendsto (fun N => Real.log ↑(Nondividing.F N) / Real.log ↑N) Filter.atTop (nhds (1 / 5))
+info: Erdos131Audit.lean:35:0: Erdos131Research.OriginalStatement.original_growth :
+  Filter.Tendsto (fun N => Real.log ↑(Erdos131Research.OriginalStatement.F N) / Real.log ↑N) Filter.atTop (nhds (1 / 5))
+info: Erdos131Audit.lean:36:0: def Erdos131Research.OriginalStatement.NonDividing : Finset ℕ → Prop :=
+fun A => ∀ a ∈ A, ∀ (S : Finset ℕ), S.Nonempty → S ⊆ A.erase a → ¬a ∣ ∑ s ∈ S, s
+info: Erdos131Audit.lean:37:0: def Erdos131Research.OriginalStatement.F : ℕ → ℕ :=
+fun N => (Erdos131Research.OriginalStatement.candidates N).sup Finset.card
+info: Erdos131Audit.lean:38:0: 'Nondividing.External.cfp_structure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:39:0: 'Nondividing.External.discrete_john' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:40:0: 'Nondividing.External.zonotope_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:41:0: 'Nondividing.External.convex_density_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:42:0: 'Nondividing.External.blaschke_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:43:0: 'Nondividing.External.convexBody_volume_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:44:0: 'Nondividing.External.rogers_shephard' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:45:0: 'Nondividing.External.full_rank_lattice_points_le_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:46:0: 'Nondividing.main_log_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos131Audit.lean:47:0: 'Erdos131Research.OriginalStatement.original_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (4101 jobs).
+EXIT_CODE=0
+FREE_BYTES=1911619584

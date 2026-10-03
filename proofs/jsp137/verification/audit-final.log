@@ -1,0 +1,25 @@
+
+COMMAND ["lake", "env", "lean", "Erdos131Audit.lean"]
+CPU affinity [0, 1]; LEAN_NUM_THREADS=2
+Nondividing.main_log_limit :
+  Filter.Tendsto (fun N => Real.log ↑(Nondividing.F N) / Real.log ↑N) Filter.atTop (nhds (1 / 5))
+Erdos131Research.OriginalStatement.original_growth :
+  Filter.Tendsto (fun N => Real.log ↑(Erdos131Research.OriginalStatement.F N) / Real.log ↑N) Filter.atTop (nhds (1 / 5))
+def Erdos131Research.OriginalStatement.NonDividing : Finset ℕ → Prop :=
+fun A => ∀ a ∈ A, ∀ (S : Finset ℕ), S.Nonempty → S ⊆ A.erase a → ¬a ∣ ∑ s ∈ S, s
+def Erdos131Research.OriginalStatement.F : ℕ → ℕ :=
+fun N => (Erdos131Research.OriginalStatement.candidates N).sup Finset.card
+def Erdos131Research.OriginalStatement.candidates : ℕ → Finset (Finset ℕ) :=
+fun N => Finset.filter Erdos131Research.OriginalStatement.NonDividing (Finset.Icc 1 N).powerset
+'Nondividing.External.cfp_structure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.discrete_john' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.zonotope_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.convex_density_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.blaschke_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.convexBody_volume_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.rogers_shephard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.External.full_rank_lattice_points_le_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nondividing.main_log_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos131Research.OriginalStatement.original_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_CODE=0
+FREE_BYTES=1896615936

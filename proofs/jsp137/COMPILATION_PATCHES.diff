@@ -1,0 +1,338 @@
+--- a/ErdosProblems/Erdos13/Erdos13Additive.lean
++++ b/ErdosProblems/Erdos13/Erdos13Additive.lean
+@@ -14,7 +14,7 @@
+ limitations under the License.
+ -/
+ 
+-import Mathlib
++import Erdos131Research.MathlibImports
+ import ErdosProblems.Erdos13.Erdos13Kneser
+ 
+ /-!
+--- a/ErdosProblems/Erdos186/Asymptotic.lean
++++ b/ErdosProblems/Erdos186/Asymptotic.lean
+@@ -1,5 +1,4 @@
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Elementary asymptotic bookkeeping for Erdős Problem 186
+ 
+--- a/ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean
++++ b/ErdosProblems/Erdos186/CFP/Bilu/Proposition75Case2Construction.lean
+@@ -613,7 +613,7 @@
+       exact congrArg Subtype.val
+         ((coordinateC0Equiv D).apply_symm_apply (P.rowBasis j))
+     rw [hi, hj, P.rowBasis_coe i, P.rowBasis_coe j] at hinner
+-    simp [bS, Matrix.gram_apply, P.rowBasis_coe]
++    simpa [bS, Matrix.gram_apply, xi, xj, P.rowBasis_coe] using hinner.symm
+   exact ⟨bS, hsourceBasis, hgram⟩
+ 
+ /-- Covolume equality for any saturated coordinate presentation. -/
+--- a/ErdosProblems/Erdos186/CFP/Contraction.lean
++++ b/ErdosProblems/Erdos186/CFP/Contraction.lean
+@@ -4,8 +4,7 @@
+ Authors: Codex
+ -/
+ /- leanprover/lean4:v4.33.0  mathlib v4.33.0 -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # A logarithmic bound for repeated volume contractions
+ 
+--- a/ErdosProblems/Erdos186/CFP/DeletionEngine.lean
++++ b/ErdosProblems/Erdos186/CFP/DeletionEngine.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # A bounded finite-deletion engine
+ 
+--- a/ErdosProblems/Erdos186/CFP/GrowthLemmas.lean
++++ b/ErdosProblems/Erdos186/CFP/GrowthLemmas.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # The elementary growth lemmas of Conlon--Fox--Pham
+ 
+--- a/ErdosProblems/Erdos186/CFP/LargeInputLogNumerics.lean
++++ b/ErdosProblems/Erdos186/CFP/LargeInputLogNumerics.lean
+@@ -3,6 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
++import Mathlib.Analysis.Complex.ExponentialBounds
+ import ErdosProblems.Erdos186.Parameters
+ 
+ /-!
+--- a/ErdosProblems/Erdos186/CFP/Lev.lean
++++ b/ErdosProblems/Erdos186/CFP/Lev.lean
+@@ -3,6 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
++import Mathlib.Algebra.Order.Floor.Div
+ import ErdosProblems.Erdos186.CFP.Elementary
+ import ErdosProblems.Erdos186.CFP.LevBox
+ import ErdosProblems.Erdos186.CFP.LevExtension
+--- a/ErdosProblems/Erdos186/CFP/Main.lean
++++ b/ErdosProblems/Erdos186/CFP/Main.lean
+@@ -3,6 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
++import Mathlib.Analysis.SpecialFunctions.Log.Base
+ import ErdosProblems.Erdos186.CFP.Witness
+ 
+ /-!
+--- a/ErdosProblems/Erdos186/CFP/TrivialEnhancedWitness.lean
++++ b/ErdosProblems/Erdos186/CFP/TrivialEnhancedWitness.lean
+@@ -3,6 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
++import Mathlib.Analysis.SpecialFunctions.Log.Base
+ import ErdosProblems.Erdos186.CFP.Witness
+ import ErdosProblems.Erdos186.TrivialWitness
+ 
+--- a/ErdosProblems/Erdos186/CombinatorialTools.lean
++++ b/ErdosProblems/Erdos186/CombinatorialTools.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Finite combinatorial tools for Erdős Problem 186
+ 
+--- a/ErdosProblems/Erdos186/ConvexApprox.lean
++++ b/ErdosProblems/Erdos186/ConvexApprox.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # A local affine approximation lemma for bounded convex functions
+ 
+--- a/ErdosProblems/Erdos186/Foundations.lean
++++ b/ErdosProblems/Erdos186/Foundations.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Erdős Problem 186: the finite extremal function
+ 
+--- a/ErdosProblems/Erdos186/GAP.lean
++++ b/ErdosProblems/Erdos186/GAP.lean
+@@ -1,5 +1,4 @@
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Generalized arithmetic progressions in integer lattices
+ 
+--- a/ErdosProblems/Erdos186/Numerical.lean
++++ b/ErdosProblems/Erdos186/Numerical.lean
+@@ -1,5 +1,4 @@
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Numerical exponents in the Pham--Zakharov iteration
+ 
+--- a/ErdosProblems/Erdos186/PZ/ConvexDensity/AffineSlab.lean
++++ b/ErdosProblems/Erdos186/PZ/ConvexDensity/AffineSlab.lean
+@@ -1,5 +1,4 @@
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Axis boxes and affine slabs in finite-dimensional Euclidean space
+ -/
+--- a/ErdosProblems/Erdos186/PZ/ConvexDensity/ConvexApproxND.lean
++++ b/ErdosProblems/Erdos186/PZ/ConvexDensity/ConvexApproxND.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Finite-dimensional cores of the PZ affine-approximation argument
+ 
+--- a/ErdosProblems/Erdos186/PZ/ConvexDensity/Definitions.lean
++++ b/ErdosProblems/Erdos186/PZ/ConvexDensity/Definitions.lean
+@@ -4,8 +4,7 @@
+ Authors: Codex
+ -/
+ import ErdosProblems.Erdos186.ConvexGeometry
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Definitions for the Pham--Zakharov convex-density lemma
+ 
+--- a/ErdosProblems/Erdos186/PZ/ConvexDensity/Numerics.lean
++++ b/ErdosProblems/Erdos186/PZ/ConvexDensity/Numerics.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Numerical lemmas for the Pham--Zakharov convex-density argument
+ 
+--- a/ErdosProblems/Erdos186/PZ/ConvexDensity/Subgradient.lean
++++ b/ErdosProblems/Erdos186/PZ/ConvexDensity/Subgradient.lean
+@@ -4,6 +4,7 @@
+ Authors: Codex
+ -/
+ import ErdosProblems.Erdos186.PZ.ConvexDensity.ConvexApproxND
++import Mathlib.Analysis.Convex.Continuous
+ 
+ /-!
+ # Supporting affine functionals for convex functions on boxes
+@@ -65,7 +66,7 @@
+     ∃ p : E →L[ℝ] ℝ, ∀ x ∈ s, f v + p (x - v) ≤ f x := by
+   let A : Set (E × ℝ) := {z | z.1 ∈ s ∧ f z.1 < z.2}
+   have hAconv : Convex ℝ A := hf.convex_strict_epigraph
+-  have hAopen : IsOpen A := isOpen_strictEpigraph hs (hf.continuousOn hs)
++  have hAopen : IsOpen A := isOpen_strictEpigraph hs (ConvexOn.continuousOn hs hf)
+   have hvA : (v, f v) ∉ A := by simp [A, hv]
+   obtain ⟨L, hL⟩ := geometric_hahn_banach_open_point hAconv hAopen hvA
+   let u : E →L[ℝ] ℝ := L.comp (.inl ℝ E ℝ)
+--- a/ErdosProblems/Erdos186/PZ/Reduction/Termination.lean
++++ b/ErdosProblems/Erdos186/PZ/Reduction/Termination.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Bounded replacement processes reach a terminal state
+ 
+--- a/ErdosProblems/Erdos186/Parameters.lean
++++ b/ErdosProblems/Erdos186/Parameters.lean
+@@ -3,8 +3,7 @@
+ Released under Apache 2.0 license as described in the file LICENSE.
+ Authors: Codex
+ -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # Erdős Problem 186: slowly varying parameters
+ 
+--- a/ErdosProblems/Erdos186/Zonotope.lean
++++ b/ErdosProblems/Erdos186/Zonotope.lean
+@@ -1,6 +1,5 @@
+ /- leanprover/lean4:v4.33.0  mathlib v4.33.0 -/
+-import Mathlib
+-
++import Erdos131Research.MathlibImports
+ /-!
+ # A zonotope rounding lemma
+ 
+--- a/Nondividing/GAP.lean
++++ b/Nondividing/GAP.lean
+@@ -254,8 +254,9 @@
+     simp [T]
+   have hsum :
+       ∑ v ∈ T, (v.1 : Fin d → ℤ) = ∑ v ∈ S, v := by
+-    simpa [T, f] using
+-      (Finset.sum_attach S (fun v : Fin d → ℤ => v))
++    change (∑ v ∈ S.attach.map f, (v.1 : Fin d → ℤ)) = _
++    rw [Finset.sum_map]
++    exact Finset.sum_attach S (fun v : Fin d → ℤ => v)
+   rw [← hcard, ← hsum]
+   exact P.subset_sum_mem_natDilatedCarrier T
+ 
+--- a/Nondividing/Geometry/SlabVolume.lean
++++ b/Nondividing/Geometry/SlabVolume.lean
+@@ -351,7 +351,7 @@
+   -- Assemble into a real inequality.
+   have hchain : (A.card : ENNReal)
+       ≤ (C : ENNReal) * ENNReal.ofReal ((d * τ) * (2 ^ d * ∏ i, (N i : ℝ))) :=
+-    le_trans hcount (mul_le_mul_left' hvol _)
++    le_trans hcount (mul_le_mul_right hvol _)
+   have hboxprod : (2 : ℝ) ^ d * ∏ i, (N i : ℝ) ≤ ((coordinateBox N).card : ℝ) := by
+     rw [card_coordinateBox]
+     push_cast
+@@ -436,7 +436,7 @@
+       (by
+         refine ⟨0, ?_⟩
+         change (0 : Fin d → ℝ) ∈ slabBody N a hτw ∧ (0 : Fin d → ℝ) ∈ H
+-        exact ⟨by simp [mem_slabBody, realBox, hτw], H.zero_mem⟩)
++        exact ⟨by simp [mem_slabBody, realBox, hτw, Pi.le_def], H.zero_mem⟩)
+       hsymmK hKH hzK rfl
+   have hrle : Module.finrank ℝ H ≤ d := by
+     have := Submodule.finrank_le H
+--- a/Nondividing/LowerBound.lean
++++ b/Nondividing/LowerBound.lean
+@@ -30,7 +30,10 @@
+   · intro z hz
+     obtain ⟨s, hs, rfl⟩ := Finset.mem_map.mp hz
+     have hserase := hSA hs
+-    simpa [natCastEmbedding] using hserase
++    apply Finset.mem_erase.mpr
++    refine ⟨?_, Finset.mem_map.mpr ⟨s, (Finset.mem_erase.mp hserase).2, rfl⟩⟩
++    change (s : ℤ) ≠ (a : ℤ)
++    exact_mod_cast (Finset.mem_erase.mp hserase).1
+   · obtain ⟨k, hk⟩ := hdvd
+     refine ⟨(k : ℤ), ?_⟩
+     simp only [Finset.sum_map, natCastEmbedding]
+@@ -391,12 +394,14 @@
+   constructor
+   · rintro ⟨n, ⟨i, rfl⟩, rfl⟩
+     refine ⟨parabolaEmbedding m i, ⟨i, rfl⟩, ?_⟩
+-    simpa [natCastEmbedding, addEquiv] using
+-      (cast_lowerValue (m := m) (i := (i : ℕ) + 1) (Nat.le_add_left 1 i)).symm
++    change lowerTranslation m + (parabolaNat m ((i : ℕ) + 1) : ℤ) =
++      (lowerValue m ((i : ℕ) + 1) : ℤ)
++    exact (cast_lowerValue (m := m) (i := (i : ℕ) + 1) (Nat.le_add_left 1 i)).symm
+   · rintro ⟨b, ⟨i, rfl⟩, rfl⟩
+     refine ⟨lowerEmbedding m i, ⟨i, rfl⟩, ?_⟩
+-    simpa [natCastEmbedding, addEquiv] using
+-      cast_lowerValue (m := m) (i := (i : ℕ) + 1) (Nat.le_add_left 1 i)
++    change (lowerValue m ((i : ℕ) + 1) : ℤ) =
++      lowerTranslation m + (parabolaNat m ((i : ℕ) + 1) : ℤ)
++    exact cast_lowerValue (m := m) (i := (i : ℕ) + 1) (Nat.le_add_left 1 i)
+ 
+ theorem intDiameter_parabolaSet_le (m : ℕ) :
+     intDiameter (parabolaSet m) ≤ parabolaDelta m := by
+--- a/Nondividing/Shell.lean
++++ b/Nondividing/Shell.lean
+@@ -139,7 +139,8 @@
+     (hP : P.Proper) (ell : (Fin d → ℤ) →+ ℤ)
+     (v : {v // v ∈ P.carrier}) :
+     P.transportedFunctional ell (P.coeffCarrierEmbedding hP v) = ell v := by
+-  simp [coeffCarrierEmbedding, P.eval_coeffOf v]
++  change ell (P.evalHom (P.coeffOf v)) = ell v
++  rw [P.eval_coeffOf]
+ 
+ theorem shell_transport
+     (hP : P.Proper) (ell : (Fin d → ℤ) →+ ℤ) (X : ℕ)

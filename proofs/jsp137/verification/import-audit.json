@@ -1,0 +1,19 @@
+{
+  "local_modules": 404,
+  "endpoint_import_closure_local_modules": 401,
+  "unused_local_modules": [
+    "Nondividing",
+    "Nondividing.Audit",
+    "Nondividing.Audit2"
+  ],
+  "source_axiom_or_placeholder_flags": [],
+  "challenge_imported": false,
+  "broad_mathlib_imports": false,
+  "overlays_on_endpoint_path": [
+    "Nondividing.External.CFPStructure",
+    "Nondividing.External.ConvexDensity",
+    "Nondividing.External.ConvexGeometry",
+    "Nondividing.External.DiscreteJohn",
+    "Nondividing.External.ZonotopeRounding"
+  ]
+}
