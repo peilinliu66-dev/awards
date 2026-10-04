@@ -1,0 +1,6 @@
+'Erdos524.SignConcentration.signLaw_subgaussian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SignConcentration.sign_sum_abs_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSignWalk.hitProbability_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSignWalk.hitProbability_hoeffding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSignWalk.abs_maximal_hoeffding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SignSymmetry.pi_sign_map_phases' depends on axioms: [propext, Classical.choice, Quot.sound]

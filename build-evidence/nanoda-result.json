@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-04T15:05:12.525516+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 83.42572209699574,
+  "max_rss_kib": 599008,
+  "reproduction_command": [
+    "nanoda_bin",
+    "nanoda-config.json"
+  ],
+  "execution_path_redaction": "Absolute machine-local paths were replaced by relative reproduction paths; logical checker settings are unchanged.",
+  "checker_version": "0.4.17",
+  "checked_declarations": 69909,
+  "target": "Erdos524.erdos_524_complete",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unpermitted_axiom_hard_error": true
+}

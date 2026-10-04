@@ -1,0 +1,4 @@
+'Erdos524.SmoothCutoff.exists_cutoff_derivative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SoftMaximum.coord_le_softMax' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SoftMaximum.softMax_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SoftMaximum.directionalMoment_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]

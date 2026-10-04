@@ -1,0 +1,6 @@
+'Erdos524.CauchyKernel.near_integral_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.integral_nearPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.potential_truncation_le_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.integrable_affine_evenPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.upperPointSet_exp_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.weighted_truncation_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

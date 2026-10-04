@@ -1,0 +1,4 @@
+import Erdos524.FiniteGaussianCoreBound
+
+#check Erdos524.FiniteGaussianCoreBound.integral_stationary_sup_norm_le
+#print axioms Erdos524.FiniteGaussianCoreBound.integral_stationary_sup_norm_le

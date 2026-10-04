@@ -1,0 +1,7 @@
+'Erdos524.LowerSmallBallAssembly.finite_lower_smallBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LowerSmallBallAssembly.sharp_smallBall_lower_shifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.LowerSmallBallAssembly.sharp_smallBall_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallEnvelope.sharp_smallBall_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LowerSmallBallAssembly.sharp_smallBall_two_sided' depends on axioms: [propext, Classical.choice, Quot.sound]

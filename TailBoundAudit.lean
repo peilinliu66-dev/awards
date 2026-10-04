@@ -1,0 +1,6 @@
+import Erdos524.FiniteGaussianTailBound
+
+#check Erdos524.FiniteGaussianTailBound.integral_cauchy_sup_norm_le
+#print axioms Erdos524.FiniteChaining.integral_norm_le_decreasing_budget
+#print axioms Erdos524.CauchyIncrementBounds.cauchy_increment_le_inverse_root_sq
+#print axioms Erdos524.FiniteGaussianTailBound.integral_cauchy_sup_norm_le

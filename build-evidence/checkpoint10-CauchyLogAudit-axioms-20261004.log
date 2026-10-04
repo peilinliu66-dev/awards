@@ -1,0 +1,4 @@
+'Erdos524.CauchyKernel.normalizedKernel_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.blaschke_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.normalized_exp_increment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.normalizedWeight_exp' depends on axioms: [propext, Classical.choice, Quot.sound]

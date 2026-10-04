@@ -1,0 +1,23 @@
+Erdos524.FiniteGaussianRegression.residual_independent.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {P : MeasureTheory.Measure Ω} {n m : ℕ} {X : Ω → Fin n → ℝ} {Y : Ω → Fin m → ℝ} (W : Matrix (Fin m) (Fin n) ℝ)
+  (hXY : ProbabilityTheory.HasGaussianLaw (fun ω => (X ω, Y ω)) P)
+  (hnormal :
+    ∀ (i : Fin n) (j : Fin m),
+      ProbabilityTheory.covariance (fun ω => X ω i) (fun ω => Y ω j) P =
+        ∑ k, W j k * ProbabilityTheory.covariance (fun ω => X ω i) (fun ω => X ω k) P) :
+  ProbabilityTheory.IndepFun X (Erdos524.FiniteGaussianRegression.residual W X Y) P
+Erdos524.FiniteGaussianRegression.covariance_residual.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {P : MeasureTheory.Measure Ω} {n m : ℕ} {X : Ω → Fin n → ℝ} {Y : Ω → Fin m → ℝ} (W : Matrix (Fin m) (Fin n) ℝ)
+  (hXY : ProbabilityTheory.HasGaussianLaw (fun ω => (X ω, Y ω)) P)
+  (hnormal :
+    ∀ (i : Fin n) (j : Fin m),
+      ProbabilityTheory.covariance (fun ω => X ω i) (fun ω => Y ω j) P =
+        ∑ k, W j k * ProbabilityTheory.covariance (fun ω => X ω i) (fun ω => X ω k) P)
+  (j l : Fin m) :
+  ProbabilityTheory.covariance (fun ω => Erdos524.FiniteGaussianRegression.residual W X Y ω j)
+      (fun ω => Erdos524.FiniteGaussianRegression.residual W X Y ω l) P =
+    ProbabilityTheory.covariance (fun ω => Y ω j) (fun ω => Y ω l) P -
+      ∑ k, W j k * ProbabilityTheory.covariance (fun ω => X ω k) (fun ω => Y ω l) P
+'Erdos524.FiniteGaussianRegression.joint_residual_gaussian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteGaussianRegression.residual_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteGaussianRegression.covariance_residual' depends on axioms: [propext, Classical.choice, Quot.sound]

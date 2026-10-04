@@ -1,0 +1,5 @@
+import Erdos524.UpperMeshProbability
+import Erdos524.UpperMeshNonempty
+#print axioms Erdos524.UpperMeshProbability.upper_mesh_gaussian_probability
+
+#print axioms Erdos524.CauchyKernel.upperPointSet_nonempty

@@ -1,0 +1,12 @@
+Erdos524.FiniteGaussianTailBound.integral_cauchy_sup_norm_le {n : ℕ} (u : Fin (n + 1) → ℝ)
+  (hu : ∀ (i : Fin (n + 1)), 0 < u i) (hmono : ∀ (j : Fin n), u j.castSucc ≤ u j.succ) :
+  ∫ (z : EuclideanSpace ℝ (Fin (n + 1))),
+      ‖z.ofLp‖ ∂ProbabilityTheory.multivariateGaussian 0 (Erdos524.CauchyKernel.cauchy u) ≤
+    1 / √(u 0)
+'Erdos524.FiniteChaining.integral_norm_le_decreasing_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyIncrementBounds.cauchy_increment_le_inverse_root_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.FiniteGaussianTailBound.integral_cauchy_sup_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

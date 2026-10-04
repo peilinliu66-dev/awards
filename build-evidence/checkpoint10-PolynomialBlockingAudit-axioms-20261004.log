@@ -1,0 +1,22 @@
+'Erdos524.RandomPolynomialModel.fullNorm_evaluation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RandomPolynomialModel.finite_marginal_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RandomPolynomialModel.factorial_fresh_events_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.RandomPolynomialModel.fullNorm_increment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RandomPolynomialModel.fullNorm_scaled_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.InverseSmallBallMargins.eventually_inverseRadius_bounded_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.InversePolynomialScale.delta_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FactorialSparseMesh.eventually_factorial_harmonic_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.EnvelopeBlocking.ae_eventual_full_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.PolynomialComparisonParameters.eventually_comparison_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PolynomialInverseLower.eventual_full_lower_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.PolynomialInverseLower.ae_frequent_actual_fresh_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

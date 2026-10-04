@@ -1,0 +1,8 @@
+'Erdos524.PolynomialComparisonParameters.upperGridError_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PolynomialInverseUpper.eventual_full_upper_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.StretchedLogSummability.summable_exp_neg_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.StretchedLogSummability.summable_stretched_log_harmonic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+import Erdos524.InverseSmallBallMargins
+#print axioms Erdos524.InverseCovarianceOrder.inverse_antitone
+#print axioms Erdos524.GaussianDilationDensity.multivariate_gaussian_dilation_lower
+#print axioms Erdos524.GaussianSampleProduct.regression_product_law
+#print axioms Erdos524.GaussianSampleProduct.residual_samples_ae_zero
+#print axioms Erdos524.GaussianSampleDilation.finite_cube_dilation
+#print axioms Erdos524.FiniteSmallBallDilation.finiteSmallBall_dilation
+#print axioms Erdos524.DilationMesh.sample_box_energy
+#print axioms Erdos524.SmallBallLogDilation.eventually_log_dilation
+#print axioms Erdos524.SmallBallLogDilation.eventually_probability_dilation
+#print axioms Erdos524.InverseSmallBallMargins.eventually_inverse_cubic_bounds
+#print axioms Erdos524.InverseSmallBallMargins.eventually_inverse_probability_margins
+#print axioms Erdos524.InverseSmallBallMargins.eventually_inverse_sqrt_margins

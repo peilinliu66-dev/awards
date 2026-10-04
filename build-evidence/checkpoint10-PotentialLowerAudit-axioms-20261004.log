@@ -1,0 +1,9 @@
+'Erdos524.RegressionWeightBounds.abs_normalizedWeight_le_potentials' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.RegressionWeightBounds.sum_abs_weights_at_sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RegressionWeightBounds.sum_abs_weights_global_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RegressionWeightBounds.blaschke_core_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.PotentialSmallBallLower.finiteSmallBall_lower_of_potentials' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,8 @@
+import Erdos524.IndependentNoiseComparison
+import Erdos524.GaussianCovarianceComparison
+
+#check Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_mono
+#print axioms Erdos524.IndependentNoiseComparison.pi_gaussian_add_independent_noise_le
+#print axioms Erdos524.GaussianCovarianceComparison.multivariate_gaussian_add
+#print axioms Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_add_le
+#print axioms Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_mono

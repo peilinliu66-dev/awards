@@ -1,0 +1,20 @@
+Erdos524.CoordinateSymmetrization.double_symmList_subset.{u_1} {ι : Type u_1} [Fintype ι] [DecidableEq ι] (is : List ι)
+  (his : ∀ (i : ι), i ∈ is) {A : Set (Erdos524.CoordinateSymmetrization.Vec ι)} (hA : Convex ℝ A) :
+  (fun x => 2 • x) '' Erdos524.CoordinateSymmetrization.symmList is A ⊆
+    Erdos524.CoordinateSymmetrization.symmList is (Erdos524.CoordinateSymmetrization.difference A A)
+Erdos524.OneDimensionalFibers.volume_halfDifference {A : Set ℝ} (hcompact : IsCompact A) (hconvex : Convex ℝ A) :
+  MeasureTheory.volume (Erdos524.OneDimensionalFibers.halfDifference A) = MeasureTheory.volume A
+Erdos524.ProductFiberVolume.prod_measure_fiberSymm.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E]
+  [MeasurableSpace E] [BorelSpace E] (ν : MeasureTheory.Measure E) [MeasureTheory.SFinite ν] {A : Set (ℝ × E)}
+  (hcompact : IsCompact A) (hconvex : Convex ℝ A) :
+  (MeasureTheory.volume.prod ν) (Erdos524.ProductFiberVolume.fiberSymm A) = (MeasureTheory.volume.prod ν) A
+'Erdos524.CoordinateSymmetrization.convex_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CoordinateSymmetrization.isCompact_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CoordinateSymmetrization.double_symmList_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.OneDimensionalFibers.volume_halfDifference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.ProductFiberVolume.prod_measure_fiberSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CoordinateVolume.volume_symmList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.DifferenceVolume.volume_le_half_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LayercakeComparison.setLIntegral_le_of_superlevel_inter_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

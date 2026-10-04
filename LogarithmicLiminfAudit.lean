@@ -1,0 +1,5 @@
+import Erdos524.LogarithmicLiminf
+#print axioms Erdos524.InversePolynomialScale.inverseLog_cubic_tendsto
+#print axioms Erdos524.InversePolynomialScale.inverse_logarithm_asymptotic
+#print axioms Erdos524.LogarithmicLiminf.ae_logarithmic_liminf
+#print axioms Erdos524.LogarithmicLiminf.ae_constant_logarithmic_liminf

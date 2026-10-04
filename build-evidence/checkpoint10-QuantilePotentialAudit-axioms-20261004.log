@@ -1,0 +1,13 @@
+'Erdos524.QuantileCounting.exists_affine_quantile_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.affine_quantile_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.affine_quantile_discrepancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.logTanhPotential_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.truncatedPotential_integral_discrepancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.QuantileCounting.affine_quantile_potential_discrepancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.QuantileCounting.integral_affineMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.firstMoment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.integral_affine_evenPotential' depends on axioms: [propext, Classical.choice, Quot.sound]

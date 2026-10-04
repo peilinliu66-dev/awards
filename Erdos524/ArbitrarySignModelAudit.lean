@@ -1,0 +1,4 @@
+import Erdos524.ArbitrarySignModel
+#print axioms Erdos524.ArbitrarySignModel.sequence_law
+#print axioms Erdos524.ArbitrarySignModel.ae_upper_envelope
+#print axioms Erdos524.ArbitrarySignModel.ae_logarithmic_envelope

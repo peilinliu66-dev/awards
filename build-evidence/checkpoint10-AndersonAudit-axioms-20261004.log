@@ -1,0 +1,9 @@
+Erdos524.FiniteAnderson.pi_gaussian_linear_shift_le {n m : ℕ} (L : (Fin (n + 1) → ℝ) →L[ℝ] Fin m → ℝ)
+  {K : Set (Fin m → ℝ)} (hclosedK : IsClosed K) (hconvexK : Convex ℝ K) (hnegK : ∀ ⦃y : Fin m → ℝ⦄, y ∈ K → -y ∈ K)
+  (t : Fin m → ℝ) :
+  (MeasureTheory.Measure.pi fun x => ProbabilityTheory.gaussianReal 0 1) {x | L x + t ∈ K} ≤
+    (MeasureTheory.Measure.pi fun x => ProbabilityTheory.gaussianReal 0 1) {x | L x ∈ K}
+'Erdos524.GaussianProductDensity.pi_gaussian_eq_withDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianProductDensity.pi_gaussian_eq_smul_radial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.DensityLevelComparison.withDensity_linear_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteAnderson.pi_gaussian_linear_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]

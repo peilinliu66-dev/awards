@@ -1,0 +1,8 @@
+'Erdos524.RandomPolynomialModel.fullNorm_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FactorialSparseMesh.ae_eventual_old_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FactorialSparseMesh.eventually_old_payment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FactorialSparseMesh.eventually_block_normalizer_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.InverseLiminfUpper.ae_frequent_full_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.InverseLiminfUpper.ae_inverse_normalized_liminf_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

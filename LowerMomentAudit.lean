@@ -1,0 +1,8 @@
+import Erdos524.SampleBoxAsymptotic
+import Erdos524.LowerPotentialAggregate
+#print axioms Erdos524.SampleBoxLowerExponent.raw_constant_sample_box_lower
+#print axioms Erdos524.QuantileCounting.affine_quantile_deficit_discrepancy
+#print axioms Erdos524.QuantileCounting.eventually_lower_deficit_sum
+#print axioms Erdos524.QuantileCounting.eventually_lower_size_controls
+#print axioms Erdos524.QuantileCounting.lower_aggregate_remainder
+#print axioms Erdos524.SampleBoxAsymptotic.eventually_sampleContribution_lower

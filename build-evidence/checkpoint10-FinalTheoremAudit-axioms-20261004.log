@@ -1,0 +1,12 @@
+'Erdos524.RandomPolynomialModel.withConstantPolyCM_sum_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.ConstantTermUpperEnvelope.ae_constant_upper_normalized_limsup_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.ConstantTermUpperEnvelope.ae_constant_explicit_upper_limsup_sqrt_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.erdos_524' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.erdos_524_inverse_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.erdos_524_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.erdos_524_of_independent_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.erdos_524_inverse_of_independent_signs' depends on axioms: [propext, Classical.choice, Quot.sound]

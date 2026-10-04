@@ -1,0 +1,10 @@
+import Erdos524.WeightedTruncation
+import Erdos524.NearPotential
+import Erdos524.UpperMeshRange
+#print axioms Erdos524.CauchyKernel.near_integral_bound
+#print axioms Erdos524.CauchyKernel.integral_nearPotential
+#print axioms Erdos524.CauchyKernel.potential_truncation_le_near
+#print axioms Erdos524.CauchyKernel.integrable_affine_evenPotential
+#print axioms Erdos524.CauchyKernel.upperPointSet_exp_range
+
+#print axioms Erdos524.CauchyKernel.weighted_truncation_gap

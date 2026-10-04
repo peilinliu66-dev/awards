@@ -1,0 +1,1329 @@
+⚠ [3391/3538] Replayed Erdos524.ProductCoordinateReplacement
+warning: Erdos524/ProductCoordinateReplacement.lean: imports `Mathlib.MeasureTheory.Integral.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/ProductCoordinateReplacement.lean: imports `Mathlib.MeasureTheory.Constructions.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/ProductCoordinateReplacement.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3392/3538] Replayed Erdos524.HybridReplacement
+warning: Erdos524/HybridReplacement.lean:50:67: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/HybridReplacement.lean:61:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3475/3538] Replayed Erdos524.SmoothCutoff
+warning: Erdos524/SmoothCutoff.lean: imports `Mathlib.Analysis.SpecialFunctions.SmoothTransition` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SmoothCutoff.lean: imports `Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SmoothCutoff.lean: imports `Mathlib.Analysis.Calculus.Deriv.Support` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SmoothCutoff.lean: imports `Mathlib.Analysis.Normed.Group.Bounded` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SmoothCutoff.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3485/3538] Replayed Erdos524.SoftMaximum
+warning: Erdos524/SoftMaximum.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SoftMaximum.lean:54:13: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3486/3538] Replayed Erdos524.SoftMaximumDerivatives
+warning: Erdos524/SoftMaximumDerivatives.lean:43:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/SoftMaximumDerivatives.lean:43:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3487/3538] Replayed Erdos524.SoftMaximumBounds
+warning: Erdos524/SoftMaximumBounds.lean:14:45: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos524/SoftMaximumBounds.lean:21:47: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos524/SoftMaximumBounds.lean:53:55: Variable name `hβ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hβ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3488/3538] Replayed Erdos524.SmoothCompositionJets
+warning: Erdos524/SmoothCompositionJets.lean:49:28: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.add_apply, Pi.sub_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SmoothCompositionJets.lean:49:41: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.mul_apply, Pi.sub_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SmoothCompositionJets.lean:49:54: This simp argument is unused:
+  Pi.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.mul_apply, Pi.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SmoothCompositionJets.lean:64:41: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.mul_apply, Pi.sub_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SmoothCompositionJets.lean:64:54: This simp argument is unused:
+  Pi.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.pow_apply, Pi.mul_apply, Pi.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3489/3538] Replayed Erdos524.SmoothCompositionBounds
+warning: Erdos524/SmoothCompositionBounds.lean:15:49: Variable name `hU2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos524/SmoothCompositionBounds.lean:15:62: Variable name `hU3` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU3
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos524/SmoothCompositionBounds.lean:15:75: Variable name `hU4` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU4
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3490/3538] Replayed Erdos524.SmoothedSoftMaximum
+warning: Erdos524/SmoothedSoftMaximum.lean:73:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3533/3762] Replayed Erdos524.FourthOrderTaylor
+warning: Erdos524/FourthOrderTaylor.lean: imports `Mathlib.Analysis.Calculus.Taylor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FourthOrderTaylor.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FourthOrderTaylor.lean:35:4: Unused tactic linter: `norm_num only` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3534/3762] Replayed Erdos524.MatchedMomentComparison
+warning: Erdos524/MatchedMomentComparison.lean: imports `Mathlib.MeasureTheory.Measure.Typeclasses.Probability` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/MatchedMomentComparison.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3782/4057] Replayed Erdos524.SignGaussianMoments
+warning: Erdos524/SignGaussianMoments.lean: imports `Mathlib.Probability.Distributions.Gaussian.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SignGaussianMoments.lean:54:21: This simp argument is unused:
+  Pi.pow_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SignGaussianMoments.lean:69:47: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq, Pi.pow_apply, Pi.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3786/4057] Replayed Erdos524.SmoothedCDFSandwich
+warning: Erdos524/SmoothedCDFSandwich.lean: imports `Mathlib.MeasureTheory.Integral.Indicator` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SmoothedCDFSandwich.lean:62:41: This simp argument is unused:
+  Pi.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.indicator_of_mem hz]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3804/4057] Replayed Erdos524.FiniteGaussianRegression
+warning: Erdos524/FiniteGaussianRegression.lean: imports `Mathlib.Probability.Distributions.Gaussian.HasGaussianLaw.Independence` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteGaussianRegression.lean: imports `Mathlib.LinearAlgebra.Matrix.ToLin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteGaussianRegression.lean: imports `Mathlib.Analysis.Normed.Module.FiniteDimension` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteGaussianRegression.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteGaussianRegression.lean:35:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/FiniteGaussianRegression.lean:67:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3808/4057] Replayed Erdos524.GaussianVectorLaw
+warning: Erdos524/GaussianVectorLaw.lean: imports `Mathlib.Probability.Distributions.Gaussian.Multivariate` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianVectorLaw.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/GaussianVectorLaw.lean:21:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/GaussianVectorLaw.lean:24:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/GaussianVectorLaw.lean:25:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3809/4057] Replayed Erdos524.FiniteChaining
+warning: Erdos524/FiniteChaining.lean: imports `Mathlib.Probability.Moments.Variance` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteChaining.lean: imports `Mathlib.MeasureTheory.SpecificCodomains.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteChaining.lean: imports `Mathlib.MeasureTheory.Function.L2Space` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteChaining.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3810/4057] Replayed Erdos524.CauchyIncrementBounds
+warning: Erdos524/CauchyIncrementBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyIncrementBounds.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyIncrementBounds.lean:16:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3811/4057] Replayed Erdos524.CauchyKernel
+warning: Erdos524/CauchyKernel.lean: imports `Mathlib.LinearAlgebra.Matrix.SchurComplement` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyKernel.lean: imports `Mathlib.Analysis.SpecialFunctions.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyKernel.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyKernel.lean:27:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/CauchyKernel.lean:42:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3812/4057] Replayed Erdos524.CauchyPositivity
+warning: Erdos524/CauchyPositivity.lean: imports `Mathlib.LinearAlgebra.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyPositivity.lean: imports `Mathlib.Algebra.Order.Star.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyPositivity.lean:24:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3813/4057] Replayed Erdos524.FiniteGaussianTailBound
+warning: Erdos524/FiniteGaussianTailBound.lean: imports `Mathlib.Probability.Distributions.Gaussian.Multivariate` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteGaussianTailBound.lean: imports `Mathlib.Probability.Distributions.Gaussian.HasGaussianLaw.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteGaussianTailBound.lean:76:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3815/4057] Replayed Erdos524.GaussianSampleCovariance
+warning: Erdos524/GaussianSampleCovariance.lean:55:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3817/4057] Replayed Erdos524.GaussianSampleRegression
+warning: Erdos524/GaussianSampleRegression.lean:75:23: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  integrable_finset_̵s̵S̲um
+⚠ [3818/4057] Replayed Erdos524.LayercakeComparison
+warning: Erdos524/LayercakeComparison.lean: imports `Mathlib.MeasureTheory.Integral.Layercake` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3819/4057] Replayed Erdos524.CoordinateSymmetrization
+warning: Erdos524/CoordinateSymmetrization.lean: imports `Mathlib.Analysis.Convex.Topology` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CoordinateSymmetrization.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CoordinateSymmetrization.lean:45:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.symm_mono`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:50:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.difference_mono`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:61:37: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/CoordinateSymmetrization.lean:63:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/CoordinateSymmetrization.lean:56:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.centerFiber_swap`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:65:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.reflect_involutive`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:76:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.centerFiber_reflect`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:81:40: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/CoordinateSymmetrization.lean:81:40: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos524/CoordinateSymmetrization.lean:95:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.centerFiber_add_smul`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:99:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/CoordinateSymmetrization.lean:116:56: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos524/CoordinateSymmetrization.lean:116:65: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos524/CoordinateSymmetrization.lean:116:56: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos524/CoordinateSymmetrization.lean:116:65: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos524/CoordinateSymmetrization.lean:112:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.continuous_centerFiber`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:121:13: `Set.setOf_forall` has been deprecated: Use `Set.ofPred_forall` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵f̵o̵r̵a̵l̵l̵o̲f̲P̲r̲e̲d̲_̲f̲o̲r̲a̲l̲l̲
+warning: Erdos524/CoordinateSymmetrization.lean:119:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.isClosed_sameOff`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:128:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.symm_eq_image`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:145:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.centerFiber_sub`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:149:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/CoordinateSymmetrization.lean:222:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.reflectSet_insert`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/CoordinateSymmetrization.lean:259:0: automatically included section variable(s) unused in theorem `Erdos524.CoordinateSymmetrization.difference_self_eq_double`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3820/4057] Replayed Erdos524.OneDimensionalFibers
+warning: Erdos524/OneDimensionalFibers.lean: imports `Mathlib.Analysis.Convex.Topology` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/OneDimensionalFibers.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/OneDimensionalFibers.lean: imports `Mathlib.Topology.Order.Compact` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/OneDimensionalFibers.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3821/4057] Replayed Erdos524.ProductFiberVolume
+warning: Erdos524/ProductFiberVolume.lean: imports `Mathlib.MeasureTheory.Measure.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/ProductFiberVolume.lean:25:0: automatically included section variable(s) unused in theorem `Erdos524.ProductFiberVolume.fiber_eq_image`:
+  [NormedAddCommGroup E]
+  [NormedSpace ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup E] [NormedSpace ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/ProductFiberVolume.lean:47:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Erdos524/ProductFiberVolume.lean:42:0: automatically included section variable(s) unused in theorem `Erdos524.ProductFiberVolume.convex_fiber`:
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/ProductFiberVolume.lean:50:0: automatically included section variable(s) unused in theorem `Erdos524.ProductFiberVolume.fiberSymm_eq_image`:
+  [NormedAddCommGroup E]
+  [NormedSpace ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup E] [NormedSpace ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3822/4057] Replayed Erdos524.CoordinateVolume
+warning: Erdos524/CoordinateVolume.lean: imports `Mathlib.MeasureTheory.Constructions.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3823/4057] Replayed Erdos524.DifferenceVolume
+warning: Erdos524/DifferenceVolume.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3824/4057] Replayed Erdos524.ShiftIntersection
+warning: Erdos524/ShiftIntersection.lean: imports `Mathlib.Analysis.Normed.Operator.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3825/4057] Replayed Erdos524.DensityLevelComparison
+warning: Erdos524/DensityLevelComparison.lean: imports `Mathlib.MeasureTheory.Measure.WithDensity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DensityLevelComparison.lean:32:47: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3826/4057] Replayed Erdos524.GaussianLevelSets
+warning: Erdos524/GaussianLevelSets.lean: imports `Mathlib.Analysis.Convex.Topology` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianLevelSets.lean: imports `Mathlib.Analysis.Normed.Module.FiniteDimension` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianLevelSets.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianLevelSets.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianLevelSets.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianLevelSets.lean:119:14: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3827/4057] Replayed Erdos524.GaussianProductDensity
+warning: Erdos524/GaussianProductDensity.lean: imports `Mathlib.Probability.Distributions.Gaussian.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianProductDensity.lean: imports `Mathlib.MeasureTheory.Integral.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianProductDensity.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3829/4057] Replayed Erdos524.GaussianCovarianceComparison
+warning: Erdos524/GaussianCovarianceComparison.lean: imports `Mathlib.Probability.Distributions.Gaussian.Multivariate` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/GaussianCovarianceComparison.lean: imports `Mathlib.Probability.Independence.CharacteristicFunction` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3831/4057] Replayed Erdos524.GaussianSampleProduct
+warning: Erdos524/GaussianSampleProduct.lean:30:15: `Set.setOf_forall` has been deprecated: Use `Set.ofPred_forall` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵f̵o̵r̵a̵l̵l̵o̲f̲P̲r̲e̲d̲_̲f̲o̲r̲a̲l̲l̲
+⚠ [3832/4057] Replayed Erdos524.GaussianBoxDensity
+warning: Erdos524/GaussianBoxDensity.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3833/4057] Replayed Erdos524.GaussianCovarianceCoordinates
+warning: Erdos524/GaussianCovarianceCoordinates.lean: imports `Mathlib.LinearAlgebra.Matrix.ToLinearEquiv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3835/4057] Replayed Erdos524.IntegralGramComparison
+warning: Erdos524/IntegralGramComparison.lean: imports `Mathlib.MeasureTheory.Function.L2Space` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/IntegralGramComparison.lean: imports `Mathlib.MeasureTheory.Measure.Sub` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/IntegralGramComparison.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/IntegralGramComparison.lean:17:0: automatically included section variable(s) unused in theorem `Erdos524.IntegralGramComparison.integralGram_eq_gram`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos524/IntegralGramComparison.lean:33:0: automatically included section variable(s) unused in theorem `Erdos524.IntegralGramComparison.integralGram_sub`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3842/4057] Replayed Erdos524.LaplaceKernelComparison
+warning: Erdos524/LaplaceKernelComparison.lean: imports `Mathlib.Probability.Distributions.Exponential` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LaplaceKernelComparison.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LaplaceKernelComparison.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/LaplaceKernelComparison.lean:139:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/LaplaceKernelComparison.lean:164:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/LaplaceKernelComparison.lean:163:36: This simp argument is unused:
+  Real.volume_Icc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [laplace, intervalMeasure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/LaplaceKernelComparison.lean:191:2: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3845/4057] Replayed Erdos524.CauchyInterpolation
+warning: Erdos524/CauchyInterpolation.lean: imports `Mathlib.LinearAlgebra.Lagrange` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/CauchyInterpolation.lean:65:50: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos524/CauchyInterpolation.lean:66:25: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3847/4057] Replayed Erdos524.CauchyLogGeometry
+warning: Erdos524/CauchyLogGeometry.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Series` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3909/4057] Replayed Erdos524.LogTanhPotential
+warning: Erdos524/LogTanhPotential.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LogTanhPotential.lean: imports `Mathlib.NumberTheory.ZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LogTanhPotential.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LogTanhPotential.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LogTanhPotential.lean: imports `Mathlib.Analysis.SumIntegralComparisons` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/LogTanhPotential.lean:79:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/LogTanhPotential.lean:79:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3911/4057] Replayed Erdos524.SeparatedGridInverse
+warning: Erdos524/SeparatedGridInverse.lean:20:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/SeparatedGridInverse.lean:30:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/SeparatedGridInverse.lean:54:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/SeparatedGridInverse.lean:67:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3912/4057] Replayed Erdos524.FiniteKernelPerturbation
+warning: Erdos524/FiniteKernelPerturbation.lean:27:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3914/4057] Replayed Erdos524.GaussianCovarianceBox
+warning: Erdos524/GaussianCovarianceBox.lean:58:33: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3917/4057] Replayed Erdos524.FiniteKernelBox
+warning: Erdos524/FiniteKernelBox.lean:27:18: Unused tactic linter: `change _ ≤ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3919/4057] Replayed Erdos524.LayercakeDiscrepancy
+warning: Erdos524/LayercakeDiscrepancy.lean:21:26: Variable name `hD` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hD
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3920/4057] Replayed Erdos524.TruncatedLogTanh
+warning: Erdos524/TruncatedLogTanh.lean:28:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/TruncatedLogTanh.lean:88:6: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3922/4057] Replayed Erdos524.EvenLogTanhIntegrals
+warning: Erdos524/EvenLogTanhIntegrals.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Integral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/EvenLogTanhIntegrals.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3923/4057] Replayed Erdos524.PotentialNearIntegral
+warning: Erdos524/PotentialNearIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/PotentialNearIntegral.lean:38:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3924/4057] Replayed Erdos524.NearPotential
+warning: Erdos524/NearPotential.lean:38:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/NearPotential.lean:41:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3925/4057] Replayed Erdos524.QuantileCounting
+warning: Erdos524/QuantileCounting.lean: imports `Mathlib.Data.Fintype.Fin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/QuantileCounting.lean: imports `Mathlib.Topology.Order.IntermediateValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3928/4057] Replayed Erdos524.EmpiricalQuantileMeasure
+warning: Erdos524/EmpiricalQuantileMeasure.lean:50:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/EmpiricalQuantileMeasure.lean:58:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/EmpiricalQuantileMeasure.lean:60:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/EmpiricalQuantileMeasure.lean:68:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3929/4057] Replayed Erdos524.AffineQuantileMeasure
+warning: Erdos524/AffineQuantileMeasure.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/AffineQuantileMeasure.lean:54:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/AffineQuantileMeasure.lean:64:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/AffineQuantileMeasure.lean:66:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/AffineQuantileMeasure.lean:74:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3930/4057] Replayed Erdos524.WeightedTruncation
+warning: Erdos524/WeightedTruncation.lean:34:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3931/4057] Replayed Erdos524.QuantilePotentialBounds
+warning: Erdos524/QuantilePotentialBounds.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/QuantilePotentialBounds.lean:83:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/QuantilePotentialBounds.lean:102:52: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3932/4057] Replayed Erdos524.PotentialTailIntegrals
+warning: Erdos524/PotentialTailIntegrals.lean:20:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3934/4057] Replayed Erdos524.AffineQuantileMoments
+warning: Erdos524/AffineQuantileMoments.lean:25:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3936/4057] Replayed Erdos524.BlockMeshMoments
+warning: Erdos524/BlockMeshMoments.lean:27:13: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_sub_distrib, Finset.sum_add_distrib, ← Finset.sum_div, ← Finset.mul_sum, hsum,
+    Finset.sum_const, Finset.card_univ, Fintype.card_fin, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/BlockMeshMoments.lean:31:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/BlockMeshMoments.lean:50:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/BlockMeshMoments.lean:56:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/BlockMeshMoments.lean:95:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3937/4057] Replayed Erdos524.SeparatedFiniteSet
+warning: Erdos524/SeparatedFiniteSet.lean: imports `Mathlib.Data.Finset.Sort` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SeparatedFiniteSet.lean:7:73: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3941/4057] Replayed Erdos524.UpperMeshCutoff
+warning: Erdos524/UpperMeshCutoff.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/UpperMeshCutoff.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3942/4057] Replayed Erdos524.UpperMeshNonempty
+warning: Erdos524/UpperMeshNonempty.lean:17:15: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_zero, mul_zero, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3943/4057] Replayed Erdos524.SetMeshEnergy
+warning: Erdos524/SetMeshEnergy.lean:23:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/SetMeshEnergy.lean:23:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/SetMeshEnergy.lean:25:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/SetMeshEnergy.lean:25:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/SetMeshEnergy.lean:110:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/SetMeshEnergy.lean:113:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/SetMeshEnergy.lean:139:53: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [3948/4057] Replayed Erdos524.RegressionWeightBounds
+warning: Erdos524/RegressionWeightBounds.lean:102:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/RegressionWeightBounds.lean:104:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/RegressionWeightBounds.lean:114:50: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3949/4057] Replayed Erdos524.LowerPotentialEstimates
+warning: Erdos524/LowerPotentialEstimates.lean:18:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/LowerPotentialEstimates.lean:40:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3952/4057] Replayed Erdos524.LowerProbabilityBudgets
+warning: Erdos524/LowerProbabilityBudgets.lean:15:49: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3955/4057] Replayed Erdos524.FiniteSmallBallEnvelope
+warning: Erdos524/FiniteSmallBallEnvelope.lean:34:2: Try this: intro x hx i hi
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+⚠ [3956/4057] Replayed Erdos524.CauchyGaussianRegression
+warning: Erdos524/CauchyGaussianRegression.lean:100:23: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  integrable_finset_̵s̵S̲um
+⚠ [3958/4057] Replayed Erdos524.UnorderedGaussianBounds
+warning: Erdos524/UnorderedGaussianBounds.lean: imports `Mathlib.Data.Finset.Sort` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3959/4057] Replayed Erdos524.CauchyResidualBounds
+warning: Erdos524/CauchyResidualBounds.lean:75:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/CauchyResidualBounds.lean:75:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/CauchyResidualBounds.lean:75:108: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3960/4057] Replayed Erdos524.CauchySmallBoxLower
+warning: Erdos524/CauchySmallBoxLower.lean:39:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3963/4057] Replayed Erdos524.PotentialSmallBallLower
+warning: Erdos524/PotentialSmallBallLower.lean:43:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/PotentialSmallBallLower.lean:43:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3965/4057] Replayed Erdos524.LowerSmallBallAssembly
+warning: Erdos524/LowerSmallBallAssembly.lean:88:29: Unused tactic linter: `congr 2` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/LowerSmallBallAssembly.lean:88:41: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/LowerSmallBallAssembly.lean:88:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos524/LowerSmallBallAssembly.lean:88:41: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3968/4057] Replayed Erdos524.AffineGaussianBand
+warning: Erdos524/AffineGaussianBand.lean:111:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/AffineGaussianBand.lean:111:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/AffineGaussianBand.lean:115:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/AffineGaussianBand.lean:115:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3970/4057] Replayed Erdos524.FiniteLaplaceBand
+warning: Erdos524/FiniteLaplaceBand.lean:18:23: `Set.setOf_forall` has been deprecated: Use `Set.ofPred_forall` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵f̵o̵r̵a̵l̵l̵o̲f̲P̲r̲e̲d̲_̲f̲o̲r̲a̲l̲l̲
+warning: Erdos524/FiniteLaplaceBand.lean:29:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/FiniteLaplaceBand.lean:43:16: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Erdos524/FiniteLaplaceBand.lean:53:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3973/4057] Replayed Erdos524.LaplaceResidualComparison
+warning: Erdos524/LaplaceResidualComparison.lean:37:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/LaplaceResidualComparison.lean:44:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/LaplaceResidualComparison.lean:52:47: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3975/4057] Replayed Erdos524.FiniteSmallBallIncrement
+warning: Erdos524/FiniteSmallBallIncrement.lean:84:75: This simp argument is unused:
+  ENNReal.add_ne_top
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [finiteSmallBall_ne_top]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3977/4057] Replayed Erdos524.FiniteSmallBallZero
+warning: Erdos524/FiniteSmallBallZero.lean:46:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/FiniteSmallBallZero.lean:46:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3978/4057] Replayed Erdos524.FiniteSmallBallStrict
+warning: Erdos524/FiniteSmallBallStrict.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3980/4057] Replayed Erdos524.InverseCovarianceOrder
+warning: Erdos524/InverseCovarianceOrder.lean:21:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/InverseCovarianceOrder.lean:22:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/InverseCovarianceOrder.lean:23:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos524/InverseCovarianceOrder.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3981/4057] Replayed Erdos524.DilationMesh
+warning: Erdos524/DilationMesh.lean:68:33: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3982/4057] Replayed Erdos524.SmallBallLogDilation
+warning: Erdos524/SmallBallLogDilation.lean:117:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/SmallBallLogDilation.lean:123:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3983/4057] Replayed Erdos524.FiniteSmallBallInverse
+warning: Erdos524/FiniteSmallBallInverse.lean:32:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/FiniteSmallBallInverse.lean:121:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3985/4057] Replayed Erdos524.PolynomialAbel
+warning: Erdos524/PolynomialAbel.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4053/4170] Replayed Erdos524.RandomPolynomialModel
+warning: Erdos524/RandomPolynomialModel.lean: imports `Mathlib.Probability.Independence.InfinitePi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/RandomPolynomialModel.lean: imports `Mathlib.Topology.ContinuousMap.Compact` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4059/4170] Replayed Erdos524.SignConcentration
+warning: Erdos524/SignConcentration.lean: imports `Mathlib.Probability.Moments.SubGaussian` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SignConcentration.lean: imports `Mathlib.Probability.Independence.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SignConcentration.lean: imports `Mathlib.MeasureTheory.Constructions.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SignConcentration.lean:57:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4060/4170] Replayed Erdos524.FiniteSignWalk
+warning: Erdos524/FiniteSignWalk.lean: imports `Mathlib.MeasureTheory.Integral.Indicator` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteSignWalk.lean:26:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Erdos524/FiniteSignWalk.lean:69:26: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4061/4170] Replayed Erdos524.SignWalkRecursion
+warning: Erdos524/SignWalkRecursion.lean:34:51: This simp argument is unused:
+  Set.indicator
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f, hz]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4064/4170] Replayed Erdos524.SignWalkMaximal
+warning: Erdos524/SignWalkMaximal.lean:20:34: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4065/4170] Replayed Erdos524.SignWalkMaximalMoment
+warning: Erdos524/SignWalkMaximalMoment.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SignWalkMaximalMoment.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/SignWalkMaximalMoment.lean:18:8: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+warning: Erdos524/SignWalkMaximalMoment.lean:36:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/SignWalkMaximalMoment.lean:37:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos524/SignWalkMaximalMoment.lean:72:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/SignWalkMaximalMoment.lean:72:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4066/4170] Replayed Erdos524.FinitePolynomialAbel
+warning: Erdos524/FinitePolynomialAbel.lean:19:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/FinitePolynomialAbel.lean:27:36: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/FinitePolynomialAbel.lean:34:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/FinitePolynomialAbel.lean:40:36: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos524/FinitePolynomialAbel.lean:34:32: This simp argument is unused:
+  dif_pos (show ∀ i : Fin N, i.val < N from fun i => i.isLt)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [extendCoefficients] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4070/4170] Replayed Erdos524.ExponentialKernelLipschitz
+warning: Erdos524/ExponentialKernelLipschitz.lean: imports `Mathlib.Analysis.Calculus.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/ExponentialKernelLipschitz.lean: imports `Mathlib.Analysis.SpecialFunctions.ExpDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4071/4170] Replayed Erdos524.FiniteCouplingComparison
+warning: Erdos524/FiniteCouplingComparison.lean: imports `Mathlib.MeasureTheory.Integral.Indicator` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteCouplingComparison.lean: imports `Mathlib.MeasureTheory.Function.L2Space` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteCouplingComparison.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FiniteCouplingComparison.lean:48:0: automatically included section variable(s) unused in theorem `Erdos524.FiniteCouplingComparison.box_subset_enlarged_union_bad`:
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4074/4170] Replayed Erdos524.LaplaceStepKernel
+warning: Erdos524/LaplaceStepKernel.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4077/4170] Replayed Erdos524.TwoColorKernel
+warning: Erdos524/TwoColorKernel.lean: imports `Mathlib.MeasureTheory.Function.LpSeminorm.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4079/4170] Replayed Erdos524.TwoSidedGaussianLimit
+warning: Erdos524/TwoSidedGaussianLimit.lean:84:32: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4081/4170] Replayed Erdos524.ParityPowerSum
+warning: Erdos524/ParityPowerSum.lean:25:102: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/ParityPowerSum.lean:31:102: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/ParityPowerSum.lean:25:102: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos524/ParityPowerSum.lean:31:102: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [4083/4170] Replayed Erdos524.PolynomialLaplaceGrid
+warning: Erdos524/PolynomialLaplaceGrid.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4087/4170] Replayed Erdos524.PolynomialFiniteComparison
+warning: Erdos524/PolynomialFiniteComparison.lean:44:93: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/PolynomialFiniteComparison.lean:44:93: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [4100/4170] Replayed Erdos524.EnvelopeBlocking
+warning: Erdos524/EnvelopeBlocking.lean: imports `Mathlib.Probability.BorelCantelli` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/EnvelopeBlocking.lean: imports `Mathlib.MeasureTheory.MeasurableSpace.MeasurablyGenerated` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/EnvelopeBlocking.lean: imports `Mathlib.Topology.Instances.ENNReal.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/EnvelopeBlocking.lean:17:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4101/4170] Replayed Erdos524.FactorialSparseMesh
+warning: Erdos524/FactorialSparseMesh.lean: imports `Mathlib.Data.Nat.Factorial.BigOperators` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/FactorialSparseMesh.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4104/4170] Replayed Erdos524.FactorialBlockProbability
+warning: Erdos524/FactorialBlockProbability.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4110/4170] Replayed Erdos524.FiniteCellVariation
+warning: Erdos524/FiniteCellVariation.lean: imports `Mathlib.Data.Fin.Tuple.Sort` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4114/4170] Replayed Erdos524.FullPolynomialBox
+warning: Erdos524/FullPolynomialBox.lean:17:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Erdos524/FullPolynomialBox.lean:30:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4115/4170] Replayed Erdos524.PolynomialFullProbability
+warning: Erdos524/PolynomialFullProbability.lean:66:113: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4116/4170] Replayed Erdos524.GaussianGridProbability
+warning: Erdos524/GaussianGridProbability.lean:79:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4117/4170] Replayed Erdos524.GaussianGridEnvelope
+warning: Erdos524/GaussianGridEnvelope.lean:14:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4119/4170] Replayed Erdos524.PolynomialComparisonParameters
+warning: Erdos524/PolynomialComparisonParameters.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4120/4170] Replayed Erdos524.PolynomialComparisonError
+info: Erdos524/PolynomialComparisonError.lean:66:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos524/PolynomialComparisonError.lean:16:61: Variable name `hC` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hC
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4121/4170] Replayed Erdos524.PolynomialTolerance
+warning: Erdos524/PolynomialTolerance.lean:44:88: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos524/PolynomialTolerance.lean:44:100: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4124/4170] Replayed Erdos524.PolynomialInverseLower
+warning: Erdos524/PolynomialInverseLower.lean:26:58: This simp argument is unused:
+  inv_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_pow, div_eq_mul_inv, _root_.mul_inv_rev]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Erdos524/PolynomialInverseLower.lean:71:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos524/PolynomialInverseLower.lean:69:6: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [4126/4170] Replayed Erdos524.PolynomialScaleStability
+info: Erdos524/PolynomialScaleStability.lean:53:38: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos524/PolynomialScaleStability.lean:53:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4130/4170] Replayed Erdos524.IndependentNoiseComparison
+warning: Erdos524/IndependentNoiseComparison.lean: imports `Mathlib.MeasureTheory.Measure.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4132/4170] Built Erdos524.DyadicMesh (4.0s)
+warning: Erdos524/DyadicMesh.lean: imports `Mathlib.Data.Nat.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DyadicMesh.lean: imports `Mathlib.Data.Nat.ModEq` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DyadicMesh.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DyadicMesh.lean:42:95: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/DyadicMesh.lean:42:95: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [4133/4170] Built Erdos524.StretchedLogSummability (3.8s)
+warning: Erdos524/StretchedLogSummability.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/StretchedLogSummability.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/StretchedLogSummability.lean: imports `Mathlib.Analysis.Complex.Exponential` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/StretchedLogSummability.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4134/4170] Built Erdos524.NormalizerGrowth (4.3s)
+⚠ [4135/4170] Built Erdos524.PowerScaleComparisons (4.4s)
+warning: Erdos524/PowerScaleComparisons.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4136/4170] Built Erdos524.InverseScaleAsymptotic (4.7s)
+✔ [4137/4170] Built Erdos524.RandomPolynomialMaximal (4.7s)
+⚠ [4138/4170] Built Erdos524.GaussianTailLower (5.2s)
+warning: Erdos524/GaussianTailLower.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4139/4170] Built Erdos524.PolynomialUpperError (5.5s)
+✔ [4140/4170] Built Erdos524.PolynomialConstantTerm (3.4s)
+⚠ [4141/4170] Built Erdos524.AdaptiveDyadicMesh (3.7s)
+warning: Erdos524/AdaptiveDyadicMesh.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4142/4170] Built Erdos524.SignSumGaussianComparison (3.5s)
+warning: Erdos524/SignSumGaussianComparison.lean:25:15: This simp argument is unused:
+  div_mul_div_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [one_mul, ← pow_two, hs, Finset.sum_const, Finset.card_univ, Fintype.card_fin, nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SignSumGaussianComparison.lean:25:32: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [div_mul_div_comm, ← pow_two, hs, Finset.sum_const, Finset.card_univ, Fintype.card_fin,
+    nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SignSumGaussianComparison.lean:25:50: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [div_mul_div_comm, one_mul, ← pow_two, Finset.sum_const, Finset.card_univ, Fintype.card_fin,
+    nsmul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SignSumGaussianComparison.lean:33:13: This simp argument is unused:
+  Pi.zero_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.one_apply, ite_true, Real.toNNReal_one] at hEval
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos524/SignSumGaussianComparison.lean:57:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4143/4170] Built Erdos524.DyadicUpperProbability (4.4s)
+warning: Erdos524/DyadicUpperProbability.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DyadicUpperProbability.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DyadicUpperProbability.lean: imports `Mathlib.Probability.BorelCantelli` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4144/4170] Built Erdos524.ModerateGaussianTail (4.3s)
+warning: Erdos524/ModerateGaussianTail.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4145/4170] Built Erdos524.PolynomialInverseUpper (4.6s)
+info: Erdos524/PolynomialInverseUpper.lean:63:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos524/PolynomialInverseUpper.lean:61:6: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [4146/4170] Built Erdos524.DyadicLogBounds (3.6s)
+⚠ [4147/4170] Built Erdos524.DyadicUpperScale (4.2s)
+warning: Erdos524/DyadicUpperScale.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DyadicUpperScale.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4148/4170] Built Erdos524.ModerateSignTail (4.0s)
+⚠ [4149/4170] Built Erdos524.DenseVarianceBudget (3.7s)
+warning: Erdos524/DenseVarianceBudget.lean:98:13: This simp argument is unused:
+  Nat.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [div_eq_mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4150/4170] Built Erdos524.DenseMeshSmallness (4.1s)
+info: Erdos524/DenseMeshSmallness.lean:56:27: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos524/DenseMeshSmallness.lean:80:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos524/DenseMeshSmallness.lean:56:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [4151/4170] Built Erdos524.UpperEnvelopeBound (3.3s)
+⚠ [4152/4170] Built Erdos524.GeometricWalkScale (3.4s)
+warning: Erdos524/GeometricWalkScale.lean:21:38: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos524/GeometricWalkScale.lean:56:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos524/GeometricWalkScale.lean:56:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [4153/4170] Built Erdos524.DenseMeshIncrement (3.5s)
+warning: Erdos524/DenseMeshIncrement.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos524/DenseMeshIncrement.lean: imports `Mathlib.Probability.BorelCantelli` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4154/4170] Built Erdos524.UpperScaleGrowth (2.8s)
+✔ [4155/4170] Built Erdos524.GeometricWalkProbability (3.1s)
+✔ [4156/4170] Built Erdos524.DenseScaleComparison (3.3s)
+✔ [4157/4170] Built Erdos524.GeometricWalkPayment (4.6s)
+✔ [4158/4170] Built Erdos524.InverseLiminfLower (3.7s)
+✔ [4159/4170] Built Erdos524.UpperEnvelopeLower (3.6s)
+✔ [4160/4170] Built Erdos524.InverseLiminf (3.0s)
+ℹ [4161/4170] Built Erdos524.UpperEnvelopeLowerAudit (2.7s)
+info: Erdos524/UpperEnvelopeLowerAudit.lean:2:0: 'Erdos524.GaussianTailLower.gaussian_tail_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:3:0: 'Erdos524.SignSumGaussianComparison.exists_exponential_sum_tail_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:4:0: 'Erdos524.ModerateSignTail.eventual_sum_moderate_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:5:0: 'Erdos524.GeometricWalkProbability.ae_frequent_freshSum_large' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:6:0: 'Erdos524.GeometricWalkPayment.choose_geometric_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:7:0: 'Erdos524.UpperEnvelopeLower.ae_frequent_upper_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:8:0: 'Erdos524.UpperEnvelopeLower.ae_upper_normalized_limsup_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Erdos524/UpperEnvelopeLowerAudit.lean:9:0: 'Erdos524.UpperEnvelopeLower.ae_upper_normalized_limsup_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [4162/4170] Built Erdos524.ConstantTermUpperEnvelope (3.5s)
+warning: Erdos524/ConstantTermUpperEnvelope.lean: imports `Mathlib.Topology.Algebra.Order.LiminfLimsup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4163/4170] Built Erdos524.ConstantTermInverseLiminf (3.4s)
+✔ [4164/4170] Built Erdos524.LogarithmicLiminf (3.1s)
+⚠ [4165/4170] Built Erdos524.ArbitrarySignModel (2.6s)
+warning: Erdos524/ArbitrarySignModel.lean:14:0: automatically included section variable(s) unused in theorem `Erdos524.ArbitrarySignModel.sequence_law`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4166/4170] Built Erdos524.Main (2.7s)
+ℹ [4167/4170] Built Erdos524.ArbitrarySignModelAudit (2.5s)
+info: Erdos524/ArbitrarySignModelAudit.lean:2:0: 'Erdos524.ArbitrarySignModel.sequence_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos524/ArbitrarySignModelAudit.lean:3:0: 'Erdos524.ArbitrarySignModel.ae_upper_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos524/ArbitrarySignModelAudit.lean:4:0: 'Erdos524.ArbitrarySignModel.ae_logarithmic_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [4168/4170] Built Erdos524.PublicTheoremTransfer (2.5s)
+✔ [4169/4170] Built Erdos524 (2.8s)
+Build completed successfully (4170 jobs).

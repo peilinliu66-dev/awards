@@ -1,0 +1,9 @@
+import Erdos524.PolynomialFullUpper
+#print axioms Erdos524.UniformPolynomialTail.normalized_polynomial_tail_probability
+#print axioms Erdos524.PolynomialFullProbability.full_polynomial_probability_lower
+#print axioms Erdos524.PolynomialFullUpper.full_polynomial_probability_upper
+#print axioms Erdos524.GaussianGridEnvelope.grid_probability_le_envelope
+#print axioms Erdos524.GaussianGridOscillation.exists_grid_oscillation
+#print axioms Erdos524.FiniteCellVariation.exists_cell_variation
+#print axioms Erdos524.FiniteSignWalk.integral_walkMax_le
+#print axioms Erdos524.PolynomialBlockTail.exists_polynomial_tail_dominator

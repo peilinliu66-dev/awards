@@ -1,0 +1,17 @@
+{
+  "export_file_path": "main-proof.export.jsonl",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "nat_extension": true,
+  "string_extension": true,
+  "pp_declars": [
+    "Erdos524.erdos_524_complete"
+  ],
+  "pp_to_stdout": false,
+  "pp_output_path": "nanoda-target.txt",
+  "print_success_message": true
+}

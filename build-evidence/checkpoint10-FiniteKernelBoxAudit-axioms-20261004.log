@@ -1,0 +1,6 @@
+'Erdos524.GaussianLogBox.gaussian_box_exp_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianLogBox.gaussian_box_exp_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteKernelBox.gaussian_box_covariance_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteKernelBox.separated_finiteKernel_box_energy_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

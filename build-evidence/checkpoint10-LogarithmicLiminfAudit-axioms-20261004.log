@@ -1,0 +1,6 @@
+'Erdos524.InversePolynomialScale.inverseLog_cubic_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.InversePolynomialScale.inverse_logarithm_asymptotic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.LogarithmicLiminf.ae_logarithmic_liminf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LogarithmicLiminf.ae_constant_logarithmic_liminf' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2766 @@
+{
+  "status": "original logarithmic lower and sharp upper envelope main theorems compiled; finite-covariance inverse refinement also compiled",
+  "lean": "leanprover/lean4:v4.35.0-rc3",
+  "mathlib": "119fab72f5ecf69de785450dfb8f8b58ca5f310e",
+  "compiled_modules": [
+    "AbsoluteCDFReplacement",
+    "AdaptiveDyadicMesh",
+    "AffineGaussianBand",
+    "AffineLowerMeshMoments",
+    "AffinePotentialBoundary",
+    "AffineQuantileMeasure",
+    "AffineQuantileMesh",
+    "AffineQuantileMoments",
+    "ArbitrarySignModel",
+    "ArbitrarySignModelAudit",
+    "BlockMesh",
+    "BlockMeshMoments",
+    "BlockPointSet",
+    "CDFDiscrepancy",
+    "CauchyGaussianRegression",
+    "CauchyIncrementBounds",
+    "CauchyInterpolation",
+    "CauchyKernel",
+    "CauchyLogGeometry",
+    "CauchyPositivity",
+    "CauchyResidualBounds",
+    "CauchySmallBoxLower",
+    "ConstantTermInverseLiminf",
+    "ConstantTermUpperEnvelope",
+    "CoordinateSymmetrization",
+    "CoordinateVolume",
+    "DenseMeshIncrement",
+    "DenseMeshSmallness",
+    "DenseScaleComparison",
+    "DenseVarianceBudget",
+    "DensityLevelComparison",
+    "DifferenceVolume",
+    "DilationMesh",
+    "DiscreteLaplaceGram",
+    "DyadicLogBounds",
+    "DyadicMesh",
+    "DyadicUpperProbability",
+    "DyadicUpperScale",
+    "EmpiricalQuantileMeasure",
+    "EnvelopeBlocking",
+    "EvenLogTanhIntegrals",
+    "ExponentialKernelLipschitz",
+    "FactorialBlockProbability",
+    "FactorialOldBound",
+    "FactorialOldPayment",
+    "FactorialSparseMesh",
+    "FiniteAnderson",
+    "FiniteCDFReplacement",
+    "FiniteCellVariation",
+    "FiniteChaining",
+    "FiniteCouplingComparison",
+    "FiniteGaussianCoreBound",
+    "FiniteGaussianCubes",
+    "FiniteGaussianRegression",
+    "FiniteGaussianTailBound",
+    "FiniteKernelBox",
+    "FiniteKernelPerturbation",
+    "FiniteL2Variation",
+    "FiniteLaplaceBand",
+    "FiniteLaplaceRegression",
+    "FiniteLindeberg",
+    "FinitePolynomialAbel",
+    "FiniteSignWalk",
+    "FiniteSmallBallBasic",
+    "FiniteSmallBallContinuity",
+    "FiniteSmallBallDilation",
+    "FiniteSmallBallEnvelope",
+    "FiniteSmallBallIncrement",
+    "FiniteSmallBallInverse",
+    "FiniteSmallBallLower",
+    "FiniteSmallBallStrict",
+    "FiniteSmallBallTail",
+    "FiniteSmallBallZero",
+    "FourthOrderTaylor",
+    "FullPolynomialBox",
+    "GaussianBoxDensity",
+    "GaussianCoordinateProjection",
+    "GaussianCovarianceBox",
+    "GaussianCovarianceComparison",
+    "GaussianCovarianceCoordinates",
+    "GaussianDiagonalScaling",
+    "GaussianDilationDensity",
+    "GaussianGridBudget",
+    "GaussianGridEnvelope",
+    "GaussianGridOscillation",
+    "GaussianGridProbability",
+    "GaussianIndependentSumLaw",
+    "GaussianLevelSets",
+    "GaussianLinearAnderson",
+    "GaussianLinearLaw",
+    "GaussianLogBox",
+    "GaussianPolynomialComparison",
+    "GaussianPolynomialLaw",
+    "GaussianProductDensity",
+    "GaussianSampleCovariance",
+    "GaussianSampleDilation",
+    "GaussianSampleProduct",
+    "GaussianSampleRegression",
+    "GaussianTailLower",
+    "GaussianVectorLaw",
+    "GeometricWalkPayment",
+    "GeometricWalkProbability",
+    "GeometricWalkScale",
+    "GramGaussianCoupling",
+    "HybridReplacement",
+    "IndependentNoiseComparison",
+    "IntegralGramComparison",
+    "InverseCovarianceOrder",
+    "InverseLiminf",
+    "InverseLiminfLower",
+    "InverseLiminfUpper",
+    "InversePolynomialScale",
+    "InverseRadiusStability",
+    "InverseScaleAsymptotic",
+    "InverseScaleProbabilityMargin",
+    "InverseSmallBallMargins",
+    "LaplaceAnnulusGeometry",
+    "LaplaceIncrementBudget",
+    "LaplaceKernelComparison",
+    "LaplaceResidualComparison",
+    "LaplaceStepKernel",
+    "LayercakeComparison",
+    "LayercakeDiscrepancy",
+    "LinearStatistic",
+    "LogCauchyDeterminant",
+    "LogCauchyInverse",
+    "LogTanhPotential",
+    "LogarithmicLiminf",
+    "LowerAggregateApplied",
+    "LowerPotentialAggregate",
+    "LowerPotentialEstimates",
+    "LowerProbabilityBudgets",
+    "LowerSmallBallAssembly",
+    "Main",
+    "MatchedMomentComparison",
+    "ModerateGaussianTail",
+    "ModerateSignTail",
+    "NearPotential",
+    "NormalizerGrowth",
+    "OffsetStepKernel",
+    "OneDimensionalFibers",
+    "PSDTracePerturbation",
+    "ParityPowerSum",
+    "PhaseGaussianComparison",
+    "PhasePolynomialIdentity",
+    "PhaseSignComparison",
+    "PolynomialAbel",
+    "PolynomialBlockTail",
+    "PolynomialComparisonError",
+    "PolynomialComparisonParameters",
+    "PolynomialConstantTerm",
+    "PolynomialFiniteComparison",
+    "PolynomialFullProbability",
+    "PolynomialFullUpper",
+    "PolynomialGridCover",
+    "PolynomialInverseLower",
+    "PolynomialInverseUpper",
+    "PolynomialLaplaceGrid",
+    "PolynomialScaleStability",
+    "PolynomialTailScale",
+    "PolynomialTolerance",
+    "PolynomialUpperError",
+    "PotentialNearIntegral",
+    "PotentialReindex",
+    "PotentialSmallBallLower",
+    "PotentialTailIntegrals",
+    "PowerScaleComparisons",
+    "ProductCoordinateReplacement",
+    "ProductFiberVolume",
+    "PublicTheoremTransfer",
+    "QuantileCounting",
+    "QuantilePotentialBounds",
+    "RandomPolynomialBlocks",
+    "RandomPolynomialBoxLaw",
+    "RandomPolynomialFinite",
+    "RandomPolynomialMaximal",
+    "RandomPolynomialModel",
+    "RandomPolynomialSplit",
+    "RandomPolynomialTail",
+    "RegressionWeightBounds",
+    "ResidualUniformBudget",
+    "SampleBoxAsymptotic",
+    "SampleBoxLowerExponent",
+    "SeparatedFiniteSet",
+    "SeparatedGridInverse",
+    "SetMeshEnergy",
+    "ShiftIntersection",
+    "SignConcentration",
+    "SignCoordinateRestriction",
+    "SignGaussianMoments",
+    "SignSumGaussianComparison",
+    "SignSymmetry",
+    "SignWalkExponential",
+    "SignWalkMaximal",
+    "SignWalkMaximalMoment",
+    "SignWalkRecursion",
+    "SingleCoordinateReplacement",
+    "SmallBallLogDilation",
+    "SmoothCompositionBounds",
+    "SmoothCompositionJets",
+    "SmoothCutoff",
+    "SmoothedCDFSandwich",
+    "SmoothedSoftMaximum",
+    "SoftMaximum",
+    "SoftMaximumBounds",
+    "SoftMaximumDerivatives",
+    "SparseBlockBorelCantelli",
+    "SparseProbabilityBudget",
+    "StretchedLogSummability",
+    "TruncatedLogTanh",
+    "TwoColorKernel",
+    "TwoSidedFiniteComparison",
+    "TwoSidedGaussianLimit",
+    "TwoSidedGaussianPolynomialLaw",
+    "TwoSidedLaplaceKernels",
+    "TwoSidedStepGram",
+    "UniformPartition",
+    "UniformPolynomialTail",
+    "UnorderedGaussianBounds",
+    "UpperBlockMesh",
+    "UpperEnvelopeBound",
+    "UpperEnvelopeLower",
+    "UpperEnvelopeLowerAudit",
+    "UpperMeshAsymptotic",
+    "UpperMeshCutoff",
+    "UpperMeshExponent",
+    "UpperMeshNonempty",
+    "UpperMeshProbability",
+    "UpperMeshRange",
+    "UpperScaleGrowth",
+    "WeightedTruncation"
+  ],
+  "lean_source_lines": 18479,
+  "successful_full_build_jobs": 4170,
+  "fresh_own_source_rebuild": true,
+  "own_modules_rebuilt_after_project_cache_reset": 231,
+  "official_dependency_cache_reused": true,
+  "mathlib_source_rebuild_claimed": false,
+  "audited_endpoint_records": 271,
+  "audited_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "audits": [
+    {
+      "endpoint": "Erdos524.GaussianProductDensity.pi_gaussian_eq_withDensity",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "AndersonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianProductDensity.pi_gaussian_eq_smul_radial",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "AndersonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.DensityLevelComparison.withDensity_linear_shift_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "AndersonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteAnderson.pi_gaussian_linear_shift_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "AndersonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.blockPoint_within",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "BlockMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.sum_block_deficit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "BlockMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.block_count_objective_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "BlockMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.block_leading_coefficient",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "BlockMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.det_cauchy_fin",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.det_normalized_fin",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.inverse_diagonal",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normalized_inverse_diagonal",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.posSemidef_cauchy_fin",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.posDef_cauchy_fin",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.posSemidef_normalized_fin",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.posDef_normalized_fin",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianVectorLaw.map_eq_of_mean_covariance",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyGaussianRegression.samples_residual_independent",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyGaussianRegression.residual_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyGaussianRegression.sample_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianDiagonalScaling.normalized_finiteKernel_exp_box",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyResidualBounds.integral_residual_tail_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyResidualBounds.integral_residual_core_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchySmallBoxLower.small_box_lower_of_residual_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyGaussianAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normal_equations",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyInterpolationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.regressionWeight_product",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyInterpolationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.residual_kernel",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyInterpolationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normalized_normal_equations",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyInterpolationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normalized_residual_kernel",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyInterpolationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normalizedKernel_exp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyLogAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.blaschke_exp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyLogAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normalized_exp_increment_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyLogAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.normalizedWeight_exp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CauchyLogAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InversePolynomialScale.normalizer_tendsto_atTop",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "ConstantTermAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.shift_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "ConstantTermAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.withConstantPolyCM_sum_range",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "ConstantTermAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.ae_withConstantNorm_difference",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "ConstantTermAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ConstantTermInverseLiminf.ae_constant_explicit_inverse_liminf_eq_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "ConstantTermAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteGaussianCoreBound.integral_stationary_sup_norm_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CoreBoundAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.IndependentNoiseComparison.pi_gaussian_add_independent_noise_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CovarianceAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceComparison.multivariate_gaussian_add",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CovarianceAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_add_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CovarianceAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_mono",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "CovarianceAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ArbitrarySignModel.sequence_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/ArbitrarySignModelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ArbitrarySignModel.ae_upper_envelope",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/ArbitrarySignModelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ArbitrarySignModel.ae_logarithmic_envelope",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/ArbitrarySignModelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianTailLower.gaussian_tail_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignSumGaussianComparison.exists_exponential_sum_tail_constant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ModerateSignTail.eventual_sum_moderate_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GeometricWalkProbability.ae_frequent_freshSum_large",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GeometricWalkPayment.choose_geometric_parameters",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UpperEnvelopeLower.ae_frequent_upper_envelope",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UpperEnvelopeLower.ae_upper_normalized_limsup_ge_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UpperEnvelopeLower.ae_upper_normalized_limsup_eq_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "Erdos524/UpperEnvelopeLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.withConstantPolyCM_sum_range",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ConstantTermUpperEnvelope.ae_constant_upper_normalized_limsup_eq_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ConstantTermUpperEnvelope.ae_constant_explicit_upper_limsup_sqrt_two",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.erdos_524",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.erdos_524_inverse_refinement",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.erdos_524_complete",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.erdos_524_of_independent_signs",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.erdos_524_inverse_of_independent_signs",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FinalTheoremAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianLogBox.gaussian_box_exp_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FiniteKernelBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianLogBox.gaussian_box_exp_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FiniteKernelBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteKernelBox.gaussian_box_covariance_mono",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FiniteKernelBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteKernelBox.separated_finiteKernel_box_energy_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FiniteKernelBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CoordinateSymmetrization.convex_symm",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CoordinateSymmetrization.isCompact_symm",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CoordinateSymmetrization.double_symmList_subset",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.OneDimensionalFibers.volume_halfDifference",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ProductFiberVolume.prod_measure_fiberSymm",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CoordinateVolume.volume_symmList",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.DifferenceVolume.volume_le_half_difference",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LayercakeComparison.setLIntegral_le_of_superlevel_inter_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UniformPolynomialTail.normalized_polynomial_tail_probability",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialFullProbability.full_polynomial_probability_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialFullUpper.full_polynomial_probability_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianGridEnvelope.grid_probability_le_envelope",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianGridOscillation.exists_grid_oscillation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteCellVariation.exists_cell_variation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSignWalk.integral_walkMax_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialBlockTail.exists_polynomial_tail_dominator",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "FullPolynomialComparisonAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianBoxDensity.linearEquiv_gaussian_box_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianBoxDensity.linearEquiv_gaussian_box_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceCoordinates.energy_inverse_sqrt",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceCoordinates.quadratic_le_card_mul_diagonal_sum",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceBox.gaussian_box_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCovarianceBox.gaussian_box_lower_diagonal_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianBoxAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseCovarianceOrder.inverse_antitone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianDilationDensity.multivariate_gaussian_dilation_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianSampleProduct.regression_product_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianSampleProduct.residual_samples_ae_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianSampleDilation.finite_cube_dilation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallDilation.finiteSmallBall_dilation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.DilationMesh.sample_box_energy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SmallBallLogDilation.eventually_log_dilation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SmallBallLogDilation.eventually_probability_dilation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseSmallBallMargins.eventually_inverse_cubic_bounds",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseSmallBallMargins.eventually_inverse_probability_margins",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseSmallBallMargins.eventually_inverse_sqrt_margins",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GaussianDilationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CoordinateVolume.volume_symmList",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GeometryLayerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ShiftIntersection.volume_shiftedIntersection_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GeometryLayerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ShiftIntersection.volume_linearShiftSlice_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GeometryLayerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianLevelSets.isCompact_superlevel",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GeometryLayerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianLevelSets.convex_superlevel",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "GeometryLayerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.DenseMeshSmallness.ae_eventual_mesh_large",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.DenseMeshIncrement.ae_eventual_cell_increment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.AdaptiveDyadicMesh.eventually_cell_normalizer",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseLiminfLower.ae_eventual_full_large",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseLiminfLower.ae_inverse_normalized_liminf_ge_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseLiminf.ae_inverse_normalized_liminf_eq_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseLiminf.ae_explicit_inverse_liminf_eq_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.fullNorm_tail",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfUpperAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FactorialSparseMesh.ae_eventual_old_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfUpperAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FactorialSparseMesh.eventually_old_payment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfUpperAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FactorialSparseMesh.eventually_block_normalizer_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfUpperAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseLiminfUpper.ae_frequent_full_small",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfUpperAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseLiminfUpper.ae_inverse_normalized_liminf_le_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseLiminfUpperAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialComparisonParameters.upperGridError_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseUpperProbabilityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialInverseUpper.eventual_full_upper_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseUpperProbabilityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.StretchedLogSummability.summable_exp_neg_sqrt",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseUpperProbabilityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.StretchedLogSummability.summable_stretched_log_harmonic",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "InverseUpperProbabilityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ExponentialKernelLipschitz.exp_negative_lipschitz",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "KernelIncrementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ExponentialKernelLipschitz.exp_kernel_cell_error",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "KernelIncrementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.IntegralGramComparison.integralGram_mono",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LaplaceKernelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LaplaceKernelComparison.finiteKernel_posSemidef",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LaplaceKernelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LaplaceKernelComparison.dominatingKernel_sub_finiteKernel_posSemidef",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LaplaceKernelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LaplaceKernelComparison.finite_laplace_gaussian_comparison",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LaplaceKernelAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.log_det_normalized_exp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogCauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.log_det_affine_mesh_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogCauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.cross_pair_energy_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogCauchyAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.integral_logTanhPotential",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogTanhAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.logTanhPotential_antitone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogTanhAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.logTanhPotential_tail",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogTanhAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.logTanhPotential_near_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogTanhAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.sum_logTanhPotential_mesh_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogTanhAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.block_pair_energy_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogTanhAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InversePolynomialScale.inverseLog_cubic_tendsto",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogarithmicLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InversePolynomialScale.inverse_logarithm_asymptotic",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogarithmicLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LogarithmicLiminf.ae_logarithmic_liminf",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogarithmicLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LogarithmicLiminf.ae_constant_logarithmic_liminf",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LogarithmicLiminfAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SampleBoxLowerExponent.raw_constant_sample_box_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerMomentAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.affine_quantile_deficit_discrepancy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerMomentAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.eventually_lower_deficit_sum",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerMomentAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.eventually_lower_size_controls",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerMomentAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.lower_aggregate_remainder",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerMomentAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SampleBoxAsymptotic.eventually_sampleContribution_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerMomentAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.affinePotential_interior_error",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.affinePotential_boundary_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.affine_omitted_potential_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.affine_node_potential_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.lower_node_potential_120",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.lower_omitted_potential_80",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.lower_mean_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.lower_residual_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "LowerPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.near_integral_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "NearPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.integral_nearPotential",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "NearPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.potential_truncation_le_near",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "NearPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.integrable_affine_evenPotential",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "NearPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.upperPointSet_exp_range",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "NearPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.weighted_truncation_gap",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "NearPotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PSDTracePerturbation.energy_le_inverse_trace_mul_quadratic",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PerturbationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PSDTracePerturbation.relative_gap_of_trace_product",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PerturbationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteKernelPerturbation.normalizedFiniteKernel_eq_sub",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PerturbationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteKernelPerturbation.cutoffError_posSemidef",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PerturbationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteKernelPerturbation.separated_normalizedFiniteKernel_half_gap",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PerturbationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.fullNorm_evaluation_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.finite_marginal_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.factorial_fresh_events_independent",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.fullNorm_increment_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.fullNorm_scaled_probability",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InverseSmallBallMargins.eventually_inverseRadius_bounded_shift",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.InversePolynomialScale.delta_exact",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FactorialSparseMesh.eventually_factorial_harmonic_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.EnvelopeBlocking.ae_eventual_full_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialComparisonParameters.eventually_comparison_error",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialInverseLower.eventual_full_lower_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialInverseLower.ae_frequent_actual_fresh_small",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialBlockingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.TwoSidedFiniteComparison.two_sided_sign_kernel_comparison",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.TwoSidedGaussianLimit.exactFamily_box_square",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.TwoSidedGaussianPolynomialLaw.gaussian_phase_polynomial_law",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PhasePolynomialIdentity.phaseMatrix_evaluation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianPolynomialComparison.gaussianPolynomialBox_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GramGaussianCoupling.gram_box_probability_comparison",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialLaplaceGrid.normalizedLaplace_grid_error",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialAbel.polynomial_abs_le_two_walks",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PolynomialCouplingAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RegressionWeightBounds.abs_normalizedWeight_le_potentials",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PotentialLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RegressionWeightBounds.sum_abs_weights_at_sample",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PotentialLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RegressionWeightBounds.sum_abs_weights_global_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PotentialLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RegressionWeightBounds.blaschke_core_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PotentialLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PotentialSmallBallLower.finiteSmallBall_lower_of_potentials",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "PotentialLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.exists_affine_quantile_mesh",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.affine_quantile_separation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.affine_quantile_discrepancy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.logTanhPotential_involutive",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.truncatedPotential_integral_discrepancy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.affine_quantile_potential_discrepancy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.QuantileCounting.integral_affineMeasure",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.firstMoment_integrable",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.integral_affine_evenPotential",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "QuantilePotentialAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteGaussianRegression.joint_residual_gaussian",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "RegressionAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteGaussianRegression.residual_independent",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "RegressionAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteGaussianRegression.covariance_residual",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "RegressionAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.inverse_diagonal_exp_eq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SeparatedInverseAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.separated_row_energy_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SeparatedInverseAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.separated_inverse_diagonal_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SeparatedInverseAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.separated_inverse_trace_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SeparatedInverseAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LowerSmallBallAssembly.finite_lower_smallBall",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SharpSmallBallAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LowerSmallBallAssembly.sharp_smallBall_lower_shifted",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SharpSmallBallAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LowerSmallBallAssembly.sharp_smallBall_lower",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SharpSmallBallAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallEnvelope.sharp_smallBall_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SharpSmallBallAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LowerSmallBallAssembly.sharp_smallBall_two_sided",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SharpSmallBallAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignConcentration.signLaw_subgaussian",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignConcentrationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignConcentration.sign_sum_abs_tail",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignConcentrationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSignWalk.hitProbability_recursion",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignConcentrationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSignWalk.hitProbability_hoeffding",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignConcentrationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignConcentration.signLaw_subgaussian",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignWalkAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignConcentration.sign_sum_abs_tail",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignWalkAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSignWalk.hitProbability_recursion",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignWalkAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSignWalk.hitProbability_hoeffding",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignWalkAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSignWalk.abs_maximal_hoeffding",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignWalkAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignSymmetry.pi_sign_map_phases",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SignWalkAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallEnvelope.finiteSmallBall_mono",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallEnvelope.sharp_smallBall_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallBasic.finiteSmallBall_pos",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallBasic.sharp_log_asymptotic",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallTail.smallBallReal_tendsto_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteLaplaceBand.finite_laplace_cube_increment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallIncrement.smallBallReal_increment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallZero.smallBallReal_continuous",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.LaplaceResidualComparison.finiteSmallBall_le_residual",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallStrict.finiteSmallBall_annulus",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallStrict.smallBallReal_strictMono",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallInverse.smallBallInverse_spec",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallInverse.smallBallInverse_continuousAt",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallInverse.smallBallInverse_tendsto_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmallBallRegularityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SmoothCutoff.exists_cutoff_derivative_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingFoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SoftMaximum.coord_le_softMax",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingFoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SoftMaximum.softMax_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingFoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SoftMaximum.directionalMoment_abs_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingFoundationAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SingleCoordinateReplacement.smoothedPath_sign_gaussian",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ProductCoordinateReplacement.integral_pi_change_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SmoothedSoftMaximum.fourth_derivative_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.SignGaussianMoments.gaussian_moment_four",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteLindeberg.exists_universal_replacement_constant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.PolynomialFiniteComparison.polynomial_finite_cdf_comparison",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.AbsoluteCDFReplacement.absolute_cdf_replacement",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "SmoothingReplacementAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteChaining.integral_norm_le_decreasing_budget",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "TailBoundAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyIncrementBounds.cauchy_increment_le_inverse_root_sq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "TailBoundAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteGaussianTailBound.integral_cauchy_sup_norm_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "TailBoundAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.GaussianCoordinateProjection.gaussian_coordinate_projection",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UniformLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UnorderedGaussianBounds.integral_cauchy_sup_norm_unordered_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UniformLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UnorderedGaussianBounds.integral_stationary_sup_norm_unordered_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UniformLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.ResidualUniformBudget.integral_residual_uniform_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UniformLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.FiniteSmallBallLower.finiteSmallBall_lower_of_interpolation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UniformLowerAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.eventually_upperPointSet_nonempty",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperAsymptoticAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.eventually_upper_mesh_probability",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperAsymptoticAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.sharp_finite_mesh_upper",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperAsymptoticAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UpperEnvelopeBound.ae_upper_normalized_limsup_le_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UpperEnvelopeBound.ae_eventual_upper_envelope",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.fullNorm_maximal_tail",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.RandomPolynomialModel.fullNorm_increment_maximal_tail",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.DyadicMesh.cover_after",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperEnvelopeAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.upperPointSet_card_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.upperPointSet_trace_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.blockPointSet_rowEnergy_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.upper_mesh_exponent_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.cutoff_scalar_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.upper_mesh_actual_half_gap",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.UpperMeshProbability.upper_mesh_gaussian_probability",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshProbabilityAudit.lean"
+    },
+    {
+      "endpoint": "Erdos524.CauchyKernel.upperPointSet_nonempty",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_source": "UpperMeshProbabilityAudit.lean"
+    }
+  ],
+  "ordinary_mathematical_body_preserved_except_verification_prose": true,
+  "mathematical_argument_body_sha256": "96c542e95ebb4c2768f741dbc33d0364caa507a288ca13b011fb595813ec1cb4",
+  "main_endpoints": [
+    "Erdos524.erdos_524",
+    "Erdos524.erdos_524_inverse_refinement",
+    "Erdos524.erdos_524_complete",
+    "Erdos524.erdos_524_of_independent_signs"
+  ],
+  "finite_covariance_F_definition": true,
+  "formal_ito_integral_identification_claimed": false,
+  "priority_or_award_acceptance_claimed": false,
+  "optional_whole_import_kernel_replay": "passed_exit_0",
+  "additional_validation": [
+    {
+      "artifact_path": "StatementCheck.lean",
+      "confirmed_success": true,
+      "validation": "Explicit statement self-check source; original measure, coefficient indexing, closed interval and both constants spelled out."
+    },
+    {
+      "artifact_path": "build-evidence/statement-check.log",
+      "confirmed_success": true,
+      "validation": "StatementCheck.lean compiled successfully and reports only the three standard axioms."
+    },
+    {
+      "artifact_path": "build-evidence/export-result.json",
+      "confirmed_success": true,
+      "validation": "Successful leanexport of Erdos524.erdos_524_complete; export bytes, SHA256 and reproduce command recorded. The large export is not bundled."
+    },
+    {
+      "artifact_path": "build-evidence/nanoda-config.json",
+      "confirmed_success": true,
+      "validation": "Successful independent Nanoda check of the exported complete theorem closure: 69,909 declarations, exactly the three listed permitted axioms. Configuration paths are normalized for reproduction."
+    },
+    {
+      "artifact_path": "build-evidence/nanoda-result.json",
+      "confirmed_success": true,
+      "validation": "Successful independent Nanoda check of the exported complete theorem closure: 69,909 declarations, exactly the three listed permitted axioms. Configuration paths are normalized for reproduction."
+    },
+    {
+      "artifact_path": "build-evidence/nanoda.log",
+      "confirmed_success": true,
+      "validation": "Successful independent Nanoda check of the exported complete theorem closure: 69,909 declarations, exactly the three listed permitted axioms. Configuration paths are normalized for reproduction."
+    },
+    {
+      "artifact_path": "build-evidence/nanoda-target.txt",
+      "confirmed_success": true,
+      "validation": "Successful independent Nanoda check of the exported complete theorem closure: 69,909 declarations, exactly the three listed permitted axioms. Configuration paths are normalized for reproduction."
+    },
+    {
+      "artifact_path": "build-evidence/kernel-replay.log",
+      "confirmed_success": true,
+      "validation": "Successful fresh whole-import official Lean kernel replay of Erdos524.Main; exit code 0."
+    },
+    {
+      "artifact_path": "build-evidence/kernel-replay-result.json",
+      "confirmed_success": true,
+      "validation": "Successful fresh whole-import official Lean kernel replay of Erdos524.Main; exit code 0."
+    }
+  ],
+  "whole_import_kernel_replay": {
+    "target": "Erdos524.Main",
+    "command": [
+      "lake",
+      "env",
+      "leanchecker",
+      "--fresh",
+      "--verbose",
+      "Erdos524.Main"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 660.6939383130011,
+    "max_rss_kib": 4352416,
+    "result_artifact": "build-evidence/kernel-replay-result.json",
+    "log_artifact": "build-evidence/kernel-replay.log"
+  }
+}

@@ -1,0 +1,16 @@
+'Erdos524.UniformPolynomialTail.normalized_polynomial_tail_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PolynomialFullProbability.full_polynomial_probability_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PolynomialFullUpper.full_polynomial_probability_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GaussianGridEnvelope.grid_probability_le_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianGridOscillation.exists_grid_oscillation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteCellVariation.exists_cell_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSignWalk.integral_walkMax_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.PolynomialBlockTail.exists_polynomial_tail_dominator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

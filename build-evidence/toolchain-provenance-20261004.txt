@@ -1,0 +1,12 @@
+Official source: https://github.com/leanprover/lean4/releases/tag/v4.35.0-rc3
+Official asset: https://github.com/leanprover/lean4/releases/download/v4.35.0-rc3/lean-4.35.0-rc3-linux.tar.zst
+Official GitHub release API SHA-256: 1526de16c0496f16b46a168f26c990af4e3796505273c3342fec17d72d763997
+Downloaded asset SHA-256: matched, sha256sum -c returned OK.
+Extracted compiler: Lean 4.35.0-rc3, x86_64-unknown-linux-gnu, commit 470d5ce1400764999581fd26d5d72b00d990b0f4, Release
+Extracted Lake: 5.0.0-src+470d5ce
+Mathlib origin: https://github.com/leanprover-community/mathlib4.git
+Mathlib exact checked-out commit: 119fab72f5ecf69de785450dfb8f8b58ca5f310e
+Mathlib lean-toolchain: leanprover/lean4:v4.35.0-rc3
+No version substitutions were made.
+Dependent package commits are recorded in lake-manifest.json.
+This record concerns environment provenance, not completion of the final theorem.

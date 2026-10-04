@@ -1,0 +1,11 @@
+import Erdos524.AffineQuantileMeasure
+import Erdos524.EvenLogTanhIntegrals
+#print axioms Erdos524.QuantileCounting.exists_affine_quantile_mesh
+#print axioms Erdos524.QuantileCounting.affine_quantile_separation
+#print axioms Erdos524.QuantileCounting.affine_quantile_discrepancy
+#print axioms Erdos524.CauchyKernel.logTanhPotential_involutive
+#print axioms Erdos524.CauchyKernel.truncatedPotential_integral_discrepancy
+#print axioms Erdos524.QuantileCounting.affine_quantile_potential_discrepancy
+#print axioms Erdos524.QuantileCounting.integral_affineMeasure
+#print axioms Erdos524.CauchyKernel.firstMoment_integrable
+#print axioms Erdos524.CauchyKernel.integral_affine_evenPotential

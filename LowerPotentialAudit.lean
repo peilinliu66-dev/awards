@@ -1,0 +1,9 @@
+import Erdos524.LowerProbabilityBudgets
+#print axioms Erdos524.CauchyKernel.affinePotential_interior_error
+#print axioms Erdos524.CauchyKernel.affinePotential_boundary_upper
+#print axioms Erdos524.QuantileCounting.affine_omitted_potential_lower
+#print axioms Erdos524.QuantileCounting.affine_node_potential_upper
+#print axioms Erdos524.QuantileCounting.lower_node_potential_120
+#print axioms Erdos524.QuantileCounting.lower_omitted_potential_80
+#print axioms Erdos524.QuantileCounting.lower_mean_budget
+#print axioms Erdos524.QuantileCounting.lower_residual_budget

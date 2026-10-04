@@ -1,0 +1,7 @@
+import Erdos524.LogTanhPotential
+#print axioms Erdos524.CauchyKernel.integral_logTanhPotential
+#print axioms Erdos524.CauchyKernel.logTanhPotential_antitone
+#print axioms Erdos524.CauchyKernel.logTanhPotential_tail
+#print axioms Erdos524.CauchyKernel.logTanhPotential_near_zero
+#print axioms Erdos524.CauchyKernel.sum_logTanhPotential_mesh_le
+#print axioms Erdos524.CauchyKernel.block_pair_energy_le

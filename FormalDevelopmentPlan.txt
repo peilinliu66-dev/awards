@@ -1,0 +1,53 @@
+E524 FORMAL DEVELOPMENT RECORD — MAIN THEOREMS COMPILED
+4 October 2026
+
+Exact pins
+  Lean: leanprover/lean4:v4.35.0-rc3
+  Mathlib:119fab72f5ecf69de785450dfb8f8b58ca5f310e
+  Full dependency pins:lake-manifest.json
+
+PUBLIC MAIN STATEMENTS
+  Erdos524.erdos_524
+    Both original logarithmic liminf and sharp upper-envelope constants, jointly
+    almost surely for the literal polynomial sum_(i=0)^N omega_i x^i on [-1,1].
+  Erdos524.erdos_524_inverse_refinement
+    Exact inverse normalization for the explicitly defined finite Gaussian
+    covariance envelope F.
+  Erdos524.erdos_524_complete
+    The two original endpoints and the inverse refinement jointly almost surely.
+
+COMPLETE FORMAL ROUTE
+1. Coordinate symmetrization, fiber/Fubini volume, special difference-body
+   inequality and compact convex intersection comparison.
+2. Gaussian density layer-cake, actual product density, finite Anderson and
+   arbitrary linear/singular Gaussian covariance comparisons.
+3. Cauchy determinant/positivity/inverse/interpolation and exact regression laws.
+4. Finite-Laplace Gram positivity, cutoff perturbation, sharp potential integral,
+   concrete upper and affine-quantile lower meshes, all probability budgets.
+5. Sharp two-sided F small-ball asymptotics; finite-only regularity/inverse;
+   exact quantitative density dilation and inverse probability margins.
+6. Universal fourth-order smoothing, finite replacement, odd/even independence,
+   exact finite step-kernel coupling, actual all-interval tails and interpolation.
+7. Infinite independent signs, continuous-map supremum, finite/fresh laws,
+   exact block independence and old/fresh splitting.
+8. Sparse factorial blocks and dense adaptive even dyadic mesh; both probability
+   budgets, summability/divergence, maximal increments and Borel–Cantelli.
+9. Both inverse-liminf directions, exact inverse asymptotics and logarithmic
+   constant; original constant-term/index transfer.
+10. Both sharp upper-envelope directions, including scalar Gaussian/sign moderate
+    tails, independent geometric blocks, and original sqrt(2) normalization.
+
+VERIFICATION AND REMAINING EXTERNAL CHECKS
+The public main endpoints compile and their transitive axiom lists contain only
+propext, Classical.choice and Quot.sound. The final package records a fresh build
+of the project's own source modules and a fresh pass over the included audits.
+
+No standalone formal Brownian/Itô-integral construction or law-identification is
+claimed. F is defined by its finite Gaussian Laplace covariance boxes; the
+original logarithmic and upper-envelope theorem does not depend on a process
+identification.
+
+Publication/submission still requires the correct official catalog mapping,
+current duplicate-source review, exact source provenance and final artifact
+inspection. Prize eligibility, novelty/priority and acceptance are not implied
+by successful Lean verification.

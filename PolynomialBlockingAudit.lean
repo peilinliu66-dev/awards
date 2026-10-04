@@ -1,0 +1,13 @@
+import Erdos524.PolynomialInverseLower
+#print axioms Erdos524.RandomPolynomialModel.fullNorm_evaluation_bound
+#print axioms Erdos524.RandomPolynomialModel.finite_marginal_law
+#print axioms Erdos524.RandomPolynomialModel.factorial_fresh_events_independent
+#print axioms Erdos524.RandomPolynomialModel.fullNorm_increment_le
+#print axioms Erdos524.RandomPolynomialModel.fullNorm_scaled_probability
+#print axioms Erdos524.InverseSmallBallMargins.eventually_inverseRadius_bounded_shift
+#print axioms Erdos524.InversePolynomialScale.delta_exact
+#print axioms Erdos524.FactorialSparseMesh.eventually_factorial_harmonic_budget
+#print axioms Erdos524.EnvelopeBlocking.ae_eventual_full_lower
+#print axioms Erdos524.PolynomialComparisonParameters.eventually_comparison_error
+#print axioms Erdos524.PolynomialInverseLower.eventual_full_lower_budget
+#print axioms Erdos524.PolynomialInverseLower.ae_frequent_actual_fresh_small

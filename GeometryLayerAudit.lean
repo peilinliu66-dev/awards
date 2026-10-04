@@ -1,0 +1,9 @@
+import Erdos524.CoordinateVolume
+import Erdos524.ShiftIntersection
+import Erdos524.GaussianLevelSets
+
+#print axioms Erdos524.CoordinateVolume.volume_symmList
+#print axioms Erdos524.ShiftIntersection.volume_shiftedIntersection_le
+#print axioms Erdos524.ShiftIntersection.volume_linearShiftSlice_le
+#print axioms Erdos524.GaussianLevelSets.isCompact_superlevel
+#print axioms Erdos524.GaussianLevelSets.convex_superlevel

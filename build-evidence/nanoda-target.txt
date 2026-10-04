@@ -1,0 +1,34 @@
+theorem Erdos524.erdos_524_complete :
+  Filter.Eventually
+    (fun («ω» : «Erdos524.RandomPolynomialModel.Ω») =>
+    And
+      (Eq
+        (Filter.liminf
+          (fun (N : Nat) =>
+          HDiv.hDiv (Erdos524.littlewoodMaximum «ω» N)
+            (HMul.hMul (Real.sqrt (Nat.cast N))
+              (Erdos524.FiniteSmallBallInverse.smallBallInverse (Inv.inv (Real.sqrt (Real.log (Nat.cast N)))))))
+          Filter.atTop) (OfNat.ofNat 1))
+      (And
+        (Eq
+          (Filter.liminf
+            (fun (N : Nat) =>
+            HDiv.hDiv (Real.log (HDiv.hDiv (Erdos524.littlewoodMaximum «ω» N) (Real.sqrt (Nat.cast N))))
+              (HPow.hPow (Real.log (Real.log (Nat.cast N))) (HDiv.hDiv (OfNat.ofNat 1) (OfNat.ofNat 3)))) Filter.atTop)
+          (Neg.neg
+            (HPow.hPow (HDiv.hDiv (HMul.hMul (OfNat.ofNat 3) (HPow.hPow Real.pi (OfNat.ofNat 2))) (OfNat.ofNat 4))
+              (HDiv.hDiv (OfNat.ofNat 1) (OfNat.ofNat 3)))))
+        (Eq
+          (Filter.limsup
+            (fun (N : Nat) =>
+            HDiv.hDiv (Erdos524.littlewoodMaximum «ω» N)
+              (Real.sqrt (HMul.hMul (Nat.cast N) (Real.log (Real.log (Nat.cast N)))))) Filter.atTop)
+          (Real.sqrt (OfNat.ofNat 2))))) (MeasureTheory.ae Erdos524.RandomPolynomialModel.P) :=
+  _
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+

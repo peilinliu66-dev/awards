@@ -1,0 +1,4 @@
+'Erdos524.CauchyKernel.inverse_diagonal_exp_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.separated_row_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.separated_inverse_diagonal_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.separated_inverse_trace_le' depends on axioms: [propext, Classical.choice, Quot.sound]

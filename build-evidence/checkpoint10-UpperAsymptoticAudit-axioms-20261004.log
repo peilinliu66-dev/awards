@@ -1,0 +1,3 @@
+'Erdos524.CauchyKernel.eventually_upperPointSet_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.eventually_upper_mesh_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.sharp_finite_mesh_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+import Erdos524.UpperMeshExponent
+import Erdos524.UpperMeshCutoff
+#print axioms Erdos524.CauchyKernel.upperPointSet_card_bound
+#print axioms Erdos524.CauchyKernel.upperPointSet_trace_bound
+#print axioms Erdos524.CauchyKernel.blockPointSet_rowEnergy_le
+#print axioms Erdos524.CauchyKernel.upper_mesh_exponent_bound
+#print axioms Erdos524.CauchyKernel.cutoff_scalar_bound
+#print axioms Erdos524.CauchyKernel.upper_mesh_actual_half_gap

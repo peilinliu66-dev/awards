@@ -1,0 +1,11 @@
+import Erdos524.PhasePolynomialIdentity
+import Erdos524.PolynomialAbel
+import Erdos524.GaussianPolynomialComparison
+#print axioms Erdos524.TwoSidedFiniteComparison.two_sided_sign_kernel_comparison
+#print axioms Erdos524.TwoSidedGaussianLimit.exactFamily_box_square
+#print axioms Erdos524.TwoSidedGaussianPolynomialLaw.gaussian_phase_polynomial_law
+#print axioms Erdos524.PhasePolynomialIdentity.phaseMatrix_evaluation
+#print axioms Erdos524.GaussianPolynomialComparison.gaussianPolynomialBox_lower
+#print axioms Erdos524.GramGaussianCoupling.gram_box_probability_comparison
+#print axioms Erdos524.PolynomialLaplaceGrid.normalizedLaplace_grid_error
+#print axioms Erdos524.PolynomialAbel.polynomial_abs_le_two_walks

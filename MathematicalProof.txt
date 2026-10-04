@@ -1,0 +1,895 @@
+E524 FINITE DIMENSIONAL MATHEMATICAL PROOF
+4 October 2026
+
+STATUS: ORDINARY MATHEMATICAL PROOF; LEAN MAIN THEOREMS COMPILED AND AXIOM-AUDITED
+
+The accompanying Lean project now proves the original logarithmic lower envelope and sharp upper envelope for the literal polynomial with independent constant coefficient, as well as the stronger inverse normalization for the explicitly formalized finite Gaussian Laplace-covariance envelope F. The main statements are Erdos524.erdos_524, Erdos524.erdos_524_inverse_refinement and Erdos524.erdos_524_complete in Erdos524/Main.lean. Their actual transitive axiom audits report only propext, Classical.choice and Quot.sound. The final source checkpoint records the exact pinned environment and fresh project build. Compilation does not establish first-formalization priority, official prize acceptance or an award.
+
+The analytic exposition below is preserved unchanged, including historical implementation remarks. Its Brownian/process descriptions are explanatory mathematical source statements: this formalization defines F directly through finite Gaussian covariance boxes and does not claim a separately formalized Itô-integral identity. The original logarithmic and upper-envelope endpoints are unconditional and do not need that identification. Mathematical source credit remains Letwin–Sawhney, arXiv:2604.19294v1, with the upper envelope attributed there to Salem–Zygmund.
+
+Formal smoothing uses the proved finite error constant (75/6)*C*b^3/(N*eta^4), with a universal finite cutoff derivative constant C. The ordinary Part A presentation below uses different explicit numerical constants; no equality of constants is asserted, and the asymptotic route requires only universality and the stated parameter dependence.
+
+For independent uniform signs epsilon_k, define P_n(x)=sum_(k=1)^n epsilon_k x^k and M_n=max_(x in [-1,1])|P_n(x)|. Define F(delta) through the finite Gaussian covariance K_0(u,v)=integral_0^1 exp(-(u+v)s)ds as in Part H, equivalently by the supremum of the Brownian Laplace field. The conclusions are, almost surely:
+
+  liminf_n M_n/[sqrt(n) F^(-1)((log n)^(-1/2))]=1,
+  limsup_n M_n/sqrt(n log log n)=sqrt(2),
+  log F(delta)~-[2/(3pi^2)]log^3(1/delta), as delta decreases to zero.
+
+In particular,
+  liminf_n log(M_n/sqrt(n))/(log log n)^(1/3)=-(3pi^2/4)^(1/3).
+
+The liminf is over the full integer sequence. A bounded constant term changes the norm by a bounded amount, which is negligible on the diverging normalization. The primary statement and source credit are Brayden Letwin and Mehtaab Sawhney, On the maxima of Littlewood polynomials on [-1,1], arXiv:2604.19294v1, Theorem 1.1: https://arxiv.org/html/2604.19294v1 . That paper attributes the upper endpoint to Salem–Zygmund. The original Erdős question appears on printed page 253 of Some unsolved problems (1961): https://renyi.hu/~p_erdos/1961-22.pdf . The theorem is already known; no mathematical discovery claim is made.
+
+The proof below uses finite Gaussian densities and regression, elementary matrix algebra and calculus, a finite Anderson comparison proved in Part G, and Borel–Cantelli. It avoids KMT, the Gaussian B inequality, Gaussian correlation, operator spectral asymptotics, and a black-box LIL. All uses of process notation have finite-dimensional replacements explicitly supplied below and in Part H. The analytic exposition was developed alongside the formalization; current verification status is given in README and build/audit records. No external peer-review attestation is claimed.
+
+PROOF ORGANIZATION
+A. Explicit fourth-order smoothing.
+B. Sharp Gaussian small-ball upper bound.
+C. Matching small-ball lower bound by Cauchy interpolation.
+D. Finite sign-to-Gaussian comparison.
+E. Exact upper envelope.
+F. Stronger inverse-small-ball normalization.
+G. Finite Anderson comparison by coordinate symmetrization.
+H. Finite-Gaussian regularity and mesh bridge.
+
+## Finite-only strengthening: no Brownian or stochastic-integral formalization is required
+
+The process notation in the analytic proofs below is convenient, but every needed bound can be expressed using only finite Gaussian vectors.
+
+For a finite family u_j>=0, write K_0(u,v)=integral_0^1 exp(-(u+v)s)ds, using its continuous value 1 at u=v=0. Let G be the centered Gaussian vector with this Gram covariance. The lower proof below yields, uniformly in every finite evaluation family and with no dependence on its cardinality,
+
+  P(max_j |G_j|<=exp(-L))
+    >=exp[-2L^3/(3pi^2)-O(L^2 log L)].                    (FD-L)
+
+The upper proof supplies a specially chosen family of O(L^2) points, all u_j<=exp(2L), for which, for each fixed positive integer K and sufficiently large L,
+
+  P(max_j |G_j|<=exp(-L))
+    <=exp[-(2/(3pi^2))(1-1/(4K^2))L^3+O_K(L^2 log L)].  (FD-U)
+
+Here are the finite replacements for all continuum lower-proof estimates. Construct the joint Gaussian vector on the interpolation samples and any requested finite evaluation set. Gaussian regression leaves an independent residual whose covariance is B(v)B(w)/(v+w), so it has the law B(v)Y_v for a new finite Gaussian vector with covariance 1/(v+w).
+
+For the normalized stationary covariance 1/[2cosh((t-s)/2)],
+
+  sd(W_t-W_s)^2=1-sech((t-s)/2)<=(t-s)^2/8.
+
+The last inequality is equivalent to cosh x-1<=x^2 cosh x/2, obtainable directly by calculus or by nonnegative Taylor coefficients. After adjoining the left endpoint, sort any requested points in a bounded interval. The deterministic telescoping inequality and Cauchy–Schwarz give E max |W_t|<=1+length/sqrt(8). Thus the core residual estimate is uniform for arbitrary finite point sets; it does not use pathwise differentiation or existence of a continuous Gaussian process.
+
+For 0<v<=w, exact algebra gives
+
+  sd(Y_v-Y_w)=(w-v)/sqrt(2vw(v+w))
+              <=v^(-1/2)-w^(-1/2),
+
+since sqrt(2(v+w))>=sqrt(v)+sqrt(w). Sort any finite tail set V<=v_1<...<v_m and telescope backwards from its last point. Then
+
+  E max_i |Y_(v_i)|
+   <=1/sqrt(2v_m)+sum_i [v_i^(-1/2)-v_(i+1)^(-1/2)]
+   <=V^(-1/2).
+
+This is exactly the bound used on the far residual. The mean bounds are deterministic and already uniform. Anderson is applied to finite matrices only: K_0<=_PSD e^2/(u+v+2), from the pointwise integral weight inequality. Consequently (FD-L) follows without any projective extension or Brownian construction.
+
+For the sign-to-Gaussian comparison, use a finite mesh of spacing 1/n on [0,n^(1/4)] and append the special (FD-U) sample points. The appended points lie in this interval at the relevant scale L=alpha(log log n)^(1/3), for all large n. Their O(L^2) count does not affect the dimension estimate O(n^(5/4)).
+
+Construct a joint centered Gaussian vector whose coordinates are the relevant step functions and exact exponential kernels in L2[0,1], with their Gram matrix as covariance. This is a finite positive-semidefinite matrix construction. Two independent copies encode even and odd coefficients; orthogonal sum/difference gives independent exact-kernel Gaussian vectors. The step-kernel variance error is <=4u^2/n^2. This proves the same Chebyshev/union comparison as Brownian increments, entirely in finite dimensions.
+
+For the lower probability bound, deterministic sign-grid interpolation and the sign-tail estimate transfer (FD-L) squared to the full polynomial. For the upper probability bound, restrict directly to the appended (FD-U) points. The fourth-order smoothing error and kernel-coupling error are polynomial in n, while the target probabilities are powers of log n. Thus
+
+  P(M_n<=sqrt(n)exp[-alpha(log log n)^(1/3)])
+    =(log n)^[-4alpha^3/(3pi^2)+o(1)].                    (P)
+
+The upper estimate is first proved with each fixed K; let n tend to infinity and then K tend to infinity, or choose a sufficiently large fixed K for a prescribed exponent slack. There is no unproved uniform interchange of K and n. This finite probability statement is the only Gaussian output required in the blocking proof.
+
+
+# Part A: explicit finite smoothing proof
+
+# Finite smoothed-maximum replacement lemma for E524
+
+Constants in this finite smoothing proof are deliberately crude and explicit.
+
+## Statement
+
+Let c_1,...,c_n be deterministic vectors in R^K, K≥2. Let ε_k be independent uniform signs and g_k be independent N(0,1) variables. Put X=sum ε_k c_k, G=sum g_k c_k, M(x)=max_{1≤i≤K}x_i, and L=max(1,log K). For every η>0 and every real threshold z,
+
+P(M(G)≤z−2η)−E ≤ P(M(X)≤z) ≤ P(M(G)≤z+2η)+E,
+
+where E=2^25 L³ η^(−4) sum_k ||c_k||_infinity^4.
+
+Absolute maxima and maxima of two processes are covered by including both positive and negative coordinates in the vector. If ||c_k||_infinity≤n^(−1/2), then E≤2^25 L³/(nη⁴), independently of dimension except for log³K.
+
+## A concrete C4 cutoff
+
+Define h(s)=1 for s≤0, h(s)=0 for s≥1, and for0≤s≤1 define
+
+h(s)=1−630 integral_0^s t^4(1−t)^4 dt.
+
+The integral from0 to1 is1/630, and its integrand is nonnegative. Hence 0≤h≤1. The integrand and its first three derivatives vanish at both endpoints, so these pieces form a globally C4 function. On[0,1], h^(j)(s)=−630 (d/ds)^(j−1)[s^4(1−s)^4] for1≤j≤4; outside this interval these derivatives vanish.
+
+Expand s^4(1−s)^4=s^4−4s^5+6s^6−4s^7+s^8. Bounding each monomial by1 on[0,1] gives derivative bounds for j=1,2,3,4 respectively:
+10080, 60480, 312480, 1360800.
+All are below A=2^21. (These are coefficient-sum bounds, not claimed optimal.)
+
+## Fourth derivative of the soft maximum
+
+Set β=L/η and s_β(x)=β^(−1)log(sum_i exp(βx_i)). Then
+M(x)≤s_β(x)≤M(x)+(log K)/β≤M(x)+η.
+
+Fix x,v and consider s(t)=s_β(x+tv). Let V be the random variable taking values v_i with probabilities proportional to exp(β(x_i+tv_i)); write a=||v||_infinity. Direct differentiation gives
+s'=E V,
+s''=β Var V,
+s'''=β² E(V−EV)^3,
+s''''=β³[E(V−EV)^4−3(Var V)^2].
+
+Consequently, for every t,
+|s'|≤a, |s''|≤βa², |s'''|≤8β²a³, |s''''|≤19β³a⁴.
+Here Var V≤a², |V−EV|≤2a, and hence the fourth central moment is≤16a⁴. No dimension factor occurs.
+
+For a real r put F_r(x)=h((s_β(x)−r)/η). The ordinary fourth derivative chain rule is
+
+(F_r(x+tv))'''' = h''''_η(s)(s')^4 +6h'''_η(s)(s')²s'' +3h''_η(s)(s'')² +4h''_η(s)s's''' +h'_η(s)s'''',
+
+where h_η(u)=h((u−r)/η). It follows that
+
+sup_t |(F_r(x+tv))''''| ≤ Aη^(−4)[1+6L+35L²+19L³]a⁴ ≤61A L³η^(−4)a⁴,
+
+because L≥1. This proves the finite smoothing estimate with explicit constants.
+
+## Lindeberg replacement
+
+Work on a product probability space carrying independent signs and Gaussians. Replace one scalar at a time. The other terms form a random vector W independent of the current scalar. Taylor-expand u↦F_r(W+u c_k) to degree3 at0, with integral remainder (or the usual supremum-fourth-derivative estimate). Conditional on W, the first three terms cancel because the first three moments of ε_k and g_k match. Moreover Eε_k^4=1 and Eg_k^4=3. Thus the kth replacement changes the expectation by at most
+
+(1+3)/24 ·61A L³η^(−4)||c_k||_infinity^4
+=(61A/6)L³η^(−4)||c_k||_infinity^4
+≤2^25 L³η^(−4)||c_k||_infinity^4,
+
+since61/6<16 and A=2^21. Integration is justified by the uniform derivative bound and finite fourth moments; F itself lies in[0,1]. Summing the n replacements gives |EF_r(X)−EF_r(G)|≤E.
+
+## CDF sandwich and endpoint conventions
+
+From the softmax and cutoff properties:
+- If M(x)≤r−η, then s_β(x)≤r and F_r(x)=1.
+- If M(x)≥r+η, then s_β(x)≥r+η and F_r(x)=0.
+
+For the upper bound choose r=z+η. The event M(X)≤z forces F_r(X)=1, while F_r(G)≤1_{M(G)≤z+2η}. Thus
+P(M(X)≤z)≤EF_r(X)≤EF_r(G)+E≤P(M(G)≤z+2η)+E.
+
+For the lower bound choose r=z−η. We have F_r(X)≤1_{M(X)≤z}, while M(G)≤z−2η forces F_r(G)=1. Hence
+P(M(X)≤z)≥EF_r(X)≥EF_r(G)−E≥P(M(G)≤z−2η)−E.
+
+These weak-inequality statements hold even with atoms. There is no anticoncentration assumption or circular appeal to the desired small-ball estimate.
+
+
+# Part B: sharp small-ball upper proof
+
+# E524 Gaussian small-ball upper bound through finite Cauchy determinants
+
+This finite-dimensional upper-bound argument retains the actual finite-interval covariance and controls its small perturbation in positive-semidefinite order.
+
+Let Y(u)=integral_0^1 exp(-us)dB_s and F(δ)=P(sup_{u≥0}|Y(u)|≤δ). We prove: for every fixed integer K≥1, for sufficiently large L,
+
+F(exp(-L)) ≤ exp[−(2/(3π²))(1−1/(4K²)) L³ + O_K(L²log L)].
+
+Taking K arbitrarily large yields the sharp leading upper exponent −2/(3π²). The matching lower bound is proved in Part C; neither direction has yet been formalized in Lean.
+
+## 1. Exact finite matrices
+
+At distinct t_i, put u_i=exp(t_i), W_i=sqrt(u_i)Y(u_i). Their ACTUAL covariance is
+
+A_ij=sqrt(u_i u_j)(1−exp(−u_i−u_j))/(u_i+u_j).
+
+Let C_ij=sqrt(u_i u_j)/(u_i+u_j)=1/[2cosh((t_i−t_j)/2)], and E=diag(exp(−u_i)). Thus A=C−ECE exactly. We do not replace the finite-[0,1] Brownian kernel without controlling this subtraction.
+
+The finite Cauchy determinant identity gives
+
+det C=2^(−N) product_{i<j} tanh²((t_j−t_i)/2)>0.
+
+Define f(x)=−log(tanh(x/2)), x>0. It is positive and decreasing, and
+
+integral_0^infinity f(x)dx=π²/4.
+
+Indeed f(x)=2 sum_{m≥1, m odd} exp(−mx)/m; Tonelli and the Basel sum give2 sum_{m odd}m^(−2)=π²/4. Also f(x)≤4exp(−x) for x≥log2.
+
+## 2. Blockwise variable-density mesh
+
+Fix K. For large L let G=4log L and ℓ=2L/K−2G>0. For j=1,...,K set
+v_j=(2j−1)L/K,
+d_j=L−v_j/2=L(1−(2j−1)/(2K)),
+r_j=2d_j/π²,
+m_j=floor(r_j ℓ).
+
+Place m_j points symmetrically around v_j with spacing1/r_j:
+t_{j,i}=v_j+(i−(m_j+1)/2)/r_j, 1≤i≤m_j.
+They lie in the jth cell[2(j−1)L/K,2jL/K] with a margin at least G at each end. Thus every sample t≥G, the distance between points in distinct blocks is at least2G, and the total point count is
+
+N=sum m_j≤ℓ sum r_j≤2L²/π²<L².
+
+Centered placement gives the exact identity
+sum_i(L−t_{j,i}/2)=m_j d_j.
+
+Within block j, monotonicity of f gives the direct RIGHT-RIEMANN bound
+sum_{i<i'}f((i'−i)/r_j)
+=sum_{k=1}^{m_j−1}(m_j−k)f(k/r_j)
+≤m_j sum_{k≥1}f(k/r_j)
+≤m_j r_j integral_0^infinity f(x)dx
+=m_j d_j/2.
+
+No Euler–Maclaurin asymptotic or spectral eigenvalue count is needed. Cross-block pairs contribute at most
+(N²/2)·4exp(−2G)≤2L^(−4).
+
+## 3. Quantitative covariance perturbation
+
+The determinant identity and the preceding bounds imply
+log det C≥−Nlog2−sum_j m_j d_j−4L^(−4)≥−2L³
+for all sufficiently large L. Also tr C=N/2≤L²/2. The elementary eigenvalue product bound
+λ_min(C)≥det C/(tr C)^(N−1)
+therefore yields λ_min(C)≥exp(−3L³) for all sufficiently large L, since N≤L² and2L²log L≤L³ eventually.
+
+Since t_min≥4log L, u_min≥L⁴ and
+||ECE||op≤||E||op²||C||op≤(L²/2)exp(−2L⁴).
+
+Set B=C^(−1/2)ECEC^(−1/2), which is positive semidefinite. Then
+||B||op≤(L²/2)exp(3L³−2L⁴)=:θ_L.
+This tends to0 far faster than any inverse power; in particular θ_L≤1/2 and2Nθ_L≤1 eventually. As A=C^(1/2)(I−B)C^(1/2),
+
+det A=det C det(I−B)≥det C(1−θ_L)^N≥e^(−1)det C.
+
+This is an operator/PSD determinant comparison, not an entrywise perturbation assertion. It proves positive definiteness of A on this mesh as well.
+
+## 4. The Gaussian box bound
+
+The event sup|Y|≤exp(−L) implies |W_i|≤exp(−L+t_i/2). A centered nondegenerate Gaussian density attains its maximum at0. Multiplying that maximum by the box volume gives
+
+log P(all sampled bounds)
+≤sum_i(−L+t_i/2)+Nlog2−(N/2)log(2π)−(1/2)log det A.
+
+Use det A≥e^(−1)det C, the Cauchy formula and the pair bounds. Since log(2/sqrtπ)<1, this becomes
+
+log P(all sampled bounds)≤−(1/2)sum_j m_jd_j+N+1/2+2L^(−4).
+
+Now m_j≥r_jℓ−1, so
+−(1/2)sum_jm_jd_j≤−(ℓ/π²)sum_jd_j²+(1/2)sum_jd_j.
+
+The finite sums are exact:
+sum_jd_j=KL/2,
+sum_jd_j²=L²(K/3−1/(12K)).
+
+Consequently
+(ℓ/π²)sum_jd_j²
+=(2/(3π²))(1−1/(4K²))L³
+−(8/π²)(K/3−1/(12K))L²log L.
+
+Together with N≤L² and sum_jd_j=O_K(L), this proves the displayed exponential upper bound. Stating it directly as a probability bound avoids assigning a finite real logarithm to a potentially zero infinite-dimensional probability F.
+
+The matching lower bound follows in Part C. In this upper argument keep the block count K fixed, let L tend to infinity, and then let K tend to infinity.
+
+# Part C: sharp small-ball lower proof
+
+# E524: continuum Gaussian small-ball lower bound by Cauchy interpolation
+
+This lower-bound argument uses finite Anderson comparison, supplied in Part G; it requires no Gaussian correlation, Gaussian B inequality, KMT coupling or spectral asymptotic theorem.
+
+## Statement and reduction to a shifted infinite Laplace field
+
+Let Y_0(u)=integral_0^1 exp(-us) dB_s for u>=0, and F(delta)=P(sup_{u>=0}|Y_0(u)|<=delta). We establish
+
+  log F(exp(-L)) >= -2 L^3/(3 pi^2) - O(L^2 log L).
+
+Together with Part B this gives the sharp cubic logarithmic asymptotic.
+
+Define the infinite Laplace Gaussian process Y(v)=integral_0^infty exp(-vs) dB_s, v>0; its covariance is 1/(v+w). For every finite set of nonnegative u's,
+
+  Cov(Y_0(u)) <=_PSD e^2 Cov(Y(u+1)),
+
+because the measure-density inequality 1_[0,1](s)<=e^2 exp(-2s) holds pointwise. By Anderson's centered symmetric-convex Gaussian comparison, and then increasing finite subsets of a countable dense set,
+
+  F(delta) >= P(sup_{v>=1}|Y(v)|<=delta/e).
+
+Thus it suffices to prove the same leading lower bound for F_infty(delta)=P(sup_{v>=1}|Y(v)|<=delta). Replacing L by L+1 changes only O(L^2). This explicitly handles the original small-u region; it never invokes the divergent infinite Laplace process near v=0.
+
+Anderson is used only here. A finite-dimensional proof reduces via independent Gaussian addition and layer-cake to the fact that a symmetric convex set and a translated symmetric ellipsoid have maximal intersection volume at translation zero. If A is their intersection at translation z, the intersection at -z is -A and (A+(-A))/2 lies in the zero-translation intersection; Brunn-Minkowski gives the needed volume inequality. Degenerate covariance follows by approximation. Original primary citation: T. W. Anderson, Proc. AMS 6 (1955), 170-176, doi:10.1090/S0002-9939-1955-0069229-1. The publisher PDF was blocked by HTTP403 during this read-only audit; its theorem was also checked against the author-hosted University of Washington exposition. No claim that this theorem already exists in mathlib is made.
+
+## 1. Exact finite Cauchy identities
+
+Put W(t)=exp(t/2)Y(exp(t)), t in R. It is stationary centered Gaussian with
+
+  C(t,s)=1/[2 cosh((t-s)/2)].
+
+For distinct t_i, let u_i=exp(t_i), let C be their N by N covariance matrix, and set
+
+  f(x)=-log(tanh(x/2)), x>0,
+  U_i=sum_{j!=i} f(|t_i-t_j|),
+  B(v)=product_i (v-u_i)/(v+u_i).
+
+Cauchy's determinant formula gives
+
+  det C=2^(-N) exp(-sum_i U_i)>0,
+  (C^(-1))_ii=2 exp(2 U_i).
+
+The inverse diagonal formula also follows directly by taking the ratio of the corresponding principal cofactor determinant and det C.
+
+The conditional mean of W(t), given W(t_i)=z_i, is sum_i ell_i(t)z_i, where
+
+  ell_i(t)=sech((t-t_i)/2)
+       * product_{j!=i} tanh((t-t_j)/2)/tanh((t_i-t_j)/2).
+
+To verify this formula, undo normalization. Both the Gaussian predictor and the displayed cardinal rational function belong to the span of 1/(v+u_j); they agree at every v=u_j, and the invertible Cauchy evaluation matrix gives uniqueness. Thus no interpolation approximation is involved.
+
+The conditional residual kernel for the unnormalized Y process is exactly
+
+  K_res(v,w)=B(v)B(w)/(v+w).
+
+For one conditioned point this is the identity
+1/(v+w)-2u/[(v+u)(w+u)]=(v-u)(w-u)/[(v+w)(v+u)(w+u)].
+Applying this identity inductively through Schur complements proves the general formula. Consequently the residual is independent of the sample vector and has the same continuous-process law as B(v) times an independent copy of Y(v).
+
+Useful elementary facts:
+
+  integral_0^infty f(x) dx=pi^2/4,
+  f is positive decreasing,
+  f(x)<=4 exp(-x) for x>=log 2,
+  f(x)<=log(4/x) for 0<x<=1.
+
+The integral follows by expanding f(x)=2 sum_{m odd>=1} exp(-mx)/m and summing reciprocal squares. The last estimate follows from tanh(x/2)>=x/4 on this range.
+
+## 2. A single affine-density quantile mesh
+
+All assertions below hold for sufficiently large L; constants do not depend on L. Set
+
+  delta=exp(-L), d(t)=L-t/2,
+  G=4 log L, h=100 log L,
+  a=-G, b=2L+2G,
+  J=[0,2L+G],
+  r(t)=2(d(t)+h)/pi^2 on [a,b].
+
+The density is positive throughout [a,b]. Let Q=integral_a^b r(s) ds, N=floor Q, and choose t_i by
+
+  integral_a^{t_i} r(s) ds=i-1/2,  i=1,...,N.
+
+Then N<=L^2 and M=max_[a,b] r<=L for sufficiently large L; also M>=1. Consecutive points are separated by at least tau=1/M. For the signed counting measure
+
+  mu=sum_i delta_(t_i)-r(s)1_[a,b](s)ds,
+
+the cumulative discrepancy D(s)=mu((−infty,s]) satisfies |D(s)|<=1, including the terminal fractional interval because N=floor Q.
+
+For every continuous bounded-variation g tending to zero at both infinities, integration by parts gives
+
+  |integral g dmu|<=Var(g).
+
+Use the truncated kernel f_tau(x)=min(f(|x|),f(tau)); its total variation is 2f(tau). Writing
+
+  I(t)=integral_a^b r(s)f(|s-t|) ds,
+
+the truncation loss is bounded uniformly by
+
+  0<=I(t)-integral_a^b r(s)f_tau(s-t)ds
+    <=2M integral_0^tau f(x)dx
+    <=2 log(4M)+2.
+
+Therefore, uniformly for every t and every removed index i,
+
+  sum_{j!=i} f(|t-t_j|) >= I(t)-5 log(4M)-2.                 (P1)
+
+If t coincides with a different sample and the left side is infinite, the assertion is interpreted in the extended sense, and the associated cardinal coefficient is zero. At its own node no singular term remains.
+
+At sample points, the separation bound implies the exact relation between truncated and omitted sums, and gives
+
+  I(t_i)-5 log(4M)-2 <= U_i <= I(t_i)+log(4M).             (P2)
+
+For the upper estimate, use sum f_tau - integral f_tau <=2f(tau), subtract the self term f(tau), and observe that the integral truncation loss is nonnegative.
+
+## 3. Boundary control of the potential
+
+Extend r(s)=2(L+h-s/2)/pi^2 affinely to the real line. The signed full convolution exists absolutely and, by symmetry of f,
+
+  integral_R r(s)f(|s-t|)ds=d(t)+h.
+
+For t in J, both omitted tails begin at distance at least G. Using the exponential bound on f and the affine growth of |r|,
+
+  |I(t)-(d(t)+h)| <= C(L+h+G+1) exp(-G) <=1              (P3)
+
+for sufficiently large L.
+
+For all t in [a,b], including boundary nodes, only an upper bound is needed. The left omitted affine tail is nonnegative. The right omitted tail can have a negative part only beyond s_0=2(L+h). Its absolute negative contribution is at most C exp(-(s_0-t)), and s_0-b=2h-2G=192 log L. Hence
+
+  I(t)<=d(t)+h+1,  t in [a,b].                           (P4)
+
+Since M<=L and log(4M)<=2 log L eventually, (P1)-(P4) imply the convenient coarse estimates
+
+  U_i <= d(t_i)+120 log L                    for every sample i,       (P5)
+  sum_{j!=i} f(|t-t_j|)>=d(t)+80 log L        for every t in J and i.   (P6)
+
+The full potential is at least the omitted potential, so (P6) also bounds |B(exp(t))| by exp(-d(t))L^(-80) on J.
+
+For the determinant lower estimate we also need an aggregate, not a false pointwise lower estimate at endpoints. Every sample in J satisfies U_i>=d(t_i)+80 log L. Samples outside J are confined to two boundary bands. Their number is O(L log L), their |d(t_i)| is O(L), and U_i>=0 always. Thus
+
+  sum_i U_i >= sum_i d(t_i) - O(L^2 log L).               (P7)
+
+The full affine mesh is contiguous. There are no gaps at interfaces and no unsupported boundary approximation.
+
+## 4. Probability of a sufficiently small sample box
+
+Impose the finite event E:
+
+  |W(t_i)|<=w_i,  w_i=exp(-d(t_i))L^(-200),  i=1,...,N.
+
+For a positive definite Gaussian vector with covariance C, integrate its density over the box and apply Jensen to exp(-x^T C^(-1)x/2) under the uniform box measure. The cross terms vanish and E x_i^2=w_i^2/3, giving
+
+  P(E)>=(product_i 2w_i)(2pi)^(-N/2)(det C)^(-1/2)
+          *exp[-(1/6)sum_i (C^(-1))_ii w_i^2].           (B1)
+
+This use of Jensen is a lower bound, not a maximum-density upper bound. By (P5),
+
+  sum_i (C^(-1))_ii w_i^2
+   <=2N L^(240-400)<=2L^(-158),
+
+so this factor has bounded, indeed vanishing, logarithmic cost. Substituting det C and (P7) into (B1) yields
+
+  log P(E)>=-sum_i d(t_i)+(1/2)sum_i U_i-O(N log L)
+           >=-(1/2)sum_i d(t_i)-O(L^2 log L).             (B2)
+
+Counting discrepancy and integration by parts for the affine d show
+
+  sum_i d(t_i)=integral_a^b r(t)d(t)dt+O(L).
+
+The principal part of this integral is
+
+  (2/pi^2) integral_0^(2L) (L-t/2)^2 dt=4L^3/(3pi^2).
+
+The h term and the two boundary extensions contribute O(L^2 log L). Therefore
+
+  log P(E)>=-2L^3/(3pi^2)-O(L^2 log L).                   (B3)
+
+## 5. Uniform conditional mean on the entire domain v>=1
+
+On J, the exact cardinal formula and (P5),(P6) imply
+
+  |ell_i(t)|<=sech((t-t_i)/2) exp(d(t_i)-d(t))L^40.
+
+On E, summing sample bounds and multiplying by exp(-t/2) gives
+
+  |E[Y(exp(t)) | samples]|<=delta N L^(-160)
+                             <=delta L^(-158),  t in J. (M1)
+
+For t>=2L+G, use the coarser global estimate that all numerator tanh factors have modulus <=1 and
+
+  exp(-t/2)sech((t-t_i)/2)<=2exp(-t+t_i/2).
+
+Since t_i<=b, (P5) gives, uniformly on E,
+
+  |conditional mean Y(exp(t))|
+   <=2N exp(-t+b/2)L^(-80)
+   <=2delta N L^(-80)
+   <=2delta L^(-78).                                    (M2)
+
+Here -t+b/2<=-L exactly at the start of the tail. Thus the conditional mean is at most delta/2 over every v>=1, for sufficiently large L. This explicitly checks the far mean, rather than only the residual.
+
+## 6. Uniform residual and a fixed positive conditional success probability
+
+The stationary process W has Var W(t)=1/2 and Var W'(t)=1/8. An absolutely continuous version follows by differentiating its stochastic integral on compact intervals and stochastic Fubini. Consequently
+
+  E sup_(t in J)|W(t)|
+   <=E|W(0)|+integral_J E|W'(t)|dt <=4L
+
+for sufficiently large L. The residual representation and the full-potential bound from (P6) now give
+
+  E sup_(t in J)|residual Y(exp(t))|<=4delta L^(-79).     (R1)
+
+For the far tail, |B(v)|<=1. Since Var Y'(v)=1/(4v^3), the absolutely convergent representation Y(v)=-integral_v^infty Y'(s)ds gives
+
+  E sup_(v>=V)|Y(v)|<=integral_V^infty 1/(2s^(3/2))ds
+                     =V^(-1/2).
+
+With V=exp(2L+G),
+
+  E sup_(t>=2L+G)|residual Y(exp(t))|<=delta L^(-2).      (R2)
+
+The residual is independent of the sample vector. Markov's inequality, (R1),(R2) imply that its supremum over v>=1 is <=delta/2 with probability at least 1/2 for all sufficiently large L. Combining this event with E and (M1),(M2),
+
+  F_infty(delta)>=P(E)/2.
+
+Equation (B3) proves the asserted continuum lower bound. All continuum steps used explicit conditional-process identities and derivative first-moment bounds, not an inference from finite-grid probabilities alone.
+
+Parts B and C together establish the sharp two-sided Gaussian small-ball logarithmic asymptotic. Uniform finite-family versions are provided above.
+
+# Part D: finite comparison and full-sequence lower envelope
+
+## Finite comparison derivation
+
+1. Parametrize x=±exp(-u/n), u≥0. The two normalized processes are Z_n^±(u)=n^(-1/2)sum ε_k(±1)^k exp(-uk/n). Their maximum is exactly M_n/sqrt(n), with x=0 contributing0.
+
+2. Truncate at T=n^(1/4). Since Z_n^±(infinity)=0,
+E sup_{u≥T}|Z_n^±(u)| ≤ integral_T^infinity [n^(-1)sum (k/n)² exp(-2uk/n)]^(1/2)du ≤4/(e sqrt(T)).
+For the last inequality use v² exp(-uv)≤4/(e²u²) and sum_{k≥1}exp(-uk/n)≤n/u. The same bound holds for the Gaussian polynomial. For Y use the analogous integral variance bound. Markov with toleranceη costs O(η^(-1)T^(-1/2))=O(n^(-1/16)). These are L1 estimates and do not require KMT.
+
+3. Use a mesh of spacing1/n on[0,T], with J=ceil(nT). For signs, |(Z_n^±)'|≤sqrt(n), so the mesh error is at most n^(-1/2). The Gaussian process Y has E sup_{u≥0}|Y'(u)|<infinity: bound it by E|Y'(0)|+integral_0^infinity E|Y''(u)|du; the latter integrand is O(min(1,u^(-5/2))). Thus the mesh error is≤n^(-1/4) outside an event O(n^(-3/4)). It is much smaller thanη. One can work directly with the Gaussian grid, so no continuum derivative bound for Gaussian polynomials is required.
+
+4. On the grid, replace each Rademacher ε_k by a standard Gaussian g_k. The vector coefficient has sup norm≤n^(-1/2), regardless of grid dimension. Apply a smooth scalar cutoff to the soft maximum over all signed grid coordinates. With smoothing widthη and softmax inverse temperature β=log(K)/η, K=4(J+1)=O(n^(5/4)), its fourth directional derivative in directionv is bounded by Cη^(-4)(log K)^3||v||_infinity^4. This follows from softmax cumulant derivative bounds and the chain rule. The first three moments of ε and g match. Fourth-order Taylor replacement therefore has error at most C(log K)^3/(nη^4)=O(n^(-3/4)(log n)^3). It compares CDFs with O(η) threshold shifts. The full analytic finite smoothing lemma is proved in Part A above; formal verification remains outstanding.
+
+5. For n even, couple the even and odd Gaussian increments to two independent Brownian motions on the grid of spacing2/n. Rotating these motions by (B1±B2)/sqrt2 yields independent copies Y+,Y− of Y. Replacing the step kernels exp(-uk/n) by exp(-us) gives variance error at each sampled u at most C u²/n²≤C n^(-3/2). A union bound and Chebyshev over O(n^(5/4)) grid points, with toleranceη, costs O(n^(-1/8)). No Gaussian supremum estimate or strong invariance principle is needed. Odd n is reduced to even n.
+
+6. Combine truncation, mesh, Lindeberg and Gaussian-kernel errors. The O(n^(-1/16)) tail truncation dominates. Independence gives F(δ)².
+
+## Consequence from the known Gaussian small-ball constant
+
+Let c_G=2/(3π²), and use the primary theorem log F(δ)=−c_G log³(1/δ)(1+o(1)). For any fixed α>0, δ_n=exp(−α(loglog n)^(1/3)). Polynomial η is negligible compared with δ_n, and the comparison above gives
+
+P(M_n≤sqrt(n)δ_n)=(log n)^(−2c_G α³+o(1)).
+
+This additive-error-to-relative-asymptotic passage is legitimate because the target probability is only polylogarithmically small, while the comparison error is polynomially small. The shifts δ_n±Cη have the same logarithmic small-ball exponent. No Gaussian B-inequality is needed at this accuracy.
+
+Put α_*=(1/(2c_G))^(1/3)=(3π²/4)^(1/3).
+
+Lower bound on the liminf: fix α>α_* and choose α_1 strictly between them. Use mesh n_j approximately exp(j exp(−C_0(log j)^(1/3))), where C_0>2α. Then loglog n_j~log j, grid small-ball probabilities are summable because 2c_G α_1³>1, and adjacent relative gaps are exp(−C_0(log j)^(1/3))(1+o(1)). The maximum contribution of all partial fresh blocks between two mesh points is bounded by two random-walk maxima through Abel summation. Hoeffding's maximal bound makes an error of size sqrt(n_j)exp(−α_1(loglog n_j)^(1/3)) summably unlikely: the exponent grows like exp((C_0−2α_1)(log j)^(1/3)), which eventually dominates every fixed multiple of log j. Borel–Cantelli then extends the lower estimate from the mesh to all n, with the α−α_1 slack absorbing constants and normalizations.
+
+Upper bound on the liminf: fix α<α_* and choose α' between α and α_*. Let q'=2c_G(α')³<1. Choose ρ>0 so(1+ρ)q'<1 and n_j=floor(exp(j^(1+ρ))). The reindexed fresh blocks are independent. Their small-ball probabilities are j^(-(1+ρ)q'+o(1)), hence divergent; independent Borel–Cantelli gives infinitely many small fresh blocks. The old polynomial contributes o(sqrt(n_j)exp(−α(loglog n_j)^(1/3))) almost surely: a fixed-n subgaussian bound gives M_n=O(sqrt(n log n)) eventually, while n_{j−1}/n_j=exp(−Theta(j^ρ)). Multiplication of the fresh block by x^(n_{j−1}) cannot increase its sup norm on[-1,1]. Thus the full polynomial is small infinitely often.
+
+Together these prove the exact logarithmic lower-envelope constant using the sharp Gaussian small-ball theorem proved in Parts B-C and standard finite probability/calculus tools, with the comparison and blocking lemmas proved as above. This does not yet constitute complete Lean source or independent proof review. The upper-envelope obligation is proved in Part E below.
+
+
+
+# Part E: exact upper envelope
+
+# E524: elementary upper-envelope addendum
+
+This part proves the upper envelope directly, using finite Gaussian comparison rather than assuming an LIL theorem.
+
+Let epsilon_k be independent equiprobable signs, P_n(x)=sum_{k=1}^n epsilon_k x^k, M_n=sup_{-1<=x<=1}|P_n(x)|, and S_n=sum_{k=1}^n epsilon_k. The result is
+
+  limsup M_n / sqrt(n log log n)=sqrt(2), almost surely.
+
+A convention including a constant coefficient changes M_n by at most one, with no effect on this conclusion.
+
+## 1. Deterministic Abel reduction
+
+For 0<=x<=1,
+
+  P_n(x)=(1-x)sum_{k=1}^{n-1} S_k x^k+S_n x^n.
+
+All the weights are nonnegative and sum to x<=1. Hence sup_[0,1]|P_n|<=max_{k<=n}|S_k|. For x<=0, apply the same identity to T_k=sum_{j=1}^k (-1)^j epsilon_j, another sign walk. Therefore
+
+  |S_n|<=M_n<=max(max_{k<=n}|S_k|, max_{k<=n}|T_k|).
+
+It is enough to prove the scalar sign-walk upper bound and positive lower limsup.
+
+## 2. Finite maximal Hoeffding estimate
+
+For lambda>0, exp(lambda S_k)/(cosh lambda)^k is a positive mean-one martingale. Stopping at the first index <=n with S_k>=t (or at n if there is no crossing) gives
+
+  P(max_{k<=n} S_k>=t)<=exp(-lambda t)(cosh lambda)^n
+                       <=exp(-lambda t+n lambda^2/2).
+
+The finite stopping identity can be proved directly by induction or by partitioning according to the first crossing; no infinite stopping theorem is needed. Optimizing lambda=t/n and applying the same bound to -S gives
+
+  P(max_{k<=n}|S_k|>=t)<=2exp(-t^2/(2n)).
+
+## 3. Almost-sure upper limsup
+
+Fix c>1 and select 1<gamma<c^2. Let n_j=floor(gamma^j). For sufficiently large j,
+
+  P(max_{k<=n_j}|S_k|>=c sqrt(2 n_{j-1} log log n_{j-1}))
+    <=j^(-c^2/gamma+o(1)).
+
+The exponent is strictly greater than one, so the probabilities are summable. Borel-Cantelli and monotonicity of n log log n imply, for every sufficiently large k,
+
+  |S_k|<=c sqrt(2k log log k).
+
+Taking a countable sequence c decreasing to one yields limsup |S_n|/sqrt(2n log log n)<=1 almost surely. The same statement applies to T. The deterministic Abel inequality then proves the required upper bound for M_n. Equivalently, any finitely many exceptional initial k disappear after division by sqrt(n log log n).
+
+## 4. Finite Gaussian lower tails without invoking a CLT theorem
+
+For m signs, duplicate the normalized coordinate m^(-1/2)sum epsilon_k in the two-dimensional finite smoothing lemma. Its coefficient fourth-power sum is 1/m. Taking smoothing radius eta=m^(-1/8) gives, uniformly in x,
+
+  P(m^(-1/2)sum epsilon_k>x)
+    >=P(G>x+2m^(-1/8))-C m^(-1/2),
+
+where G is standard Gaussian and C is absolute. This is an already proved consequence of the explicit fourth-order Lindeberg lemma.
+
+For x>=1, integration of the Gaussian density on [x,x+1/x] gives
+
+  P(G>x)>=c_0 exp(-x^2/2)/x
+
+for an absolute c_0>0. This elementary lower tail estimate suffices below.
+
+## 5. Independent blocks give the positive lower limsup
+
+Fix 0<a<1. Choose a fixed gamma sufficiently large that
+
+  q=(a+3/sqrt(gamma))^2/(1-1/gamma)<1.
+
+Again set n_j=floor(gamma^j), m_j=n_j-n_{j-1}, and let B_j=S_{n_j}-S_{n_{j-1}}. These block sums are independent. Consider
+
+  B_j>(a+3/sqrt(gamma)) sqrt(2 n_j log log n_j).           (E_j)
+
+After normalization by sqrt(m_j), the squared Gaussian threshold divided by two is
+
+  q log j+O(1)+o(log j).
+
+For any q_1 strictly between q and one, the finite Gaussian comparison and the lower Gaussian tail therefore imply
+
+  P(E_j)>=c j^(-q_1)/sqrt(log j)
+
+for all sufficiently large j. The comparison error C m_j^(-1/2) is exponentially small in j and is absorbed by this polynomial lower bound. Thus sum_j P(E_j)=infinity, and the independent Borel-Cantelli lemma gives infinitely many E_j almost surely.
+
+The upper bound already established gives eventually
+
+  |S_{n_{j-1}}|<=2 sqrt(2 n_{j-1} log log n_{j-1}).
+
+Its ratio to sqrt(2 n_j log log n_j) tends to 2/sqrt(gamma), strictly below the 3/sqrt(gamma) reserve in E_j. Hence on infinitely many E_j,
+
+  S_{n_j}>a sqrt(2 n_j log log n_j).
+
+A countable sequence a increasing to one yields limsup S_n/sqrt(2n log log n)>=1 almost surely. Evaluation of P_n at x=1 gives the matching lower bound for M_n.
+
+Together with Parts A–D, this supplies the sharp logarithmic lower and exact upper endpoints. Part F supplies the stronger inverse-F lower normalization.
+
+# Part F: stronger inverse-small-ball normalization
+
+# E524: the stronger inverse-small-ball normalization using Anderson alone
+
+The quantitative dilation argument below supplies the precision needed for the inverse-small-ball normalization.
+
+Let Y(u)=integral_0^1 exp(-us)dB_s, F(delta)=P(sup_{u>=0}|Y(u)|<=delta), and M_n=max_[-1,1]|sum_{k=1}^n epsilon_k x^k|. The target is the stronger known Letwin–Sawhney theorem
+
+  liminf_n M_n/[sqrt(n)F^(-1)((log n)^(-1/2))]=1 a.s.
+
+The new ingredient is a quantitative dilation lower bound derived from finite Gaussian regression plus Anderson. It replaces the Gaussian B inequality for the blocking precision needed here.
+
+## 1. Exact finite regression/Anderson dilation lemma
+
+Let a centered Gaussian vector/process Y be sampled at N locations, with positive definite sample covariance A. Write Y=X+Z, where X is the conditional predictor from those samples and Z is the independent residual. At every sampled location, Z=0. For a symmetric convex event K defined by finitely many linear evaluations, imposing the sample constraints |Y_i|<=w_i, set
+
+  Q=max_{|z_i|<=w_i} z^T A^(-1)z.
+
+For every r>1,
+
+  P(Y in rK)>=r^N exp[-(r^2-1)Q/2] P(Y in K).           (D1)
+
+Proof: Anderson covariance monotonicity gives
+
+  P((X+Z)/r in K)>=P(X/r+Z in K),
+
+because their covariance difference is (1-r^(-2))Cov Z>=0. Integrate the right-hand probability over the sample coordinates z of X/r. The density of N(0,A/r^2) divided by that of N(0,A) is exactly
+
+  r^N exp[-(r^2-1)z^T A^(-1)z/2].
+
+Whenever the conditional event has positive probability, its sample constraints force |z_i|<=w_i since the residual vanishes at those locations. Bound the likelihood ratio from below by its box minimum and integrate. This proves (D1). No log-concavity in log r is asserted or used.
+
+For a process supremum, take increasing finite evaluation sets containing the fixed samples, then use continuity of sample paths/dense evaluation and decreasing-event limits. Thus (D1) applies to F with w_i=delta in raw coordinates, or w_i=delta exp(t_i/2) for normalized samples W_i=exp(t_i/2)Y(exp(t_i)).
+
+## 2. Effective dimension proportional to log^2(1/delta)
+
+Put L=log(1/delta), G=4 log L, rho=L/(2pi^2), and
+
+  N=floor(rho(L-G)),
+  t_i=G+(i-1/2)/rho,  i=1,...,N.
+
+For sufficiently large L, every t_i belongs to [G,L] and
+
+  L^2/(4pi^2)<=N<=L^2.
+
+Let C_ij=1/[2cosh((t_i-t_j)/2)] and E=diag(exp(-exp(t_i))). The actual normalized finite-interval covariance is
+
+  A=C-ECE.
+
+As in the earlier determinant proof, define f(x)=-log tanh(x/2), U_i=sum_{j!=i}f(|t_i-t_j|). Uniform spacing and the decreasing right-Riemann sum give
+
+  U_i<=2sum_(k>=1)f(k/rho)
+      <=2rho integral_0^infty f(x)dx
+      =pi^2 rho/2=L/4.
+
+Cauchy identities imply det C=2^(-N)exp(-sum_i U_i) and (C^(-1))_ii=2exp(2U_i). In particular, det C>=exp(-O(L^3)). Since tr C=N/2<=L^2/2,
+
+  lambda_min(C)>=det C/(tr C)^(N-1)>=exp(-3L^3)
+
+for sufficiently large L. Also
+
+  ||ECE||<=tr C exp(-2L^4).
+
+Hence C^(-1/2)ECE C^(-1/2)<=I/2 eventually, and
+
+  A>=C/2,  A^(-1)<=2 C^(-1).
+
+The sample box at level delta has widths w_i=exp(-L+t_i/2)<=exp(-L/2). Positivity of A^(-1) gives |(A^(-1))_ij|<=sqrt((A^(-1))_ii(A^(-1))_jj). Therefore
+
+  Q<= (sum_i w_i sqrt((A^(-1))_ii))^2
+    <=4N^2 exp(-L/2)=o(1).                              (D2)
+
+This is the crucial point: use an intentionally underdense mesh of only O(L^2) coordinates so the full small-ball event forces the entire finite Mahalanobis norm to be tiny. The optimal-density mesh used to obtain the sharp probability constant is not needed here.
+
+For 1<r<=2, the elementary inequality r^2-1<=6log r and Q<=N/6, combined with (D1),(D2), give
+
+  log F(r delta)-log F(delta)
+      >=(N/2)log r
+      >=[L^2/(8pi^2)]log r.                              (D3)
+
+The bound is uniform in 1<r<=2 and all sufficiently small delta. Its probability formulation remains valid before logarithms because F(delta)>0 was proved by the earlier small-ball lower bound.
+
+Consequences for any fixed 0<epsilon<1/2, with positive constants c_epsilon:
+
+  F((1+epsilon)delta)>=F(delta)exp(c_epsilon L^2),
+  F((1-epsilon)delta)<=F(delta)exp(-c_epsilon L^2).        (D4)
+
+For the second inequality apply (D3) at (1-epsilon)delta with r=1/(1-epsilon). The corresponding logarithm is L+O_epsilon(1).
+
+## 3. Continuity and strict monotonicity of F
+
+These properties are proved here rather than imported from the stronger theorem being recovered.
+
+The previous derivative first-moment bounds show Y has a continuous version tending to zero at infinity and finite supremum almost surely. Thus F(delta)->1 as delta->infinity, and F(delta)->0 as delta decreases to zero since Y(0) is standard normal. The prior lower bound shows F(delta)>0 for every delta>0.
+
+For atomlessness at any delta>0, split off g=Y(0)=B_1. Write
+
+  Y(u)=h(u)g+Z(u),
+  h(u)=integral_0^1 exp(-us)ds,
+
+where g is standard Gaussian independent of Z. The function h is positive at every finite u, h(0)=1, and h(u)->0. Almost every residual path z is continuous and tends to zero at infinity. For each such path define
+
+  V_z(x)=sup_(u>=0)|z(u)+x h(u)|.
+
+It is a finite convex function of x, and V_z(x)>=|x| because Z(0)=0. It has no interval on which it is constant at a positive value: at an interior point of any proposed plateau with value delta>0, the supremum is attained at some finite u, and moving x a little in the appropriate direction increases that attaining absolute value because h(u)>0. A convex function without a positive horizontal interval has at most two preimages of each positive delta. Since g has a continuous density, conditioning on Z gives P(V_Z(g)=delta)=0. Thus F is continuous on (0,infinity).
+
+For strict increase, fix 0<delta_1<delta_2 and choose eta<(delta_2-delta_1)/4. The residual covariance is dominated by that of Y, so Anderson gives P(||Z||_infty<=eta)>=F(eta)>0. Independently require g to lie in a nonempty positive interval inside (delta_1+eta,delta_2-eta). Since ||h||_infty=1, on these events
+
+  delta_1<g-eta<=||g h+Z||_infty<=g+eta<delta_2.
+
+This has positive probability and proves F(delta_2)>F(delta_1). Consequently F has a genuine inverse (0,1)->(0,infinity).
+
+For a finite-only formal route, the same atomlessness step can be made uniform over finite meshes: on u in [0,T], h(u)>=h(T)>0, so the conditional measure of a norm shell of thickness eta is O(eta/h(T)). The remainder u>=T has probability O(1/(delta sqrt(T))) of exceeding a fixed positive level. First fix T, send eta to zero, then T to infinity. Thus the distribution function may instead be defined by decreasing finite-Gaussian events without constructing a Brownian path. This alternative still needs fully explicit implementation lemmas; the ordinary proof above is complete.
+
+## 4. The inverse scale and finite comparison
+
+Define delta_n=F^(-1)((log n)^(-1/2)) for n>e, and b_n=sqrt(n)delta_n. From the already proved sharp asymptotic
+
+  log F(delta)=-(2/(3pi^2))log^3(1/delta)(1+o(1)),
+
+we have
+
+  L_n=log(1/delta_n)
+      =(alpha_*+o(1))(log log n)^(1/3),
+  alpha_*=(3pi^2/4)^(1/3).
+
+The earlier KMT-free finite comparison has absolute error O(n^(-1/16)) and threshold shifts of that order. Since delta_n is much larger than every fixed negative power of n, (D4) and monotonicity absorb those shifts into any fixed epsilon reserve. Thus for fixed epsilon in (0,1/2), possibly changing c_epsilon,
+
+  P(M_n<=(1-epsilon)b_n)
+    <=(log n)^(-1)exp(-c_epsilon L_n^2)+O(n^(-1/16)),    (P-)
+
+  P(M_n<=(1+epsilon)b_n)
+    >=(log n)^(-1)exp(c_epsilon L_n^2)-O(n^(-1/16)).     (P+)
+
+Only these one-sided fixed-relative-slack estimates are needed. No unjustified asymptotic for F(delta+o(delta))/F(delta) is used.
+
+A useful stability fact: if m_j/n_j->1 and log m_j/log n_j->1, then delta_(m_j)/delta_(n_j)->1. In the case m_j<=n_j used below, the ratio is at least one. For any fixed eta>0, (D4) shows F((1+eta)delta_(n_j))/F(delta_(n_j))->infinity, whereas the target ratio F(delta_(m_j))/F(delta_(n_j))=(log n_j/log m_j)^(1/2)->1. Strict monotonicity gives the upper ratio bound 1+eta eventually. The case in the other order follows by interchanging indices.
+
+## 5. Full-sequence lower bound for the normalized liminf
+
+Fix epsilon>0 small, choose C>2alpha_*, and for sufficiently large integers j put
+
+  h_-(j)=j exp[-C(log j)^(1/3)],
+  n_j=floor(exp(h_-(j))).
+
+Then log log n_j~log j and (n_(j+1)-n_j)/n_j=exp[-C(log j)^(1/3)](1+o(1)). Apply (P-) with a smaller fixed fraction of epsilon. The mesh probabilities are bounded by
+
+  j^(-1)exp[C(log j)^(1/3)-c(log j)^(2/3)]
+
+plus a summable polynomial-in-n_j error. The displayed series converges, as seen by the substitution x=log j in the integral test.
+
+By Borel-Cantelli, eventually M_(n_j)>(1-epsilon/4)b_(n_j). For n between successive mesh points, Abel summation bounds every partial fresh polynomial by the maximum of two sign walks of length at most n_(j+1)-n_j. Maximal Hoeffding shows that a block error exceeding (epsilon/8)b_(n_j) has probability at most
+
+  4 exp[-c_epsilon exp((C-2alpha_*+o(1))(log j)^(1/3))].
+
+This is summable because exp(c(log j)^(1/3)) dominates log j. Thus eventually M_n>=(1-3epsilon/8)b_(n_j) throughout the interval.
+
+Since delta_n is decreasing,
+
+  b_n<=sqrt(n_(j+1))delta_(n_j)=(1+o(1))b_(n_j).
+
+No extra inverse continuity is needed for this direction. Hence M_n>=(1-epsilon)b_n eventually. Countably many epsilon prove liminf M_n/b_n>=1 almost surely.
+
+## 6. Independent sparse blocks give the reverse inequality
+
+Fix a small epsilon>0 and any C>0. Put
+
+  h_+(j)=j exp[C(log j)^(1/3)],
+  n_j=floor(exp(h_+(j))), m_j=n_j-n_(j-1).
+
+Now n_(j-1)/n_j=exp[-exp((C+o(1))(log j)^(1/3))], so m_j/n_j->1 and b_(m_j)/b_(n_j)->1 by the stability fact.
+
+Apply (P+) to the independent reindexed fresh blocks of length m_j with relative reserve epsilon/4. Their smallness probabilities are eventually at least
+
+  j^(-1)exp[-C(log j)^(1/3)+c(log j)^(2/3)]
+
+up to negligible errors; in particular they are eventually at least 1/j. Independent Borel-Cantelli gives infinitely many fresh blocks with norm <=(1+epsilon/4)b_(m_j)<=(1+epsilon/2)b_(n_j).
+
+The original old polynomial obeys M_m=O(sqrt(m log m)) almost surely by the finite-n two-walk Hoeffding bound and first Borel-Cantelli. Therefore
+
+  M_(n_(j-1))/b_(n_j)->0,
+
+because the logarithm of this ratio is bounded above by
+
+  -(1/2)exp((C+o(1))(log j)^(1/3))
+     +(1/2)log log n_(j-1)+L_(n_j)+O(1),
+
+which tends to minus infinity. Multiplying the fresh polynomial by x^(n_(j-1)) cannot increase its norm on [-1,1]. Consequently M_(n_j)<=(1+epsilon)b_(n_j) infinitely often. Countably many epsilon give liminf<=1 almost surely.
+
+Combining both directions proves the stated stronger inverse-F normalization. The theorem is due to Letwin–Sawhney; this is an alternate analytic route with no priority claim.
+
+
+# Part G: elementary finite Anderson bridge
+
+# Finite Anderson comparison from coordinate symmetrization
+
+The following coordinate-symmetrization argument proves the finite covariance comparison used above. Coordinate Steiner symmetrization and Anderson comparison are classical; no novelty claim is made.
+
+## 1. The only geometric inequality needed
+
+For every convex compact A subset R^n,
+
+  volume((A-A)/2)>=volume(A).                            (G)
+
+Empty and zero-volume bodies cause no difficulty. The following finite coordinate construction proves (G).
+
+For a coordinate i, define S_i(A) by its fibers: keep every off-i coordinate fixed and replace the i-coordinate fiber by half its difference set. Equivalently x belongs to S_i(A) precisely when there exist p,q in A with p_j=q_j=x_j for every j!=i and x_i=(p_i-q_i)/2.
+
+This witness definition avoids defining measurable endpoint functions. It realizes S_i(A) as a linear image of the compact convex fiber product {(p,q) in A times A: p_j=q_j for j!=i}. Hence S_i(A) is compact convex.
+
+Each nonempty one-dimensional fiber of A is a compact interval [l,u]. The corresponding fiber of S_i(A) is [-(u-l)/2,(u-l)/2], of exactly the same Lebesgue measure; empty fibers stay empty. Fubini therefore gives volume(S_i(A))=volume(A). The same assertion applies to any convex compact input, including A-A.
+
+Further elementary properties:
+
+- Monotonicity: A subset B implies S_i(A) subset S_i(B).
+- Reflection: S_i(A) is invariant under changing the sign of coordinate i, by swapping p and q.
+- Preservation: if A is invariant under changing the sign of coordinate j!=i, so is S_i(A), by reflecting both witnesses.
+- Difference inclusion: S_i(A)-S_i(A) subset S_i(A-A). If x has witnesses p,q and y has witnesses r,s, then x-y has witnesses p-r,q-s in A-A. Their off-i coordinates agree and their i-coordinate half-difference equals x_i-y_i.
+
+Apply S_1,...,S_n in order. Let T be their composition. The preservation property makes T(A) invariant under all coordinate sign changes, hence centrally symmetric. Monotonicity and the difference inclusion inductively give
+
+  T(A)-T(A) subset T(A-A).
+
+Since T(A) is convex and centrally symmetric, T(A)-T(A)=2T(A). Taking volumes and using the volume preservation at every step,
+
+  2^n volume(A)=volume(2T(A))
+                 <=volume(T(A-A))=volume(A-A).
+
+Scalar change of variables now proves (G). All sets used are compact convex and hence Borel; no limiting infinite symmetrization is involved.
+
+## 2. Moving a symmetric convex body under a Gaussian density
+
+Let K and E be centrally symmetric convex compact sets and let z be any vector. Set A=E intersect (K-z). Then -A=E intersect (K+z). Convexity and symmetry imply
+
+  (A-A)/2 subset E intersect K.
+
+By (G), volume(E intersect (K-z))<=volume(E intersect K). For a nonsingular centered Gaussian density, every superlevel set is a centrally symmetric ellipsoid E. Layer-cake integration therefore gives
+
+  P(X+z in K)<=P(X in K).                               (A1)
+
+Now let Z be an independent centered Gaussian vector. Integrating (A1) over z yields
+
+  P(X+Z in K)<=P(X in K).                               (A2)
+
+If covariance B-A is positive semidefinite, construct an independent Gaussian Z of that covariance and identify X+Z by its mean/covariance. Thus centered Gaussian covariance order A<=B implies the reverse probability order for K. This is the finite Anderson comparison used in the preceding arguments.
+
+For our finite-evaluation applications, K is a positive-width symmetric box. Degenerate covariance is handled by adding independent eta-times standard Gaussian noise and sending eta to zero. The box boundary has probability zero: each nonconstant Gaussian coordinate has a continuous density, and each deterministic zero coordinate is strictly inside its positive-width constraint. Bounded convergence on the finite boundary union suffices. General degenerate convex sets are unnecessary for this application.
+
+The finite Gaussian density/change-of-variables formula and covariance addition are the standard finite-dimensional inputs. The argument requires no stochastic integral, full Brunn–Minkowski theorem, Gaussian correlation or Gaussian B theorem.
+
+# Part H: complete finite-Gaussian regularity and mesh bridge
+
+This is the finite-only formal variant of the process regularity and comparison steps. Define F(delta) as the infimum, over all finite evaluation families U subset [0,infinity), of the centered Gaussian box probabilities with Gram covariance K_0(u,v)=integral_0^1 exp(-(u+v)s)ds. One may require U to contain 0 without changing the infimum, by adjoining it. All finite covariances are consistent under restriction; a continuous Brownian realization is unnecessary for this definition.
+
+For 0<=u<=v, kernel differences satisfy
+
+  sd(Y_u-Y_v)<= (v-u)S(u),
+  S(u)^2=integral_0^1 s^2 exp(-2us)ds.
+
+This follows from 0<=exp(-us)-exp(-vs)<=(v-u)s exp(-us) before taking the L2 norm. The function S is decreasing, S(0)^2=1/3, and Tonelli gives integral_0^infinity S(u)^2du=1/4.
+
+For any mesh of width h and any extra finite evaluation family, sort the points inside each cell and telescope from its left mesh point. Cauchy–Schwarz on each cross moment yields
+
+  E(max cell increment)^2
+    <=(sum sd of successive increments)^2<=h^2 S(left)^2.
+
+The sum over all cells is at most h^2/3+h/4. Therefore the probability that any extra evaluation differs by more than eta from its left mesh value is at most (h^2/3+h/4)/eta^2, uniformly in the size of the extra family. Points beyond T have E max|Y_u|<=T^(-1/2): their Gram differences are dominated by the infinite Cauchy kernel, to which the explicit telescoping estimate stated above applies. This costs at most 1/(eta sqrt(T)) by Markov. Taking the infimum over extra finite families gives the required comparison between finite mesh probabilities and F(delta+eta). At h=1/n, T=n^(1/4), eta=n^(-1/16), these are polynomial errors dominated by O(n^(-1/16)). This justifies both directions of the KMT-free comparison using finite Gaussian vectors only.
+
+Continuity: condition on G=Y_0, a standard Gaussian. Every coordinate is h(u)G+R_u with independent residual, h(u)=integral_0^1 exp(-us)ds. For u in [0,T], h(u)>=h(T)>0. Given the residual values, the event max|h(u)G+R_u|<=delta is the intersection of intervals [(-delta-R_u)/h(u),(delta-R_u)/h(u)] in the scalar G coordinate. Increasing delta by epsilon moves each of the two intersection endpoints outward by at most epsilon/h(T). Even if the initial interval is empty, the added interval length is at most 2epsilon/h(T). The Gaussian density bound gives a shell probability <=2epsilon/[h(T)sqrt(2pi)]. For a fixed positive delta the discarded tail has probability <=C/(delta sqrt(T)), uniformly over finite families. First take T large and then epsilon small. These uniform bounds pass through the infimum and prove continuity of F on (0,infinity).
+
+Endpoint limits: F(delta)<=P(|G|<=delta), so F(0+)=0. Uniformly over finite families, E max|Y_u|<=1+1/sqrt(3)+1<3. Indeed adjoin 0 and 1, telescope from 0 on [0,1] using the slope bound 1/sqrt(3), and from 1 to the last point using the infinite-Cauchy increment bound whose total is at most 1. Thus F(delta)>=1-3/delta and F(infinity)=1. The earlier uniform small-ball lower bound gives F(delta)>0 for every delta>0.
+
+Strict increase: take delta_1<delta_2 and a small eta<(delta_2-delta_1)/4. Finite Anderson gives P(max|R_u|<=eta)>=F(eta)>0 because residual covariance is dominated by K_0. Independently choose G in a fixed positive interval inside (delta_1+eta,delta_2-eta). Since h(0)=1, R_0=0 and 0<h(u)<=1, this event forces the full finite norm to lie strictly between delta_1 and delta_2. Its probability is bounded below by a positive constant independent of the finite family. Therefore the strict increment passes to F. Its inverse is consequently well-defined on (0,1), entirely from finite-dimensional ingredients. 

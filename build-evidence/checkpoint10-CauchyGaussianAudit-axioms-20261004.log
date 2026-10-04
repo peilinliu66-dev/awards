@@ -1,0 +1,14 @@
+'Erdos524.GaussianVectorLaw.map_eq_of_mean_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyGaussianRegression.samples_residual_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.CauchyGaussianRegression.residual_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyGaussianRegression.sample_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianDiagonalScaling.normalized_finiteKernel_exp_box' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.CauchyResidualBounds.integral_residual_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyResidualBounds.integral_residual_core_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchySmallBoxLower.small_box_lower_of_residual_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,16 @@
+Erdos524.LaplaceKernelComparison.finiteKernel_apply {n : ℕ} (u : Fin n → ℝ) (i j : Fin n) :
+  Erdos524.LaplaceKernelComparison.finiteKernel u i j =
+    if u i + u j = 0 then 1 else (1 - Real.exp (-(u i + u j))) / (u i + u j)
+Erdos524.LaplaceKernelComparison.finite_laplace_gaussian_comparison {n : ℕ} (u : Fin (n + 1) → ℝ)
+  (hu : ∀ (i : Fin (n + 1)), 0 ≤ u i) {K : Set (EuclideanSpace ℝ (Fin (n + 1)))} (hclosed : IsClosed K)
+  (hconvex : Convex ℝ K) (hneg : ∀ ⦃y : EuclideanSpace ℝ (Fin (n + 1))⦄, y ∈ K → -y ∈ K) :
+  (ProbabilityTheory.multivariateGaussian 0 (Real.exp 2 • Erdos524.CauchyKernel.cauchy fun i => u i + 1)) K ≤
+    (ProbabilityTheory.multivariateGaussian 0 (Erdos524.LaplaceKernelComparison.finiteKernel u)) K
+'Erdos524.IntegralGramComparison.integralGram_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LaplaceKernelComparison.finiteKernel_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LaplaceKernelComparison.dominatingKernel_sub_finiteKernel_posSemidef' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.LaplaceKernelComparison.finite_laplace_gaussian_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

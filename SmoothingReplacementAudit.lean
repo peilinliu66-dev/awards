@@ -1,0 +1,13 @@
+import Erdos524.PolynomialFiniteComparison
+import Erdos524.FiniteLindeberg
+import Erdos524.SingleCoordinateReplacement
+import Erdos524.ProductCoordinateReplacement
+#print axioms Erdos524.SingleCoordinateReplacement.smoothedPath_sign_gaussian
+#print axioms Erdos524.ProductCoordinateReplacement.integral_pi_change_one
+#print axioms Erdos524.SmoothedSoftMaximum.fourth_derivative_bound
+#print axioms Erdos524.SignGaussianMoments.gaussian_moment_four
+
+#print axioms Erdos524.FiniteLindeberg.exists_universal_replacement_constant
+
+#print axioms Erdos524.PolynomialFiniteComparison.polynomial_finite_cdf_comparison
+#print axioms Erdos524.AbsoluteCDFReplacement.absolute_cdf_replacement

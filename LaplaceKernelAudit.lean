@@ -1,0 +1,8 @@
+import Erdos524.LaplaceKernelComparison
+
+#check Erdos524.LaplaceKernelComparison.finiteKernel_apply
+#check Erdos524.LaplaceKernelComparison.finite_laplace_gaussian_comparison
+#print axioms Erdos524.IntegralGramComparison.integralGram_mono
+#print axioms Erdos524.LaplaceKernelComparison.finiteKernel_posSemidef
+#print axioms Erdos524.LaplaceKernelComparison.dominatingKernel_sub_finiteKernel_posSemidef
+#print axioms Erdos524.LaplaceKernelComparison.finite_laplace_gaussian_comparison

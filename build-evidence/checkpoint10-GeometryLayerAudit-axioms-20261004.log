@@ -1,0 +1,5 @@
+'Erdos524.CoordinateVolume.volume_symmList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.ShiftIntersection.volume_shiftedIntersection_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.ShiftIntersection.volume_linearShiftSlice_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianLevelSets.isCompact_superlevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianLevelSets.convex_superlevel' depends on axioms: [propext, Classical.choice, Quot.sound]

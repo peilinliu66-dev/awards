@@ -1,0 +1,12 @@
+'Erdos524.SampleBoxLowerExponent.raw_constant_sample_box_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.QuantileCounting.affine_quantile_deficit_discrepancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.QuantileCounting.eventually_lower_deficit_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.eventually_lower_size_controls' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.lower_aggregate_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SampleBoxAsymptotic.eventually_sampleContribution_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

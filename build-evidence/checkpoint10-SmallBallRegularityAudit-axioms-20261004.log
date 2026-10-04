@@ -1,0 +1,18 @@
+'Erdos524.FiniteSmallBallBasic.finiteSmallBall_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallBasic.sharp_log_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallTail.smallBallReal_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteLaplaceBand.finite_laplace_cube_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallIncrement.smallBallReal_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallZero.smallBallReal_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.LaplaceResidualComparison.finiteSmallBall_le_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.FiniteSmallBallStrict.finiteSmallBall_annulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallStrict.smallBallReal_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallInverse.smallBallInverse_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteSmallBallInverse.smallBallInverse_continuousAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.FiniteSmallBallInverse.smallBallInverse_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

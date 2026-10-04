@@ -1,0 +1,2 @@
+'Erdos524.ExponentialKernelLipschitz.exp_negative_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.ExponentialKernelLipschitz.exp_kernel_cell_error' depends on axioms: [propext, Classical.choice, Quot.sound]

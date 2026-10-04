@@ -1,0 +1,8 @@
+'Erdos524.CauchyKernel.affinePotential_interior_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.affinePotential_boundary_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.affine_omitted_potential_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.affine_node_potential_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.lower_node_potential_120' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.lower_omitted_potential_80' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.lower_mean_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.QuantileCounting.lower_residual_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

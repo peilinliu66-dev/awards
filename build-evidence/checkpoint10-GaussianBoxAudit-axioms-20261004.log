@@ -1,0 +1,20 @@
+Erdos524.GaussianCovarianceBox.gaussian_box_upper {n : ℕ} {S : Matrix (Fin (n + 1)) (Fin (n + 1)) ℝ} (hS : S.PosDef)
+  (w : Fin (n + 1) → ℝ) :
+  (ProbabilityTheory.multivariateGaussian 0 S) (WithLp.ofLp ⁻¹' Erdos524.GaussianBoxDensity.box w) ≤
+    Erdos524.GaussianBoxDensity.normalization n * ENNReal.ofReal (1 / √S.det) * ∏ i, ENNReal.ofReal (2 * w i)
+Erdos524.GaussianCovarianceBox.gaussian_box_lower_diagonal_budget {n : ℕ} {S : Matrix (Fin (n + 1)) (Fin (n + 1)) ℝ}
+  (hS : S.PosDef) (w : Fin (n + 1) → ℝ) :
+  Erdos524.GaussianBoxDensity.normalization n * ENNReal.ofReal (Real.exp (-((↑n + 1) * ∑ i, w i ^ 2 * S⁻¹ i i) / 2)) *
+        ENNReal.ofReal (1 / √S.det) *
+      ∏ i, ENNReal.ofReal (2 * w i) ≤
+    (ProbabilityTheory.multivariateGaussian 0 S) (WithLp.ofLp ⁻¹' Erdos524.GaussianBoxDensity.box w)
+'Erdos524.GaussianBoxDensity.linearEquiv_gaussian_box_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianBoxDensity.linearEquiv_gaussian_box_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianCovarianceCoordinates.energy_inverse_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianCovarianceCoordinates.quadratic_le_card_mul_diagonal_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GaussianCovarianceBox.gaussian_box_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianCovarianceBox.gaussian_box_lower_diagonal_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+import Erdos524.PolynomialInverseUpper
+import Erdos524.StretchedLogSummability
+#print axioms Erdos524.PolynomialComparisonParameters.upperGridError_bound
+#print axioms Erdos524.PolynomialInverseUpper.eventual_full_upper_budget
+#print axioms Erdos524.StretchedLogSummability.summable_exp_neg_sqrt
+#print axioms Erdos524.StretchedLogSummability.summable_stretched_log_harmonic

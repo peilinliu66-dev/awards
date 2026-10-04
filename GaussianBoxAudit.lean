@@ -1,0 +1,10 @@
+import Erdos524.GaussianCovarianceBox
+
+#check Erdos524.GaussianCovarianceBox.gaussian_box_upper
+#check Erdos524.GaussianCovarianceBox.gaussian_box_lower_diagonal_budget
+#print axioms Erdos524.GaussianBoxDensity.linearEquiv_gaussian_box_upper
+#print axioms Erdos524.GaussianBoxDensity.linearEquiv_gaussian_box_lower
+#print axioms Erdos524.GaussianCovarianceCoordinates.energy_inverse_sqrt
+#print axioms Erdos524.GaussianCovarianceCoordinates.quadratic_le_card_mul_diagonal_sum
+#print axioms Erdos524.GaussianCovarianceBox.gaussian_box_upper
+#print axioms Erdos524.GaussianCovarianceBox.gaussian_box_lower_diagonal_budget

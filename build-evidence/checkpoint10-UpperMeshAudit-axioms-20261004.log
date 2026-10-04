@@ -1,0 +1,6 @@
+'Erdos524.CauchyKernel.upperPointSet_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.upperPointSet_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.blockPointSet_rowEnergy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.upper_mesh_exponent_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.cutoff_scalar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.CauchyKernel.upper_mesh_actual_half_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

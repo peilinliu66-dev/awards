@@ -1,0 +1,6 @@
+import Erdos524.PotentialSmallBallLower
+#print axioms Erdos524.RegressionWeightBounds.abs_normalizedWeight_le_potentials
+#print axioms Erdos524.RegressionWeightBounds.sum_abs_weights_at_sample
+#print axioms Erdos524.RegressionWeightBounds.sum_abs_weights_global_le
+#print axioms Erdos524.RegressionWeightBounds.blaschke_core_bound
+#print axioms Erdos524.PotentialSmallBallLower.finiteSmallBall_lower_of_potentials

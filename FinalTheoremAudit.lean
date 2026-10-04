@@ -1,0 +1,9 @@
+import Erdos524.PublicTheoremTransfer
+#print axioms Erdos524.RandomPolynomialModel.withConstantPolyCM_sum_range
+#print axioms Erdos524.ConstantTermUpperEnvelope.ae_constant_upper_normalized_limsup_eq_one
+#print axioms Erdos524.ConstantTermUpperEnvelope.ae_constant_explicit_upper_limsup_sqrt_two
+#print axioms Erdos524.erdos_524
+#print axioms Erdos524.erdos_524_inverse_refinement
+#print axioms Erdos524.erdos_524_complete
+#print axioms Erdos524.erdos_524_of_independent_signs
+#print axioms Erdos524.erdos_524_inverse_of_independent_signs

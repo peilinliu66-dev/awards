@@ -1,0 +1,15 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "leanexport",
+    "Erdos524.Main",
+    "--",
+    "Erdos524.erdos_524_complete"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 32.683274228998926,
+  "max_rss_kib": 4251992,
+  "bytes": 553361464,
+  "sha256": "80b02f10e90517201fac59831d958ba60b3877322a3d77ab2ac4866499db7338"
+}

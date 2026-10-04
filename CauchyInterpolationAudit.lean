@@ -1,0 +1,6 @@
+import Erdos524.CauchyInterpolation
+#print axioms Erdos524.CauchyKernel.normal_equations
+#print axioms Erdos524.CauchyKernel.regressionWeight_product
+#print axioms Erdos524.CauchyKernel.residual_kernel
+#print axioms Erdos524.CauchyKernel.normalized_normal_equations
+#print axioms Erdos524.CauchyKernel.normalized_residual_kernel

@@ -1,0 +1,9 @@
+'Erdos524.UpperEnvelopeBound.ae_upper_normalized_limsup_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.UpperEnvelopeBound.ae_eventual_upper_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RandomPolynomialModel.fullNorm_maximal_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.RandomPolynomialModel.fullNorm_increment_maximal_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.DyadicMesh.cover_after' depends on axioms: [propext, Classical.choice, Quot.sound]

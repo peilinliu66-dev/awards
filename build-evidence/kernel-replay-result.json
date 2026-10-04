@@ -1,0 +1,14 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--fresh",
+    "--verbose",
+    "Erdos524.Main"
+  ],
+  "started_utc": "2026-10-04T15:01:12.114957+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 660.6939383130011,
+  "max_rss_kib": 4352416
+}

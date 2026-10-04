@@ -1,0 +1,6 @@
+import Erdos524.UpperEnvelopeBound
+#print axioms Erdos524.UpperEnvelopeBound.ae_upper_normalized_limsup_le_one
+#print axioms Erdos524.UpperEnvelopeBound.ae_eventual_upper_envelope
+#print axioms Erdos524.RandomPolynomialModel.fullNorm_maximal_tail
+#print axioms Erdos524.RandomPolynomialModel.fullNorm_increment_maximal_tail
+#print axioms Erdos524.DyadicMesh.cover_after

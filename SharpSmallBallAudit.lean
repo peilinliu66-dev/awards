@@ -1,0 +1,7 @@
+import Erdos524.LowerSmallBallAssembly
+#print axioms Erdos524.LowerSmallBallAssembly.finite_lower_smallBall
+#print axioms Erdos524.LowerSmallBallAssembly.sharp_smallBall_lower_shifted
+#print axioms Erdos524.LowerSmallBallAssembly.sharp_smallBall_lower
+#print axioms Erdos524.FiniteSmallBallEnvelope.sharp_smallBall_upper
+
+#print axioms Erdos524.LowerSmallBallAssembly.sharp_smallBall_two_sided

@@ -1,0 +1,15 @@
+'Erdos524.SingleCoordinateReplacement.smoothedPath_sign_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.ProductCoordinateReplacement.integral_pi_change_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.SmoothedSoftMaximum.fourth_derivative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SignGaussianMoments.gaussian_moment_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteLindeberg.exists_universal_replacement_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PolynomialFiniteComparison.polynomial_finite_cdf_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.AbsoluteCDFReplacement.absolute_cdf_replacement' depends on axioms: [propext, Classical.choice, Quot.sound]

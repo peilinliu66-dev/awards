@@ -1,0 +1,3 @@
+import Erdos524.ExponentialKernelLipschitz
+#print axioms Erdos524.ExponentialKernelLipschitz.exp_negative_lipschitz
+#print axioms Erdos524.ExponentialKernelLipschitz.exp_kernel_cell_error

@@ -1,0 +1,11 @@
+'Erdos524.PSDTracePerturbation.energy_le_inverse_trace_mul_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PSDTracePerturbation.relative_gap_of_trace_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteKernelPerturbation.normalizedFiniteKernel_eq_sub' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.FiniteKernelPerturbation.cutoffError_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.FiniteKernelPerturbation.separated_normalizedFiniteKernel_half_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

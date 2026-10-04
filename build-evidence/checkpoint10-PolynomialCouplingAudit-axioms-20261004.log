@@ -1,0 +1,16 @@
+'Erdos524.TwoSidedFiniteComparison.two_sided_sign_kernel_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.TwoSidedGaussianLimit.exactFamily_box_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.TwoSidedGaussianPolynomialLaw.gaussian_phase_polynomial_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PhasePolynomialIdentity.phaseMatrix_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GaussianPolynomialComparison.gaussianPolynomialBox_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GramGaussianCoupling.gram_box_probability_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.PolynomialLaplaceGrid.normalizedLaplace_grid_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.PolynomialAbel.polynomial_abs_le_two_walks' depends on axioms: [propext, Classical.choice, Quot.sound]

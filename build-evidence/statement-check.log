@@ -1,0 +1,6 @@
+'submitted_original_statement' depends on axioms: [propext, Classical.choice, Quot.sound]
+submitted_original_statement :
+  ∀ᵐ (ω : ℕ → ℝ) ∂submittedSignMeasure,
+    liminf (fun n => Real.log (‖submittedPolynomial ω n‖ / √↑n) / Real.log (Real.log ↑n) ^ (1 / 3)) atTop =
+        -(3 * Real.pi ^ 2 / 4) ^ (1 / 3) ∧
+      limsup (fun n => ‖submittedPolynomial ω n‖ / √(↑n * Real.log (Real.log ↑n))) atTop = √2

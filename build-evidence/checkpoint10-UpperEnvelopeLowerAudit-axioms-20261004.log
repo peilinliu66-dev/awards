@@ -1,0 +1,16 @@
+'Erdos524.GaussianTailLower.gaussian_tail_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.SignSumGaussianComparison.exists_exponential_sum_tail_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.ModerateSignTail.eventual_sum_moderate_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.GeometricWalkProbability.ae_frequent_freshSum_large' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GeometricWalkPayment.choose_geometric_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.UpperEnvelopeLower.ae_frequent_upper_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos524.UpperEnvelopeLower.ae_upper_normalized_limsup_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.UpperEnvelopeLower.ae_upper_normalized_limsup_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

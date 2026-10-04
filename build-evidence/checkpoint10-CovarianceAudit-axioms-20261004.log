@@ -1,0 +1,17 @@
+Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_mono {n : ℕ}
+  {S T : Matrix (Fin (n + 1)) (Fin (n + 1)) ℝ} (hS : S.PosSemidef) (hTS : (T - S).PosSemidef)
+  {K : Set (EuclideanSpace ℝ (Fin (n + 1)))} (hclosed : IsClosed K) (hconvex : Convex ℝ K)
+  (hneg : ∀ ⦃y : EuclideanSpace ℝ (Fin (n + 1))⦄, y ∈ K → -y ∈ K) :
+  (ProbabilityTheory.multivariateGaussian 0 T) K ≤ (ProbabilityTheory.multivariateGaussian 0 S) K
+'Erdos524.IndependentNoiseComparison.pi_gaussian_add_independent_noise_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GaussianCovarianceComparison.multivariate_gaussian_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_add_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos524.GaussianCovarianceComparison.multivariate_gaussian_covariance_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

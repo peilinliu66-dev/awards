@@ -1,0 +1,7 @@
+import Erdos524.FiniteGaussianRegression
+
+#check Erdos524.FiniteGaussianRegression.residual_independent
+#check Erdos524.FiniteGaussianRegression.covariance_residual
+#print axioms Erdos524.FiniteGaussianRegression.joint_residual_gaussian
+#print axioms Erdos524.FiniteGaussianRegression.residual_independent
+#print axioms Erdos524.FiniteGaussianRegression.covariance_residual

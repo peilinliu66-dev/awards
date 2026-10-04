@@ -1,0 +1,8 @@
+Erdos524.FiniteGaussianCoreBound.integral_stationary_sup_norm_le {n : ℕ} (t : Fin (n + 1) → ℝ)
+  (hmono : ∀ (j : Fin n), t j.castSucc ≤ t j.succ) :
+  ∫ (z : EuclideanSpace ℝ (Fin (n + 1))),
+      ‖z.ofLp‖ ∂ProbabilityTheory.multivariateGaussian 0 (Erdos524.CauchyKernel.normalized fun i => Real.exp (t i)) ≤
+    1 + (t (Fin.last n) - t 0) / √8
+'Erdos524.FiniteGaussianCoreBound.integral_stationary_sup_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

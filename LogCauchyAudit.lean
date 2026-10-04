@@ -1,0 +1,4 @@
+import Erdos524.LogCauchyDeterminant
+#print axioms Erdos524.CauchyKernel.log_det_normalized_exp
+#print axioms Erdos524.CauchyKernel.log_det_affine_mesh_lower
+#print axioms Erdos524.CauchyKernel.cross_pair_energy_le
